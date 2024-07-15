@@ -26,9 +26,14 @@
 
 - 240715 ZQ 迁移 blog.zoomquiet.io
     - 使用 [zjp-CN/mdbook-template](https://github.com/zjp-CN/mdbook-template?tab=readme-ov-file) 创建仓库
-    - 开辟 Pages 配置域名
+    - 开辟 Pages 
     - 安装 [utterances](https://utteranc.es/) 指向:
         - [Issues · zoom-quiet/comments](https://github.com/zoom-quiet/comments/issues)
+        - 更新模板: `theme/index.hbs`
+    - 配置域名, 等待检验通过:
+        - zoomquiet.io
+        - 是顶级域名, 要 Cloudflare 配套配置:
+            - ...
 
 ## refer.
 
