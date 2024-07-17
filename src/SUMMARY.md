@@ -19,6 +19,7 @@
         + [什么是技术社区?](IMHO/devrel/2014-02-27-ac2-tech-community.md)
         + [社区需要什么?](IMHO/devrel/2014-12-15-ac20-need-what.md)
     + [AIGCx征文:俺这样用GenAI](IMHO/240704-aigcxzh-genai101.md)
+        + [《我这样用GenAI》重构](IMHO/240717-aigcxzh-genai102.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
         + [240717「抓娃娃」算了吧](MurMur/2024/240717.md)
