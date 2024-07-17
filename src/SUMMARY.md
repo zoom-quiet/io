@@ -3,6 +3,7 @@
 ---
 
 - [大妈](./zoomquiet.md)
+- [你好](hello-world.md)
 - [公告](ANN/README.md)
     + [开始呢喃](ANN/200302-ZQ42-ANN-NINAN.md)
 

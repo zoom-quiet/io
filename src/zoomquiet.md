@@ -1,10 +1,12 @@
-Title: 大妈/ZoomQuiet 使用手册
-Date: 2013-11-17 10:42
-Modified: 2020-03-05 16:42
-Tags: people
-Slug: zoomquiet
-Author: ZoomQuiet
-Status: published
+# 大妈/ZoomQuiet 使用手册
+
+    Title: 大妈/ZoomQuiet 使用手册
+    Date: 2013-11-17 10:42
+    Modified: 2020-03-05 16:42
+    Tags: people
+    Slug: zoomquiet
+    Author: ZoomQuiet
+    Status: published
 
 
 ![dama101camp](https://ipic.zoomquiet.top/2022-05-21-2020-07-04-dama101camp-cube.png!/fw/360)
@@ -168,6 +170,5 @@ repo.
     Uncaught ReferenceError: emojify is not defined (index):360
 
     GET http://blog.zoomquiet.io/theme/css/dppfsfkxrtxvae2bkdzp5lo3ldcazywl9si6vvxl-qu.woff 404 (Not Found) 
-
 
 - 140107 init. the base info of zoomquiet.io
