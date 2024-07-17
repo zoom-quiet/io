@@ -1,14 +1,20 @@
-    Title: 你好，世界 
-    Date: 2013-08-09 
-    Tags: md,hallo 
-    Slug: hello-world 
-    Status: draft
+---
+layout: post
+title: 你好，世界
+description: 永远的 Hallo World,说明团队 Blogging 系统的选择/分析/对比,当然有结论!
+categories: Doc
+tags:  md hallo
+---
 
-# Hallo World!
+Hallo World!
+==================
 
-惯例的第一篇文章
+咱们的第一篇文章
 
-# 为毛要这样组织个人Blogging?
+为毛要这样发布团队Blog?
+------------------------------
+
+为了积累团队声望,坚持分享有价值的文章是必须的!
 
 - 用 `Wordpress` / `Drupal` 来自个儿架设一个?! 
     - 嗯嗯嗯,我们只是想有个快速发布内容的渠道
@@ -27,22 +33,33 @@
     
 - 舒服参考的文章:
     - [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+- 再从眼花缭乱的 [Jekll 实例站点](https://github.com/mojombo/jekyll/wiki/Sites)
+    - 选择出心水的:
+    - [Home - shawhu的blog](http://shawhu.org/)
+    - [Benedikt Meurer » Home](http://benediktmeurer.de/)
+    - 快速完成设计!
+- 那么为什么不选择在 Github 发布呢?
+    - ![logo-21aabb25a8a173a5d7416109123c606e.png（PNG 图像，130x86 像素）|https://gitcafe.com/](https://gitcafe.com/assets/logo-21aabb25a8a173a5d7416109123c606e.png)
+    - 是另外一种力量感动了我们:
+        - [开源在中国需要什么？ | Blog – GitCafe](http://blog.gitcafe.com/99.html)
+        - [代码托管服务GitCafe正式上线 | Blog – GitCafe](http://blog.gitcafe.com/10.html)
+
+所以,我们来,我们写,我们发布!
 
 
-所以,我来,我写,我发布!
+ps: 当前的团队blog仓库
+------------------------------
+
+![121219-liebaorg4gitcafe.png](http://lbtc.qiniudn.com/img/121219-liebaorg4gitcafe.png)
 
 
+pps: 测试语法顔色
+------------------------------
 
-## ps: 测试语法顔色
-
-```python
+{% highlight python %}
 import sys
 
 print "Hollo World!-)"
+{% endhighlight %}
 
-```
 
-
-## Changelog
-
-- 140104 re-init.

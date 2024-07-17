@@ -2,7 +2,7 @@
 
 ---
 
-- [大妈](./zoomquiet.md)
+- [大妈](zoomquiet.md)
 - [你好](hello-world.md)
 - [公告](ANN/README.md)
     + [开始呢喃](ANN/200302-ZQ42-ANN-NINAN.md)
@@ -12,6 +12,13 @@
 ---
 
 - [恕直](IMHO/README.md)
+    + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/98chinese4internet.md)
+    + [DevRel](IMHO/devrel/README.md)
+        + [中国技术社区研究/](IMHO/devrel/1970-01-01-ac1024-tech-community4chinese.md)
+        + [什么是社区?](IMHO/devrel/2014-02-20-ac1-zq.md)
+        + [什么是技术社区?](IMHO/devrel/2014-02-27-ac2-tech-community.md)
+        + [社区需要什么?](IMHO/devrel/2014-12-15-ac20-need-what.md)
+    + [AIGCx征文:俺这样用GenAI](IMHO/240704-aigcxzh-genai101.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
         + [240717「抓娃娃」算了吧](MurMur/2024/240717.md)

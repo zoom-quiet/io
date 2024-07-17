@@ -1,7 +1,9 @@
-Title: 探讨 信息化社会中 中国传统思想的作用
-Date: 1998-01-01 11:17
-Tags: thinked,Livin,Zoomq
-Slug: issue-chinese-for-internet
+# 探讨 信息化社会中 中国传统思想的作用
+
+    Title: 探讨 信息化社会中 中国传统思想的作用
+    Date: 1998-01-01 11:17
+    Tags: thinked,Livin,Zoomq
+    Slug: issue-chinese-for-internet
 
 (`是也乎:`
 
