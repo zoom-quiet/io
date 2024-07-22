@@ -5,7 +5,11 @@
 - [大妈](zoomquiet.md)
 - [你好](hello-world.md)
 - [公告](ANN/README.md)
-    + [开始呢喃](ANN/200302-ZQ42-ANN-NINAN.md)
+    + [呢喃](ANN/200302-ZQ42-ANN-NINAN.md)
+    + [钩陈](ANN/200222-ZQ42-ANN-historic.md)
+    + [拙见](ANN/200222-ZQ42-ANN-IMHO.md)
+    + [叕重新开始](ANN/200223-ZoomQuiet42-ANN-0-aaaagin.md)
+    + [PRESSone](ANN/pressone.md)
 
 # 随想🌚🌘🌗🌖🌝
 
@@ -31,6 +35,7 @@
     + [2021](MurMur/2021/README.md)
     + [2020](MurMur/2020/README.md)
 - [钩陈](OldTouch/README.md)
+    + [Jekyll 转进 Pelican](OldTouch/jekyll2pelican.md)
 
 # 折腾🌚🌘🌗🌖🌝
 
