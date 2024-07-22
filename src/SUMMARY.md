@@ -22,7 +22,8 @@
         + [《我这样用GenAI》重构](IMHO/240717-aigcxzh-genai102.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
-        + [240718 利他](MurMur/2024/2407178md)
+        + [240722 自由?](MurMur/2024/2407122md)
+        + [240718 利他](MurMur/2024/2407118md)
         + [240717「抓娃娃」算了吧](MurMur/2024/240717.md)
             + [+1苹果和BSD](MurMur/2024/240717-1.md)
     + [2023](MurMur/2023/README.md)
@@ -36,4 +37,6 @@
 ---
 
 - [蟒样](Pythonic/README.md)
+    + [周刊](Pythonic/weekly/README.md)
+        + [蟒周刊:24-29](Pythonic/weekly/2024-29.md)
 
