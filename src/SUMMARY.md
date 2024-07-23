@@ -26,6 +26,7 @@
         + [《我这样用GenAI》重构](IMHO/240717-aigcxzh-genai102.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
+        + [240723 和高手差距..](MurMur/2024/240723.md)
         + [240722 自由?](MurMur/2024/240722.md)
         + [240718 利他](MurMur/2024/240718.md)
         + [240717「抓娃娃」算了吧](MurMur/2024/240717.md)
