@@ -40,26 +40,19 @@ AIGCx珠海创始人, 也是中国Python社区中最长情的贡献者,
 ## usage
 > 为合理沟通,效率协作,公开 大妈的调用手册 
 
-> Buy me a coffee
-
-- https://www.buymeacoffee.com/zoomquiet
-- 支付宝:
-  + ![alipay](https://ipic.zoomquiet.top/2023-12-08-alipay.jpg!/fw/360)
-- 微信:
-  + ![wxpay](https://ipic.zoomquiet.top/2023-12-08-wxpay.jpg!/fw/360)
-
 ### 作习
 ~ 可 touch 时间段
 
 - 工作日:
-    + 2100~2242
+    + 1000~1700
 - 周末:
     + 1000~1042
     + 2142~2242
 - 已预订/占用ed:
-    + 周二 2100~2242
-    + 周四 2100~2242
-    + 周六 2000~2142
+    + 周一 2030~2100
+    + 周三 1900~2000
+    + 周五 2100~2142
+    + 周六 2142~2142
 - 异常状态 无法保证:
     + 公假
     + 受伤
@@ -118,47 +111,19 @@ AIGCx珠海创始人, 也是中国Python社区中最长情的贡献者,
 
 askdama@googlegroups.com
 
+## 捐助
+> 随时小额支持:
 
-## re-start 2014
-
-in fact my logging is long time:
-
-- try in livejournal/blogger etc. blog srv.
-- and before 2004 base [nucleuscms](http://nucleuscms.org) publish as zqstudio.org
-- from 2005 , fall in love [txt2tags](http://txt2tags.org/), base [PyBlosxom](http://pyblosxom.bluesock.org/) publish as [Zoom.Quiet's PyBlosxom blogging](http://blog.zoomquiet.org/pyblosxom/)
-
-but...
-
-Markdown is realy easy than t2t/rST,
-and more and more site support .md not .t2t/.rst
-
-esp. github is love .md
+- 支付宝:
+  + ![alipay](https://ipic.zoomquiet.top/2023-12-08-alipay.jpg!/fw/360)
+- 微信:
+  + ![wxpay](https://ipic.zoomquiet.top/2023-12-08-wxpay.jpg!/fw/360)
 
 
-- move [blog.zoomquiet.org](http://blog.zoomquiet.org/pyblosxom/) all old contents to [Zoom.Quiet's PyBlosxom blogging](https://org.zoomquiet.io/pyblosxom/)
-- start new domain zoomquiet.io
-- usgae zoomquiet.github.io
-- CNAME as blog.zoomquiet.oi
-- base [Pelican](http://getpelican.com/) the Pythonic Static Site Generator
-
-continue [WyTiWyG](http://wiki.woodpecker.org.cn/moin/WyTiWyG) blogging...
-
-
-repo.
-
-- [ZoomQuiet/ZoomQuiet.io](https://github.com/ZoomQuiet/ZoomQuiet.io) for Pelican
-- [ZoomQuiet/ZoomQuiet.github.io](https://github.com/ZoomQuiet/ZoomQuiet.github.io) for github-pages
-- working detail check: [ZoomQuiet.io/README.md at master · ZoomQuiet/ZoomQuiet.io](https://github.com/ZoomQuiet/ZoomQuiet.io/blob/master/README.md)
-    - and [How to from Jekyll jump into Pelican](http://qpython-android.github.io/chaos/jekyll-to-pelican.html)
-    
-
-## Contact
-
->  askdama@googlegroups.com
 
 ## changelog
 
-- 240526 增补, PayPal 按钮
+- 240526 增补, PayPal 按钮,失败
 - 231208 增补, buy me coffee...
 - 230109 增补, blocked times
 - 220521 增补, blocked times
