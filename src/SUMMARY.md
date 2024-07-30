@@ -26,6 +26,7 @@
         + [《我这样用GenAI》重构](IMHO/240717-aigcxzh-genai102.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
+        + [7.30 人类发展?](MurMur/2024/240730.md)
         + [7.27 高维撕裂](MurMur/2024/240727.md)
         + [7.25 AI和教育产业](MurMur/2024/240725.md)
         + [7.23 和高手差距..](MurMur/2024/240723.md)
