@@ -48,6 +48,7 @@
 
 - [蟒样](Pythonic/README.md)
     + [周刊](Pythonic/weekly/README.md)
+        + [蟒周刊:24-35](Pythonic/weekly/2024-35.md)
         + [蟒周刊:24-34](Pythonic/weekly/2024-34.md)
         + [蟒周刊:24-33](Pythonic/weekly/2024-33.md)
         + [蟒周刊:24-32](Pythonic/weekly/2024-32.md)
