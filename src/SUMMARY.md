@@ -26,6 +26,8 @@
         + [《我这样用GenAI》重构](IMHO/240717-aigcxzh-genai102.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
+        + [9.4 「人体电池」](MurMur/2024/240904.md)
+        + [9.3 枪包带](MurMur/2024/240903.md)
         + [7.30 人类发展?](MurMur/2024/240730.md)
         + [7.27 高维撕裂](MurMur/2024/240727.md)
         + [7.25 AI和教育产业](MurMur/2024/240725.md)
@@ -48,6 +50,7 @@
 
 - [蟒样](Pythonic/README.md)
     + [周刊](Pythonic/weekly/README.md)
+        + [蟒周刊:24-36](Pythonic/weekly/2024-36.md)
         + [蟒周刊:24-35](Pythonic/weekly/2024-35.md)
         + [蟒周刊:24-34](Pythonic/weekly/2024-34.md)
         + [蟒周刊:24-33](Pythonic/weekly/2024-33.md)
