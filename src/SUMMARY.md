@@ -26,6 +26,7 @@
         + [《我这样用GenAI》重构](IMHO/240717-aigcxzh-genai102.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
+        + [9.14 AI时代的学习](MurMur/2024/240914.md)
         + [9.12 「开发者关系」](MurMur/2024/240912.md)
         + [9.11 「社畜指标」](MurMur/2024/240911.md)
         + [9.4 「人体电池」](MurMur/2024/240904.md)
