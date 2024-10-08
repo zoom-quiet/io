@@ -16,7 +16,7 @@
 ---
 
 - [恕直](IMHO/README.md)
-    + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/98chinese4internet.md)
+    + [别了Lark](IMHO/241009deLark.md)
     + [DevRel](IMHO/devrel/README.md)
         + [中国技术社区研究/](IMHO/devrel/1970-01-01-ac1024-tech-community4chinese.md)
         + [什么是社区?](IMHO/devrel/2014-02-20-ac1-zq.md)
@@ -24,6 +24,7 @@
         + [社区需要什么?](IMHO/devrel/2014-12-15-ac20-need-what.md)
     + [AIGCx征文:俺这样用GenAI](IMHO/240704-aigcxzh-genai101.md)
         + [《我这样用GenAI》重构](IMHO/240717-aigcxzh-genai102.md)
+    + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/98chinese4internet.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
         + [9.29 自我纠错?](MurMur/2024/240929.md)
