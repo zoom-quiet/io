@@ -55,6 +55,8 @@
 ---
 
 - [蟒样](Pythonic/README.md)
+    + [2024](Pythonic/2024/README.md)
+      + [241011 电影字幕](Pythonic/2024/241011-mov-sub.md)
     + [周刊](Pythonic/weekly/README.md)
         + [蟒周刊:24-40](Pythonic/weekly/2024-40.md)
         + [蟒周刊:24-39](Pythonic/weekly/2024-39.md)
