@@ -4,6 +4,10 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  workflow_run:
+    workflows: ["Mdbook build"]
+    types:
+      - completed
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -30,6 +34,7 @@ jobs:
         with:
           name: book-and-rss
           path: book/
+          workflow: build.yml
 
       - name: Checkout gh-pages branch
         uses: actions/checkout@v4
