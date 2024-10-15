@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>9.24 随心所欲? - ZoomQuiet.io</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../../favicon.svg">
+                        <link rel="shortcut icon" href="../../favicon.png">
+                <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+                <link rel="stylesheet" href="../../theme/pagetoc.css">
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">首页</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../zoomquiet.html">大妈</a></li><li class="chapter-item expanded "><a href="../../hello-world.html">你好</a></li><li class="chapter-item expanded "><a href="../../ANN/index.html">公告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../ANN/200302-ZQ42-ANN-NINAN.html">呢喃</a></li><li class="chapter-item "><a href="../../ANN/200222-ZQ42-ANN-historic.html">钩陈</a></li><li class="chapter-item "><a href="../../ANN/200222-ZQ42-ANN-IMHO.html">拙见</a></li><li class="chapter-item "><a href="../../ANN/200223-ZoomQuiet42-ANN-0-aaaagin.html">叕重新开始</a></li><li class="chapter-item "><a href="../../ANN/pressone.html">PRESSone</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">随想🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../IMHO/index.html">恕直</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../IMHO/241009deLark.html">别了Lark</a></li><li class="chapter-item "><a href="../../IMHO/devrel/index.html">DevRel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../IMHO/devrel/1970-01-01-ac1024-tech-community4chinese.html">中国技术社区研究/</a></li><li class="chapter-item "><a href="../../IMHO/devrel/2014-02-20-ac1-zq.html">什么是社区?</a></li><li class="chapter-item "><a href="../../IMHO/devrel/2014-02-27-ac2-tech-community.html">什么是技术社区?</a></li><li class="chapter-item "><a href="../../IMHO/devrel/2014-12-15-ac20-need-what.html">社区需要什么?</a></li></ol></li><li class="chapter-item "><a href="../../IMHO/240704-aigcxzh-genai101.html">AIGCx征文:俺这样用GenAI</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../IMHO/240717-aigcxzh-genai102.html">《我这样用GenAI》重构</a></li></ol></li><li class="chapter-item "><a href="../../IMHO/98chinese4internet.html">1998:探讨 信息化社会中 中国传统思想的作用</a></li></ol></li><li class="chapter-item expanded "><a href="../../MurMur/index.html">呢喃</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../MurMur/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/241014.html">10.14 为毛Python?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240929.html">9.29 自我纠错?</a></li><li class="chapter-item expanded "><a href="../../MurMur/2024/240924.html" class="active">9.24 随心所欲?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240914.html">9.14 AI时代的学习</a></li><li class="chapter-item "><a href="../../MurMur/2024/240912.html">9.12 「开发者关系」</a></li><li class="chapter-item "><a href="../../MurMur/2024/240911.html">9.11 「社畜指标」</a></li><li class="chapter-item "><a href="../../MurMur/2024/240904.html">9.4 「人体电池」</a></li><li class="chapter-item "><a href="../../MurMur/2024/240903.html">9.3 枪包带</a></li><li class="chapter-item "><a href="../../MurMur/2024/240730.html">7.30 人类发展?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240727.html">7.27 高维撕裂</a></li><li class="chapter-item "><a href="../../MurMur/2024/240725.html">7.25 AI和教育产业</a></li><li class="chapter-item "><a href="../../MurMur/2024/240723.html">7.23 和高手差距..</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/240723+1.html">+1 开源安全AI?</a></li></ol></li><li class="chapter-item "><a href="../../MurMur/2024/240722.html">7.22 自由?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240718.html">7.18 利他</a></li><li class="chapter-item "><a href="../../MurMur/2024/240717.html">7.17「抓娃娃」算了吧</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/240717-1.html">+1苹果和BSD</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../MurMur/2023/index.html">2023</a></li><li class="chapter-item "><a href="../../MurMur/2022/index.html">2022</a></li><li class="chapter-item "><a href="../../MurMur/2021/index.html">2021</a></li><li class="chapter-item "><a href="../../MurMur/2020/index.html">2020</a></li></ol></li><li class="chapter-item expanded "><a href="../../OldTouch/index.html">钩陈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../OldTouch/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/241011-funny-court.html">10.11 友好的法院?</a></li></ol></li><li class="chapter-item "><a href="../../OldTouch/jekyll2pelican.html">Jekyll 转进 Pelican</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">折腾🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../Pythonic/index.html">蟒样</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Pythonic/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Pythonic/2024/241015-rss-app-x.html">10.15 RSS4X</a></li><li class="chapter-item "><a href="../../Pythonic/2024/241011-mov-sub.html">10.11 电影字幕</a></li></ol></li><li class="chapter-item "><a href="../../Pythonic/weekly/index.html">周刊</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Pythonic/weekly/2024-41.html">蟒周刊:24-41</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-40.html">蟒周刊:24-40</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-39.html">蟒周刊:24-39</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-38.html">蟒周刊:24-38</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-37.html">蟒周刊:24-37</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-36.html">蟒周刊:24-36</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-35.html">蟒周刊:24-35</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-34.html">蟒周刊:24-34</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-33.html">蟒周刊:24-33</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-32.html">蟒周刊:24-32</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-31.html">蟒周刊:24-31</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-30.html">蟒周刊:24-30</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-29.html">蟒周刊:24-29</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../rss.html">RSS</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">ZoomQuiet.io</h1>
+
+                    <div class="right-buttons">
+                                                                        <a href="https://github.com/zoom-quiet/io" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <!-- Page table of contents -->
+                        <div class="sidetoc"><nav class="pagetoc"></nav></div>
+
+                        <h1 id="-240924-日糟"><a class="header" href="#-240924-日糟">|&gt; 240924 日糟:</a></h1>
+<blockquote>
+<p>1/4(每天吐糟不应超过4次)</p>
+</blockquote>
+<p>有个&quot;神经群&quot;, 有网友感叹:</p>
+<blockquote>
+<p>中国古代对自由有一个定义:随心所欲不逾矩。包涵了一种哲学意味</p>
+</blockquote>
+<p>想想不对哪:</p>
+<p>这种哲学, 其实就是统治阶段和士大夫阶级一起合谋出来的,
+有点儿像英国的大宪章,
+不过, 意义更加深刻并普适, 而且无解,</p>
+<blockquote>
+<p>随心所欲不逾矩</p>
+</blockquote>
+<p>表面上看说的是: 想象一下，你在学校里可以选择自己喜欢的活动，
+比如画画、打球或者读书，这就是“随心所欲”。
+但是，老师会告诉你一些规则，比如不能打架、不能说脏话，
+这就是“不逾矩”。
+所以，
+我们可以快乐地做自己喜欢的事情，但也要遵守学校的规矩。</p>
+<p>也就是, 一个人, 如果其每时每刻自然发生的所有欲望和冲动, 都是吻合社会要求的,
+那么, 他就等于永远自由自在快乐无比了;</p>
+<p>可问题是,这里隐藏了一组前提:</p>
+<ul>
+<li>1: 一个人可以良好的掌握这个社会当前的所有规则</li>
+<li>2: 当前社会的所有规则对这个具体的人所在阶级是有利的</li>
+<li>3: 综上, 这种 随心所欲不逾矩 才是可能而且正向的</li>
+</ul>
+<p>这本质上, 也是现在美国富豪们/集团们都有自己的说客团队, 每年用海量资金确保当前法律对自己的产业是最有利的一样;</p>
+<p>而对普通人, 就是永远的无尽的自我审查和训练了;</p>
+<ul>
+<li>而民主本身追求的是: 随心所欲共定矩</li>
+<li>共产主义的状态才是: 随心所欲无矩逾</li>
+<li>极权主义现实又则是: 随心所欲只有我</li>
+<li>...</li>
+</ul>
+<p>所以, 这一哲学得进一步阐发, 改良, 并配套上 AI 才对未来社会有推动意义;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../../MurMur/2024/240929.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../../MurMur/2024/240914.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../../MurMur/2024/240929.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../../MurMur/2024/240914.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+                <script src="../../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        
+                <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+                <script type="text/javascript" src="../../theme/pagetoc.js"></script>
+        
+        
+
+
+    <hr />
+
+    <p style="text-align:center">
+
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议"
+                style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可;-)
+    </p>
+
+    <hr />
+
+<script src="https://utteranc.es/client.js"
+        repo="zoom-quiet/comments"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    <hr />
+    </body>
+</html>
