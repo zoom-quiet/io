@@ -94,7 +94,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Deploy static site to gh-pages branch" || echo "No changes to commit"
+          git commit -m "Deploy static site to gh-pages branch (a)$(date '+%y%m%d %H%M%S')" || echo "No changes to commit"
           git push origin gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token

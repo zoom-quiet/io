@@ -35,6 +35,8 @@ CONF = {
     "rpath": "./src",
     "summ": "SUMMARY.md",
     "buri": "https://zoomquiet.io",
+    "follow":"feedId:69052357719365632+userId:68573755406424064",
+    "last": 14,
 }
 
 Config = namedtuple("Config", CONF.keys())
@@ -89,7 +91,7 @@ def gen(c):
     fg.title('ZoomQuiet.io RSS')
     fg.link(href=base_url, rel='self')
     fg.language('zh-CN')
-    fg.description('This RSS feed contains the latest updates from my mdBook site.')  # 添加全局描述
+    fg.description(f'RSS feed contains the latest {CFG.last} updates items from ZoomQuiet.io gen. by mdBook|{CFG.follow}')  # 添加全局描述
 
     # 3. 定义存储条目的列表
     entries = []
