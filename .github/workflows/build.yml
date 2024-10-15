@@ -70,4 +70,6 @@ jobs:
         path: |
           book/
           rss.xml
+          CNAME
+          .nojekyll
         #path: book/

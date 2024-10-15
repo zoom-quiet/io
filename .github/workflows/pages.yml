@@ -41,14 +41,13 @@ jobs:
           path: book/
           workflow: build.yml
 
-      - name: List generated files (for debugging)
-        run: ls -al public
-
       - name: Save generated site files
         run: |
           mv book ../book
           cp rss.xml ../book/
+          cp CNAME ../book/
           cp .nojekyll ../book/
+          ls -al ../book/
 
       - name: Checkout gh-pages branch
         uses: actions/checkout@v4
