@@ -112,17 +112,24 @@ AIGCx珠海创始人, 也是中国Python社区中最长情的贡献者,
 askdama@googlegroups.com
 
 ## 捐助
-> 随时小额支持:
+> 小额支持:
+
+
+
+中国境内:
 
 - 支付宝:
   + ![alipay](https://ipic.zoomquiet.top/2023-12-08-alipay.jpg!/fw/360)
 - 微信:
   + ![wxpay](https://ipic.zoomquiet.top/2023-12-08-wxpay.jpg!/fw/360)
 
+境外朋友:
 
+[![ko-fi](http://org.up.zoomquiet.top/i/qrcode4ko-fi.webp)](https://ko-fi.com/chaos42dama)
 
 ## changelog
 
+- 241015 增补, Ko-fi.com 支持链接
 - 240526 增补, PayPal 按钮,失败
 - 231208 增补, buy me coffee...
 - 230109 增补, blocked times
