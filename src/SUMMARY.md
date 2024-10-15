@@ -50,7 +50,7 @@
     + [2020](MurMur/2020/README.md)
 - [钩陈](OldTouch/README.md)
     + [2024](OldTouch/2024/README.md)
-        + [10.11 友好的法院?](MurMur/2024/241011-funny-court.md)
+        + [10.11 友好的法院?](OldTouch/2024/241011-funny-court.md)
     + [Jekyll 转进 Pelican](OldTouch/jekyll2pelican.md)
 
 # 折腾🌚🌘🌗🌖🌝
@@ -77,3 +77,14 @@
         + [蟒周刊:24-29](Pythonic/weekly/2024-29.md)
 
 ---
+
+
+
+```
+           _~^&~~_
+       () /  ◴ #  \ \/
+         '_   ⏡   _'
+         ( '--.--' )
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```

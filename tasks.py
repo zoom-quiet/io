@@ -6,7 +6,7 @@ from pprint import pprint as pp
 from datetime import datetime,timezone
 
 from feedgen.feed import FeedGenerator
-
+import markdown
 from invoke import task
 
 SROOT = os.path.dirname(os.path.abspath(__file__))
@@ -121,7 +121,9 @@ def gen(c):
             continue
 
         with open(file_path, 'r', encoding='utf-8') as md_file:
-            content = md_file.read()
+            markdown_content = md_file.read()
+        # 使用 markdown 库将 Markdown 转换为 HTML
+        html_content = markdown.markdown(markdown_content)
             
         # 将条目信息存入字典
         entry_data = {
@@ -130,7 +132,7 @@ def gen(c):
             'link': page_url,
             'published': published_time,
             'description': f'Page {title} - Last updated at {published_time.isoformat()}',
-            'content': content,
+            'content': html_content,
         }
         
         # 将条目添加到列表中
@@ -147,7 +149,7 @@ def gen(c):
         entry.link(href=entry_data['link'])
         entry.published(entry_data['published'].isoformat())
         entry.description(entry_data['description'])  # 添加条目的 description
-        entry.content(entry_data['content'], type='text')  # 添加 markdown 文件的内容
+        entry.content(entry_data['content'], type='html')  # 添加 markdown 文件的内容
 
     # 8. 生成 RSS 文件
     fg.rss_file('rss.xml')
