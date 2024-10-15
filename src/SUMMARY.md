@@ -76,3 +76,7 @@
         + [蟒周刊:24-30](Pythonic/weekly/2024-30.md)
         + [蟒周刊:24-29](Pythonic/weekly/2024-29.md)
 
+---
+
+[RSS](rss.xml)
+

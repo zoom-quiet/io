@@ -32,15 +32,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       # actions/download-artifact@v3 does not allow sharing across workflows
+
       - name: Download artifact
         id: download-artifact
         uses: dawidd6/action-download-artifact@v2
         with:
-          name: book
+          name: book-and-rss
           path: book/
           workflow: build.yml
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -48,6 +51,8 @@ jobs:
             book  # 确保 book 和 rss.xml 被上传
             rss.xml  # 将 rss.xml 文件部署
           #path: book
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
