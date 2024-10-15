@@ -125,7 +125,8 @@ askdama@googlegroups.com
 
 境外朋友:
 
-[![ko-fi](http://org.up.zoomquiet.top/i/qrcode4ko-fi.webp)](https://ko-fi.com/chaos42dama)
+
+[![ko-fi.com/chaos42dama](https://ipic.zoomquiet.top/2024-10-15-qrcode4ko-fi.webp)](https://ko-fi.com/chaos42dama)
 
 ## changelog
 
