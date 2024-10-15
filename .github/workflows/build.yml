@@ -13,7 +13,7 @@ jobs:
       MDBOOK_LINKCHECK_VERSION: '0.7.4'
       MDBOOK_MERMAID_VERSION: '0.8.3'
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         submodules: true
 
@@ -36,7 +36,7 @@ jobs:
     #  run: mdbook build
 
     - name: Set up Python 3.12
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.12'
 
@@ -64,7 +64,7 @@ jobs:
         ls -al rss.xml
 
     # share between different jobs
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: book-and-rss
         path: |
