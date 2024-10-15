@@ -46,3 +46,8 @@
 ## refer.
 - [The Easiest Method to Create Twitter RSS Feeds in 2024](https://www.wprssaggregator.com/twitter-rss/)
 
+PS:
+
+刚刚发现 RSS.app 是付费服务,
+虽然好用, 但是, 不免费使用, 所以, 还得继续探索...
+

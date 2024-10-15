@@ -31,10 +31,34 @@ jobs:
                | wget -qi -
         tar -xzf mdbook-theme_linux.tar.gz -C ~/tools
         echo ~/tools >> $GITHUB_PATH
-    - name: Build
+    #- name: Build
+    #  run: mdbook build
+
+    # Step 3: Set up Python 3.12 environment
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    # Step 4: Install Python dependencies
+    - name: Install Python dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # Step 5: Build the mdbook
+    - name: Build mdbook
       run: mdbook build
+
+    # Step 6: Generate RSS feed using Python script
+    - name: Generate RSS feed
+      run: |
+        inv gen
     # share between different jobs
     - uses: actions/upload-artifact@v3
       with:
         name: book
-        path: book/
+        path: |
+          book/
+          rss.xml
+        #path: book/

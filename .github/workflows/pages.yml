@@ -44,7 +44,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: book
+          path: |
+            book  # 确保 book 和 rss.xml 被上传
+            rss.xml  # 将 rss.xml 文件部署
+          #path: book
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
