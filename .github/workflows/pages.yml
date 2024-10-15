@@ -41,6 +41,11 @@ jobs:
           path: book/
           workflow: build.yml
 
+
+      # 确保 .nojekyll 文件存在
+      - name: Create .nojekyll
+        run: touch book/.nojekyll
+        
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
