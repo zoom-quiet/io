@@ -16,6 +16,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: true
+
     - name: Install mdbook
       run: |
         mkdir ~/tools
@@ -34,30 +35,38 @@ jobs:
     #- name: Build
     #  run: mdbook build
 
-    # Step 3: Set up Python 3.12 environment
     - name: Set up Python 3.12
       uses: actions/setup-python@v4
       with:
         python-version: '3.12'
 
-    # Step 4: Install Python dependencies
     - name: Install Python dependencies
       run: |
         python3 -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # Step 5: Build the mdbook
     - name: Build mdbook
-      run: mdbook build
+      run: |
+        mdbook build || exit 1
+        echo "Mdbook build finished."
+      #run: mdbook build
 
-    # Step 6: Generate RSS feed using Python script
     - name: Generate RSS feed
       run: |
-        inv gen
+        inv gen || exit 1
+        echo "RSS feed generation finished."
+
+    - name: Check generated files
+      run: |
+        echo "Listing generated files in book/"
+        ls -al book/
+        echo "Checking if rss.xml exists"
+        ls -al rss.xml
+
     # share between different jobs
     - uses: actions/upload-artifact@v3
       with:
-        name: book
+        name: book-and-rss
         path: |
           book/
           rss.xml
