@@ -44,9 +44,6 @@ jobs:
       - name: Save generated site files
         run: |
           mv book ../
-          cp rss.xml ../book/
-          cp CNAME ../book/
-          cp .nojekyll ../book/
           ls -al ../book/
 
       - name: Checkout gh-pages branch

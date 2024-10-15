@@ -60,16 +60,15 @@ jobs:
       run: |
         echo "Listing generated files in book/"
         ls -al book/
-        echo "Checking if rss.xml exists"
-        ls -al rss.xml
+        echo "Checking build path"
+        ls -al ./
+        echo "cope into rss.xml"
+        cp -v rss.xml book/
+        cp -v CNAME book/
+        cp -v .nojekyll book/
 
     # share between different jobs
     - uses: actions/upload-artifact@v4
       with:
         name: book-and-rss
-        path: |
-          book/
-          rss.xml
-          CNAME
-          .nojekyll
-        #path: book/
+        path: book/
