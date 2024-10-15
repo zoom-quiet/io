@@ -1,5 +1,1083 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>This RSS feed contains the latest updates from my mdBook site.</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 15 Oct 2024 14:13:29 +0000</lastBuildDate><item><title>蟒周刊:24-37</title><link>https://zoomquiet.io/Pythonic/weekly/2024-37.md</link><description>Page 蟒周刊:24-37 - Last updated at 2024-09-16T02:56:23.366718+00:00</description><content:encoded># 上周蠎快讯 2024/37
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>This RSS feed contains the latest updates from my mdBook site.</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 15 Oct 2024 15:51:28 +0000</lastBuildDate><item><title>蟒周刊:24-34</title><link>https://zoomquiet.io/Pythonic/weekly/2024-34.md</link><description>Page 蟒周刊:24-34 - Last updated at 2024-10-15T15:51:19.647392+00:00</description><content:encoded># 上周蠎快讯 2024/34
+
+    Title: 上周蠎快讯 2024/34
+    Slug: pyrw-2434
+    Date: 2024-08-26 10:42
+    Tags: Weekly,Python,recap,discu_eu,ZH
+
+
+&gt; Rye and uv 这个月最倩的仔
+
+
+原文: [Python recap for week 2024/34 \- discu\.eu](https://discu.eu/weekly/python/2024/34/)
+
+
+- 240826 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
+- 240826 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译,
+
+------
+
+
+-----------------------------------------
+## 文章/教程/嗯哼 
+&gt; Articles, Tutorials and Talks
+
+
+- [呼吁对 Python 指导委员会进行不信任投票](https://discuss.python.org/t/calling-for-a-vote-of-no-confidence/61557)
+    - [156 评注 in 2 讨论s](https://discu.eu/q/https://discuss.python.org/t/calling-for-a-vote-of-no-confidence/61557)
+- [项目在服务器上的位置](https://docs.djangoproject.com/en/1.8/intro/tutorial01/)
+    - [152 评注 in 10 讨论s](https://discu.eu/q/https://docs.djangoproject.com/en/1.8/intro/tutorial01/)
+
+
+- [Python 的预处理器](https://pydong.org/posts/PythonsPreprocessor/)
+    - [101 评注 in 4 讨论s](https://discu.eu/q/https://pydong.org/posts/PythonsPreprocessor/)
+- [uv: 统一Python打包](https://astral.sh/blog/uv-unified-python-packaging)
+    - [93 评注 in 3 讨论s](https://discu.eu/q/https://astral.sh/blog/uv-unified-python-packaging)
+- [Scrapy, Python 的快速高级网络爬行和抓取框架](https://scrapy.org/)
+    - [48 评注 in 5 讨论s](https://discu.eu/q/https://scrapy.org/)
+- [Rye 和 uv: 八月是 Python 包装的收获季节](https://github.com/astral-sh/rye/discussions/1342)
+    - [27 评注 in 1 讨论](https://discu.eu/q/https://github.com/astral-sh/rye/discussions/1342)
+
+(`是也乎:`
+
+Python 在加速锈化
+
+)
+
+- [用 SQLite 的极其简单的工作队列](https://blog.tomhuibregtse.com/a-dead-simple-work-queue-using-sqlite)
+    - [20 评注 in 1 讨论](https://discu.eu/q/https://blog.tomhuibregtse.com/a-dead-simple-work-queue-using-sqlite)
+
+(`是也乎:`
+
+问题在只能单机了?
+
+)
+
+
+- [高级 Python：通过代码生成实现高性能](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
+    - [12 评注 in 1 讨论](https://discu.eu/q/https://medium.com/%40yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
+
+(`是也乎:`
+
+问题在调试复杂了...
+
+)
+
+- [django 模板的更多组件：django\-cotton](https://django-cotton.com/)
+    - [9 评注 in 1 讨论](https://discu.eu/q/https://django-cotton.com)
+
+(`是也乎:`
+
+为了Tailwind 这碟醋我们折腾出了叕一个组件
+
+)
+
+- [matplotlib 上投票最多的开放问题：“绘图和散点图应该允许标记成为列表”](https://github.com/matplotlib/matplotlib/issues/11155)
+    - [7 评注 in 1 讨论](https://discu.eu/q/https://github.com/matplotlib/matplotlib/issues/11155)
+- [Ludic: 纯 Python 中的 HTML，现在支持 Django 打字](https://getludic.dev/docs/integrations)
+    - [6 评注 in 1 讨论](https://discu.eu/q/https://getludic.dev/docs/integrations)
+- [Kindle + Python = 电子墨水仪表板（第 1 部分）](https://blog.4dcu.be/diy/2020/09/27/PythonKindleDashboard_1.html)
+    - [3 评注 in 1 讨论](https://discu.eu/q/https://blog.4dcu.be/diy/2020/09/27/PythonKindleDashboard_1.html)
+
+(`是也乎:`
+
+可怜的 Kindle , 只有一个墨水屏算是有点儿价值了...
+
+)
+
+- [如何在 Django 中可视化模型？一个线程](https://django-ninja.dev/guides/response/)
+    - [3 评注 in 1 讨论](https://discu.eu/q/https://django-ninja.dev/guides/response/)
+- [django\-storages /django存储简介](https://blog.tomhuibregtse.com/exploring-django-storages-with-s3)
+    - [3 评注 in 1 讨论](https://discu.eu/q/https://blog.tomhuibregtse.com/exploring-django-storages-with-s3)
+
+(`是也乎:`
+
+叕一个通用存储层, 可以无视背后具体是什么存储
+
+)
+
+
+-----------------------------------------
+## 发布...
+&gt; Release...
+
+- [Django Django 新闻 \- Wagtail 6\.2\.1 发布](https://django-news.com/issues/247)
+
+-----------------------------------------
+## 好物/妙品/...
+&gt; Interesting Projects, Tools and Libraries, Projects &amp; Code
+
+- [Codon: 可编译为本机的高性能 Python 实现](https://github.com/exaloop/codon)
+    - [234 评注 in 5 讨论s](https://discu.eu/q/https://github.com/exaloop/codon)
+
+(`是也乎:`
+
+C++ 支持, 不知道是否支持 Qt 这种大型模块
+
+)
+
+- [FuckIt\.py Python 错误压路机 \(2018\)](https://github.com/ajalt/fuckitpy)
+    - [171 评注 in 5 讨论s](https://discu.eu/q/https://github.com/ajalt/fuckitpy)
+- [Uv: 一个快速的 Python 包和项目管理器，用 Rust 编写](https://github.com/astral-sh/uv)
+    - [38 评注 in 2 讨论s](https://discu.eu/q/https://github.com/astral-sh/uv)
+
+(`是也乎:`
+
+之前介绍过, 非常实用的工具.
+只是, 还没到 1.0 版本
+
+)
+
+
+- [构建了一个Python前端框架](https://github.com/darikoko/prunepy)
+    - [34 评注 in 1 讨论](https://discu.eu/q/https://github.com/darikoko/prunepy)
+
+(`是也乎:`
+
+呃...那什么, 这也太囧了...
+
+)
+
+- [Taichi: 使用 Python 进行高效、可移植且高性能的 GPU 编程](https://github.com/taichi-dev/taichi)
+    - [28 评注 in 3 讨论s](https://discu.eu/q/https://github.com/taichi-dev/taichi)
+
+(`是也乎:`
+
+首先...得有个可以调用的 GPU 了...
+
+)
+
+- [Sauron 计划](https://github.com/hadriloge/Sauron)
+    - [12 评注 in 1 讨论](https://discu.eu/q/https://github.com/hadriloge/Sauron)
+
+(`是也乎`:
+
+Windows only
+
+)
+
+- [Python 中的卡尔曼和贝叶斯滤波器](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/README.md)
+    - [12 评注 in 1 讨论](https://discu.eu/q/https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/README.md)
+
+(`是也乎:`
+
+叕一本书...
+当然, 也可以认为是 `FilterPy` 这个新模块的宣传文档
+
+)
+
+- [开源 SocialStarter 项目](https://github.com/eriktaveras/SocialStarter)
+    - [6 评注 in 1 讨论](https://discu.eu/q/https://github.com/eriktaveras/SocialStarter)
+- [用 Python 自动测量体重！](https://github.com/barkayshahar/mi-scale-automation)
+    - [6 评注 in 2 讨论s](https://discu.eu/q/https://github.com/barkayshahar/mi-scale-automation)
+
+(`是也乎:`
+
+通过调用小米接口完成...
+)
+
+- [orjson: 快速、正确的 Python JSON 库，支持数据类、日期时间、NumPy](https://github.com/ijl/orjson)
+    - [4 评注 in 1 讨论](https://discu.eu/q/https://github.com/ijl/orjson)
+
+
+
+-----------------------------------------
+## 🐍 视频
+&gt; Videos...
+- [Python 中的俄罗斯方块 \- 教程](https://www.youtube.com/watch?v=gIjVwODrXC8)
+    - [3 评注 in 1 讨论](https://discu.eu/q/https://www.youtube.com/watch?v=gIjVwODrXC8)
+
+(`是也乎:`
+
+PyGame 完成
+
+)
+
+- [我制作了第一个 YouTube 视频](https://www.youtube.com/watch?t=58s&amp;v=wQaYzzwCm2E)
+    - [3 评注 in 1 讨论](https://discu.eu/q/https://www.youtube.com/watch?t=58s&amp;v=wQaYzzwCm2E)
+
+(`是也乎:`
+
+使用幻灯片解说...和俺当初一样
+
+)
+
+- [用 Python Tkinter 和 Pandas 构建预算跟踪应用程序 \- 第 3 部分（搜索和每月报告）](https://youtu.be/eLHtC9mTfrU)
+    - [2 评注 in 1 讨论](https://discu.eu/q/https://youtu.be/eLHtC9mTfrU)
+- [Django 初学者全套课程](https://youtu.be/6whz7Ujfpw0?si=x8HZ9jr3zo0gBHrX)
+
+(`是也乎:`
+
+11个小时...
+只有 500次播放
+)
+
+- [ Julia 和 Python：慢慢融合 \[视频\]](https://www.youtube.com/watch?v=ROOm-Y_mHQA)
+- [Flask 初学者完整教程](https://youtu.be/klaRFL8UfNs?si=bopWI1sgWqTwJFT8)
+
+
+(`是也乎:`
+
+3个小时...
+只有 300次播放
+, 是上面Django 教程同一作者)
+
+-----------------------------------------
+## 历史这周
+
+
+- 2023: [PyCoder 591](https://weekly.pychina.org/issue/issue-591.html)
+- 2022: [PyCoder 539](https://weekly.pychina.org/issue/issue-539.html)
+- 2021: [Issue 487](https://weekly.pychina.org/issue/issue-487.html)
+    + [pythonista-weekly : Pyw 514](https://weekly.pychina.org/python-weekly/pyw-514.html)
+- 2020: [Issue 435](https://weekly.pychina.org/issue/issue-435.html)
+    + [pythonista-weekly : Pyw 464](https://weekly.pychina.org/python-weekly/pyw-464.html)
+- 2019: [Issue 342](https://weekly.pychina.org/issue/issue-342.html)
+- 2018: [蠎加载 185](https://weekly.pychina.org/importpython/importpython-185.html)
+- 2017: [蠎加载 139](https://weekly.pychina.org/importpython/importpython-139.html)
+- 2016: [蠎加载 87](https://weekly.pychina.org/importpython/importpython-87.html)
+- 2015: [Issue 180](https://weekly.pychina.org/issue/issue-180.html)
+- 2014: [Issue 129](https://weekly.pychina.org/issue/issue-129.html)
+- 2013: 空缺
+- 2012: [Issue 28](https://weekly.pychina.org/issue/issue-28.html)
+
+
+-----------------------------------------
+## DAMA
+&gt; ❤️ Happy Pythonic ;-(`大妈私人无责任播报`)
+
+
+
+- [大妈的多重宇宙 - YouTube](https://www.youtube.com/@Chaos42DAMA)
+    + @Chaos42DAMA
+    + 恢复各种嗯哼...
+- [Zoom\.Quiet’s Chaos42 \| Substack](https://zoomquiet.substack.com/)
+    + 古早:新闻组式写作
+    + 欢迎订阅, 包含当前周刊
+
+
+
+
+```
+     _~-+∽~_
+ \/ /  ☉ →  \ (/
+   '_   ⏡   _'
+   &gt; '-----' )
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```
+
+-----------------------------------------
+# PS:
+
+- 首发: [2024/34 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/pyrecap/pyrw-2434.html)
+- 修订: [pyrw-2434.md](https://github.com/PyChina/weekly/blob/maste10content2pyrecap/pyrw-2434.md)
+7&gt; Happy Pythoning!
+
+&gt;&gt; Copyright © 2024 Python weekly newsletter, All rights reserved.
+    
+## PPS:
+&gt; 不觉中蟒周刊快译已经到了第10+2个年头
+
+开始有小伙伴加入承担 `pythonisa` 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...
+
+问为什么:
+
+    [皱眉]每周新闻资讯 怎么能错过 
+    看看有什么新东西 
+    当有新的发现时：
+        what f**k 还能这样玩？ 还有这东西？
+        每周开彩蛋[吃瓜]
+
+`无法同意更多`...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.
+
+-------------
+
+好文笔,感叹号年度配额: **2/3**
+
+投稿/反馈邮箱:
+
+    askdama@googlegroups.com
+
+(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)
+
+
+-------------
+
+ZoomQuiet/**[大妈](https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g)**
+
+就是四处 `是也乎,(￣▽￣)` 的那个[大妈](https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g):
+
+
+
+```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)
+
+as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 
+
+```
+
+-------------
+
+
+
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-34.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>蟒周刊:24-35</title><link>https://zoomquiet.io/Pythonic/weekly/2024-35.md</link><description>Page 蟒周刊:24-35 - Last updated at 2024-10-15T15:51:19.647392+00:00</description><content:encoded># 上周蠎快讯 2024/35
+
+    Title: 上周蠎快讯 2024/35
+    Slug: pyrw-2435
+    Date: 2024-09-02 11:42
+    Tags: Weekly,Python,recap,discu_eu,ZH
+
+
+&gt; 老爹的文章被删除
+
+
+原文: [Python recap for week 2024/35 \- discu\.eu](https://discu.eu/weekly/python/2024/35/)
+
+
+- 240902 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
+- 240902 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译,
+
+------
+
+
+-----------------------------------------
+## 文章/教程/嗯哼 
+&gt; Articles, Tutorials and Talks
+
+
+- [Guido van Rossum 的一篇帖子因违反 Python 社区准则而被删除](https://discuss.python.org/t/should-we-consider-ranked-choice-voting-for-sc-elections/61880)
+    - [251 评注 in 1 讨论](https://discu.eu/q/https://discuss.python.org/t/should-we-consider-ranked-choice-voting-for-sc-elections/61880)
+
+
+- [告别 Panas，感谢所有的 fish](https://ibis-project.org/posts/farewell-pandas/)
+    - [133 评注 in 2 讨论s](https://discu.eu/q/https://ibis-project.org/posts/farewell-pandas/)
+
+(`是也乎:`
+
+叕一个项目从  Pandas 迁移到 DuckDB,
+
+[Ibis](https://ibis-project.org/) Pandas 的替代
+
+
+)
+
+- [驯服 Django ORM 这头野兽 \- 简介](https://www.davidhang.com/blog/2024-09-01-taming-the-django-orm/)
+    - [129 评注 in 2 讨论s](https://discu.eu/q/https://www.davidhang.com/blog/2024-09-01-taming-the-django-orm/)
+
+(`是也乎:`
+
+哈? 为什么要驯服?
+
+嫑使用就好...
+
+)
+
+
+- [Python Zen/禅 及其影响](https://peps.python.org/pep-0020/)
+    - [84 评注 in 3 讨论s](https://discu.eu/q/https://peps.python.org/pep-0020/)
+- [深入探讨 Python 的“官方”Docker 镜像 \(2022\)](https://pythonspeed.com/articles/official-python-docker-image/)
+    - [69 评注 in 2 讨论s](https://discu.eu/q/https://pythonspeed.com/articles/official-python-docker-image/)
+
+(`是也乎:`
+
+怎么说呢?
+如果有能力的话, 还是从0开始构建自己的镜像吧,
+千万别省力, 否则, 你不知道何时被注入了什么...
+当然, 这是为了付费:
+
+[50年技术积累，70+最佳实践，需要你自己摸索 --- 50 years of accumulated technologies, 70+ best practices, and you need to figure it out all on your own](https://pythonspeed.com/products/productionhandbook/)
+
+)
+
+
+- [Go 在无服务器领域摧毁了 Python：便宜 80%，速度快 5 倍。](https://atakanerbas.com/programming/2024/08/29/go-vs-python-serverless.html)
+    - [35 评注 in 1 讨论](https://discu.eu/q/https://atakanerbas.com/programming/2024/08/29/go-vs-python-serverless.html)
+
+(`是也乎:`
+
+不是, Golang 就是为此创造的哪, 如果达不到这种效果, 不是白折腾了?
+当然, 在很多场景中, 真的是...
+
+)
+
+
+- [500 个 Python 解释器](https://izzys.casa/2024/08/463-python-interpreters/)
+    - [34 评注 in 2 讨论s](https://discu.eu/q/https://izzys.casa/2024/08/463-python-interpreters/)
+
+(`是也乎:`
+
+&gt; ...在童年时所希望和梦想的事情（GIL 消失）终于出现了
+
+
+作者的童年真这么玄幻哪...
+
+
+)
+
+- [严肃的 Django 速成课程](https://simpleisbetterthancomplex.com/series/2017/09/11/a-complete-beginners-guide-to-django-part-2.html)
+    - [15 评注 in 1 讨论](https://discu.eu/q/https://simpleisbetterthancomplex.com/series/2017/09/11/a-complete-beginners-guide-to-django-part-2.html)
+
+
+(`是也乎`:
+
+&gt; 严肃 vs 速成 ?
+
+
+总感觉好象在 diss 谁...
+
+
+)
+
+- [刚刚完成了我最大的编码项目，它是为了使用自动化创建内容！](https://oclipia.com/)
+    - [14 评注 in 1 讨论](https://discu.eu/q/https://oclipia.com)
+
+(`是也乎:`
+
+叕一个独立开发实例, AIGC 的小领域服务, 关键还是在如何找到对应用户了...
+
+)
+
+
+
+- [PyPy 7\.3\.17 已发布，包含 python2\.7 和 3\.10](https://pypy.org/posts/2024/08/pypy-v7317-release.html)
+    - [8 评注 in 2 讨论s](https://discu.eu/q/https://pypy.org/posts/2024/08/pypy-v7317-release.html)
+- [用尽可能少的移动部件部署 Django 应用程序](https://www.bugsink.com/installation-simplification-journey/)
+    - [7 评注 in 1 讨论](https://discu.eu/q/https://www.bugsink.com/installation-simplification-journey/)
+
+(`是也乎:`
+
+&gt; 第一性原理
+
+叕一则使用案例,
+如果真心追问我们的最初目的, 很多选择, 其实都是在中途被广告们嵌入了...
+
+)
+
+
+- [Wave: 用 Python 创建 Web 应用程序](https://wave.h2o.ai/)
+    - [6 评注 in 1 讨论](https://discu.eu/q/https://wave.h2o.ai/)
+
+(`是也乎:`
+
+![Wave](https://ipic.zoomquiet.top/2024-09-02-zshot%202024-09-02%2011.31.07.jpg)
+
+
+这非常 Streamlit 不过集成了 R/JAVA/Go/... 之后, 内置组件更多,
+问题也一样, 没有提供内置的用户认证管理和控制机制...
+
+
+)
+
+- [为什么“Python” Docker 镜像比我本地机器的 Python 慢？](https://github.com/docker-library/python/issues/825)
+    - [3 评注 in 1 讨论](https://discu.eu/q/https://github.com/docker-library/python/issues/825)
+
+(`是也乎:`
+
+这个问题就像如何从 Vim 退出一样经典了...
+
+)
+
+
+-----------------------------------------
+## 发布...
+&gt; Release...
+
+
+
+&gt;&gt; None
+
+
+-----------------------------------------
+## 好物/妙品/...
+&gt; Interesting Projects, Tools and Libraries, Projects &amp; Code
+
+
+- [JPMorgan/摩根大通为业务分析师和交易员提供的 Python 培训](https://github.com/jpmorganchase/python-training)
+    - [32 评注 in 1 讨论](https://discu.eu/q/https://github.com/jpmorganchase/python-training)
+
+(`是也乎:`
+
+华尔街生存从来不容易..如果, 你出身普通的话;
+这都是 5年前的教程了, 那时 GPT 们还没发布
+
+)
+
+
+- [httpout \- 允许您从 Web URL 执行 Python 脚本](https://github.com/nggit/httpout)
+    - [30 评注 in 1 讨论](https://discu.eu/q/https://github.com/nggit/httpout)
+
+(`是也乎:`
+
+嗯哼? 又回到上世纪 CGI 的姿势了?
+不过, 非常方便哪...黑入自己公司的笔记本?...
+
+
+)
+
+
+- [Pipefunc 简介：简化您的 Python 函数管道](https://github.com/pipefunc/pipefunc)
+    - [22 评注 in 1 讨论](https://discu.eu/q/https://github.com/pipefunc/pipefunc)
+
+(`是也乎:`
+
+嗯哼? 不仅仅能将代码块压缩为一行表达,
+同时内置了展开过程的 CLI 表格内省, 非常用心了
+
+
+)
+
+- [用 Reddit Stash 自动执行 Reddit 保存的帖子备份和上下文](https://github.com/rhnfzl/reddit-stash)
+    - [16 评注 in 1 讨论](https://discu.eu/q/https://github.com/rhnfzl/reddit-stash)
+
+(`是也乎:`
+
+经典的吃自己狗粮式作品
+
+)
+
+- [Github\-dlr: 从 Github 递归下载单个文件和文件夹。](https://github.com/rocktimsaikia/github-dlr)
+    - [16 评注 in 2 讨论s](https://discu.eu/q/https://github.com/rocktimsaikia/github-dlr)
+
+(`是也乎:`
+
+小心 子模块, 一下将整个 github 下载到硬盘上是不可能的...
+
+)
+
+
+- [Show HN: Python 的严格接口和 dep 管理，用 Rust 编写](https://github.com/gauge-sh/tach)
+    - [14 评注 in 2 讨论s](https://discu.eu/q/https://github.com/gauge-sh/tach)
+
+(`是也乎:`
+
+内置可视化关系图的探索和生成, 
+比较有意思.,..
+
+)
+
+- [TPython 没有好的 PDF 阅读器，所以我自己做了一个](https://github.com/emcf/thepipe)
+    - [14 评注 in 2 讨论s](https://discu.eu/q/https://github.com/emcf/thepipe)
+- [Robyn – 用 Rust 编写的超快速 Python Web 框架](https://github.com/sparckles/Robyn)
+    - [12 评注 in 4 讨论s](https://discu.eu/q/https://github.com/sparckles/Robyn)
+
+(`是也乎:`
+
+嗯哼? 现在的项目定义都这么抽象的?
+Rust 编写的给 Python 专门使用的框架?
+
+不过, 看起来启动和配置都需要额外大量知识, 没那么简单...
+
+)
+
+
+- [在我的 Python GUI 框架中寻求状态管理逻辑的指导](https://github.com/itsredx/pythra)
+    - [10 评注 in 1 讨论](https://discu.eu/q/https://github.com/itsredx/pythra)
+
+(`是也乎:`
+
+基于 `PyWebView` 进行传递的...
+
+)
+
+
+- [picows：用于 asyncio 的快速 websocket 客户端和服务器](https://github.com/tarasko/picows)
+    - [5 评注 in 1 讨论](https://discu.eu/q/https://github.com/tarasko/picows)
+
+(`是也乎:`
+
+使用 `Cython` 为核心完成的模块,
+是否能比得过 Rusty 的同类?
+
+PS: 文档过于简洁...
+
+
+)
+
+
+-----------------------------------------
+## 🐍 视频
+&gt; Videos...
+
+
+- [Python 中“typing”已被弃用](https://www.youtube.com/watch?v=cv1F_c66utw)
+
+(`是也乎:`
+
+毕竟 Python 新核心团队已经有其它增加复杂度的机制了...
+
+)
+
+
+
+-----------------------------------------
+## 历史这周
+
+
+- 2023: [PyCoder 592](https://weekly.pychina.org/issue/issue-592.html)
+- 2022: [PyCoder 540](https://weekly.pychina.org/issue/issue-540.html)
+- 2021: [Issue 488](https://weekly.pychina.org/issue/issue-488.html)
+    + [pythonista-weekly : Pyw 515](https://weekly.pychina.org/python-weekly/pyw-515.html)
+- 2020: [Issue 436](https://weekly.pychina.org/issue/issue-436.html)
+    + [pythonista-weekly : Pyw 465](https://weekly.pychina.org/python-weekly/pyw-465.html)
+- 2019: [Issue 343](https://weekly.pychina.org/issue/issue-343.html)
+- 2018: [蠎加载 186](https://weekly.pychina.org/importpython/importpython-186.html)
+- 2017: [蠎加载 140](https://weekly.pychina.org/importpython/importpython-140.html)
+- 2016: [蠎加载 88](https://weekly.pychina.org/importpython/importpython-88.html)
+- 2015: [Issue 181](https://weekly.pychina.org/issue/issue-181.html)
+- 2014: [Issue 130](https://weekly.pychina.org/issue/issue-130.html)
+- 2013: 空缺
+- 2012: [Issue 29](https://weekly.pychina.org/issue/issue-29.html)
+
+
+-----------------------------------------
+## DAMA
+&gt; ❤️ Happy Pythonic ;-(`大妈私人无责任播报`)
+
+
+
+- [大妈的多重宇宙 - YouTube](https://www.youtube.com/@Chaos42DAMA)
+    + @Chaos42DAMA
+    + 恢复各种嗯哼...
+- [Zoom\.Quiet’s Chaos42 \| Substack](https://zoomquiet.substack.com/)
+    + 古早:新闻组式写作
+    + 欢迎订阅, 包含当前周刊
+
+
+
+
+
+```
+        _~`*`~_
+    \/ /  o ♡  \ ()
+      '_   ▽   _'
+      ( '--~--' /
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```
+
+
+
+-----------------------------------------
+# PS:
+
+- 首发: [2024/35 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/pyrecap/pyrw-2435.html)
+- 修订: [pyrw-2435.md](https://github.com/PyChina/weekly/blob/maste10content2pyrecap/pyrw-2435.md)
+7&gt; Happy Pythoning!
+
+&gt;&gt; Copyright © 2024 Python weekly newsletter, All rights reserved.
+    
+## PPS:
+&gt; 不觉中蟒周刊快译已经到了第10+2个年头
+
+开始有小伙伴加入承担 `pythonisa` 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...
+
+问为什么:
+
+    [皱眉]每周新闻资讯 怎么能错过 
+    看看有什么新东西 
+    当有新的发现时：
+        what f**k 还能这样玩？ 还有这东西？
+        每周开彩蛋[吃瓜]
+
+`无法同意更多`...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.
+
+-------------
+
+好文笔,感叹号年度配额: **2/3**
+
+投稿/反馈邮箱:
+
+    askdama@googlegroups.com
+
+(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)
+
+
+-------------
+
+ZoomQuiet/**[大妈](https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g)**
+
+就是四处 `是也乎,(￣▽￣)` 的那个[大妈](https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g):
+
+
+
+```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)
+
+as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 
+
+```
+
+-------------
+
+
+
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-35.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>蟒周刊:24-36</title><link>https://zoomquiet.io/Pythonic/weekly/2024-36.md</link><description>Page 蟒周刊:24-36 - Last updated at 2024-10-15T15:51:19.647392+00:00</description><content:encoded># 上周蠎快讯 2024/36
+
+    Title: 上周蠎快讯 2024/36
+    Slug: pyrw-2436
+    Date: 2024-09-09 11:42
+    Tags: Weekly,Python,recap,discu_eu,ZH
+
+
+&gt; 标准库鲜为人知的部分
+
+
+原文: [Python recap for week 2024/36 \- discu\.eu](https://discu.eu/weekly/python/2024/36/)
+
+
+- 240909 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
+- 240909 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译,
+
+------
+
+
+-----------------------------------------
+## 文章/教程/嗯哼 
+&gt; Articles, Tutorials and Talks
+
+
+- [异步 Python 并不更快 \(2020\)](https://calpaterson.com/async-python-is-not-faster.html)
+    - [583 评注 in 7 讨论s](https://discu.eu/q/https://calpaterson.com/async-python-is-not-faster.html)
+- [我使用 Nim 而不是 Python 进行数据处理（2021）](https://benjamindlee.com/posts/2021/why-i-use-nim-instead-of-python-for-data-processing/)
+    - [291 评注 in 3 讨论s](https://discu.eu/q/https://benjamindlee.com/posts/2021/why-i-use-nim-instead-of-python-for-data-processing/)
+
+(`是也乎:`
+
+&gt; ...Nim 是一种静态类型编译系统编程语言。它结合了 Python、Ada 和 Modula 等成熟语言的成功概念
+
+
+叕一门长的像 Python 的静态语言
+
+[Learn Nim in Y Minutes](https://learnxinyminutes.com/docs/nim/)
+
+)
+
+- [Python 标准库鲜为人知的部分](https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/)
+    - [133 评注 in 1 讨论](https://discu.eu/q/https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/)
+
+(`是也乎:`
+
+所以, `鲜为人知` 的原因是...
+
+)
+
+
+- [PEP695 M迁移工具](https://peps.python.org/pep-0695/)
+    - [130 评注 in 5 讨论s](https://discu.eu/q/https://peps.python.org/pep-0695/)
+- [通过代码生成实现高 Python 性能 \(2022\)](https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
+    - [99 评注 in 3 讨论s](https://discu.eu/q/https://medium.com/%40yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79)
+
+(`是也乎:`
+
+要...生成字节码
+
+)
+
+- [Python 3\.13\.0rc2](https://www.python.org/downloads/release/python-3130rc2/)
+    - [40 评注 in 1 讨论](https://discu.eu/q/https://www.python.org/downloads/release/python-3130rc2/)
+- [用uv的Python命令2秒将Python添加到Docker](https://mkennedy.codes/posts/python-docker-images-using-uv-s-new-python-features/)
+    - [37 评注 in 1 讨论](https://discu.eu/q/https://mkennedy.codes/posts/python-docker-images-using-uv-s-new-python-features/)
+
+
+(`是也乎:`
+
+嗯哼? 在这儿加速, 也是个需要
+
+)
+
+- [适用于 macOS CLI 工具的 Python 与 Swift](https://developer.apple.com/documentation/security/authorization-plug-ins)
+    - [29 评注 in 1 讨论](https://discu.eu/q/https://developer.apple.com/documentation/security/authorization-plug-ins)
+- [为什么我仍然在 Docker 中使用 Python 虚拟环境](https://hynek.me/articles/docker-virtualenv/)
+    - [21 评注 in 2 讨论s](https://discu.eu/q/https://hynek.me/articles/docker-virtualenv/)
+- [Python 内置函数外行指南](https://www.mattlayman.com/blog/2024/layman-guide-python-built-in-functions/)
+    - [21 评注 in 1 讨论](https://discu.eu/q/https://www.mattlayman.com/blog/2024/layman-guide-python-built-in-functions/)
+- [我的第一个 Flask 项目，一个代码共享应用程序](https://snippy-share.vercel.app/)
+    - [14 评注 in 1 讨论](https://discu.eu/q/https://snippy-share.vercel.app/)
+- [如何在短短 10 年内建立一个 Django admin 替代](https://kodare.net/2024/09/03/admin-replacement.html)
+    - [9 评注 in 1 讨论](https://discu.eu/q/https://kodare.net/2024/09/03/admin-replacement.html)
+
+(`是也乎:`
+
+10年在 Django 历史中只是短短的...
+
+)
+
+
+- [在 URL 中使用 \#](http://website.com/orders/PO#12345)
+    - [7 评注 in 1 讨论](https://discu.eu/q/http://website.com/orders/PO%2312345)
+- [嘿 Django 社区，我听说你们很多人都使用 PostgreSQL！如果您这样做，请花点时间填写 2024 年 PostgreSQL 现状调查。它是由社区为社区创建的；回复越多，结果就越准确和有帮助。有任何疑问或意见吗？我们来谈谈吧！](https://form.typeform.com/to/wtUFIZwA)
+    - [6 评注 in 1 讨论](https://discu.eu/q/https://form.typeform.com/to/wtUFIZwA)
+
+
+
+
+-----------------------------------------
+## 发布...
+&gt; Release...
+
+- [Spyder 6 IDE 发布](https://github.com/spyder-ide/spyder/releases)
+    - [56 评注 in 1 讨论](https://discu.eu/q/https://github.com/spyder-ide/spyder/releases)
+
+
+(`是也乎:`
+
+
+![Spyder](https://ipic.zoomquiet.top/2024-09-09-zshot%202024-09-09%2010.36.03.jpg)
+
+Qt 实现的...
+
+
+
+)
+
+- [Spyder 6\.0 发布——科学的 Python 开发环境](https://github.com/spyder-ide/spyder)
+    - [6 评注 in 1 讨论](https://discu.eu/q/https://github.com/spyder-ide/spyder)
+
+
+
+- [Bottle: Python Web 框架版本 0\.13](https://bottlepy.org/docs/dev/changelog.html#release-0-13)
+
+(`是也乎:`
+
+用 0.12 已经用了快10年...
+
+
+)
+
+
+-----------------------------------------
+## 好物/妙品/...
+&gt; Interesting Projects, Tools and Libraries, Projects &amp; Code
+
+
+- [Tinystatus: 由 Python 脚本生成的小型状态页面](https://github.com/harsxv/tinystatus)
+    - [47 评注 in 1 讨论](https://discu.eu/q/https://github.com/harsxv/tinystatus)
+- [我的第一个框架，请大家品鉴](https://github.com/iklobato/LightAPI)
+    - [44 评注 in 2 讨论s](https://discu.eu/q/https://github.com/iklobato/LightAPI)
+
+(`是也乎:`
+
+基于 sqlalchemy 的...
+
+想法不错, 可惜文档不足以支撑大家尝试
+
+
+)
+
+
+- [LibrePythonista 是一个 LibreOffice 扩展，允许交互式 Python \(IPython\) 代码直接在电子表格中运行](https://github.com/Amourspirit/python_libre_pythonista_ext)
+    - [33 评注 in 2 讨论s](https://discu.eu/q/https://github.com/Amourspirit/python_libre_pythonista_ext)
+
+(`是也乎:`
+
+Google Spreadsheet 早就有了...
+
+)
+
+
+- [Pipefunc: 科学 Python 的最小代码 DAG，从笔记本电脑到超级计算机](https://github.com/pipefunc/pipefunc)
+    - [22 评注 in 1 讨论](https://discu.eu/q/https://github.com/pipefunc/pipefunc)
+- [自托管 iMessage Python 客户端](https://github.com/yevbar/lusid)
+    - [19 评注 in 1 讨论](https://discu.eu/q/https://github.com/yevbar/lusid)
+- [GoScrapy: 受 Python 的 Scrapy 框架启发，利用 Go 的强大功能实现极快的网页抓取](https://github.com/tech-engine/goscrapy)
+    - [18 评注 in 2 讨论s](https://discu.eu/q/https://github.com/tech-engine/goscrapy)
+
+(`是也乎:`
+
+没事儿, 马上 RrScrapy 也将推出
+
+)
+
+
+- [pymple\.nvim \- 在文件移动/重命名时重构 python 导入](https://github.com/alexpasmantier/pymple.nvim)
+    - [16 评注 in 1 讨论](https://discu.eu/q/https://github.com/alexpasmantier/pymple.nvim)
+
+(`是也乎:`
+
+嗯哼?  Vim 的插件...
+
+)
+
+- [WSCE 简介：使用 Python 构建的自定义 Shell 环境](https://github.com/WindowsShellCustomEnviroment/WSCE)
+    - [7 评注 in 1 讨论](https://discu.eu/q/https://github.com/WindowsShellCustomEnviroment/WSCE)
+- [用于获取 Windows 强调色或其阴影的 Python 模块](https://github.com/Valer100/winaccent)
+    - [5 评注 in 1 讨论](https://discu.eu/q/https://github.com/Valer100/winaccent)
+
+(`是也乎:`
+
+可惜, 产品经理想要的是根据用户当前放电脑前手机壳的颜色, 
+自动变换桌面背景哪...
+
+)
+
+
+- [有声读物阅读器：将 \.epub、\.rtf 和 \.txt 作为有声读物阅读！](https://github.com/RNRetailer/audio-book-reader)
+    - [3 评注 in 1 讨论](https://discu.eu/q/https://github.com/RNRetailer/audio-book-reader)
+
+(`是也乎:`
+
+200行代码, 用 gTTS 完成语音转换而已...
+
+)
+
+
+-----------------------------------------
+## 🐍 视频
+&gt; Videos...
+
+
+
+- [用 Python 进行 CLI 命令自动化](https://youtu.be/lb7_Mpm5sXk)
+    - [2 评注 in 1 讨论](https://discu.eu/q/https://youtu.be/lb7_Mpm5sXk)
+
+
+(`是也乎:`
+
+最基础的自动化,
+其实就是用 Python 来组织 shell 指令序列了...
+
+)
+
+
+-----------------------------------------
+## 历史这周
+
+
+- 2023: [PyCoder 593](https://weekly.pychina.org/issue/issue-593.html)
+- 2022: [PyCoder 541](https://weekly.pychina.org/issue/issue-541.html)
+- 2021: [Issue 489](https://weekly.pychina.org/issue/issue-489.html)
+    + [pythonista-weekly : Pyw 516](https://weekly.pychina.org/python-weekly/pyw-516.html)
+- 2020: [Issue 437](https://weekly.pychina.org/issue/issue-437.html)
+    + [pythonista-weekly : Pyw 466](https://weekly.pychina.org/python-weekly/pyw-466.html)
+- 2019: [Issue 344](https://weekly.pychina.org/issue/issue-344.html)
+- 2018: [蠎加载 187](https://weekly.pychina.org/importpython/importpython-187.html)
+- 2017: [蠎加载 141](https://weekly.pychina.org/importpython/importpython-141.html)
+- 2016: [蠎加载 89](https://weekly.pychina.org/importpython/importpython-89.html)
+- 2015: [Issue 182](https://weekly.pychina.org/issue/issue-182.html)
+- 2014: [Issue 131](https://weekly.pychina.org/issue/issue-131.html)
+- 2013: 空缺
+- 2012: [Issue 30](https://weekly.pychina.org/issue/issue-30.html)
+
+
+-----------------------------------------
+## DAMA
+&gt; ❤️ Happy Pythonic ;-(`大妈私人无责任播报`)
+
+
+
+- [大妈的多重宇宙 - YouTube](https://www.youtube.com/@Chaos42DAMA)
+    + @Chaos42DAMA
+    + 恢复各种嗯哼...
+- [Zoom\.Quiet’s Chaos42 \| Substack](https://zoomquiet.substack.com/)
+    + 古早:新闻组式写作
+    + 欢迎订阅, 包含当前周刊
+
+
+
+
+
+```
+     _~^+∽~_
+ \/ /  → ←  \ \/
+   '_   ⏡   _'
+   &gt; '--#--' )
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```
+
+
+-----------------------------------------
+# PS:
+
+- 首发: [2024/36 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/pyrecap/pyrw-2436.html)
+- 修订: [pyrw-2436.md](https://github.com/PyChina/weekly/tree/master/content/pyrecap/pyrw-2436.md)
+
+
+&gt; Happy Pythonic
+
+&gt;&gt; Copyright © 2024 Python weekly newsletter, All rights reserved.
+    
+## PPS:
+&gt; 不觉中蟒周刊快译已经到了第10+2个年头
+
+开始有小伙伴加入承担 `pythonisa` 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...
+
+问为什么:
+
+    [皱眉]每周新闻资讯 怎么能错过 
+    看看有什么新东西 
+    当有新的发现时：
+        what f**k 还能这样玩？ 还有这东西？
+        每周开彩蛋[吃瓜]
+
+`无法同意更多`...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.
+
+-------------
+
+好文笔,感叹号年度配额: **2/3**
+
+投稿/反馈邮箱:
+
+    askdama@googlegroups.com
+
+(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)
+
+
+-------------
+
+ZoomQuiet/**[大妈](https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g)**
+
+就是四处 `是也乎,(￣▽￣)` 的那个[大妈](https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g):
+
+
+
+```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)
+
+as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 
+
+```
+
+-------------
+
+
+
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-36.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>蟒周刊:24-37</title><link>https://zoomquiet.io/Pythonic/weekly/2024-37.md</link><description>Page 蟒周刊:24-37 - Last updated at 2024-10-15T15:51:19.648392+00:00</description><content:encoded># 上周蠎快讯 2024/37
 
     Title: 上周蠎快讯 2024/37
     Slug: pyrw-2437
@@ -423,7 +1501,7 @@ as 创始组织者:
 
 
 
-</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-37.md</guid><pubDate>Mon, 16 Sep 2024 02:56:23 +0000</pubDate></item><item><title>蟒周刊:24-38</title><link>https://zoomquiet.io/Pythonic/weekly/2024-38.md</link><description>Page 蟒周刊:24-38 - Last updated at 2024-09-23T03:39:50.354744+00:00</description><content:encoded># 上周蠎快讯 2024/38
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-37.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>蟒周刊:24-38</title><link>https://zoomquiet.io/Pythonic/weekly/2024-38.md</link><description>Page 蟒周刊:24-38 - Last updated at 2024-10-15T15:51:19.648392+00:00</description><content:encoded># 上周蠎快讯 2024/38
 
 
     Title: 上周蠎快讯 2024/38
@@ -726,117 +1804,7 @@ as 创始组织者:
 
 
 
-</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-38.md</guid><pubDate>Mon, 23 Sep 2024 03:39:50 +0000</pubDate></item><item><title>9.24 随心所欲?</title><link>https://zoomquiet.io/MurMur/2024/240924.md</link><description>Page 9.24 随心所欲? - Last updated at 2024-09-24T07:41:31.666404+00:00</description><content:encoded># |&gt; 240924 日糟:
-&gt; 1/4(每天吐糟不应超过4次)
-
-有个"神经群", 有网友感叹:
-
-&gt; 中国古代对自由有一个定义:随心所欲不逾矩。包涵了一种哲学意味
-
-想想不对哪:
-
-这种哲学, 其实就是统治阶段和士大夫阶级一起合谋出来的,
-有点儿像英国的大宪章,
-不过, 意义更加深刻并普适, 而且无解,
-
-&gt; 随心所欲不逾矩
-
-表面上看说的是: 想象一下，你在学校里可以选择自己喜欢的活动，
-比如画画、打球或者读书，这就是“随心所欲”。
-但是，老师会告诉你一些规则，比如不能打架、不能说脏话，
-这就是“不逾矩”。
-所以，
-我们可以快乐地做自己喜欢的事情，但也要遵守学校的规矩。
-
-也就是, 一个人, 如果其每时每刻自然发生的所有欲望和冲动, 都是吻合社会要求的,
-那么, 他就等于永远自由自在快乐无比了;
-
-可问题是,这里隐藏了一组前提:
-
-- 1: 一个人可以良好的掌握这个社会当前的所有规则
-- 2: 当前社会的所有规则对这个具体的人所在阶级是有利的
-- 3: 综上, 这种 随心所欲不逾矩 才是可能而且正向的
-
-这本质上, 也是现在美国富豪们/集团们都有自己的说客团队, 每年用海量资金确保当前法律对自己的产业是最有利的一样;
-
-而对普通人, 就是永远的无尽的自我审查和训练了;
-
-- 而民主本身追求的是: 随心所欲共定矩
-- 共产主义的状态才是: 随心所欲无矩逾
-- 极权主义现实又则是: 随心所欲只有我
-- ...
-
-所以, 这一哲学得进一步阐发, 改良, 并配套上 AI 才对未来社会有推动意义;
-
-</content:encoded><guid isPermaLink="false">MurMur/2024/240924.md</guid><pubDate>Tue, 24 Sep 2024 07:41:31 +0000</pubDate></item><item><title>9.29 自我纠错?</title><link>https://zoomquiet.io/MurMur/2024/240929.md</link><description>Page 9.29 自我纠错? - Last updated at 2024-09-29T00:30:27.067640+00:00</description><content:encoded># |&gt; 240929 日糟:
-1/4(每天吐糟不应超过4次)
-
-某一 Tg 频道中撞到一个问题:
-
-&gt; 该如何自我纠正呢？
-
-&gt;&gt; 其实自我纠正的前提是“自己能自己发现自己问题”，这才有纠正的可能。
-&gt;&gt; 写过文章的朋友都知道，连自己的错别字都很难找到，更别说纠正了。
-
-这就叫他心通了, 也是一种神通,
-不过, 没那么神奇, 合格的编辑都可以作到,
-简单的说, 切换阅读模式, 从关注内容,
-切换到一组不同的扫描模式:
-句逗检验, 别字校验, 长句发现....
-将一般文章必须检验的各种常见问题,
-都变成专用的扫描模式, 专心搜索即可;
-
-当然,
-对应到行为和项目中也一样;
-从执行者, 切换为审查员视角就好;
-一般都有对应心理暗示行为的,
-
-比如, 拓展中经常使用的 帽子法:
-
-- 准备几个颜色不同的帽子, 对应不同的角色,
-- 一戴上就只能使用帽子代表的心态进行思考,
-- 比如, 
-    + 红色的只能提出积极建议,
-    + 黑色的只能进行负面批评
-    + ...etc.
-
-其实, 一直有说这种技巧的:
-
-    旁观者清
-
-那么, 将自己暂时变成旁观者就好,
-
-问题在:
-即便这么作了, 也查觉了当前自己的错误,
-可一但恢复了自己本身的角色,
-一样可以立即找出/制造出一系列自己愿意相信的理由, 来拒绝改变;
-
-说穿了, 所谓`错误`, 不过是自己不够强大导致的结果而已;
-而, 所有成功者, 无一不是执着的坚持自己的错误, 
-做到这个错误变成伟大的成功而已;
-想想历史上那些图书馆管理员们?
-哪一个最初提出的目标是立即获得全世界人认同的?
-
-所以, 与其担心自己无法纠正自己的错误,
-不如另一个方向大力积累;
-
-比如, 学习外语, 成年人当然比婴孩困难,
-原因就在, 小孩子根本没有对错的概念, 只有是否能用的统计积累,
-那么, 为什么一直担心自己读错?
-直接和外国人对话, 使用起来哈, 
-在一个自然语言应用场景中学习自然语言才是自然语言最自然的学习方式吧,
-
-就像学习编程, 
-你不可能在纸上掌握一个语言的开发技巧, 
-如果永远不在对应编译环境中运行代码, 
-那么你是不可能学会任何编程语言的...
-
-嗯哼? 不一定, 一定可以通过相关资历考试的, 
-不过, 这时你编写出的任何代码都不具备可运行价值而已...
-
-是不是这个道理?
-
-</content:encoded><guid isPermaLink="false">MurMur/2024/240929.md</guid><pubDate>Sun, 29 Sep 2024 00:30:27 +0000</pubDate></item><item><title>蟒周刊:24-39</title><link>https://zoomquiet.io/Pythonic/weekly/2024-39.md</link><description>Page 蟒周刊:24-39 - Last updated at 2024-10-03T04:59:59.944445+00:00</description><content:encoded># 上周蠎快讯 2024/39
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-38.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>蟒周刊:24-39</title><link>https://zoomquiet.io/Pythonic/weekly/2024-39.md</link><description>Page 蟒周刊:24-39 - Last updated at 2024-10-15T15:51:19.648392+00:00</description><content:encoded># 上周蠎快讯 2024/39
 
     Title: 上周蠎快讯 2024/39
     Slug: pyrw-2439
@@ -1146,7 +2114,7 @@ as 创始组织者:
 
 
 
-</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-39.md</guid><pubDate>Thu, 03 Oct 2024 04:59:59 +0000</pubDate></item><item><title>蟒周刊:24-40</title><link>https://zoomquiet.io/Pythonic/weekly/2024-40.md</link><description>Page 蟒周刊:24-40 - Last updated at 2024-10-07T09:18:12.670812+00:00</description><content:encoded># 上周蠎快讯 2024/40
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-39.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>蟒周刊:24-40</title><link>https://zoomquiet.io/Pythonic/weekly/2024-40.md</link><description>Page 蟒周刊:24-40 - Last updated at 2024-10-15T15:51:19.648392+00:00</description><content:encoded># 上周蠎快讯 2024/40
 
     Title: 上周蠎快讯 2024/40
     Slug: pyrw-2440
@@ -1506,193 +2474,7 @@ as 创始组织者:
 
 
 
-</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-40.md</guid><pubDate>Mon, 07 Oct 2024 09:18:12 +0000</pubDate></item><item><title>别了Lark</title><link>https://zoomquiet.io/IMHO/241009deLark.md</link><description>Page 别了Lark - Last updated at 2024-10-08T10:14:24.817313+00:00</description><content:encoded># 如何删除 Lark 资源?
-
-疫情期间各种云会议都开放使用,
-Lark 拥有全线产品支持, 所以, 那段时间组织的各种线上社区/会议/课程,
-都尽可能使用 Lark;
-
-(其实是飞书, 当然, 为了区别国内/国际社区, 分别安装了 飞书以及Lark 
-两种功能/界面/...都一样, 但是, 注册/检验/域名/...又都不同的两个 app.)
-
-## 问题来了
-
-进入24年, 一直在报警, 云空间不足, 引导我重新认证, 没理会;
-
-今天: 直接禁止发送图片了,
-提醒:
-
-&gt; 可升级版本或购买扩容包以获取更多存储空间
-
-问题是有两年没用 Lark 的会议了哪, 为什么空间一直占用的?
-
-槽点开始密集向俺冲来:
-
-- 进入后台, 存储空间-&gt;存储清理
-- 发现:
-  - 聊天文件 只能建立清理任务, 而无法进行人工大文件选择
-  - 云文档, 能看到哪些成员占用过多空间, 但是, 无法进入管理, 除非你升级
-  - 视频会议, 无法立即选择历史录制, 必须先搜索, 再删除, 然后彻底销毁, 才能释放空间
-
-
-## 最终发现
-
-以上还都是在自行探查无果后, 找了客服, 才知道的;
-
-好在客服是真人, 而且立即详细回复, 服务态度没说的;
-
-可 Lark 后台管理系统作的是真狗:
-
-聊天文件清理, 那个搜索框, 反复尝试才发现, 每次只能搜索半年的,
-而且, 必须从开始日期, 再结束日期, 否则, 根本记录不到你想设定的日期:
-
-- 不允许手工输入
-- 不允许先选择结束日期
-- 不允许在日期表格中划选
-- 不允许...
-
-你得用心领会, 理解, 并认真尝试, 才能发现这个日期选择组件:
-
-- 只能选择180天跨度以内的
-- 只能依次选择
-- 无法记忆上次选择
-- ...
-
-真的是个特殊的日期选择弹出对象哪, 而且这东西在后台所有日期选择处都使用了...
-
-成员空间, 当初设定了每位最多使用500Mb, 但是, 
-看统计, 有很多用超了, 但是, Lark 并没有任何限制,
-可现在我又无法进入成员空间来删除;
-
-只能:
-
-- 要不先对成员进行离职操作, 并同时将对应资源转移到管理员, 也就是我的名下, 再去删除;
-- 要不, 可以直接对成员文档进行转移操作, 再去删除
-- 而删除, 又得切换到云文档管理, 这东西不在管理后台的 web 界面,只能在 Lark 的桌面 app 界面;
-
-为什么呢? 没想通...反正, 你只能 N 个界面来回跳;
-
-视频会议-&gt;录制管理, 终于理解了搜索的正确操作,半年一次, 向前搜索到各个录制时, 终于可以删除了;
-
-可是, 又发现将在90天以后真正销毁, 在此期间依然占用资源空间;
-你得额外再进行选中, 并 `彻底销毁`, 也就是立即释放空间;
-但是, 这个操作又特别危险, 所以, 你必须输入短信验证码, 来确认你是管理员;
-神奇的是, 每天验证码发送又有次数限定, 以防恶意删除...
-
-
-## 结论
-
-被各种神奇的阻止折腾吐了, 决定升级认证一下吧,
-然后, 被告之, 企业专业版本, 按人头收年费, 俺这不到100人的小社区, 
-要交 `58,000+RMB/年`, 
-嗯哼? 这么壕的?
-
-所以, 之前免费的所有功能, 以及自动记录的所有文档/录像,
-其实就变成要胁了? 不付费就什么都用不了?
-
-可见 Lark 以及其产品线在和 Tiktok 们 PK 时, 赢利能力被 diss 的猛了,
-所以, 开始想办法收费了...
-
-
-
-    |&gt; 241008 日糟:
-    1/4(每天吐糟不应超过4次)
-</content:encoded><guid isPermaLink="false">IMHO/241009deLark.md</guid><pubDate>Tue, 08 Oct 2024 10:14:24 +0000</pubDate></item><item><title>2024</title><link>https://zoomquiet.io/Pythonic/2024/README.md</link><description>Page 2024 - Last updated at 2024-10-11T03:29:57.744281+00:00</description><content:encoded># 蟒样@2024
-&gt; 各种 Pytnonic 折腾
-
-
-## background
-作为标准 ie 混合人,
-平时总是倾向先自己折腾,
-搞出点东西后, 再四处嗯哼...
-
-## goal
-记录所有 Pythonic 精神指引下的折腾
-
-## trac
-...TBD
-
-## refer.
-...TBD
-
-</content:encoded><guid isPermaLink="false">Pythonic/2024/README.md</guid><pubDate>Fri, 11 Oct 2024 03:29:57 +0000</pubDate></item><item><title>10.11 电影字幕</title><link>https://zoomquiet.io/Pythonic/2024/241011-mov-sub.md</link><description>Page 10.11 电影字幕 - Last updated at 2024-10-11T03:38:55.797101+00:00</description><content:encoded># 电影中文字幕?
-&gt; 如何快速获得...
-
-## background
-
-最新电影, 可能很小众, 字幕组还没跟进,
-怎么办?
-
-## goal
-用 Pythonic 精神, 先解决有没有, 再解决好不好
-
-所以:
-
-- 如何综合利用已知工具
-- 简要的获得一部电影的中文字幕?
-
-
-## trac
-
-之前用过 jianying 从视频音频内部直接识别出字幕,而且还能自动翻译成中文;
-
-可一尝试, 发现, jianying 默认音源是中文, 所以, 一部日文电影识别出来的中文是乱的;
-
-又尝试了一下国际版: CapCut, 人家能自动识别语言, 并生成日文字幕;
-
-可惜要付费升级为 Pro 帐号才能导出,
-
-有个印象, 好象有工具可以从本地工程缓存中摄取已经识别出来, 但是, 不准你导出的字幕?
-
-有了关键词, 一搜索, 果然找到了,
-所以, 得绕了一下
-
-- 发现 剪眏无法识别日文语音,
-- capcut 可以, 但是, 要付费导出,
-- 使用了: 剪映字幕在线工具提取,为 .srt
-- 再用 https://app.immersivetranslate.com/ 完成翻译...
-
-![sub](https://ipic.zoomquiet.top/2024-10-11-zshot%202024-10-11%2011.38.26.jpg)
-
-效果还行, 基本可看了...
-
-## refer.
-
-
-- [【剪映教学】剪映专业版字幕功能开始收费了，老胡教你继续完全免费生成内嵌和外挂字幕的方法。 - YouTube](https://www.youtube.com/watch?v=mCwMt-5K47c)
-    - [剪映字幕在线工具 ｜支持剪映字幕文件导入/导出 by 码中人](https://jy.mzh.ren/)
-- [沉浸式翻译 - 文档双语翻译 ： 一键翻译 PDF， ePub 电子书，字幕文件，txt文件](https://app.immersivetranslate.com/?utm_source=extension&amp;utm_medium=extension&amp;utm_campaign=popup_btn_document)
-- ...
-
-</content:encoded><guid isPermaLink="false">Pythonic/2024/241011-mov-sub.md</guid><pubDate>Fri, 11 Oct 2024 03:38:55 +0000</pubDate></item><item><title>2024</title><link>https://zoomquiet.io/OldTouch/2024/README.md</link><description>Page 2024 - Last updated at 2024-10-11T12:30:26.392843+00:00</description><content:encoded># 钩陈2024
-&gt; 过往故事
-
-## background
-技术/吐槽/生活 之外还有阅历;
-
-## goal
-&gt; 值得记录的真实社会经历
-
-</content:encoded><guid isPermaLink="false">OldTouch/2024/README.md</guid><pubDate>Fri, 11 Oct 2024 12:30:26 +0000</pubDate></item><item><title>10.14 为毛Python?</title><link>https://zoomquiet.io/MurMur/2024/241014.md</link><description>Page 10.14 为毛Python? - Last updated at 2024-10-14T03:42:55.252208+00:00</description><content:encoded># |&gt; 241014 日糟:
-1/4(每天吐糟不应超过4次)
-
-[为什么选择 Python \(2000\)](https://www.linuxjournal.com/article/3882)
-
-24年前, Eric Raymond 的雄文:
-
-&gt; ...编码工作量的一个重要衡量标准是您编写的内容与您对问题的心理表征实际上不符的频率
-
-论广告文学的正确打开方式...
-
-&gt; ...在编写 fetchmailconf 几周甚至几个月后，我仍然可以阅读 fetchmailconf 代码并理解它在做什么，而无需认真思考.
-
-论黑一门语言的最高境界;
-
-其实, 可以同时应用在文案创作之上,
-自己为了一个不知所谓的品牌写的一段不知所谓的赞美文,
-几周后自己自然也无法理解到底在说什么...
-
-</content:encoded><guid isPermaLink="false">MurMur/2024/241014.md</guid><pubDate>Mon, 14 Oct 2024 03:42:55 +0000</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/2024-41.md</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-14T03:43:41.984248+00:00</description><content:encoded># 上周蠎快讯 2024/41
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-40.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/2024-41.md</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-15T15:51:19.648392+00:00</description><content:encoded># 上周蠎快讯 2024/41
 
     Title: 上周蠎快讯 2024/41
     Slug: pyrw-2441
@@ -2091,7 +2873,108 @@ as 创始组织者:
 
 
 
-</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-41.md</guid><pubDate>Mon, 14 Oct 2024 03:43:41 +0000</pubDate></item><item><title>大妈</title><link>https://zoomquiet.io/zoomquiet.md</link><description>Page 大妈 - Last updated at 2024-10-15T09:36:15.214600+00:00</description><content:encoded># 大妈/ZoomQuiet 使用手册
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-41.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>周刊</title><link>https://zoomquiet.io/Pythonic/weekly/README.md</link><description>Page 周刊 - Last updated at 2024-10-15T15:51:19.648392+00:00</description><content:encoded># 周刊
+&gt; 各种来源的...
+
+
+## background
+世界高速变化
+
+## goal
+定期 review 一周以来主要变化
+
+## trac
+汇集各种渠道的周刊, 
+以及自己每周内省小结吧...
+
+## refer.
+...TBD
+
+</content:encoded><guid isPermaLink="false">Pythonic/weekly/README.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>首页</title><link>https://zoomquiet.io/./README.md</link><description>Page 首页 - Last updated at 2024-10-15T15:51:19.648392+00:00</description><content:encoded># 首页
+&gt; 无数次迁移后...
+
+
+## background
+&gt; 大妈的私人网站
+
+- 最早注册的是 zoomquiet.org, 用PHP的 BBS 系统发布
+- 后来是 pyblosoxm 支持使用 t2t 格式文本编译出来的静态网站
+- 再后来有各种 markdoc 编译发布的 wiki
+- 然后, 有了 google pages, gitcafr-pages, github-poages 支持的网站
+- 当然, 最终选择用作私人官网的是:
+    - graphviz 生成的可点击关系图谱
+    - 从 2013 参加 Google IO 大会时收到的优惠卷买下了新域名
+    - zoomquiet.io 发布出来
+- 然后, 去年发现, 这种完全图片为主的网站, 不能被 Google AdSense 收录
+
+## goal
+&gt; 重新汇集私人互联网记忆
+
+- 使用 mdBook 重构发布最轻量级的网站
+- 将以往自己在各种网站中发布的文章都汇总过来
+- 当初的关系图谱首页迁移到 ==&gt; [mm.zoomquiet.io](https://mm.zoomquiet.io)
+
+
+## trac
+
+- 240722 追加默认首页
+- 240704 发布
+- 240701 mdBook init.
+- 240601 评估 SSG
+- 240401 动念
+
+## refer.
+...TBD
+
+</content:encoded><guid isPermaLink="false">./README.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>你好</title><link>https://zoomquiet.io/hello-world.md</link><description>Page 你好 - Last updated at 2024-10-15T15:51:19.652392+00:00</description><content:encoded>    Title: 你好，世界 
+    Date: 2013-08-09 
+    Tags: md,hallo 
+    Slug: hello-world 
+    Status: draft
+
+# Hallo World!
+
+惯例的第一篇文章
+
+# 为毛要这样组织个人Blogging?
+
+- 用 `Wordpress` / `Drupal` 来自个儿架设一个?! 
+    - 嗯嗯嗯,我们只是想有个快速发布内容的渠道
+    - 并不想成为 SA+DBA+SEO ...复合角色
+    - 虽然, SAE 的 [云商店](http://www.yunshangdian.com/?a=item&amp;id=23) 有 Wordpress 可选,但是,依赖云主机,无法免费使用...
+- 用 blogger / livejournal ... 明星 blogging 服务?
+    - 不好意思,都是伟大的墙认证过的,,,
+- 用 cnblog / csdn / sina ... 国产主流 blogging 服务?
+    - OMG! 我们不想同木子美们混在同一域名里
+- 所以,果断的入了 github 教! 触动我们的文章:
+    - [为什么Markdown+R有较大概率成为科技写作主流？ ← 阳志平的个人网站::技术](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
+    - [告别wordpress，拥抱jekyll ← 阳志平的个人网站::技术](http://www.yangzhiping.com/tech/wordpress-to-jekyll.html)
+    - [理想的写作环境：git+github+markdown+jekyll ← 阳志平的个人网站::技术](http://www.yangzhiping.com/tech/writing-space.html)
+    - [如何提高创作型任务的效率？ ← 阳志平的个人网站::随笔](http://www.yangzhiping.com/psy/flow.html)
+    - [像黑客一样写博客](http://kyle.xlau.org/posts/blogging-like-a-hacker.html)
+    
+- 舒服参考的文章:
+    - [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+
+
+所以,我来,我写,我发布!
+
+
+
+## ps: 测试语法顔色
+
+```python
+import sys
+
+print "Hollo World!-)"
+
+```
+
+
+## Changelog
+
+- 140104 re-init.
+</content:encoded><guid isPermaLink="false">hello-world.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>大妈</title><link>https://zoomquiet.io/zoomquiet.md</link><description>Page 大妈 - Last updated at 2024-10-15T15:51:19.652392+00:00</description><content:encoded># 大妈/ZoomQuiet 使用手册
 
     Title: 大妈/ZoomQuiet 使用手册
     Date: 2013-11-17 10:42
@@ -2238,57 +3121,6 @@ askdama@googlegroups.com
     GET http://blog.zoomquiet.io/theme/css/dppfsfkxrtxvae2bkdzp5lo3ldcazywl9si6vvxl-qu.woff 404 (Not Found) 
 
 - 140107 init. the base info of zoomquiet.io
-</content:encoded><guid isPermaLink="false">zoomquiet.md</guid><pubDate>Tue, 15 Oct 2024 09:36:15 +0000</pubDate></item><item><title>10.15 RSS4X</title><link>https://zoomquiet.io/Pythonic/2024/241015-rss-app-x.md</link><description>Page 10.15 RSS4X - Last updated at 2024-10-15T12:36:17.025774+00:00</description><content:encoded># 如何给X生成RSS
-&gt; 以供 Follow 订阅
-
-## background
-终于获得一个 Follow.is 邀请码,
-立即尝试...
-
-## goal
-
-- 将自己所有发布渠道综合起来
-- 也将自己最关注的渠道汇总起来
-- 看看在 web3 视野中是否有价值?
-
-
-## tracing
-
-要将自己发布的内容用 follow 订阅, 多数很容易,
-随便一个 URl 搜索一下, 可能就能找到;
-
-但是, X/Twitter 比较特殊,
-尝试了几个方式, 最后追加了 2024 关键词才获得一个可用服务:
-
-&gt; RSS.app
-
-简单的跟着界面创建一个 RSS 即可,
-然后, 将生成的 RSS 地址, 复制到 follow 界面中 RSS 源部分,
-订阅即好;
-
-### 注意
-&gt; 订阅源认证
-
-只有认证后, 产生的各种收益才能归你所有;
-所以, 将自己的 X/推 变成 RSS 源后,
-首先要从 follow 中获得认证标识字串:
-
-![认证](https://ipic.zoomquiet.top/2024-10-15-zshot%202024-10-15%2015.12.19.jpg)
-
-然后, 根据提示, 在 RSS.app 对应 RSS 源的描述中追加提供的字串:
-
-![fid](https://ipic.zoomquiet.top/2024-10-15-WechatIMG5607.jpg)
-
-稍微等几分钟, 看看对应 RSS 的 XML 内容是否已经更新,
-然后, 回到 follow 中点击认证就可以看到认证完成的标记了.
-
-
-## refer.
-- [The Easiest Method to Create Twitter RSS Feeds in 2024](https://www.wprssaggregator.com/twitter-rss/)
-
-PS:
-
-刚刚发现 RSS.app 是付费服务,
-虽然好用, 但是, 不免费使用, 所以, 还得继续探索...
-
-</content:encoded><guid isPermaLink="false">Pythonic/2024/241015-rss-app-x.md</guid><pubDate>Tue, 15 Oct 2024 12:36:17 +0000</pubDate></item></channel></rss>
+</content:encoded><guid isPermaLink="false">zoomquiet.md</guid><pubDate>Tue, 15 Oct 2024 15:51:19 +0000</pubDate></item><item><title>RSS</title><link>https://zoomquiet.io/rss.xml</link><description>Page RSS - Last updated at 2024-10-15T15:51:27.864410+00:00</description><content:encoded># RSS
+</content:encoded><guid isPermaLink="false">rss.xml</guid><pubDate>Tue, 15 Oct 2024 15:51:27 +0000</pubDate></item><item><title>10.11 友好的法院?</title><link>https://zoomquiet.io/MurMur/2024/241011-funny-court.md</link><description>Page 10.11 友好的法院? - Last updated at 2024-10-15T15:51:27.864410+00:00</description><content:encoded># 10.11 友好的法院?
+</content:encoded><guid isPermaLink="false">MurMur/2024/241011-funny-court.md</guid><pubDate>Tue, 15 Oct 2024 15:51:27 +0000</pubDate></item></channel></rss>
