@@ -1,0 +1,203 @@
+# 迁移 gh-pages 到 Cloudflare
+> 如何将 github 和 Cloudflare 的 Pages 服务串联起来?
+
+## background
+原有社区官网, 使用 Hugo 作为 SSG ,
+通过 GitHub Actions 作为部署工具,
+发布到 GitHub Pages 中, 并绑定域名;
+
+对应 actions 脚本:
+
+[duonb.org/.github/workflows/hugo.yml at 683549a6a1745686ee744c8fae2168852ae3e100 · duonb/duonb.org](https://github.com/duonb/duonb.org/blob/683549a6a1745686ee744c8fae2168852ae3e100/.github/workflows/hugo.yml)
+
+随着运营的深入, 发觉 相比 GitHub(后续缩写为GH) 各种别扭而且多变的配置,
+Cloudflare(后续缩写为 CF) 各种良心免费资源配套齐全, 而且免费额度不小,
+值得迁移;
+
+## goal
+
+- 原有内容运营流程不变:
+    - 编辑随时进入 GH
+    - 在仓库中使用 `.dev` 在线 IDE 完成文章编撰
+    - 提交后, 由 Actions 自动触发执行完成发布
+- 最终静态网站通过 CF-Pages 服务发布
+    - 相比 GH 以及东家, CF 是更加专业的网络服务商
+
+## tracing
+
+通读相关文档以及网友们的经验后明确:
+
+- CF-Pages 和 GH-Pages 本质上一样, 都是微服务平台
+- 通过对应 workflow 脚本触发 Docker 拉起虚拟机, 部署对应环境中, 执行约定指令完成静态网站的编译生成
+- 最后复制到对应发布空间, 并安全消解掉所有虚拟资源
+
+
+...而免费的东西, 果断都有坑
+
+### 直接上 CF
+> 按照官方文档来
+
+基本流程就是:
+
+- 创建 Pages 实例
+- 对接仓库
+- 选择编译框架
+- 配置发布域名
+- 触发事件
+
+第一个坑:
+
+- 根本无法识别自己 GH 帐号不是 owner 的仓库
+- 只好将对应仓库 fork 到一个即有公开组织中
+- 虽然 fork 过来的仓库是私有的, 但是, CF 良好识别了
+
+第二个坑:
+
+- CF Pages 中, 并没有类似 GH Actrions 的约定, 比如从 `.github/workflow` 中自动识别 .yaml 作为 Dockerfiles 来执行
+- 界面上只有简洁的框架选择, 以及构建成果发布目录之类几个选择
+
+果然, 反复尝试, 都在类似错误中崩溃了:
+
+```
+...
+Error: Exit with error code: 1
+	    at ChildProcess.<anonymous> (/snapshot/dist/run-build.js)
+	    at Object.onceWrapper (node:events:652:26)
+	    at ChildProcess.emit (node:events:537:28)
+	    at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+	Failed: build command exited with code: 1
+	Failed: error occurred while running build command
+```
+
+看起来对应 NodeJS CF 还没什么好办法自动征服
+
+### 对接到 CF
+> 进一步挖掘文档
+
+既然 CF 本身的 Pages 构建环境不如 GH 的,
+那么, 是否能在 GH Actions 中完成构建,
+只是将成果输出到 CF Pages 空间中, 而不是原有的 GH Pages ?
+
+答案是肯定的, 虽然配置比较复杂:
+
+根据相关文档: 
+
+- 在 CF 中创建应用 token
+- 从 CF 中拿到对应关键 ID
+- 去 GH 配置环境变量, 来使用授权 token
+- 再增补 Actions 脚本, 改变最后的 `pages-action` 目标
+
+参考: [upd4cloudflare · duonb/duonb.org@47ef95d](https://github.com/duonb/duonb.org/commit/47ef95d0255111606b975860850d9798b21f941f)
+
+可惜, 依然有相似的错误,
+而且 CF Pages 文档也不少,
+继续挖掘进入更多细节来解决问题是否值得?
+
+
+### 通过 gh-pages 分支
+> 洗了个冷水澡, 重新捋一下...
+
+之所以, 对 CF Pages 服务有信心, 因为之前有项目,
+在本地用 Python 完成静态网站编译后, 通过 GH 仓库, 
+对接到 CF Pages 一下子就发布出来了,非常流畅;
+
+所以, 嘦不涉及具体的微服务器构建过程, 只是对静态网站进行发布 CF Pages 是完全没有问题的.
+
+而 Hugo 工程, 为了商业化界面, 还安装了各种复杂的 NodeJS 拓展,
+所以, Actions 过程比较长, 在本地都不一定部署的对;
+大家也是从 Theme 原型仓库抄来的 workflow 而已;
+
+那么, 问题就变成了, 如何将原先 GH Pages 发布成功的 Actions 脚本,
+改造为可以将编译出来的 HTML 成果, 不是直接发布到 GH Pages 中,
+而是放到一个可以再由 CF Pages 不进行任何其它处置, 直接复制使用的空间中呢?
+
+这种空间在哪儿?
+
+这时, 就想起来 GH Pages 当初没有 Actions 机制时,
+是约定 `gh-pages` 分支的, 
+也就是将编译的静态网站一定要放到特殊分支中,
+GH 后端其它服务才知道如何复制并发布;
+
+那么, 问题就变成, 如何将 Actions 脚本运行成果,直接推送到 `gh-pages` 分支中?
+
+追问了 GPT 获得以下类似步骤:
+
+```yaml
+      - name: Save generated site files
+        run: mv public ../public
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Copy built site to gh-pages branch
+        run: |
+          rm -rf *
+          mv ../public/* .
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy static site to gh-pages branch" || echo "No changes to commit"
+          git push origin gh-pages
+```
+
+哈,就是标准的 git 指令, 看来 `runs-on: ubuntu-22.04` 是内置 git 工具的;
+唯一的技巧不过是:
+
+- 为了合理每次都提交所有编译成果
+- 先将编译成果目录移动到当前工作目录以外
+- 然后,切换分支
+- 再将分支中当前所有内容删除
+- 最后将成果目录中所有内容复制回工作目录(已经是 gh-pages 分支)
+- 再用 git 提交推送回仓库
+
+先在 GH 仓库中观察新 Actions 是否能完成;
+
+然后, 回到 CF, 修订 Pages 配置, 不使用任何编译框架, 直接发布指定分支的所有内容;
+
+获得对应成果:
+
+- CF 渠道发布的:[DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation](https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/)
+-  对比原版: [DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation](https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/)
+
+
+
+### PS:
+> 小结
+
+前后三次尝试, 合算5+小时, 完成了迁移,
+虽然最后配置变更的不多,
+但是, 调试过程比较囧, 因为 Actions 不是编程环境,
+而是类似 Dockerfiles 的执行环境,
+每次修改, 无论是格式还是行为错误, 都只能通过
+[Workflow runs · duonb/duonb.org](https://github.com/duonb/duonb.org/actions)
+
+workflow 运行日志来观察, 根本无法实时观察运行期的各种输出;
+
+但是, Actions 毕竟是免费的, 内置的各种行为也非常稳健,
+在 GH 海量项目的持续使用过程中, 相比其它 PaaS 平台的类似服务要靠谱的多;
+
+值得深入理解和利用;
+
+当然,最靠谱的还是清晰的目标定义, 以及各种资源间关系的理解,
+这样, 才可能随时针对性提出方案, 并设计关键观察行为来检验;
+
+总之, 
+
+- GH Actions 值得薅
+- CF Pages 值得薅
+- 两种资源免费对接, 嘦通过一个普通的约定分支即可 ;-)
+
+## refer.
+
+[Cloudflare Pages documentation](https://developers.cloudflare.com/pages/)
+
+- [Hugo | Cloudflare Pages docs](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/)
+    - [Build configuration | Cloudflare Pages docs](https://developers.cloudflare.com/pages/configuration/build-configuration/)
+- [Deploy Your Personal Web\-Page With Hugo, Cloudflare and GitHub 100% For Free \| HackerNoon](https://hackernoon.com/deploy-your-personal-web-page-with-hugo-cloudflare-and-github-100percent-for-free)
+- [Simple Guide to Deploying Hugo Sites with GitHub Actions and Cloudflare Pages \| by Kyodo Tech \| Medium](https://medium.com/@kyodo-tech/simple-guide-to-deploying-hugo-sites-with-github-actions-and-cloudflare-pages-2a53ddfb7533)
+- ...
