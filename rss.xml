@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Wed, 16 Oct 2024 14:15:33 +0000</lastBuildDate><item><title>蟒周刊:24-32</title><link>https://zoomquiet.io/Pythonic/weekly/2024-32.md</link><description>Page 蟒周刊:24-32 - Last updated at 2024-10-16T14:15:12.365275+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/32&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Fri, 18 Oct 2024 11:28:03 +0000</lastBuildDate><item><title>蟒周刊:24-32</title><link>https://zoomquiet.io/Pythonic/weekly/2024-32.md</link><description>Page 蟒周刊:24-32 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/32&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/32
 Slug: pyrw-2432
 Date: 2024-08-12 10:42
@@ -298,7 +298,7 @@ Python 核心开发人员被停职三个月&lt;/a&gt;&lt;ul&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-32.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-33</title><link>https://zoomquiet.io/Pythonic/weekly/2024-33.md</link><description>Page 蟒周刊:24-33 - Last updated at 2024-10-16T14:15:12.365275+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/33&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-32.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-33</title><link>https://zoomquiet.io/Pythonic/weekly/2024-33.md</link><description>Page 蟒周刊:24-33 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/33&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/33
 Slug: pyrw-2433
 Date: 2024-08-19 10:42
@@ -715,7 +715,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-33.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-34</title><link>https://zoomquiet.io/Pythonic/weekly/2024-34.md</link><description>Page 蟒周刊:24-34 - Last updated at 2024-10-16T14:15:12.365275+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/34&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-33.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-34</title><link>https://zoomquiet.io/Pythonic/weekly/2024-34.md</link><description>Page 蟒周刊:24-34 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/34&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/34
 Slug: pyrw-2434
 Date: 2024-08-26 10:42
@@ -1052,7 +1052,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-34.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-35</title><link>https://zoomquiet.io/Pythonic/weekly/2024-35.md</link><description>Page 蟒周刊:24-35 - Last updated at 2024-10-16T14:15:12.365275+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/35&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-34.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-35</title><link>https://zoomquiet.io/Pythonic/weekly/2024-35.md</link><description>Page 蟒周刊:24-35 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/35&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/35
 Slug: pyrw-2435
 Date: 2024-09-02 11:42
@@ -1409,7 +1409,7 @@ Rust 编写的给 Python 专门使用的框架?&lt;/p&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-35.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-36</title><link>https://zoomquiet.io/Pythonic/weekly/2024-36.md</link><description>Page 蟒周刊:24-36 - Last updated at 2024-10-16T14:15:12.365275+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/36&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-35.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-36</title><link>https://zoomquiet.io/Pythonic/weekly/2024-36.md</link><description>Page 蟒周刊:24-36 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/36&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/36
 Slug: pyrw-2436
 Date: 2024-09-09 11:42
@@ -1734,7 +1734,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-36.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-37</title><link>https://zoomquiet.io/Pythonic/weekly/2024-37.md</link><description>Page 蟒周刊:24-37 - Last updated at 2024-10-16T14:15:12.365275+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/37&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-36.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-37</title><link>https://zoomquiet.io/Pythonic/weekly/2024-37.md</link><description>Page 蟒周刊:24-37 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/37&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/37
 Slug: pyrw-2437
 Date: 2024-09-16 11:42
@@ -2120,7 +2120,7 @@ Django ORM 之所以, 复杂, 主要精力都在这方面的事务上;&lt;/p&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-37.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-38</title><link>https://zoomquiet.io/Pythonic/weekly/2024-38.md</link><description>Page 蟒周刊:24-38 - Last updated at 2024-10-16T14:15:12.366276+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/38&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-37.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-38</title><link>https://zoomquiet.io/Pythonic/weekly/2024-38.md</link><description>Page 蟒周刊:24-38 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/38&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/38
 Slug: pyrw-2438
 Date: 2024-09-23 11:42
@@ -2468,7 +2468,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-38.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-39</title><link>https://zoomquiet.io/Pythonic/weekly/2024-39.md</link><description>Page 蟒周刊:24-39 - Last updated at 2024-10-16T14:15:12.366276+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/39&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-38.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-39</title><link>https://zoomquiet.io/Pythonic/weekly/2024-39.md</link><description>Page 蟒周刊:24-39 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/39&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/39
 Slug: pyrw-2439
 Date: 2024-09-29 11:42
@@ -2804,7 +2804,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-39.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-40</title><link>https://zoomquiet.io/Pythonic/weekly/2024-40.md</link><description>Page 蟒周刊:24-40 - Last updated at 2024-10-16T14:15:12.366276+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/40&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-39.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-40</title><link>https://zoomquiet.io/Pythonic/weekly/2024-40.md</link><description>Page 蟒周刊:24-40 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/40&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/40
 Slug: pyrw-2440
 Date: 2024-10-07 11:42
@@ -3172,7 +3172,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-40.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/2024-41.md</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-16T14:15:12.366276+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/41&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-40.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/2024-41.md</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/41&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/41
 Slug: pyrw-2441
 Date: 2024-10-14 11:42
@@ -3561,7 +3561,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-41.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>周刊</title><link>https://zoomquiet.io/Pythonic/weekly/README.md</link><description>Page 周刊 - Last updated at 2024-10-16T14:15:12.366276+00:00</description><content:encoded>&lt;h1&gt;周刊&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-41.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>周刊</title><link>https://zoomquiet.io/Pythonic/weekly/README.md</link><description>Page 周刊 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;周刊&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;各种来源的...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3573,7 +3573,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;p&gt;汇集各种渠道的周刊, 
 以及自己每周内省小结吧...&lt;/p&gt;
 &lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/README.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>首页</title><link>https://zoomquiet.io/./README.md</link><description>Page 首页 - Last updated at 2024-10-16T14:15:12.366276+00:00</description><content:encoded>&lt;h1&gt;首页&lt;/h1&gt;
+&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/README.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>首页</title><link>https://zoomquiet.io/./README.md</link><description>Page 首页 - Last updated at 2024-10-18T11:27:55.523954+00:00</description><content:encoded>&lt;h1&gt;首页&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;无数次迁移后...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3612,7 +3612,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;li&gt;240401 动念&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">./README.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>你好</title><link>https://zoomquiet.io/hello-world.md</link><description>Page 你好 - Last updated at 2024-10-16T14:15:12.370275+00:00</description><content:encoded>&lt;pre&gt;&lt;code&gt;Title: 你好，世界 
+&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">./README.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>你好</title><link>https://zoomquiet.io/hello-world.md</link><description>Page 你好 - Last updated at 2024-10-18T11:27:55.527954+00:00</description><content:encoded>&lt;pre&gt;&lt;code&gt;Title: 你好，世界 
 Date: 2013-08-09 
 Tags: md,hallo 
 Slug: hello-world 
@@ -3662,7 +3662,7 @@ import sys&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;140104 re-init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">hello-world.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item><item><title>大妈</title><link>https://zoomquiet.io/zoomquiet.md</link><description>Page 大妈 - Last updated at 2024-10-16T14:15:12.370275+00:00</description><content:encoded>&lt;h1&gt;大妈/ZoomQuiet 使用手册&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">hello-world.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item><item><title>大妈</title><link>https://zoomquiet.io/zoomquiet.md</link><description>Page 大妈 - Last updated at 2024-10-18T11:27:55.527954+00:00</description><content:encoded>&lt;h1&gt;大妈/ZoomQuiet 使用手册&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 大妈/ZoomQuiet 使用手册
 Date: 2013-11-17 10:42
 Modified: 2020-03-05 16:42
@@ -3824,4 +3824,4 @@ Uncaught ReferenceError: emojify is not defined (index):360&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;140107 init. the base info of zoomquiet.io&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">zoomquiet.md</guid><pubDate>Wed, 16 Oct 2024 14:15:12 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">zoomquiet.md</guid><pubDate>Fri, 18 Oct 2024 11:27:55 +0000</pubDate></item></channel></rss>

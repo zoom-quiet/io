@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>10.18 dvd_subtitle - ZoomQuiet.io</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../../favicon.svg">
+                        <link rel="shortcut icon" href="../../favicon.png">
+                <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+                <link rel="stylesheet" href="../../theme/pagetoc.css">
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">首页</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../zoomquiet.html">大妈</a></li><li class="chapter-item expanded "><a href="../../hello-world.html">你好</a></li><li class="chapter-item expanded "><a href="../../ANN/index.html">公告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../ANN/200302-ZQ42-ANN-NINAN.html">呢喃</a></li><li class="chapter-item "><a href="../../ANN/200222-ZQ42-ANN-historic.html">钩陈</a></li><li class="chapter-item "><a href="../../ANN/200222-ZQ42-ANN-IMHO.html">拙见</a></li><li class="chapter-item "><a href="../../ANN/200223-ZoomQuiet42-ANN-0-aaaagin.html">叕重新开始</a></li><li class="chapter-item "><a href="../../ANN/pressone.html">PRESSone</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">随想🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../IMHO/index.html">恕直</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../IMHO/241009deLark.html">别了Lark</a></li><li class="chapter-item "><a href="../../IMHO/devrel/index.html">DevRel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../IMHO/devrel/1970-01-01-ac1024-tech-community4chinese.html">中国技术社区研究/</a></li><li class="chapter-item "><a href="../../IMHO/devrel/2014-02-20-ac1-zq.html">什么是社区?</a></li><li class="chapter-item "><a href="../../IMHO/devrel/2014-02-27-ac2-tech-community.html">什么是技术社区?</a></li><li class="chapter-item "><a href="../../IMHO/devrel/2014-12-15-ac20-need-what.html">社区需要什么?</a></li></ol></li><li class="chapter-item "><a href="../../IMHO/240704-aigcxzh-genai101.html">AIGCx征文:俺这样用GenAI</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../IMHO/240717-aigcxzh-genai102.html">《我这样用GenAI》重构</a></li></ol></li><li class="chapter-item "><a href="../../IMHO/98chinese4internet.html">1998:探讨 信息化社会中 中国传统思想的作用</a></li></ol></li><li class="chapter-item expanded "><a href="../../MurMur/index.html">呢喃</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/241014.html">10.14 为毛Python?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240929.html">9.29 自我纠错?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240924.html">9.24 随心所欲?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240914.html">9.14 AI时代的学习</a></li><li class="chapter-item "><a href="../../MurMur/2024/240912.html">9.12 「开发者关系」</a></li><li class="chapter-item "><a href="../../MurMur/2024/240911.html">9.11 「社畜指标」</a></li><li class="chapter-item "><a href="../../MurMur/2024/240904.html">9.4 「人体电池」</a></li><li class="chapter-item "><a href="../../MurMur/2024/240903.html">9.3 枪包带</a></li><li class="chapter-item "><a href="../../MurMur/2024/240730.html">7.30 人类发展?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240727.html">7.27 高维撕裂</a></li><li class="chapter-item "><a href="../../MurMur/2024/240725.html">7.25 AI和教育产业</a></li><li class="chapter-item "><a href="../../MurMur/2024/240723.html">7.23 和高手差距..</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/240723+1.html">+1 开源安全AI?</a></li></ol></li><li class="chapter-item "><a href="../../MurMur/2024/240722.html">7.22 自由?</a></li><li class="chapter-item "><a href="../../MurMur/2024/240718.html">7.18 利他</a></li><li class="chapter-item "><a href="../../MurMur/2024/240717.html">7.17「抓娃娃」算了吧</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../MurMur/2024/240717-1.html">+1苹果和BSD</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../MurMur/2023/index.html">2023</a></li><li class="chapter-item "><a href="../../MurMur/2022/index.html">2022</a></li><li class="chapter-item "><a href="../../MurMur/2021/index.html">2021</a></li><li class="chapter-item "><a href="../../MurMur/2020/index.html">2020</a></li></ol></li><li class="chapter-item expanded "><a href="../../OldTouch/index.html">钩陈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../OldTouch/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../OldTouch/2024/241011-funny-court.html">10.11 友好的法院?</a></li></ol></li><li class="chapter-item "><a href="../../OldTouch/jekyll2pelican.html">Jekyll 转进 Pelican</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">折腾🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../Pythonic/index.html">蟒样</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../Pythonic/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../Pythonic/2024/241016-dvd_subtitle.html" class="active">10.18 dvd_subtitle</a></li><li class="chapter-item "><a href="../../Pythonic/2024/241015-rss-app-x.html">10.15 RSS4X</a></li><li class="chapter-item "><a href="../../Pythonic/2024/1014-cf-pages.html">10.14 迁移 gh-pages 到 Cloudflare</a></li><li class="chapter-item "><a href="../../Pythonic/2024/241011-mov-sub.html">10.11 电影字幕</a></li></ol></li><li class="chapter-item "><a href="../../Pythonic/weekly/index.html">周刊</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../Pythonic/weekly/2024-41.html">蟒周刊:24-41</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-40.html">蟒周刊:24-40</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-39.html">蟒周刊:24-39</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-38.html">蟒周刊:24-38</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-37.html">蟒周刊:24-37</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-36.html">蟒周刊:24-36</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-35.html">蟒周刊:24-35</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-34.html">蟒周刊:24-34</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-33.html">蟒周刊:24-33</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-32.html">蟒周刊:24-32</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-31.html">蟒周刊:24-31</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-30.html">蟒周刊:24-30</a></li><li class="chapter-item "><a href="../../Pythonic/weekly/2024-29.html">蟒周刊:24-29</a></li><li class="spacer"></li></ol></li></ol></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">ZoomQuiet.io</h1>
+
+                    <div class="right-buttons">
+                                                                        <a href="https://github.com/zoom-quiet/io" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <!-- Page table of contents -->
+                        <div class="sidetoc"><nav class="pagetoc"></nav></div>
+
+                        <h1 id="古老的-dvd_subtitle"><a class="header" href="#古老的-dvd_subtitle">古老的 dvd_subtitle</a></h1>
+<blockquote>
+<p>如何将 dvd_subtitle 转换为 .srt</p>
+</blockquote>
+<h2 id="background"><a class="header" href="#background">background</a></h2>
+<p>忽然被 <code>1994 爱情全垒打 ヒーローインタビュー</code> 中
+<strong>铃木保奈美</strong> 触发了总回忆,
+好容易找到一个 VCD 画质的资源:</p>
+<pre><code>1997.谎言谎言来来来Lie lie Lie
+</code></pre>
+<p>可是, 打开看是英文字幕, 必须想办法自行转换一下;</p>
+<pre><code>$ ffmpeg -i Lie.lie.Lie.1997.mkv -map 0:s:0 sub.srt
+</code></pre>
+<p>结果:</p>
+<pre><code>...
+
+    Stream #0:1(jpn): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+    Stream #0:2(eng): Subtitle: dvd_subtitle, 720x480 (default)
+Stream mapping:
+  Stream #0:2 -&gt; #0:0 (dvd_subtitle (dvdsub) -&gt; subrip (srt))
+Subtitle encoding currently only possible from text to text or bitmap to bitmap
+</code></pre>
+<p>也就是 dvdsub 和 srt 不是同一国, 无法直接提取;</p>
+<h2 id="goal"><a class="header" href="#goal">goal</a></h2>
+<p>和 GPT 奶奶了半天, 才明白:</p>
+<ul>
+<li>dvd_subtitle 是古老的 VDV 字幕</li>
+<li>不包含文本</li>
+<li>其实就是一张张透明底色的文字图片</li>
+<li>在播放时, 一帧帧叠加到视频流中的</li>
+</ul>
+<p>所以, 必须想办法转换为 .srt 也就是包含时间戳以及英文文本的字幕,
+这样才能使用 <code>沉浸式翻译</code> 提供的字幕翻译服务,变成中文;</p>
+<h2 id="logging"><a class="header" href="#logging">logging</a></h2>
+<p>配合搜索引擎和各种大模型聊了半天,基本明确几个姿势:</p>
+<ul>
+<li>用 FFmpeg 先从视频中提取 dvdsub 字幕</li>
+<li>然后:
+<ul>
+<li>使用专用软件完成转换</li>
+<li>还是用 FFmpeg 将每个字幕帧转换为图片, 再用 OCR 工具逐一识别, 最后想办法拼为 .srt</li>
+<li>找免费的在线服务进行转换</li>
+</ul>
+</li>
+</ul>
+<p>可一开始就是坑:</p>
+<h3 id="dvdsub"><a class="header" href="#dvdsub">dvdsub</a></h3>
+<blockquote>
+<p>虽然知道这是种什么数据流了, 但是, 怎么提取?</p>
+</blockquote>
+<p>尝试出可用的指令:</p>
+<pre><code>$ ffmpeg -i Lie.lie.Lie.1997.mkv -map 0:2 -c copy sub2.vob
+</code></pre>
+<p>可以观察到真的是一帧帧提取:</p>
+<pre><code>...
+[svcd @ 0x7faa1400b400] buffer underflow st=0 bufi=0 size=1598
+[svcd @ 0x7faa1400b400] buffer underflow st=0 bufi=0 size=1440
+[svcd @ 0x7faa1400b400] buffer underflow st=0 bufi=0 size=1566
+size=    5550kB time=02:00:40.29 bitrate=   6.3kbits/s speed=1.18e+03x
+video:0kB audio:0kB subtitle:3935kB other streams:0kB global headers:0kB muxing overhead: 41.0
+</code></pre>
+<p>获得 <code>sub.vob</code> 有6Mb 左右,
+可问题是各种搜索结果中, 都是对 <code>.sub+.idx</code> 这么一对字幕进行转换的;</p>
+<p>没办法安装了 <code>mkvtoolnix</code></p>
+<pre><code>==&gt; mkvtoolnix: stable 87.0 (bottled), HEAD
+Matroska media files manipulation tools
+https://mkvtoolnix.download/
+Installed
+/opt/homebrew/Cellar/mkvtoolnix/87.0 (42 files, 24MB) *
+  Poured from bottle using the formulae.brew.sh API on 2024-10-18 at 16:46:54
+From: https://mirrors.ustc.edu.cn/homebrew-core.git/Formula/m/mkvtoolnix.rb
+License: GPL-2.0-or-later
+</code></pre>
+<p>使用以下指令:</p>
+<pre><code> $ mkvextract tracks Lie.lie.Lie.1997.mkv 2:sub.srt
+Extracting track 2 with the CodecID 'S_VOBSUB' to the file 'sub.sub'. Container format: VobSubs
+Writing the VobSub index file 'sub.idx'.
+Progress: 100%
+</code></pre>
+<p>获得 <code>sub.sub</code> 以及 <code>sub.idx</code></p>
+<h3 id="subtitle-edit-cli"><a class="header" href="#subtitle-edit-cli">Subtitle Edit CLI</a></h3>
+<blockquote>
+<p>Windows only</p>
+</blockquote>
+<p>这是个世界知名的开源字幕工具,
+可惜只支持 windows ,
+在 macOS 中, 原先可以通过 wine 进行调用 <code>.exe</code>;
+可惜, 进入 M1 的 arm 体系后, wine 没跟上,
+反复尝试, 都无法在当前环境中运行成功:</p>
+<pre><code>𝄢 neofetch 
+                    'c.          zoomq@ZQ160626rMBP 
+                 ,xNMM.          ------------------ 
+               .OMMMMo           OS: macOS Big Sur 10.16 24A348 arm64 
+               OMMM0,            Host: MacBookPro18,4 
+     .;loddo:' loolloddol;.      Kernel: 24.0.0 
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 13 days, 10 hours, 32 mins 
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 415 (brew) 
+ XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: bash 5.2.32 
+;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 2048x1280, 1440x2560, 3360x1890 
+:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua 
+.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Spectacle 
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.    Terminal: vscode 
+ .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   CPU: Apple M1 Max 
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   GPU: Apple M1 Max 
+    kMMMMMMMMMMMMMMMMMMMMMMd     Memory: 11942MiB / 65536MiB 
+     ;KMMMMMMMWXXWMMMMMMMk.
+       .cooc,.    .,coo:.                                
+                                                         
+</code></pre>
+<p>只能放弃;</p>
+<h3 id="ocr-识别"><a class="header" href="#ocr-识别">OCR 识别?</a></h3>
+<p>然后, 要一些编程支持的:</p>
+<ul>
+<li>用 FFmpeg 从 .sub+.idx 中将字幕提取为一张张图片</li>
+<li>然后, 使用 OCR 工具逐一识别,</li>
+<li>再用 Pyuthon 拼回来</li>
+</ul>
+<p>当然, 同时还得解决时间戳的问题, LLMa 们建议:</p>
+<pre><code>ffmpeg -i sub.vob -vf &quot;select='gt(scene,0.4)',scale=iw*2:ih*2&quot; -vsync vfr frame_%04d.png -f csv timecodes.csv
+</code></pre>
+<p>可以同时提取位图字幕及时间戳;
+生成的 .csv 中包含对应关系, 比如:</p>
+<pre><code class="language-csv">0,0,0,00000001,1,frame_0001.png
+0,0,24.008000,00000002,1,frame_0002.png
+0,0,48.016000,00000003,1,frame_0003.png
+...
+</code></pre>
+<p>然后, 用 <code>tesseract</code> OCR 识别字幕:</p>
+<pre><code class="language-bash">tesseract frame_0001.png frame_0001
+tesseract frame_0002.png frame_0002
+...
+</code></pre>
+<p>想生成最终的 .srt 格式:</p>
+<pre><code>1
+00:00:00,000 --&gt; 00:00:05,000
+This is the first subtitle.
+
+2
+00:00:05,000 --&gt; 00:00:10,000
+This is the second subtitle.
+</code></pre>
+<p>简单的 Python 脚本即可:</p>
+<pre><code class="language-python">import csv
+from datetime import timedelta
+
+def seconds_to_srt_time(seconds):
+    td = timedelta(seconds=float(seconds))
+    return str(td)[:-3].replace('.', ',')
+
+with open('timecodes.csv', newline='') as csvfile:
+    reader = csv.reader(csvfile)
+    subtitles = []
+    
+    prev_time = 0
+    index = 1
+    for row in reader:
+        start_time = row[2]  # 获取字幕开始时间
+        end_time = prev_time  # 使用上一个时间戳作为当前字幕的结束时间
+        prev_time = start_time
+        
+        # 读取对应的OCR文本
+        frame_file = row[5].replace('.png', '.txt')
+        with open(frame_file, 'r') as f:
+            subtitle_text = f.read().strip()
+        
+        # 生成SRT格式的时间戳
+        start_srt = seconds_to_srt_time(start_time)
+        end_srt = seconds_to_srt_time(float(start_time) + 5)  # 默认5秒作为字幕的持续时间
+        
+        subtitles.append(f&quot;{index}\n{start_srt} --&gt; {end_srt}\n{subtitle_text}\n&quot;)
+        index += 1
+
+# 写入SRT文件
+with open('output.srt', 'w') as srtfile:
+    srtfile.writelines(subtitles)
+
+print(&quot;SRT字幕文件已生成：output.srt&quot;)
+
+</code></pre>
+<p>一切很看起来很可用的哈, 只是:</p>
+<pre><code>...
+    Output file #0 does not contain any stream
+</code></pre>
+<p>第一步怎么也无法成功, 无论尝试从 .vob 还是从 <code>.sub+.idx</code> 都不行...</p>
+<h3 id="在线服务"><a class="header" href="#在线服务">在线服务</a></h3>
+<blockquote>
+<p>最后只好找免费服务</p>
+</blockquote>
+<p>果然有, 毕竟在 DVD 时代这种工具在各种视频网站后台都是成熟的,</p>
+<p>subtitletools,subconverter 都有在线界面,
+提交 .sub 以及 .idx 等一会儿, 就能下载到对应的 .srt;</p>
+<p>然后, 一切不是问题;-)</p>
+<h2 id="refer"><a class="header" href="#refer">refer.</a></h2>
+<p><a href="https://ffmpeg.org/documentation.html">FFmpeg Documentation</a></p>
+<ul>
+<li><a href="https://github.com/SubtitleEdit/subtitleedit/tree/4.0.8">SubtitleEdit/subtitleedit at 4.0.8</a> .. Windows only</li>
+<li>在线服务:
+<ul>
+<li><a href="https://subtitletools.com/convert-sub-idx-to-srt-online">subtitletools.com</a></li>
+<li><a href="https://subconverter.com/convert-sub-idx-to-srt-online">subconverter.com</a></li>
+</ul>
+</li>
+<li><a href="https://askubuntu.com/questions/1061147/convert-sub-idx-to-srt">software recommendation - Convert Sub/Idx to Srt - Ask Ubuntu</a>
+<ul>
+<li><a href="https://github.com/ruediger/VobSub2SRT">ruediger/VobSub2SRT: Converts VobSub subtitles (.idx/.srt format) into .srt subtitles.</a></li>
+</ul>
+</li>
+<li><a href="https://app.immersivetranslate.com/?utm_source=extension&amp;utm_medium=extension&amp;utm_campaign=popup_btn_document">沉浸式翻译 - 文档双语翻译 ： 一键翻译 PDF， ePub 电子书，字幕文件，txt文件</a></li>
+</ul>
+<h2 id="tracing"><a class="header" href="#tracing">tracing</a></h2>
+<ul>
+<li>241018 DAMA init.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../../Pythonic/2024/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../../Pythonic/2024/241015-rss-app-x.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../../Pythonic/2024/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../../Pythonic/2024/241015-rss-app-x.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+                <script src="../../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        
+                <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+                <script type="text/javascript" src="../../theme/pagetoc.js"></script>
+        
+        
+
+
+    <hr />
+
+    <p style="text-align:center">
+
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议"
+                style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可;-)
+|| <a href="/rss.xml"><b>RSS</b></a>
+    </p>
+
+    <hr />
+
+<script src="https://utteranc.es/client.js"
+        repo="zoom-quiet/comments"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+
+    </body>
+</html>
