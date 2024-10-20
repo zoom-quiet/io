@@ -1,5 +1,304 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Oct 2024 03:09:49 +0000</lastBuildDate><item><title>蟒周刊:24-33</title><link>https://zoomquiet.io/Pythonic/weekly/2024-33.md</link><description>Page 蟒周刊:24-33 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/33&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Oct 2024 03:13:46 +0000</lastBuildDate><item><title>蟒周刊:24-32</title><link>https://zoomquiet.io/Pythonic/weekly/2024-32.md</link><description>Page 蟒周刊:24-32 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/32&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/32
+Slug: pyrw-2432
+Date: 2024-08-12 10:42
+Tags: Weekly,Python,recap,discu_eu,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python包安装到哪里了？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/32/"&gt;Python recap for week 2024/32 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;240812 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;240812 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://moyix.blogspot.com/2022/09/someones-been-messing-with-my-subnormals.html"&gt;有人搞乱了 Python 的浮点次正规数&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://moyix.blogspot.com/2022/09/someones-been-messing-with-my-subnormals.html"&gt;349 评论 in 6 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.codingconfessions.com/p/are-function-calls-still-slow-in-python"&gt;Python 中的函数调用仍然很慢吗？ CPython 近期优化分析&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://blog.codingconfessions.com/p/are-function-calls-still-slow-in-python"&gt;182 评论 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在功能稳定后, 性能的提高, Python 可以直接使用 C/C++ 领域积累的丰富经验...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.pixelstech.net/article/1702794038-Where-Have-You-Installed-Your-Python-Packages"&gt;你的Python包安装在哪里了？&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.pixelstech.net/article/1702794038-Where-Have-You-Installed-Your-Python-Packages"&gt;149 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;和 &lt;code&gt;如何退出 vim&lt;/code&gt; 一样,
+成为最经典 FAQ 了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://fastpages.fast.ai/fastcore/"&gt;Fastcore: 一个被低估的 Python 库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://fastpages.fast.ai/fastcore/"&gt;91 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gauge.sh/blog/python-extensions-should-be-lazy"&gt;Python 扩展应该是惰性的&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.gauge.sh/blog/python-extensions-should-be-lazy"&gt;66 评论 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;fast.ai 团队内部最佳实践的凝结&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250"&gt;Three month suspension for Python core developer
+Python 核心开发人员被停职三个月&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250"&gt;39 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://choreo.dev/"&gt;React+Django 的托管选项&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://choreo.dev/"&gt;38 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://forms.gle/ZG99oqZsEWohmzK88"&gt;正在构建 Django Boilerplate 代码平台，以在开发 Django 项目时节省大量时间。&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://forms.gle/ZG99oqZsEWohmzK88"&gt;35 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.django-rest-framework.org/tutorial/quickstart/#urls"&gt;Django REST 如何更改 URL 路径&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.django-rest-framework.org/tutorial/quickstart/%23urls"&gt;30 评论 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.theregister.com/2024/08/09/core_python_developer_suspended_coc/"&gt;核心Python开发人员被停职三个月&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.theregister.com/2024/08/09/core_python_developer_suspended_coc/"&gt;25 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...行为包括指控帖子制造“FUD 氛围”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;嗯哼? 随着社区的活跃增强, 内部思想的分裂也进一步触发?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.philipzucker.com/state_o_knuck/"&gt;Knuckledragger, 半自动 Python 证明助手&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.philipzucker.com/state_o_knuck/"&gt;24 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://marginaleffects.com/"&gt;Marginal Effects Zoo – 如何解释 R 和 Python 中的统计模型&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://marginaleffects.com/"&gt;20 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/"&gt;Python 3.5 中的 async/await 到底是如何工作的？ (2016)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/"&gt;20 评论 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.grulic.org.ar/~mdione/glob/posts/writing-a-tile-server-in-python/"&gt;用 Python 编写tile服务器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.grulic.org.ar/~mdione/glob/posts/writing-a-tile-server-in-python/"&gt;18 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;每当开始用 Python 解决具体问题时,
+总是可以立即开始, 然后在数量达到一定程度时发现问题,
+并进一步发现更多可用方案...
+直到发现越来越复杂时, 原来 twisted 之类上古神器早已解决了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.djangoproject.com/weblog/2024/aug/07/django-51-released/"&gt;Django 5.1 发布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.djangoproject.com/weblog/2024/aug/07/django-51-released/"&gt;22 评论 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/bnkc/emval"&gt;emval: 以 1000 倍的速度验证电子邮件地址。&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/bnkc/emval"&gt;71 评论 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一个锈化的组件&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Dicklesworthstone/visual_astar_python"&gt;Show HN: Python 中的 Visual A* 寻路和迷宫生成&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/Dicklesworthstone/visual_astar_python"&gt;38 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oxytannOxy/oxyPasswords"&gt;密码管理器是我的第一个 python 项目..&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/oxytannOxy/oxyPasswords"&gt;32 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;应该是没人敢用的了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mraza007/python-file-analyzer"&gt;简单的实用程序脚本，可让您分析 Python 文件&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/mraza007/python-file-analyzer"&gt;22 评论 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/merwin-asm/SlickRecorder"&gt;用于 Linux 的 Slick n 轻量级屏幕录像机！具有一些很酷的功能：]&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/merwin-asm/SlickRecorder"&gt;16 评论 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;依赖 FFmpeg+PulseAudio 怎么也算不上轻量了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Gl0deanR/create-flask-app"&gt;为 Flask 应用程序制作了一个名为 Create Flask App 的快速启动模板&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/Gl0deanR/create-flask-app"&gt;13 评论 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dominiquedes/flashcardgenerator"&gt;Flashcard Generator&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/dominiquedes/flashcardgenerator"&gt;5 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;自动将 PPTX/PDF 的内容提取为 .txt 以便发布为 blog&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://github.com/ultrachip/cog"&gt;Chip的海洋游戏：模拟一群 NPC 探索海洋的软件玩具/实验&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/http://github.com/ultrachip/cog"&gt;4 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/K-dash/flake8-import-guard"&gt;Flake8 Import Guard: 在 Python 项目中自动执行导入限制检查&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/K-dash/flake8-import-guard"&gt;2 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rocktimsaikia/cambd"&gt;cambd: 带有拼写错误单词建议功能的 cli 词典应用程序&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/rocktimsaikia/cambd"&gt;2 评论 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;问题在是否兼容原先各种平台中各种开源辞典的词库文件加载了;
+比如:langdao-ce-gb.dictionary.zip&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=GwqfsTAgdWA"&gt;Guido van Rossum: Python 背后的思想 – 技术创新者系列&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼, 只有证明了自己后, 才可能开始这种思想回顾,
+否则, 无论你的思想多先进也没人愿意讨论...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/issue/issue-589.html"&gt;PyCoder 589&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-537.html"&gt;PyCoder 537&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-485.html"&gt;Issue 485&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-512.html"&gt;pythonista-weekly : Pyw 512&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-433.html"&gt;Issue 433&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-462.html"&gt;pythonista-weekly : Pyw 462&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-340.html"&gt;Issue 340&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-183.html"&gt;蠎加载 183&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-137.html"&gt;蠎加载 137&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-85.html"&gt;蠎加载 85&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-178.html"&gt;Issue 178&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-127.html"&gt;Issue 127&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: 空缺&lt;/li&gt;
+&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-26.html"&gt;Issue 26&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zoomquiet.substack.com/"&gt;Zoom.Quiet’s Chaos42 \| Substack&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;古早:新闻组式写作&lt;/li&gt;
+&lt;li&gt;欢迎订阅, 包含当前周刊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;``
+            _~&lt;/code&gt;&amp;amp;`~&lt;em&gt;
+        () /  ^ ♡  \ \/
+          '&lt;/em&gt;   ⎵   _'
+          ( '--+--' &amp;lt;&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2432.html"&gt;2024/32 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/blob/maste10content2pyrecap/pyrw-2432.md"&gt;pyrw-2432.md&lt;/a&gt;
+7&amp;gt; Happy Pythoning!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;1/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)
+公开社群: 蟒营 (订阅号: Mainium)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-32.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-33</title><link>https://zoomquiet.io/Pythonic/weekly/2024-33.md</link><description>Page 蟒周刊:24-33 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/33&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/33
 Slug: pyrw-2433
 Date: 2024-08-19 10:42
@@ -416,7 +715,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-33.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-34</title><link>https://zoomquiet.io/Pythonic/weekly/2024-34.md</link><description>Page 蟒周刊:24-34 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/34&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-33.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-34</title><link>https://zoomquiet.io/Pythonic/weekly/2024-34.md</link><description>Page 蟒周刊:24-34 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/34&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/34
 Slug: pyrw-2434
 Date: 2024-08-26 10:42
@@ -753,7 +1052,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-34.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-35</title><link>https://zoomquiet.io/Pythonic/weekly/2024-35.md</link><description>Page 蟒周刊:24-35 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/35&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-34.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-35</title><link>https://zoomquiet.io/Pythonic/weekly/2024-35.md</link><description>Page 蟒周刊:24-35 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/35&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/35
 Slug: pyrw-2435
 Date: 2024-09-02 11:42
@@ -1110,7 +1409,7 @@ Rust 编写的给 Python 专门使用的框架?&lt;/p&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-35.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-36</title><link>https://zoomquiet.io/Pythonic/weekly/2024-36.md</link><description>Page 蟒周刊:24-36 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/36&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-35.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-36</title><link>https://zoomquiet.io/Pythonic/weekly/2024-36.md</link><description>Page 蟒周刊:24-36 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/36&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/36
 Slug: pyrw-2436
 Date: 2024-09-09 11:42
@@ -1435,7 +1734,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-36.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-37</title><link>https://zoomquiet.io/Pythonic/weekly/2024-37.md</link><description>Page 蟒周刊:24-37 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/37&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-36.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-37</title><link>https://zoomquiet.io/Pythonic/weekly/2024-37.md</link><description>Page 蟒周刊:24-37 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/37&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/37
 Slug: pyrw-2437
 Date: 2024-09-16 11:42
@@ -1821,7 +2120,7 @@ Django ORM 之所以, 复杂, 主要精力都在这方面的事务上;&lt;/p&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-37.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-38</title><link>https://zoomquiet.io/Pythonic/weekly/2024-38.md</link><description>Page 蟒周刊:24-38 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/38&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-37.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-38</title><link>https://zoomquiet.io/Pythonic/weekly/2024-38.md</link><description>Page 蟒周刊:24-38 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/38&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/38
 Slug: pyrw-2438
 Date: 2024-09-23 11:42
@@ -2169,7 +2468,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-38.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-39</title><link>https://zoomquiet.io/Pythonic/weekly/2024-39.md</link><description>Page 蟒周刊:24-39 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/39&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-38.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-39</title><link>https://zoomquiet.io/Pythonic/weekly/2024-39.md</link><description>Page 蟒周刊:24-39 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/39&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/39
 Slug: pyrw-2439
 Date: 2024-09-29 11:42
@@ -2505,7 +2804,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-39.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-40</title><link>https://zoomquiet.io/Pythonic/weekly/2024-40.md</link><description>Page 蟒周刊:24-40 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/40&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-39.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-40</title><link>https://zoomquiet.io/Pythonic/weekly/2024-40.md</link><description>Page 蟒周刊:24-40 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/40&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/40
 Slug: pyrw-2440
 Date: 2024-10-07 11:42
@@ -2873,7 +3172,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-40.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/2024-41.md</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/41&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-40.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/2024-41.md</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/41&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/41
 Slug: pyrw-2441
 Date: 2024-10-14 11:42
@@ -3262,7 +3561,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-41.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>周刊</title><link>https://zoomquiet.io/Pythonic/weekly/README.md</link><description>Page 周刊 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;周刊&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/2024-41.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>周刊</title><link>https://zoomquiet.io/Pythonic/weekly/README.md</link><description>Page 周刊 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;周刊&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;各种来源的...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3274,18 +3573,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;p&gt;汇集各种渠道的周刊, 
 以及自己每周内省小结吧...&lt;/p&gt;
 &lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/README.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>蟒样</title><link>https://zoomquiet.io/Pythonic/README.md</link><description>Page 蟒样 - Last updated at 2024-10-20T03:09:40.848812+00:00</description><content:encoded>&lt;h1&gt;蟒样&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;技术猜想....&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;
-&lt;h2&gt;goal&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;
-&lt;h2&gt;trac&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/README.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>首页</title><link>https://zoomquiet.io/./README.md</link><description>Page 首页 - Last updated at 2024-10-20T03:09:40.852812+00:00</description><content:encoded>&lt;h1&gt;首页&lt;/h1&gt;
+&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/README.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>首页</title><link>https://zoomquiet.io/./README.md</link><description>Page 首页 - Last updated at 2024-10-20T03:13:38.067616+00:00</description><content:encoded>&lt;h1&gt;首页&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;无数次迁移后...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3324,7 +3612,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;li&gt;240401 动念&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">./README.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>你好</title><link>https://zoomquiet.io/hello-world.md</link><description>Page 你好 - Last updated at 2024-10-20T03:09:40.856812+00:00</description><content:encoded>&lt;pre&gt;&lt;code&gt;Title: 你好，世界 
+&lt;p&gt;...TBD&lt;/p&gt;</content:encoded><guid isPermaLink="false">./README.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>你好</title><link>https://zoomquiet.io/hello-world.md</link><description>Page 你好 - Last updated at 2024-10-20T03:13:38.071616+00:00</description><content:encoded>&lt;pre&gt;&lt;code&gt;Title: 你好，世界 
 Date: 2013-08-09 
 Tags: md,hallo 
 Slug: hello-world 
@@ -3374,7 +3662,7 @@ import sys&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;140104 re-init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">hello-world.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item><item><title>大妈</title><link>https://zoomquiet.io/zoomquiet.md</link><description>Page 大妈 - Last updated at 2024-10-20T03:09:40.856812+00:00</description><content:encoded>&lt;h1&gt;大妈/ZoomQuiet 使用手册&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">hello-world.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item><item><title>大妈</title><link>https://zoomquiet.io/zoomquiet.md</link><description>Page 大妈 - Last updated at 2024-10-20T03:13:38.071616+00:00</description><content:encoded>&lt;h1&gt;大妈/ZoomQuiet 使用手册&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 大妈/ZoomQuiet 使用手册
 Date: 2013-11-17 10:42
 Modified: 2020-03-05 16:42
@@ -3536,4 +3824,4 @@ Uncaught ReferenceError: emojify is not defined (index):360&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;140107 init. the base info of zoomquiet.io&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">zoomquiet.md</guid><pubDate>Sun, 20 Oct 2024 03:09:40 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">zoomquiet.md</guid><pubDate>Sun, 20 Oct 2024 03:13:38 +0000</pubDate></item></channel></rss>
