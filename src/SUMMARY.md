@@ -66,6 +66,7 @@
       + [10.14 迁移 gh-pages 到 Cloudflare](Pythonic/2024/241014-cf-pages.md)
       + [10.11 电影字幕](Pythonic/2024/241011-mov-sub.md)
     + [周刊](Pythonic/weekly/README.md)
+        + [蟒周刊:24-42](Pythonic/weekly/2024-42.md)
         + [蟒周刊:24-41](Pythonic/weekly/2024-41.md)
         + [蟒周刊:24-40](Pythonic/weekly/2024-40.md)
         + [蟒周刊:24-39](Pythonic/weekly/2024-39.md)
