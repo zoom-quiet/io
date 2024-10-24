@@ -27,6 +27,7 @@
     + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/98chinese4internet.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/2024/README.md)
+        + [10.24 深挖开源...](MurMur/2024/241024.md)
         + [10.23 BTC电热炉](MurMur/2024/241023.md)
         + [10.20 memecoin?](MurMur/2024/241020.md)
         + [10.14 为毛Python?](MurMur/2024/241014.md)
