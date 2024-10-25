@@ -1,17 +1,14 @@
-Title: KnewOne-talk 之 大妈 篇
-Date: 2014-12-23 23:23
-Tags: MAC,Livin,Zoomq
-Slug: knewone-talk-zoomq-choise
-
-[TOC]
-
+    Title: KnewOne-talk 之 大妈 篇
+    Date: 2014-12-23 23:23
+    Tags: MAC,Livin,Zoomq
+    Slug: knewone-talk-zoomq-choise
 
 ~ KnewOne talk question list
  
-##分享你的生活方式
+## 分享你的生活方式
 整体上,俺是一头程序猿,所以,,,
 
-###1 自我介绍和介绍自己的工作/擅长的领域,允许给自己打广告~
+### 1 自我介绍和介绍自己的工作/擅长的领域,允许给自己打广告~
 ![Zoom.Quiet PyChina.org | 蠎中国社区](http://pychina.org/volunteer/zoomquiet.html)
 
 - Python中文社区创始人(之一) / 管理员, 热心于 Python 等等社区的公益事业, 大家熟知的社区"[大妈](http://wiki.woodpecker.org.cn/moin/ZoomQuietAbt)";
@@ -28,7 +25,7 @@ Slug: knewone-talk-zoomq-choise
     + `#每天都被老婆打`
     + 等等流行标签倡导者
 
-###2 工作时都装备了哪些东西?说说体验. (电子设备,工作环境等)
+### 2 工作时都装备了哪些东西?说说体验. (电子设备,工作环境等)
 坐班时:
 
 - MBP 主力工作界面
@@ -65,7 +62,7 @@ Slug: knewone-talk-zoomq-choise
 - TP-LINK WR702n mini AP ~ 用来替代酒店的样子 wifi 
 
 
-###3 除了工作的兴趣爱好?装备/钟爱哪些产品?体验如何?
+### 3 除了工作的兴趣爱好?装备/钟爱哪些产品?体验如何?
 
 主要兴趣:
 
@@ -96,7 +93,7 @@ Slug: knewone-talk-zoomq-choise
     + 这一组合,一用,就再也丢不了了,,,
     + 唯一问题就是 LAMY safari 有点粗,夹在本子中有点伤,但是,因为是横版 A6 幅面,很难找到合适妥贴的外挂形式,,,继续寻找中.
 
-###4 近期内最想要什么产品?或者在关注的事物?
+### 4 近期内最想要什么产品?或者在关注的事物?
 
 长期口水,但是,老婆不给预算的:
 

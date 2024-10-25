@@ -3,7 +3,7 @@ import os
 import re
 import sys
 from pprint import pprint as pp
-from datetime import datetime,timezone
+from datetime import datetime, timezone, timedelta 
 
 from feedgen.feed import FeedGenerator
 import markdown
@@ -78,7 +78,7 @@ def ver(c):
 
 
 @task
-def gen(c):
+def gen(c,limitmes=7):
     """echo crt. verions"""
 
     # 1. 定义网站 URL 和 SUMMARY.md 文件位置
@@ -110,36 +110,56 @@ def gen(c):
         # 处理相对路径，生成完整的页面 URL
         page_url = os.path.join(base_url, relative_path).replace('\\', '/')
         file_path = os.path.join('./src', relative_path).replace('\\', '/')
-
-        # 获取文件的最后修改时间并转换为 UTC 时间
-        if os.path.exists(file_path):
-            modified_time = os.path.getmtime(file_path)
-            published_time = datetime.fromtimestamp(modified_time, timezone.utc)
-        else:
-            # 如果文件不存在，使用当前时间作为默认时间
-            #published_time = datetime.now(timezone.utc)        
+        #LOG.info(f"page_url:{page_url}")
+        #LOG.info(f".md:{page_url.split('/')[-1]}")
+        _mdfile = page_url.split('/')[-1]
+        if _mdfile == "README.md":
+            LOG.info(f"IGNORE README.md")
             continue
+        elif len(_mdfile) <= 11:
+            LOG.info(f"IGNORE file name too short")
+            continue
+        elif _mdfile[:8].isdigit():
+            LOG.info(f"continue to parse:{_mdfile}")
+            published_time = datetime.strptime(_mdfile[:8], "%Y%m%d")
+            # 设置时区为北京时间 (UTC+8)
+            beijing_timezone = timezone(timedelta(hours=8))
+            published_time = published_time.replace(tzinfo=beijing_timezone)
 
-        with open(file_path, 'r', encoding='utf-8') as md_file:
-            markdown_content = md_file.read()
-        # 使用 markdown 库将 Markdown 转换为 HTML
-        html_content = markdown.markdown(markdown_content)
+            with open(file_path, 'r', encoding='utf-8') as md_file:
+                markdown_content = md_file.read()
+            # 使用 markdown 库将 Markdown 转换为 HTML
+            html_content = markdown.markdown(markdown_content)
+
+            # 将条目信息存入字典
+            entry_data = {
+                'id': relative_path,
+                'title': title,
+                'link': page_url,
+                'published': published_time,
+                'description': f'Page {title} - Last updated at {published_time.isoformat()}',
+                'content': html_content,
+            }
             
-        # 将条目信息存入字典
-        entry_data = {
-            'id': relative_path,
-            'title': title,
-            'link': page_url,
-            'published': published_time,
-            'description': f'Page {title} - Last updated at {published_time.isoformat()}',
-            'content': html_content,
-        }
-        
-        # 将条目添加到列表中
-        entries.append(entry_data)
+            # 将条目添加到列表中
+            entries.append(entry_data)
 
+        else:
+            LOG.info(f"IGNORE all OTHERS files")
+            continue
+    
+        ## 获取文件的最后修改时间并转换为 UTC 时间
+        #if os.path.exists(file_path):
+        #    modified_time = os.path.getmtime(file_path)
+        #    published_time = datetime.fromtimestamp(modified_time, timezone.utc)
+        #else:
+        #    # 如果文件不存在，使用当前时间作为默认时间
+        #    #published_time = datetime.now(timezone.utc)        
+        #    continue
+
+    #return None
     # 6. 对条目按发布时间排序，获取最近的 20 个条目
-    sorted_entries = sorted(entries, key=lambda e: e['published'], reverse=True)[:14]
+    sorted_entries = sorted(entries, key=lambda e: e['published'], reverse=True)[:limitmes]
 
     # 7. 将排序后的条目添加到 RSS feed 中
     for entry_data in sorted_entries:
