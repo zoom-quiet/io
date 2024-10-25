@@ -1,0 +1,480 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Jekyll 转进 Pelican - ZoomQuiet.io</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+                <link rel="stylesheet" href="../theme/pagetoc.css">
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">首页</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../zoomquiet.html">大妈</a></li><li class="chapter-item expanded "><a href="../hello-world.html">你好</a></li><li class="chapter-item expanded "><a href="../ANN/index.html">公告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../ANN/20200223-ZoomQuiet42-ANN-0-aaaagin.html">叕..重新开始</a></li><li class="chapter-item "><a href="../ANN/20200302-ZQ42-ANN-NINAN.html">呢喃</a></li><li class="chapter-item "><a href="../ANN/20200222-ZQ42-ANN-historic.html">钩陈</a></li><li class="chapter-item "><a href="../ANN/20200222-ZQ42-ANN-IMHO.html">拙见</a></li><li class="chapter-item "><a href="../ANN/pressone.html">PRESSone</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">随想🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../IMHO/index.html">恕直</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../IMHO/20241009-deLark.html">别了Lark</a></li><li class="chapter-item "><a href="../IMHO/devrel/index.html">DevRel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../IMHO/devrel/20140317-ac1024-tech-community4chinese.html">中国技术社区研究/</a></li><li class="chapter-item "><a href="../IMHO/devrel/20140220-ac1-zq.html">什么是社区?</a></li><li class="chapter-item "><a href="../IMHO/devrel/20140227-ac2-tech-community.html">什么是技术社区?</a></li><li class="chapter-item "><a href="../IMHO/devrel/20141215-ac20-need-what.html">社区需要什么?</a></li></ol></li><li class="chapter-item "><a href="../IMHO/20240704-aigcxzh-genai101.html">AIGCx征文:俺这样用GenAI</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../IMHO/20240717-aigcxzh-genai102.html">《我这样用GenAI》重构</a></li></ol></li><li class="chapter-item "><a href="../IMHO/19980101-chinese4internet.html">1998:探讨 信息化社会中 中国传统思想的作用</a></li></ol></li><li class="chapter-item expanded "><a href="../MurMur/index.html">呢喃</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../MurMur/24/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../MurMur/24/20241024.html">10.24 深挖开源...</a></li><li class="chapter-item "><a href="../MurMur/24/20241023.html">10.23 BTC电热炉</a></li><li class="chapter-item "><a href="../MurMur/24/20241020.html">10.20 memecoin?</a></li><li class="chapter-item "><a href="../MurMur/24/20241014.html">10.14 为毛Python?</a></li><li class="chapter-item "><a href="../MurMur/24/20240929.html">9.29 自我纠错?</a></li><li class="chapter-item "><a href="../MurMur/24/20240924.html">9.24 随心所欲?</a></li><li class="chapter-item "><a href="../MurMur/24/20240914.html">9.14 AI时代的学习</a></li><li class="chapter-item "><a href="../MurMur/24/20240912.html">9.12 「开发者关系」</a></li><li class="chapter-item "><a href="../MurMur/24/20240911.html">9.11 「社畜指标」</a></li><li class="chapter-item "><a href="../MurMur/24/20240904.html">9.4 「人体电池」</a></li><li class="chapter-item "><a href="../MurMur/24/20240903.html">9.3 枪包带</a></li><li class="chapter-item "><a href="../MurMur/24/20240730.html">7.30 人类发展?</a></li><li class="chapter-item "><a href="../MurMur/24/20240727.html">7.27 高维撕裂</a></li><li class="chapter-item "><a href="../MurMur/24/20240725.html">7.25 AI和教育产业</a></li><li class="chapter-item "><a href="../MurMur/24/20240723.html">7.23 和高手差距..</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../MurMur/24/20240723+1.html">+1 开源安全AI?</a></li></ol></li><li class="chapter-item "><a href="../MurMur/24/20240722.html">7.22 自由?</a></li><li class="chapter-item "><a href="../MurMur/24/20240718.html">7.18 利他</a></li><li class="chapter-item "><a href="../MurMur/24/20240717.html">7.17「抓娃娃」算了吧</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../MurMur/24/20240717-1.html">+1苹果和BSD</a></li></ol></li></ol></li><li class="chapter-item "><a href="../MurMur/23/index.html">2023</a></li><li class="chapter-item "><a href="../MurMur/22/index.html">2022</a></li><li class="chapter-item "><a href="../MurMur/21/index.html">2021</a></li><li class="chapter-item "><a href="../MurMur/20/index.html">2020</a></li><li class="chapter-item "><a href="../MurMur/20141223-zoomquiet4KO.html">KnewOne-talk之大妈篇</a></li><li class="chapter-item "><a href="../MurMur/19961111-CIPHER.html">CIPHER</a></li></ol></li><li class="chapter-item expanded "><a href="../OldTouch/index.html">钩陈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../OldTouch/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../OldTouch/24/20241011-funny-court.html">10.11 友好的法院?</a></li></ol></li><li class="chapter-item expanded "><a href="../OldTouch/20131219-jekyll2pelican.html" class="active">Jekyll 转进 Pelican</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">折腾🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../Pythonic/index.html">蟒样</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../Pythonic/24/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../Pythonic/24/20241016-dvd_subtitle.html">10.18 dvd_subtitle</a></li><li class="chapter-item "><a href="../Pythonic/24/20241016-rss4mdbook.html">10.16 RSS4mdBook</a></li><li class="chapter-item "><a href="../Pythonic/24/20241015-rss-app-x.html">10.15 RSS4X</a></li><li class="chapter-item "><a href="../Pythonic/24/20241014-cf-pages.html">10.14 迁移 gh-pages 到 Cloudflare</a></li><li class="chapter-item "><a href="../Pythonic/24/20241011-mov-sub.html">10.11 电影字幕</a></li></ol></li><li class="chapter-item "><a href="../Pythonic/weekly/index.html">周刊</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../Pythonic/weekly/24/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../Pythonic/weekly/24/20241020-42.html">蟒周刊:24-42</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20241014-41.html">蟒周刊:24-41</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20241006-40.html">蟒周刊:24-40</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240929-39.html">蟒周刊:24-39</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240922-38.html">蟒周刊:24-38</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240915-37.html">蟒周刊:24-37</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240908-36.html">蟒周刊:24-36</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240901-35.html">蟒周刊:24-35</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240825-34.html">蟒周刊:24-34</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240818-33.html">蟒周刊:24-33</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240811-32.html">蟒周刊:24-32</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240804-31.html">蟒周刊:24-31</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240728-30.html">蟒周刊:24-30</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240721-29.html">蟒周刊:24-29</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240714-28.html">蟒周刊:24-28</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240707-27.html">蟒周刊:24-27</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240630-26.html">蟒周刊:24-26</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240623-25.html">蟒周刊:24-25</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240616-24.html">蟒周刊:24-24</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240609-23.html">蟒周刊:24-23</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240602-22.html">蟒周刊:24-22</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240526-21.html">蟒周刊:24-21</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240519-20.html">蟒周刊:24-20</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240512-19.html">蟒周刊:24-19</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240505-18.html">蟒周刊:24-18</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240428-17.html">蟒周刊:24-17</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240421-16.html">蟒周刊:24-16</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240414-15.html">蟒周刊:24-15</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240407-14.html">蟒周刊:24-14</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240331-13.html">蟒周刊:24-13</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240324-12.html">蟒周刊:24-12</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240317-11.html">蟒周刊:24-11</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240310-10.html">蟒周刊:24-10</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240303-09.html">蟒周刊:24-09</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240225-08.html">蟒周刊:24-08</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240218-07.html">蟒周刊:24-07</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240211-06.html">蟒周刊:24-06</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240204-05.html">蟒周刊:24-05</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240128-04.html">蟒周刊:24-04</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240121-03.html">蟒周刊:24-03</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240114-02.html">蟒周刊:24-02</a></li><li class="chapter-item "><a href="../Pythonic/weekly/24/20240107-01.html">蟒周刊:24-01</a></li></ol></li><li class="chapter-item "><a href="../Pythonic/weekly/23/index.html">2023</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../Pythonic/weekly/23/20231231-52.html">蟒周刊:23-52</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231224-51.html">蟒周刊:23-51</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231217-50.html">蟒周刊:23-50</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231210-49.html">蟒周刊:23-49</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231203-48.html">蟒周刊:23-48</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231126-47.html">蟒周刊:23-47</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231119-46.html">蟒周刊:23-46</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231111-45.html">蟒周刊:23-45</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231105-44.html">蟒周刊:23-44</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231029-43.html">蟒周刊:23-43</a></li><li class="chapter-item "><a href="../Pythonic/weekly/23/20231022-42.html">蟒周刊:23-42</a></li><li class="spacer"></li></ol></li></ol></li></ol></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">ZoomQuiet.io</h1>
+
+                    <div class="right-buttons">
+                                                                        <a href="https://github.com/zoom-quiet/io" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <!-- Page table of contents -->
+                        <div class="sidetoc"><nav class="pagetoc"></nav></div>
+
+                        <pre><code>Title: How to from Jekyll jump into Pelican
+Date: 2013-12-19 10:42
+Tags: howto, pelican
+Slug: jekyll-to-pelican
+Author: Zoom.Quiet
+
+[TOC]
+</code></pre>
+<h1 id="如何从-jekyll-转进入-pelican"><a class="header" href="#如何从-jekyll-转进入-pelican">如何从 Jekyll 转进入 Pelican</a></h1>
+<p>简述静态网站从 Jekyll 环境中迁移为 纯 Python 
+<a href="http://getpelican.com/">Pelican</a>...</p>
+<p><img src="https://0.gravatar.com/avatar/0cb9d9d7e6b152d24d2b78c6464502a6?d=https%3A%2F%2Fidenticons.github.com%2Fc0b8694f59232c6681a92c4c9fec3e18.png&amp;r=x&amp;s=440" alt=";" /></p>
+<h2 id="为毛"><a class="header" href="#为毛">为毛</a></h2>
+<p>社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll 服务,
+所以,其实在使用 Ruby 自动编译和发布.</p>
+<p>总是感觉不够纯粹 Pythonic ...</p>
+<p>故而, 下决心完成迁移</p>
+<h1 id="整体"><a class="header" href="#整体">整体</a></h1>
+<p>忽然发现,俺感觉很直觉的事儿,也写了文档,
+但是,其它人真正首次上手全然一头雾水...</p>
+<p>所以
+<a href="http://xiaolai.github.io/alpha/on-learning/">学习学习再学习 - xiaolai</a>
+提出的,俺实在无法同意更多..</p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg" alt="Impossible_staircase" /></p>
+<p>这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
+用最直白的话来描述，就是：</p>
+<pre><code>初级的知识需要对高级知识深入了解才能真正深入了解
+</code></pre>
+<p>——你看看这句话多拗口就多少有点概念了。</p>
+<p>所以,还是按照 easy 模式来,
+先简单的说,再往死里说折腾的技术细节...</p>
+<h2 id="已知条件"><a class="header" href="#已知条件">已知条件</a></h2>
+<p><a href="https://help.github.com/articles/user-organization-and-project-pages">User, Organization and Project Pages</a></p>
+<p>github 的 所谓 <code>pages</code> 服务的本质:</p>
+<ul>
+<li>云端的 Jekell 服务</li>
+<li>对约定的仓库,感知变化时,就尝试进行编译</li>
+<li>并自动完成发布(现在是到 github.io)</li>
+</ul>
+<p>这里的约定仓库,只有两种情况:</p>
+<ol>
+<li>用户/组织: 
+<ul>
+<li>比如, 注册成的用户/组织 为 https://github.com/foo</li>
+<li>则, github 尝试进行 <code>pages</code> 发布的仓库为:</li>
+<li>https://github.com/foo/foo.github.io</li>
+<li>发布到:  https://foo.github.io</li>
+</ul>
+</li>
+<li>项目
+<ul>
+<li>任意一个项目仓库,比如, https://github.com/foo/foobar</li>
+<li>则, githuba 支持自动对此仓库的 <code>gh-pages</code> 分支进行 <code>pages</code> 编译</li>
+<li>而发布为: https://foo.github.io/foobar</li>
+</ul>
+</li>
+</ol>
+<h2 id="pelican行为"><a class="header" href="#pelican行为">Pelican行为</a></h2>
+<p><a href="http://getpelican.com/">Pelican</a> 呢其实也只是
+Python 世界中大堆静态网站发布工具中的一个,
+为毛选中这个?
+只是因为 42分钟里,大妈将其折腾起来了,
+而且官方的文档/案例/样式,的确足够丰富,
+给人信心...</p>
+<p>而其本身对网站的约定非常简单:</p>
+<ul>
+<li>配置好 <code>pelicanconf.py</code></li>
+<li>在 <code>content</code> 目录中写作</li>
+<li>一键命令编译完成静态网络的生成,组织到 <code>output</code></li>
+</ul>
+<h2 id="所以方案"><a class="header" href="#所以方案">所以?方案!</a></h2>
+<p>基于以上的整体理解, 就可以决策怎么基于 github 的 <code>pages</code> 服务,
+来进行免费的网站发布了;</p>
+<p>目测也就两招:</p>
+<ol>
+<li>在用户/组织 的 <code>pages</code> 仓库中直接部署 Pelican 工程
+<ul>
+<li>只是要在根目录部署一个自动跳转到 <code>output</code> 子目录的 <code>index.html</code> 页面</li>
+<li>以便发布后可以略过根目录来访问编译结果的内容</li>
+<li>发布成 https://foo.github.io/output</li>
+</ul>
+</li>
+<li>用两个仓库, 将用户/组织 的 <code>pages</code> 仓库部署为 <code>output</code> 子目录
+<ul>
+<li>这样就能自动发布为 https://foo.github.io</li>
+</ul>
+</li>
+</ol>
+<p>很明显,第二种逼格较髙,所以,就这样办了!</p>
+<h2 id="宏观流程"><a class="header" href="#宏观流程">宏观流程</a></h2>
+<ol>
+<li>首次建立本地撰写环境:
+<ol>
+<li>安装好 <a href="http://getpelican.com/">Pelican</a></li>
+<li>分别clone 出两个仓库:
+<ul>
+<li>qpython-android.pelican </li>
+<li>qpython-android.github.io </li>
+</ul>
+</li>
+<li>先在 <code>qpython-android.pelican</code> 中测试确认好 pelical 工程可用,并尝试编译</li>
+<li>一切正确的话,将 <code>qpython-android.github.io</code> 复制覆盖为 <code>qpython-android.pelican/output</code></li>
+</ol>
+</li>
+<li>以后,日常的维护就再也不需要 <code>qpython-android.github.io</code> 了!
+<ol>
+<li>进入 <code>qpython-android.pelican/content</code> 创建/增补/修订 文章</li>
+<li>回到 <code>qpython-android.pelican</code> 执行 <code>fab build</code></li>
+<li>本地到 <code>output</code> 打开对应页面检查效果</li>
+<li>还是在 <code>qpython-android.pelican</code> 执行 <code>fab pub2hub</code> 
+<ul>
+<li>完成对 <code>qpython-android.github.io</code> 仓库实际的 push </li>
+<li>即, 发布成网站: http://qpython-android.github.io</li>
+</ul>
+</li>
+<li>最后,在 <code>qpython-android.pelican</code> 进行正常的 <code>git add-&gt;ci-&gt;pu</code>
+<ul>
+<li>对文章源文本完成到 <code>qpython-android.pelican</code> 仓库的提交</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>收功!</p>
+<h1 id="细节"><a class="header" href="#细节">细节</a></h1>
+<p>然后, 再分享俺的折腾过程...</p>
+<h2 id="过程"><a class="header" href="#过程">过程</a></h2>
+<p>整体上,其实就三步:</p>
+<ol>
+<li>选择一个 theme ,完成本地 demo 整明白怎么使用 Pelican</li>
+<li>将原先 Jekyll 格式的文章声明部分文本, 批量转化为 Pelican 的</li>
+<li>改进发布流程,自动化</li>
+</ol>
+<h3 id="theme"><a class="header" href="#theme">theme</a></h3>
+<p>综合对比了官网收集的一堆样式,选择了 <a href="https://github.com/DandyDev/pelican-bootstrap3">DandyDev</a> 的,根据说明,立即就完成了编译,本地检阅 ;-)</p>
+<h3 id="meta"><a class="header" href="#meta">meta</a></h3>
+<p>果断使用 Python 脚本,快速完成转换
+<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_plugins/jekyll2pelican.py">jekyll2pelican.py</a></p>
+<h3 id="fab"><a class="header" href="#fab">fab</a></h3>
+<p>果断使用 <code>fabric</code> 进行自动化处理!</p>
+<ul>
+<li>参考: <a href="https://gitcafe.com/CPyUG/weekly/blob/master/fabfile.py">fabfile.py</a></li>
+<li>定制了 <code>pub2cafe</code> 完成自动化发布</li>
+</ul>
+<p>因为 <code>gitcafe</code> 只有用户同名-pages 服务,所以,对于当前 <code>蠎周刊</code> 的 Pelican 工程,
+用两个仓库,配合完成:</p>
+<pre><code>:::text
+https://github.com/qpython-android/qpython-android.pelican.git
+    +- ..
+    +- pelicanconf.py   主配置文件
+    +- content          内容目录  
+    +- output           编译输出目录
+    |    `- https://github.com/qpython-android/qpython-android.github.io.git 
+    |                          |
+    |                          \-- 即合法的
+    +- .gitignore       配置忽略 output 目录
+    +- ...
+</code></pre>
+<p>这样一来,目录,就不用进入 <code>output</code> 目录进行 git 操作了
+平时的发布流程就是:</p>
+<ol>
+<li>在 <code>content</code> 目录对应分类子目录中创建 <code>*.md</code> 文本,组织文章</li>
+<li><code>fab build</code> 完成编译,本地检阅文章效果</li>
+<li><code>git add . &amp;&amp; git ci &amp;&amp; git pu</code> 将增补提交</li>
+<li><code>fab pub2cafe</code> 自动完成进入 <code>output</code> 后的一系列 git 操作</li>
+</ol>
+<p>对应的 配置中:</p>
+<pre><code>:::ini
+#DELETE_OUTPUT_DIRECTORY = True 
+</code></pre>
+<p>就绝对不能打开注释
+不然 <code>output</code> 目录清除,就没有了 <code>.git</code> 也就无法发布了...</p>
+<h2 id="坑"><a class="header" href="#坑">坑</a></h2>
+<p>整个过程中,遇到没有找到文档的小麻烦,自个儿解决了的....</p>
+<h3 id="disqus"><a class="header" href="#disqus">DISQUS</a></h3>
+<p>果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
+追踪到代码:</p>
+<pre><code>:::javascript
+//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html
+//...
+var disqus_shortname = '{{ DISQUS_SITENAME }}'; // required: replace example with your forum shortname
+var disqus_identifier = '{{ article.slug }}';
+var disqus_url = '{{ SITEURL }}/{{ article.url }}';
+</code></pre>
+<p>才发现 <code>SITEURL</code> 的配置是决定性的,
+一定要同 <code>DISQUS</code> 申请时的一致;
+本地编译后, 看一眼源代码,就知道是否靠谱了...</p>
+<h3 id="pages"><a class="header" href="#pages">pages</a></h3>
+<p>突然发现 <code>content/pages</code> 目录中的文本,是种特殊文章,不但可以出现在导航,而且使用专用的模板,
+所以,默认是没有 <code>DISQUS</code> 槽接的!</p>
+<ul>
+<li>参考,俺的<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/page.html">page.html</a> </li>
+<li>追加了仿制的: <a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/includes/page_comments.html">includes/page_comments.html</a></li>
+</ul>
+<p>fixed!</p>
+<h3 id="category_feed_atom"><a class="header" href="#category_feed_atom">CATEGORY_FEED_ATOM</a></h3>
+<p>一时手賎,打开了:</p>
+<pre><code>:::ini
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+</code></pre>
+<p>结果,发现不能在模板里简单的完成分类子 RSS 的链接!</p>
+<pre><code>:::html
+    &lt;i class=&quot;icon-th icon-large&quot;&gt;&lt;/i&gt;Categories&lt;/h4&gt;&lt;/li&gt;
+{% for cat, null in categories %}
+    &lt;li class=&quot;list-group-item&quot;&gt;
+        &lt;a href=&quot;{{ SITEURL }}/{{ cat.url }}&quot;&gt;
+            &lt;i class=&quot;icon-folder-open icon-large&quot;&gt;&lt;/i&gt;{{ cat }}
+        &lt;/a&gt;
+        &lt;a href=&quot;{{ SITEURL }}/feeds/{{ cat }}.atom.xml&quot;&gt;
+            &lt;i class=&quot;icon-rss-sign&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+{% endfor %}
+</code></pre>
+<p>因为这儿的 <code>{{ cat }}</code> 是分类的名称,可能包含大小写字母,
+而配置指导下生成的 RSS 文件是全小写的...</p>
+<p>纠结了一会儿,也没有查到对应的文档,突然想到各种内置对象都有的 <code>sulg</code> 属性!</p>
+<p>于是就猜对了...
+参考:
+<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/includes/sidebar.html#L22">includes/sidebar.html#22</a></p>
+<h3 id="author"><a class="header" href="#author">author</a></h3>
+<p>原样式作者因为是个人网站,所以,无所谓 <code>Author</code> 的信息,
+但是,作为社区用共笔环境,就必须有所体现,
+在 <a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/includes/article_info.html">includes / article_info.html</a>
+先打开作者的属性输出,</p>
+<p>然后,从别的 theme 工程中抄一个模板:
+<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/author.html">author.html</a></p>
+<p>即好!</p>
+<h3 id="toc"><a class="header" href="#toc">TOC</a></h3>
+<p>是的,以往 rST/t2t 时,甚至于 Word 时都有的 </p>
+<pre><code>TOC ~ 章节索引
+</code></pre>
+<p>肿么可以没有?!</p>
+<p>果断: <a href="https://github.com/getpelican/pelican-plugins/tree/master/extract_toc">pelican-plugins/extract_toc at master · getpelican/pelican-plugins</a> </p>
+<p>只是这货竟然是依赖 <code>beautifulsoup4</code> 的! 对于非 <code>UNIX/Linux/MAC</code> 用户而言,
+人艰不拆哪!!!</p>
+<h2 id="参考"><a class="header" href="#参考">参考:</a></h2>
+<ul>
+<li><a href="http://riku.gitcafe.com/pelican-gitcafe.html">使用 Pelican + GitCafe Page 创建 Blog</a></li>
+<li><a href="http://blog.imley.net/2013/01/03/disqus-thread-url-issue/#content">吐槽一下DISQUS的thread链接错误问题 | Ley's blog</a></li>
+<li><a href="http://raichev.net/blohg-to-pelican.html">Alex Raichev - Blog - Blohg to Pelican</a></li>
+</ul>
+<h2 id="changelog"><a class="header" href="#changelog">Changelog</a></h2>
+<ul>
+<li>160120 ZoomQuiet re-deploy in sora</li>
+<li>140127 ZoomQuiet 增补宏观理解</li>
+<li>140120 ZoomQuiet 复制到 QPython 的 Pelican 工程</li>
+<li>131219 ZoomQuiet 为 <a href="https://gitcafe.com/CPyUG/weekly/blob/master/README.md">CPyUG/weekly - GitCafe</a> 创建</li>
+</ul>
+<p>...</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../OldTouch/24/20241011-funny-court.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../Pythonic/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../OldTouch/24/20241011-funny-court.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../Pythonic/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+                <script src="../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+                <script type="text/javascript" src="../theme/pagetoc.js"></script>
+        
+        
+
+
+    <hr />
+
+    <p style="text-align:center">
+
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议"
+                style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可;-)
+|| <a href="/rss.xml"><b>RSS</b></a>
+    </p>
+
+    <hr />
+
+<script src="https://utteranc.es/client.js"
+        repo="zoom-quiet/comments"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+
+    </body>
+</html>

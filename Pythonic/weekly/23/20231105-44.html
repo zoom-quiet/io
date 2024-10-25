@@ -1,0 +1,557 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>蟒周刊:23-44 - ZoomQuiet.io</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../../../favicon.svg">
+                        <link rel="shortcut icon" href="../../../favicon.png">
+                <link rel="stylesheet" href="../../../css/variables.css">
+        <link rel="stylesheet" href="../../../css/general.css">
+        <link rel="stylesheet" href="../../../css/chrome.css">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../../../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../highlight.css">
+        <link rel="stylesheet" href="../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+                <link rel="stylesheet" href="../../../theme/pagetoc.css">
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../../index.html">首页</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../../zoomquiet.html">大妈</a></li><li class="chapter-item expanded "><a href="../../../hello-world.html">你好</a></li><li class="chapter-item expanded "><a href="../../../ANN/index.html">公告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../ANN/20200223-ZoomQuiet42-ANN-0-aaaagin.html">叕..重新开始</a></li><li class="chapter-item "><a href="../../../ANN/20200302-ZQ42-ANN-NINAN.html">呢喃</a></li><li class="chapter-item "><a href="../../../ANN/20200222-ZQ42-ANN-historic.html">钩陈</a></li><li class="chapter-item "><a href="../../../ANN/20200222-ZQ42-ANN-IMHO.html">拙见</a></li><li class="chapter-item "><a href="../../../ANN/pressone.html">PRESSone</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">随想🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../../IMHO/index.html">恕直</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../IMHO/20241009-deLark.html">别了Lark</a></li><li class="chapter-item "><a href="../../../IMHO/devrel/index.html">DevRel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../IMHO/devrel/20140317-ac1024-tech-community4chinese.html">中国技术社区研究/</a></li><li class="chapter-item "><a href="../../../IMHO/devrel/20140220-ac1-zq.html">什么是社区?</a></li><li class="chapter-item "><a href="../../../IMHO/devrel/20140227-ac2-tech-community.html">什么是技术社区?</a></li><li class="chapter-item "><a href="../../../IMHO/devrel/20141215-ac20-need-what.html">社区需要什么?</a></li></ol></li><li class="chapter-item "><a href="../../../IMHO/20240704-aigcxzh-genai101.html">AIGCx征文:俺这样用GenAI</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../IMHO/20240717-aigcxzh-genai102.html">《我这样用GenAI》重构</a></li></ol></li><li class="chapter-item "><a href="../../../IMHO/19980101-chinese4internet.html">1998:探讨 信息化社会中 中国传统思想的作用</a></li></ol></li><li class="chapter-item expanded "><a href="../../../MurMur/index.html">呢喃</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../MurMur/24/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../MurMur/24/20241024.html">10.24 深挖开源...</a></li><li class="chapter-item "><a href="../../../MurMur/24/20241023.html">10.23 BTC电热炉</a></li><li class="chapter-item "><a href="../../../MurMur/24/20241020.html">10.20 memecoin?</a></li><li class="chapter-item "><a href="../../../MurMur/24/20241014.html">10.14 为毛Python?</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240929.html">9.29 自我纠错?</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240924.html">9.24 随心所欲?</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240914.html">9.14 AI时代的学习</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240912.html">9.12 「开发者关系」</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240911.html">9.11 「社畜指标」</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240904.html">9.4 「人体电池」</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240903.html">9.3 枪包带</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240730.html">7.30 人类发展?</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240727.html">7.27 高维撕裂</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240725.html">7.25 AI和教育产业</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240723.html">7.23 和高手差距..</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../MurMur/24/20240723+1.html">+1 开源安全AI?</a></li></ol></li><li class="chapter-item "><a href="../../../MurMur/24/20240722.html">7.22 自由?</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240718.html">7.18 利他</a></li><li class="chapter-item "><a href="../../../MurMur/24/20240717.html">7.17「抓娃娃」算了吧</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../MurMur/24/20240717-1.html">+1苹果和BSD</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../MurMur/23/index.html">2023</a></li><li class="chapter-item "><a href="../../../MurMur/22/index.html">2022</a></li><li class="chapter-item "><a href="../../../MurMur/21/index.html">2021</a></li><li class="chapter-item "><a href="../../../MurMur/20/index.html">2020</a></li><li class="chapter-item "><a href="../../../MurMur/20141223-zoomquiet4KO.html">KnewOne-talk之大妈篇</a></li><li class="chapter-item "><a href="../../../MurMur/19961111-CIPHER.html">CIPHER</a></li></ol></li><li class="chapter-item expanded "><a href="../../../OldTouch/index.html">钩陈</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../OldTouch/2024/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../OldTouch/24/20241011-funny-court.html">10.11 友好的法院?</a></li></ol></li><li class="chapter-item "><a href="../../../OldTouch/20131219-jekyll2pelican.html">Jekyll 转进 Pelican</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">折腾🌚🌘🌗🌖🌝</li><li class="spacer"></li><li class="chapter-item expanded "><a href="../../../Pythonic/index.html">蟒样</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../Pythonic/24/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../Pythonic/24/20241016-dvd_subtitle.html">10.18 dvd_subtitle</a></li><li class="chapter-item "><a href="../../../Pythonic/24/20241016-rss4mdbook.html">10.16 RSS4mdBook</a></li><li class="chapter-item "><a href="../../../Pythonic/24/20241015-rss-app-x.html">10.15 RSS4X</a></li><li class="chapter-item "><a href="../../../Pythonic/24/20241014-cf-pages.html">10.14 迁移 gh-pages 到 Cloudflare</a></li><li class="chapter-item "><a href="../../../Pythonic/24/20241011-mov-sub.html">10.11 电影字幕</a></li></ol></li><li class="chapter-item expanded "><a href="../../../Pythonic/weekly/index.html">周刊</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../Pythonic/weekly/24/index.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20241020-42.html">蟒周刊:24-42</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20241014-41.html">蟒周刊:24-41</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20241006-40.html">蟒周刊:24-40</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240929-39.html">蟒周刊:24-39</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240922-38.html">蟒周刊:24-38</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240915-37.html">蟒周刊:24-37</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240908-36.html">蟒周刊:24-36</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240901-35.html">蟒周刊:24-35</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240825-34.html">蟒周刊:24-34</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240818-33.html">蟒周刊:24-33</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240811-32.html">蟒周刊:24-32</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240804-31.html">蟒周刊:24-31</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240728-30.html">蟒周刊:24-30</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240721-29.html">蟒周刊:24-29</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240714-28.html">蟒周刊:24-28</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240707-27.html">蟒周刊:24-27</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240630-26.html">蟒周刊:24-26</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240623-25.html">蟒周刊:24-25</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240616-24.html">蟒周刊:24-24</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240609-23.html">蟒周刊:24-23</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240602-22.html">蟒周刊:24-22</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240526-21.html">蟒周刊:24-21</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240519-20.html">蟒周刊:24-20</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240512-19.html">蟒周刊:24-19</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240505-18.html">蟒周刊:24-18</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240428-17.html">蟒周刊:24-17</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240421-16.html">蟒周刊:24-16</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240414-15.html">蟒周刊:24-15</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240407-14.html">蟒周刊:24-14</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240331-13.html">蟒周刊:24-13</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240324-12.html">蟒周刊:24-12</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240317-11.html">蟒周刊:24-11</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240310-10.html">蟒周刊:24-10</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240303-09.html">蟒周刊:24-09</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240225-08.html">蟒周刊:24-08</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240218-07.html">蟒周刊:24-07</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240211-06.html">蟒周刊:24-06</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240204-05.html">蟒周刊:24-05</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240128-04.html">蟒周刊:24-04</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240121-03.html">蟒周刊:24-03</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240114-02.html">蟒周刊:24-02</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/24/20240107-01.html">蟒周刊:24-01</a></li></ol></li><li class="chapter-item expanded "><a href="../../../Pythonic/weekly/23/index.html">2023</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231231-52.html">蟒周刊:23-52</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231224-51.html">蟒周刊:23-51</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231217-50.html">蟒周刊:23-50</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231210-49.html">蟒周刊:23-49</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231203-48.html">蟒周刊:23-48</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231126-47.html">蟒周刊:23-47</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231119-46.html">蟒周刊:23-46</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231111-45.html">蟒周刊:23-45</a></li><li class="chapter-item expanded "><a href="../../../Pythonic/weekly/23/20231105-44.html" class="active">蟒周刊:23-44</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231029-43.html">蟒周刊:23-43</a></li><li class="chapter-item "><a href="../../../Pythonic/weekly/23/20231022-42.html">蟒周刊:23-42</a></li><li class="spacer"></li></ol></li></ol></li></ol></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">ZoomQuiet.io</h1>
+
+                    <div class="right-buttons">
+                                                                        <a href="https://github.com/zoom-quiet/io" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <!-- Page table of contents -->
+                        <div class="sidetoc"><nav class="pagetoc"></nav></div>
+
+                        <p>Title: 上周蠎快讯 44/2023
+Slug: pyrw-2344
+Date: 2023-11-06 11:42
+Tags: Weekly,Python,recap,discu_eu,ZH</p>
+<blockquote>
+<p>Pope  被Python诱惑了！</p>
+</blockquote>
+<p>原文: <a href="https://discu.eu/weekly/python/2023/44/">Python recap for week 43/2023 - discu.eu</a></p>
+<ul>
+<li>231206 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 13 分钟 完成格式转抄.</li>
+<li>231206 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 37 分钟 完成快译,</li>
+</ul>
+<hr />
+<hr />
+<h2 id="文章教程嗯哼"><a class="header" href="#文章教程嗯哼">文章/教程/嗯哼</a></h2>
+<blockquote>
+<p>Articles, Tutorials and Talks</p>
+</blockquote>
+<ul>
+<li><a href="https://gregoryszorc.com/blog/2023/10/30/my-user-experience-porting-off-setup.py/">用户体验移植 setup.py</a>
+<ul>
+<li><a href="https://discu.eu/q/https://gregoryszorc.com/blog/2023/10/30/my-user-experience-porting-off-setup.py/">158 评注 in 4 讨论s</a></li>
+</ul>
+</li>
+<li><a href="https://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/">Python 到 OCaml：回顾 (2014)</a>
+<ul>
+<li><a href="https://discu.eu/q/https://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/">146 评注 in 4 讨论s</a></li>
+</ul>
+</li>
+<li><a href="https://sidsite.com/posts/python-corrset-optimization/">用 Python 分析数据速度提高 170,000 倍</a>
+<ul>
+<li><a href="https://discu.eu/q/https://sidsite.com/posts/python-corrset-optimization/">92 评注 in 4 讨论s</a></li>
+</ul>
+</li>
+<li><a href="https://www.theregister.com/2023/10/28/pope_software_python/?td=rt-3a">Pope  被Python诱惑了！签署儿童编码计划</a>
+<ul>
+<li><a href="https://discu.eu/q/https://www.theregister.com/2023/10/28/pope_software_python/?td=rt-3a">84 评注 in 2 讨论s</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>是的, 教皇</p>
+<p>)</p>
+<ul>
+<li><a href="https://superfastpython.com/multiprocessing-in-python/">Python Multiprocessing: 完整指南（24,000 多个单词）</a>
+<ul>
+<li><a href="https://discu.eu/q/https://superfastpython.com/multiprocessing-in-python/">69 评注 in 3 讨论s</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p><img src="https://ipic.zoomquiet.top/2023-11-06-zshot%202023-11-06%2011.11.42.jpg" alt="Multiprocessing" />
+)</p>
+<ul>
+<li><a href="https://realpython.com/python-type-hints-multiple-types/">如何在 Python 中使用多种返回类型的类型提示</a>
+<ul>
+<li><a href="https://discu.eu/q/https://realpython.com/python-type-hints-multiple-types/">64 评注 in 1 讨论</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p><img src="https://ipic.zoomquiet.top/2023-11-06-zshot%202023-11-06%2011.11.42.jpg" alt="multiple" />
+)</p>
+<ul>
+<li><a href="https://quanttype.net/posts/2023-10-31-do-not-use-requirements.txt.html">不要用requirements.txt</a>
+<ul>
+<li><a href="https://discu.eu/q/https://quanttype.net/posts/2023-10-31-do-not-use-requirements.txt.html">52 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://www.workflow86.com/">Workflow 中的工作流引擎</a>
+<ul>
+<li><a href="https://discu.eu/q/https://www.workflow86.com">52 评注 in 2 讨论s</a></li>
+</ul>
+</li>
+<li><a href="https://unidaystudio.itch.io/cave-engine">Cave: 适用于 Windows 的可下载游戏引擎</a>
+<ul>
+<li><a href="https://discu.eu/q/https://unidaystudio.itch.io/cave-engine">47 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/beeware/toga/releases/tag/v0.4.0">BeeWare Toga v0.4.0 – Python 本机、操作系统本机 GUI 工具包</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/beeware/toga/releases/tag/v0.4.0">29 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://www.dataroc.ca/blog/most-performant-timestamp-functions-python-2">TIL that r/Python 讨厌微优化，所以我回来了更多</a>
+<ul>
+<li><a href="https://discu.eu/q/https://www.dataroc.ca/blog/most-performant-timestamp-functions-python-2">22 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://pythonspeed.com/articles/faster-cython-simd/">用 SIMD 加速 Cython</a>
+<ul>
+<li><a href="https://discu.eu/q/https://pythonspeed.com/articles/faster-cython-simd/">18 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://realpython.com/python-virtual-environments-a-primer/">Python 虚拟环境：入门</a>
+<ul>
+<li><a href="https://discu.eu/q/https://realpython.com/python-virtual-environments-a-primer/">16 评注 in 1 讨论</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>折腾过那么多之后, 一句话 miniConda 你值得拥有...</p>
+<p>)</p>
+<ul>
+<li><a href="http://discovergen.ai/">快速构建 Django 和 React 应用程序的提示</a>
+<ul>
+<li><a href="">16 评注 in 1 讨论</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>AI 网络课程....</p>
+<p>)</p>
+<ul>
+<li><a href="https://mckerlie.com/posts/using-python-to-generate-10000-unique-lightsabers">用 Python 生成超过 10,000 个独特的 8 位光剑</a>
+<ul>
+<li><a href="https://discu.eu/q/https://mckerlie.com/posts/using-python-to-generate-10000-unique-lightsabers">14 评注 in 2 讨论s</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>老梗, NFT 海量铸造...</p>
+<p>)</p>
+<hr />
+<h2 id="发布"><a class="header" href="#发布">发布...</a></h2>
+<blockquote>
+<p>Release...</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/alipay/fury/releases/tag/v0.3.0">Fury  序列化框架0.3.0发布</a></li>
+<li><a href="https://pypi.org/project/django-fastdev/">Django-fastdev 1.8.0 发布</a></li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>非官方
+)</p>
+<hr />
+<h2 id="好物妙品"><a class="header" href="#好物妙品">好物/妙品/...</a></h2>
+<blockquote>
+<p>Interesting Projects, Tools and Libraries, Projects &amp; Code</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/jackmpcollins/magentic">magentic,将LLM无缝集成为Python函数,下载magentic的源码_GitHub</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/jackmpcollins/magentic">69 评注 in 2 讨论s</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/rohankishore/Aura-Text">用 Python 和 PyQt6 制作了一个 IDE！</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/rohankishore/Aura-Text">59 评注 in 6 讨论s</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>辛苦了...</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/o2sh/onefetch">Python 的存储库摘要</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/o2sh/onefetch">45 评注 in 5 讨论s</a></li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>Rust 构建</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/PaulleDemon/Email-automation#emailcold-mail-automation-tool--atmailwin">开源电子邮件自动化工具</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/PaulleDemon/Email-automation%23emailcold-mail-automation-tool--atmailwin">14 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/rohankishore/CashFlow">用 PyQt6 制作了一个费用跟踪器</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/rohankishore/CashFlow">13 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/pgorecki/lato">隆重推出 lato - 一个用于使用 Python 构建模块化应用程序的开源微框架。</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/pgorecki/lato">8 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/Noeloikeau/information_geometry">Python 中的信息几何和统计流形</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/Noeloikeau/information_geometry">7 评注 in 2 讨论s</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/clr-cera/Quartz">Quartz, 一个用 Python 编写的简单且完全可扩展的控制台聊天工具</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/clr-cera/Quartz">7 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/wasi0013/PyTM"><strong>PyTM</strong> - 另一个用于跟踪项目时间并能够生成发票的工具</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/wasi0013/PyTM">6 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/themrinalsinha/dj_enum">Django 应用程序的状态更改验证器 - “dj_enum”</a>
+<ul>
+<li><a href="https://discu.eu/q/https://github.com/themrinalsinha/dj_enum">3 评注 in 1 讨论</a></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="-视频"><a class="header" href="#-视频">🐍 视频</a></h2>
+<blockquote>
+<p>Videos...</p>
+</blockquote>
+<ul>
+<li><a href="https://youtu.be/7TQQJSfcrEQ?si=Gj68mAeDWZ95Ml7P">[Video]了解Python的seek()和tell()函数以在Python中导航文件</a>
+<ul>
+<li><a href="https://discu.eu/q/https://youtu.be/7TQQJSfcrEQ?si=Gj68mAeDWZ95Ml7P">6 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://youtu.be/5a61BUpzmT4">用 Python 解释离散傅立叶变换</a>
+<ul>
+<li><a href="https://discu.eu/q/https://youtu.be/5a61BUpzmT4">2 评注 in 1 讨论</a></li>
+</ul>
+</li>
+<li><a href="https://youtu.be/YK6MikOCEWM">用 cProfile 进行 Python 代码分析</a></li>
+<li><a href="https://www.youtube.com/watch?v=0ihChIaN8d0">在另一个进程内存中启动</a></li>
+</ul>
+<hr />
+<h2 id="历史这周"><a class="header" href="#历史这周">历史这周</a></h2>
+<ul>
+<li>2022: <a href="https://weekly.pychina.org/issue/issue-550.html">蠎周刊 PyCoder 550</a></li>
+<li>2021: <a href="https://weekly.pychina.org/issue/issue-497.html">蠎周刊 497</a>
+<ul>
+<li><a href="https://weekly.pychina.org/python-weekly/pyw-524.html">pythonista-weekly : Pyw 524</a></li>
+</ul>
+</li>
+<li>2020: <a href="https://weekly.pychina.org/issue/issue-444.html">蠎周刊 444</a>
+<ul>
+<li><a href="https://weekly.pychina.org/python-weekly/pyw-474.html">pythonista-weekly : Pyw 474</a></li>
+</ul>
+</li>
+<li>2019: <a href="https://weekly.pychina.org/issue/issue-391.html">蠎周刊 391</a></li>
+<li>2018: <a href="https://weekly.pychina.org/issue/issue-342.html">蠎周刊 342</a></li>
+<li>2017: <a href="https://weekly.pychina.org/importpython/importpython-149.html">蠎加载 149</a></li>
+<li>2016: <a href="https://weekly.pychina.org/importpython/importpython-98.html">蠎加载 98</a></li>
+<li>2015: <a href="https://weekly.pychina.org/issue/issue-191.html">蠎周刊 191</a>
+<ul>
+<li><a href="https://weekly.pychina.org/importpython/importpython-57.html">蠎加载 57</a></li>
+</ul>
+</li>
+<li>2014: <a href="https://weekly.pychina.org/issue/issue-140.html">Issue 140</a></li>
+<li>2013: <a href="https://weekly.pychina.org/issue/issue-91.html">Issue 91</a></li>
+<li>2012: 空缺</li>
+</ul>
+<hr />
+<h2 id="dama"><a class="header" href="#dama">DAMA</a></h2>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(<code>大妈私人无责任播报</code>)</p>
+</blockquote>
+<ul>
+<li><a href="https://www.youtube.com/@Chaos42DAMA">大妈的多重宇宙 - YouTube</a>
+<ul>
+<li>@Chaos42DAMA</li>
+<li>恢复各种嗯哼...</li>
+</ul>
+</li>
+<li><a href="https://zoomquiet.substack.com/">Zoom.Quiet’s Chaos42 | Substack</a>
+<ul>
+<li>古早:新闻组式写作</li>
+<li>欢迎订阅, 包含当前周刊</li>
+</ul>
+</li>
+</ul>
+<pre><code>      _~-~∽~_
+  \/ /  ◕ ♡  \ (/
+    '_   △   _'
+    \ '--+--' \
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+</code></pre>
+<hr />
+<h1 id="ps"><a class="header" href="#ps">PS:</a></h1>
+<ul>
+<li>首发: <a href="http://weekly.pychina.org/pyrecap/pyrw-2344.html">44/3023 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)</a></li>
+<li>修订: <a href="https://github.com/PyChina/weekly/blob/master/content/pyrecap/pyrw-2344.md">pyrw-2344.md</a></li>
+</ul>
+<blockquote>
+<p>Happy Pythoning!</p>
+<blockquote>
+<p>Copyright © 2023 PyCoder’s Weekly, All rights reserved.</p>
+</blockquote>
+</blockquote>
+<h2 id="pps"><a class="header" href="#pps">PPS:</a></h2>
+<blockquote>
+<p>不觉中蟒周刊快译已经到了第10+2个年头</p>
+</blockquote>
+<p>开始有小伙伴加入承担 <code>pythonisa</code> 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...</p>
+<p>问为什么:</p>
+<pre><code>[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+</code></pre>
+<p><code>无法同意更多</code>...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.</p>
+<p>所以++&gt; <a href="https://weekly.rs.101.so/2023/index.html">锈周刊 -&gt; Weekly :: China<Rustaceans></a></p>
+<hr />
+<p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
+<p>投稿/反馈邮箱:</p>
+<pre><code>askdama@googlegroups.com
+</code></pre>
+<p>(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)</p>
+<hr />
+<p>ZoomQuiet/<strong><a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g">大妈</a></strong></p>
+<p>就是四处 <code>是也乎,(￣▽￣)</code> 的那个<a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g">大妈</a>:</p>
+<pre><code class="language-python">全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)
+公开社群: 蟒营 (订阅号: Mainium)
+
+as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 
+
+</code></pre>
+<hr />
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../../../Pythonic/weekly/23/20231111-45.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../../../Pythonic/weekly/23/20231029-43.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../../../Pythonic/weekly/23/20231111-45.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../../../Pythonic/weekly/23/20231029-43.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+                <script src="../../../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        
+                <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+                <script type="text/javascript" src="../../../theme/pagetoc.js"></script>
+        
+        
+
+
+    <hr />
+
+    <p style="text-align:center">
+
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议"
+                style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可;-)
+|| <a href="/rss.xml"><b>RSS</b></a>
+    </p>
+
+    <hr />
+
+<script src="https://utteranc.es/client.js"
+        repo="zoom-quiet/comments"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+
+    </body>
+</html>
