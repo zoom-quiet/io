@@ -16,6 +16,7 @@
 ---
 
 - [恕直](IMHO/README.md)
+    + [开源保险社区?](IMHO/20241026-jy-framwork.md)
     + [别了Lark](IMHO/20241009-deLark.md)
     + [DevRel](IMHO/devrel/README.md)
         + [中国技术社区研究/](IMHO/devrel/20140317-ac1024-tech-community4chinese.md)
