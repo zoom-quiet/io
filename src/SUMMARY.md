@@ -3,20 +3,21 @@
 ---
 
 - [大妈](zoomquiet.md)
-- [你好](hello-world.md)
+    - [你好](hello-world.md)
+    - [链接](linking.md)
 - [公告](ANN/README.md)
     + [叕..重新开始](ANN/20200223-ZoomQuiet42-ANN-0-aaaagin.md)
     + [呢喃](ANN/20200302-ZQ42-ANN-NINAN.md)
     + [钩陈](ANN/20200222-ZQ42-ANN-historic.md)
     + [拙见](ANN/20200222-ZQ42-ANN-IMHO.md)
-    + [PRESSone](ANN/pressone.md)
+        + [PRESSone](ANN/pressone.md)
 
 # 随想🌚🌘🌗🌖🌝
 
 ---
 
 - [恕直](IMHO/README.md)
-    + [开源保险社区?](IMHO/20241026-jy-framwork.md)
+      + [开源保险社区?](IMHO/20241026-jy-framwork.md)
     + [别了Lark](IMHO/20241009-deLark.md)
     + [DevRel](IMHO/devrel/README.md)
         + [中国技术社区研究/](IMHO/devrel/20140317-ac1024-tech-community4chinese.md)
@@ -28,6 +29,7 @@
     + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/19980101-chinese4internet.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/24/README.md)
+        + [10.28 为咩阅后即焚](MurMur/24/20241028.md)
         + [10.24 深挖开源...](MurMur/24/20241024.md)
         + [10.23 BTC电热炉](MurMur/24/20241023.md)
         + [10.20 memecoin?](MurMur/24/20241020.md)
@@ -72,6 +74,7 @@
       + [10.11 电影字幕](Pythonic/24/20241011-mov-sub.md)
     + [周刊](Pythonic/weekly/README.md)
       + [2024](Pythonic/weekly/24/README.md)
+        + [蟒周刊:24-43](Pythonic/weekly/24/20241028-43.md)
         + [蟒周刊:24-42](Pythonic/weekly/24/20241020-42.md)
         + [蟒周刊:24-41](Pythonic/weekly/24/20241014-41.md)
         + [蟒周刊:24-40](Pythonic/weekly/24/20241006-40.md)
