@@ -17,8 +17,8 @@
 ---
 
 - [恕直](IMHO/README.md)
-    + [DevOps](IMHO/FLOSS/README.md)
-        + [别了Lark](IMHO/FLOSS/20241009-deLark.md)
+    + [DevOps](IMHO/DevOps/README.md)
+        + [别了Lark](IMHO/DevOps/20241009-deLark.md)
     + [FLOSS](IMHO/FLOSS/README.md)
         + [中国技术社区研究/](IMHO/FLOSS/20140317-ac1024-tech-community4chinese.md)
         + [什么是社区?](IMHO/FLOSS/20140220-ac1-zq.md)
