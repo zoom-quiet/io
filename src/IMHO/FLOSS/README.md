@@ -2,7 +2,10 @@
 > 各种时期的思考
 
 
+
 ## background
+
+[FLOSS 和 FOSS - GNU 工程 - 自由软件基金会](https://www.gnu.org/philosophy/floss-and-foss.zh-cn.html)
 
 cmcm 时代
 
