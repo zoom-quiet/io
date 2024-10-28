@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 28 Oct 2024 04:41:26 +0000</lastBuildDate><item><title>10.14 迁移 gh-pages 到 Cloudflare</title><link>https://zoomquiet.io/Pythonic/24/20241014-cf-pages.md</link><description>Page 10.14 迁移 gh-pages 到 Cloudflare - Last updated at 2024-10-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;迁移 gh-pages 到 Cloudflare&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 28 Oct 2024 07:51:17 +0000</lastBuildDate><item><title>10.14 迁移 gh-pages 到 Cloudflare</title><link>https://zoomquiet.io/Pythonic/24/20241014-cf-pages.md</link><description>Page 10.14 迁移 gh-pages 到 Cloudflare - Last updated at 2024-10-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;迁移 gh-pages 到 Cloudflare&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如何将 github 和 Cloudflare 的 Pages 服务串联起来?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -999,7 +999,7 @@ from paragraphs import par&lt;/p&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241020-42.md</guid><pubDate>Sun, 20 Oct 2024 00:00:00 +0800</pubDate></item><item><title>开源保险社区?</title><link>https://zoomquiet.io/IMHO/20241026-jy-framwork.md</link><description>Page 开源保险社区? - Last updated at 2024-10-26T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源保险社区...&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241020-42.md</guid><pubDate>Sun, 20 Oct 2024 00:00:00 +0800</pubDate></item><item><title>开源保险社区?</title><link>https://zoomquiet.io/IMHO/IAS/20241026-jy-framwork.md</link><description>Page 开源保险社区? - Last updated at 2024-10-26T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源保险社区...&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如何将开源社区的商业模式引入到保险行业?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1110,7 +1110,7 @@ from paragraphs import par&lt;/p&gt;
 &lt;h2&gt;tracing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;241026 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/20241026-jy-framwork.md</guid><pubDate>Sat, 26 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-43</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-43.md</link><description>Page 蟒周刊:24-43 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/43&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241026-jy-framwork.md</guid><pubDate>Sat, 26 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-43</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-43.md</link><description>Page 蟒周刊:24-43 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/43&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/43
 Slug: pyrw-2443
 Date: 2024-10-28 11:42
