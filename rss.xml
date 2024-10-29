@@ -1,228 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 28 Oct 2024 08:06:55 +0000</lastBuildDate><item><title>10.14 迁移 gh-pages 到 Cloudflare</title><link>https://zoomquiet.io/Pythonic/24/20241014-cf-pages.md</link><description>Page 10.14 迁移 gh-pages 到 Cloudflare - Last updated at 2024-10-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;迁移 gh-pages 到 Cloudflare&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如何将 github 和 Cloudflare 的 Pages 服务串联起来?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;p&gt;原有社区官网, 使用 Hugo 作为 SSG ,
-通过 GitHub Actions 作为部署工具,
-发布到 GitHub Pages 中, 并绑定域名;&lt;/p&gt;
-&lt;p&gt;对应 actions 脚本:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/duonb/duonb.org/blob/683549a6a1745686ee744c8fae2168852ae3e100/.github/workflows/hugo.yml"&gt;duonb.org/.github/workflows/hugo.yml at 683549a6a1745686ee744c8fae2168852ae3e100 · duonb/duonb.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;随着运营的深入, 发觉 相比 GitHub(后续缩写为GH) 各种别扭而且多变的配置,
-Cloudflare(后续缩写为 CF) 各种良心免费资源配套齐全, 而且免费额度不小,
-值得迁移;&lt;/p&gt;
-&lt;h2&gt;goal&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;原有内容运营流程不变:&lt;ul&gt;
-&lt;li&gt;编辑随时进入 GH&lt;/li&gt;
-&lt;li&gt;在仓库中使用 &lt;code&gt;.dev&lt;/code&gt; 在线 IDE 完成文章编撰&lt;/li&gt;
-&lt;li&gt;提交后, 由 Actions 自动触发执行完成发布&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;最终静态网站通过 CF-Pages 服务发布&lt;ul&gt;
-&lt;li&gt;相比 GH 以及东家, CF 是更加专业的网络服务商&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;tracing&lt;/h2&gt;
-&lt;p&gt;通读相关文档以及网友们的经验后明确:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CF-Pages 和 GH-Pages 本质上一样, 都是微服务平台&lt;/li&gt;
-&lt;li&gt;通过对应 workflow 脚本触发 Docker 拉起虚拟机, 部署对应环境中, 执行约定指令完成静态网站的编译生成&lt;/li&gt;
-&lt;li&gt;最后复制到对应发布空间, 并安全消解掉所有虚拟资源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;...而免费的东西, 果断都有坑&lt;/p&gt;
-&lt;h3&gt;直接上 CF&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;按照官方文档来&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;基本流程就是:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;创建 Pages 实例&lt;/li&gt;
-&lt;li&gt;对接仓库&lt;/li&gt;
-&lt;li&gt;选择编译框架&lt;/li&gt;
-&lt;li&gt;配置发布域名&lt;/li&gt;
-&lt;li&gt;触发事件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;第一个坑:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;根本无法识别自己 GH 帐号不是 owner 的仓库&lt;/li&gt;
-&lt;li&gt;只好将对应仓库 fork 到一个即有公开组织中&lt;/li&gt;
-&lt;li&gt;虽然 fork 过来的仓库是私有的, 但是, CF 良好识别了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;第二个坑:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CF Pages 中, 并没有类似 GH Actrions 的约定, 比如从 &lt;code&gt;.github/workflow&lt;/code&gt; 中自动识别 .yaml 作为 Dockerfiles 来执行&lt;/li&gt;
-&lt;li&gt;界面上只有简洁的框架选择, 以及构建成果发布目录之类几个选择&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;果然, 反复尝试, 都在类似错误中崩溃了:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;...
-Error: Exit with error code: 1
-        at ChildProcess.&amp;lt;anonymous&amp;gt; (/snapshot/dist/run-build.js)
-        at Object.onceWrapper (node:events:652:26)
-        at ChildProcess.emit (node:events:537:28)
-        at ChildProcess._handle.onexit (node:internal/child_process:291:12)
-    Failed: build command exited with code: 1
-    Failed: error occurred while running build command&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;看起来对应 NodeJS CF 还没什么好办法自动征服&lt;/p&gt;
-&lt;h3&gt;对接到 CF&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;进一步挖掘文档&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;既然 CF 本身的 Pages 构建环境不如 GH 的,
-那么, 是否能在 GH Actions 中完成构建,
-只是将成果输出到 CF Pages 空间中, 而不是原有的 GH Pages ?&lt;/p&gt;
-&lt;p&gt;答案是肯定的, 虽然配置比较复杂:&lt;/p&gt;
-&lt;p&gt;根据相关文档: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在 CF 中创建应用 token&lt;/li&gt;
-&lt;li&gt;从 CF 中拿到对应关键 ID&lt;/li&gt;
-&lt;li&gt;去 GH 配置环境变量, 来使用授权 token&lt;/li&gt;
-&lt;li&gt;再增补 Actions 脚本, 改变最后的 &lt;code&gt;pages-action&lt;/code&gt; 目标&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;参考: &lt;a href="https://github.com/duonb/duonb.org/commit/47ef95d0255111606b975860850d9798b21f941f"&gt;upd4cloudflare · duonb/duonb.org@47ef95d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;可惜, 依然有相似的错误,
-而且 CF Pages 文档也不少,
-继续挖掘进入更多细节来解决问题是否值得?&lt;/p&gt;
-&lt;h3&gt;通过 gh-pages 分支&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;洗了个冷水澡, 重新捋一下...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;之所以, 对 CF Pages 服务有信心, 因为之前有项目,
-在本地用 Python 完成静态网站编译后, 通过 GH 仓库, 
-对接到 CF Pages 一下子就发布出来了,非常流畅;&lt;/p&gt;
-&lt;p&gt;所以, 嘦不涉及具体的微服务器构建过程, 只是对静态网站进行发布 CF Pages 是完全没有问题的.&lt;/p&gt;
-&lt;p&gt;而 Hugo 工程, 为了商业化界面, 还安装了各种复杂的 NodeJS 拓展,
-所以, Actions 过程比较长, 在本地都不一定部署的对;
-大家也是从 Theme 原型仓库抄来的 workflow 而已;&lt;/p&gt;
-&lt;p&gt;那么, 问题就变成了, 如何将原先 GH Pages 发布成功的 Actions 脚本,
-改造为可以将编译出来的 HTML 成果, 不是直接发布到 GH Pages 中,
-而是放到一个可以再由 CF Pages 不进行任何其它处置, 直接复制使用的空间中呢?&lt;/p&gt;
-&lt;p&gt;这种空间在哪儿?&lt;/p&gt;
-&lt;p&gt;这时, 就想起来 GH Pages 当初没有 Actions 机制时,
-是约定 &lt;code&gt;gh-pages&lt;/code&gt; 分支的, 
-也就是将编译的静态网站一定要放到特殊分支中,
-GH 后端其它服务才知道如何复制并发布;&lt;/p&gt;
-&lt;p&gt;那么, 问题就变成, 如何将 Actions 脚本运行成果,直接推送到 &lt;code&gt;gh-pages&lt;/code&gt; 分支中?&lt;/p&gt;
-&lt;p&gt;追问了 GPT 获得以下类似步骤:&lt;/p&gt;
-&lt;p&gt;```yaml
-      - name: Save generated site files
-        run: mv public ../public&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  - name: Checkout gh-pages branch
-    uses: actions/checkout@v4
-    with:
-      ref: gh-pages
-
-  - name: Copy built site to gh-pages branch
-    run: |
-      rm -rf *
-      mv ../public/* .
-
-  - name: Commit and push changes
-    run: |
-      git config --local user.name "github-actions[bot]"
-      git config --local user.email "github-actions[bot]@users.noreply.github.com"
-      git add .
-      git commit -m "Deploy static site to gh-pages branch" || echo "No changes to commit"
-      git push origin gh-pages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;```&lt;/p&gt;
-&lt;p&gt;哈,就是标准的 git 指令, 看来 &lt;code&gt;runs-on: ubuntu-22.04&lt;/code&gt; 是内置 git 工具的;
-唯一的技巧不过是:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;为了合理每次都提交所有编译成果&lt;/li&gt;
-&lt;li&gt;先将编译成果目录移动到当前工作目录以外&lt;/li&gt;
-&lt;li&gt;然后,切换分支&lt;/li&gt;
-&lt;li&gt;再将分支中当前所有内容删除&lt;/li&gt;
-&lt;li&gt;最后将成果目录中所有内容复制回工作目录(已经是 gh-pages 分支)&lt;/li&gt;
-&lt;li&gt;再用 git 提交推送回仓库&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;先在 GH 仓库中观察新 Actions 是否能完成;&lt;/p&gt;
-&lt;p&gt;然后, 回到 CF, 修订 Pages 配置, 不使用任何编译框架, 直接发布指定分支的所有内容;&lt;/p&gt;
-&lt;p&gt;获得对应成果:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CF 渠道发布的:&lt;a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/"&gt;DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;对比原版: &lt;a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/"&gt;DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;PS:&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;小结&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;前后三次尝试, 合算5+小时, 完成了迁移,
-虽然最后配置变更的不多,
-但是, 调试过程比较囧, 因为 Actions 不是编程环境,
-而是类似 Dockerfiles 的执行环境,
-每次修改, 无论是格式还是行为错误, 都只能通过
-&lt;a href="https://github.com/duonb/duonb.org/actions"&gt;Workflow runs · duonb/duonb.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;workflow 运行日志来观察, 根本无法实时观察运行期的各种输出;&lt;/p&gt;
-&lt;p&gt;但是, Actions 毕竟是免费的, 内置的各种行为也非常稳健,
-在 GH 海量项目的持续使用过程中, 相比其它 PaaS 平台的类似服务要靠谱的多;&lt;/p&gt;
-&lt;p&gt;值得深入理解和利用;&lt;/p&gt;
-&lt;p&gt;当然,最靠谱的还是清晰的目标定义, 以及各种资源间关系的理解,
-这样, 才可能随时针对性提出方案, 并设计关键观察行为来检验;&lt;/p&gt;
-&lt;p&gt;总之, &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GH Actions 值得薅&lt;/li&gt;
-&lt;li&gt;CF Pages 值得薅&lt;/li&gt;
-&lt;li&gt;两种资源免费对接, 嘦通过一个普通的约定分支即可 ;-)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://developers.cloudflare.com/pages/"&gt;Cloudflare Pages documentation&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/"&gt;Hugo | Cloudflare Pages docs&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://developers.cloudflare.com/pages/configuration/build-configuration/"&gt;Build configuration | Cloudflare Pages docs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://hackernoon.com/deploy-your-personal-web-page-with-hugo-cloudflare-and-github-100percent-for-free"&gt;Deploy Your Personal Web-Page With Hugo, Cloudflare and GitHub 100% For Free \| HackerNoon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://medium.com/@kyodo-tech/simple-guide-to-deploying-hugo-sites-with-github-actions-and-cloudflare-pages-2a53ddfb7533"&gt;Simple Guide to Deploying Hugo Sites with GitHub Actions and Cloudflare Pages \| by Kyodo Tech \| Medium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241014-cf-pages.md</guid><pubDate>Mon, 14 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.15 RSS4X</title><link>https://zoomquiet.io/Pythonic/24/20241015-rss-app-x.md</link><description>Page 10.15 RSS4X - Last updated at 2024-10-15T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给X生成RSS&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;以供 Follow 订阅&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;p&gt;终于获得一个 Follow.is 邀请码,
-立即尝试...&lt;/p&gt;
-&lt;h2&gt;goal&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;将自己所有发布渠道综合起来&lt;/li&gt;
-&lt;li&gt;也将自己最关注的渠道汇总起来&lt;/li&gt;
-&lt;li&gt;看看在 web3 视野中是否有价值?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;tracing&lt;/h2&gt;
-&lt;p&gt;要将自己发布的内容用 follow 订阅, 多数很容易,
-随便一个 URl 搜索一下, 可能就能找到;&lt;/p&gt;
-&lt;p&gt;但是, X/Twitter 比较特殊,
-尝试了几个方式, 最后追加了 2024 关键词才获得一个可用服务:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;RSS.app&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;简单的跟着界面创建一个 RSS 即可,
-然后, 将生成的 RSS 地址, 复制到 follow 界面中 RSS 源部分,
-订阅即好;&lt;/p&gt;
-&lt;h3&gt;注意&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;订阅源认证&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;只有认证后, 产生的各种收益才能归你所有;
-所以, 将自己的 X/推 变成 RSS 源后,
-首先要从 follow 中获得认证标识字串:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="认证" src="https://ipic.zoomquiet.top/2024-10-15-zshot%202024-10-15%2015.12.19.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;然后, 根据提示, 在 RSS.app 对应 RSS 源的描述中追加提供的字串:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="fid" src="https://ipic.zoomquiet.top/2024-10-15-WechatIMG5607.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;稍微等几分钟, 看看对应 RSS 的 XML 内容是否已经更新,
-然后, 回到 follow 中点击认证就可以看到认证完成的标记了.&lt;/p&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.wprssaggregator.com/twitter-rss/"&gt;The Easiest Method to Create Twitter RSS Feeds in 2024&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;PS:&lt;/p&gt;
-&lt;p&gt;刚刚发现 RSS.app 是付费服务,
-虽然好用, 但是, 不免费使用, 所以, 还得继续探索...&lt;/p&gt;
-&lt;p&gt;PPS:&lt;/p&gt;
-&lt;p&gt;参考 &lt;a href="/Pythonic/24/20241016-rss4mdbook.html"&gt;10.16 RSS4mdBook&lt;/a&gt;
-还是自己上手来折腾出来吧...&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241015-rss-app-x.md</guid><pubDate>Tue, 15 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.16 RSS4mdBook</title><link>https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.md</link><description>Page 10.16 RSS4mdBook - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给 mdBook 挂上 RSS?&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 29 Oct 2024 07:57:10 +0000</lastBuildDate><item><title>10.16 RSS4mdBook</title><link>https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.md</link><description>Page 10.16 RSS4mdBook - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给 mdBook 挂上 RSS?&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Rust 开发的 SSG 引擎...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1478,4 +1255,136 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-43.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-43.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.28 自持图床</title><link>https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.md</link><description>Page 10.28 自持图床 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;自持图床&lt;/h1&gt;
+&lt;p&gt;突然收到 UPYUN 的付费警告短信,
+才发现, 叕一年要去交涉了: 说明在使用 CDN 服务来支持公益技术社区;
+否则,代金券每年到期就失效... &lt;/p&gt;
+&lt;p&gt;参考: 再谈永不消逝的存储 – 博の朝日堂
+https://gao.bo/asahi/it/11627&lt;/p&gt;
+&lt;p&gt;面对家里包年的光纤宽带, 以及多台 Linux miniPC,
+还有42+Tb 的硬盘..不用沉思:&lt;/p&gt;
+&lt;p&gt;为什么, 不用自己的技术发布自己的图床?&lt;/p&gt;
+&lt;p&gt;问了几轮 GPT 配合关键词古典搜索, 发现果断早就有成熟的开源方案:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;部署简单&lt;/li&gt;
+&lt;li&gt;兼容 S3&lt;/li&gt;
+&lt;li&gt;可以分布式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基本上聚焦在:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;minIO ~ Go 开发, 专业分布式对象管理平台&lt;/li&gt;
+&lt;li&gt;SeaweedFS ~ Go 开发, 精巧的分布式文件系统, 提供 S3 兼容接口&lt;/li&gt;
+&lt;li&gt;Garage ~ Rust 开发,兼容S3分布式对象存储服务,针对中小规模自托管设计,法国团队...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;那么部署哪一个, 配套 Cloudflared 就可以将家庭内部网络主机上的服务, 变成可以全球自由私人使用的图床了呢?
+...继续探索ing...&lt;/p&gt;
+&lt;p&gt;猛然回头, 其实, 作为程序猿, 不折腾要死星人,
+实在太应该将家里闲置的各种计算资源复用起来,
+节省不必要的开支呢...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;|&amp;gt; 241029 日糟:
+¼(每天吐糟不应超过4次)
+&lt;/code&gt;&lt;/pre&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241028-loc-host-s3.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>咩是写作?</title><link>https://zoomquiet.io/IMHO/IAS/20241028-iff-write.md</link><description>Page 咩是写作? - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;什么是写作?&lt;/h1&gt;
+&lt;p&gt;今天 YC 大佬 Paul Graham 新文章又爆了:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://paulgraham.com/writes.html"&gt;写和不写 --- Writes and Write-Nots&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;引用了先人的金句,  莱斯利·兰波特 (Leslie Lamport) :&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;If you're thinking without writing, you only think you're thinking.
+如果你思考而不写作，你只是认为你在思考。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;正如费曼也曰过:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;证明自己学会的最佳办法是:能教会别人;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;想证明自己会写作,
+当前唯一有效的办法也只能是:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;有人愿意付费来看你的文字...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;所以, FanOnly 支持文本作品付费嘛?&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;写作才是写作最大的回报
+Writing is its own best reward
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV1Bb4y1R7WQ/"&gt;一个百大UP主的创业故事_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;有你真好
+感谢一路上陪伴我们的所有人
+
+编导：Tim
+顾问：flypig 期末 王炯 8崽 小雪
+拍摄：陈铎 缪哲渊 吴英仕 李旭哲
+剪辑：王静文 Tim
+动效：王俊霄
+音效：毛怡帆
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;影视飓风 团队的年度总结视频, &lt;/p&gt;
+&lt;p&gt;推友评论:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这条视频本身就是HKR方法论的一个完美的例子，三个超强的共鸣点，看完泪目。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;什么是 HKR方法论?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;H ~ happiness 快乐, 一个令人愉快的视频才是好的&lt;/li&gt;
+&lt;li&gt;K ~ knowledge 知识, 一个包含知识点的作品, 才是值得记忆的&lt;/li&gt;
+&lt;li&gt;R ~ resonance 共鸣, 打动人心&lt;ul&gt;
+&lt;li&gt;今后半段,又调整为 Rhythm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;嗯哼? 
+这 HKR ...不就是09年老六提出的三有嘛?&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;有趣有用有种:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;有趣是一切内容被人打开的触发&lt;/li&gt;
+&lt;li&gt;有用是一切内容被人记住的原因&lt;/li&gt;
+&lt;li&gt;有种是一切内容被人传播的动力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而节奏是视频专有的特性嘛?&lt;/p&gt;
+&lt;p&gt;不一定, 语言类一样有自己的节奏,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;相声, 作为地球语言艺术最高级别, 核心感染力就是节奏, &lt;ul&gt;
+&lt;li&gt;特别是单口, 完全是靠节奏营造出一切,&lt;/li&gt;
+&lt;li&gt;当观众一起沉浸到故事背景中时, 才能相信一切荒谬的矛盾,&lt;/li&gt;
+&lt;li&gt;从而大笑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;评书, 虽然有节节奏辅助乐器, 但是, 历史故事如何能深入人心&lt;ul&gt;
+&lt;li&gt;可不就是那一套套的铺垫?&lt;/li&gt;
+&lt;li&gt;作为节奏器, 将一个个枯燥的历史事件,变成眼前发生的动人爆裂&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而一切影像类作品的根本, 都是文字,
+而文字又为什么自古就是最通用的传播载体?&lt;/p&gt;
+&lt;p&gt;因为, 文字一样有节奏, 只不过是被动的而已;&lt;/p&gt;
+&lt;p&gt;文字本身包含的节奏, 是超越文字, 在于情节之中的,
+但是, 只能通过读者一个一个字, 一行一行文字, 一段一段内容线性吸收转化为想象的图景...
+而这时, 每个人的阅读习惯, 速度, 都不相同,
+文字进入的节奏是由读者控制的,
+而不像视频, 有自己的节奏...&lt;/p&gt;
+&lt;p&gt;在本地播放器的支持下, 我们也可以根据自己的习惯, 随时快进/退/暂停,
+来打破影视固有的节奏, 完成个性化吸收,
+只是, 那样导演原本的意图就被击穿了...&lt;/p&gt;
+&lt;p&gt;而文字, 不是, 无论你怎么调整节奏, 当整个儿故事进入脑海时, 
+原有的节奏就恢复过来了...&lt;/p&gt;
+&lt;p&gt;当然, 以上一切都在你能写作, 并乐于写作的前提之下的;&lt;/p&gt;
+&lt;p&gt;俺从有了智能手机开始, 基本上每周都维持了 100万字左右的阅读量,
+无论什么内容...&lt;/p&gt;
+&lt;p&gt;所以, 才有这种感觉, 
+而现在00后们, 习惯的短视频, 之所以, 感觉没意思,
+就是因为, 丫们信息含量太低了,
+要是换成剧本, 每条3分钟以内的短视频, 文本都不超过420字,
+在手机上看, 也就是1分钟不到的事儿...&lt;/p&gt;
+&lt;p&gt;只是, 现在的问题在, 我们自然人, 无论是否会写作,
+平时语言交流时, 也是一种写作, 口头即兴写作而已;&lt;/p&gt;
+&lt;p&gt;而这种沟通, 真正的敌人, 是根据过往互联网上好癞不分的语料训练出来的大模型,
+它们生成文字的效率是我现在使用输入法一行行输出的不亿倍,
+如果, 一个普通人日常接触的文字, 99.999942% 都是这类模型生成的话,
+自然人, 自主意识输出的文字, 可能就不是普通人习惯的了,
+就像当前欣赏歌剧/话剧/...一样,
+阅读自然人写的文字, 就变成一种高端行为艺术了;&lt;/p&gt;
+&lt;p&gt;那时, 写作还有自身的价值嘛?&lt;/p&gt;
+&lt;p&gt;也许, 对于社会价值不大了,
+但是, 对于自身, 调节思想/情绪/身体/心灵/.,. 的同步协调,
+永远有价值的...&lt;/p&gt;
+&lt;p&gt;具体是个什么机制? 俺当前说不清楚哈, 只是知道,
+这种体验, 只有开始写作才体验的到,
+不去写, 而是问 GPT 们什么是写作, 以及写作的本质和感觉...
+那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
