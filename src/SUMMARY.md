@@ -25,6 +25,7 @@
         + [什么是技术社区?](IMHO/FLOSS/20140227-ac2-tech-community.md)
         + [社区需要什么?](IMHO/FLOSS/20141215-ac20-need-what.md)
     + [睡后收入](IMHO/IAS/README.md)
+        + [咩是写作?](IMHO/IAS/20241028-iff-write.md)
         + [开源保险社区?](IMHO/IAS/20241026-jy-framwork.md)
     + [AIGCx征文:俺这样用GenAI](IMHO/20240704-aigcxzh-genai101.md)
         + [《我这样用GenAI》重构](IMHO/20240717-aigcxzh-genai102.md)
@@ -69,6 +70,7 @@
 
 - [蟒样](Pythonic/README.md)
     + [2024](Pythonic/24/README.md)
+      + [10.28 自持图床](Pythonic/24/20241028-loc-host-s3.md)
       + [10.18 dvd_subtitle](Pythonic/24/20241016-dvd_subtitle.md)
       + [10.16 RSS4mdBook](Pythonic/24/20241016-rss4mdbook.md)
       + [10.15 RSS4X](Pythonic/24/20241015-rss-app-x.md)
