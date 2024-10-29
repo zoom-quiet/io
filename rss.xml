@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 29 Oct 2024 07:57:10 +0000</lastBuildDate><item><title>10.16 RSS4mdBook</title><link>https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.md</link><description>Page 10.16 RSS4mdBook - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给 mdBook 挂上 RSS?&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 29 Oct 2024 08:27:40 +0000</lastBuildDate><item><title>10.16 RSS4mdBook</title><link>https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.md</link><description>Page 10.16 RSS4mdBook - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给 mdBook 挂上 RSS?&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Rust 开发的 SSG 引擎...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1315,14 +1315,14 @@ Writing is its own best reward
 &lt;p&gt;影视飓风 团队的年度总结视频, &lt;/p&gt;
 &lt;p&gt;推友评论:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这条视频本身就是HKR方法论的一个完美的例子，三个超强的共鸣点，看完泪目。&lt;/p&gt;
+&lt;p&gt;这条视频本身就是HKRR方法论的一个完美的例子，三个超强的共鸣点，看完泪目。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;什么是 HKR方法论?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;H ~ happiness 快乐, 一个令人愉快的视频才是好的&lt;/li&gt;
 &lt;li&gt;K ~ knowledge 知识, 一个包含知识点的作品, 才是值得记忆的&lt;/li&gt;
 &lt;li&gt;R ~ resonance 共鸣, 打动人心&lt;ul&gt;
-&lt;li&gt;今后半段,又调整为 Rhythm&lt;/li&gt;
+&lt;li&gt;今后半段,又追加一个 Rhythm&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
