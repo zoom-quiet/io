@@ -1,189 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 29 Oct 2024 08:31:02 +0000</lastBuildDate><item><title>10.16 RSS4mdBook</title><link>https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.md</link><description>Page 10.16 RSS4mdBook - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给 mdBook 挂上 RSS?&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Rust 开发的 SSG 引擎...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;p&gt;经网友支持, 开通了 &lt;a href="https://follow.is/#features"&gt;Follow&lt;/a&gt;,
-然后, 就遇到第一个问题:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://zoomquiet.io/"&gt;ZoomQuiet.io&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;第 N 次重构的私人网站,
-由 &lt;a href="https://rust-lang.github.io/mdBook/index.html"&gt;mdBook&lt;/a&gt;
-生成, 并没有 RSS 源提供给 Follow 哪...&lt;/p&gt;
-&lt;h2&gt;goal&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;简洁, 快速的追加 RSS.xml 给 mdBook 生成的网站&lt;/li&gt;
-&lt;li&gt;可以追加到 gh-actions 中, 以便其它人协作时, 不用折腾本地环境&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;logging&lt;/h2&gt;
-&lt;h3&gt;rss4mdbook.rs&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;其实原先解决过这个问题的&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;mdBook 是 Rust 社区进行文档组织发布的标准选择,
-其地位等于 Python 社区中:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Markdown 发明之前的 &lt;a href="https://www.sphinx-doc.org/en/master/examples.html"&gt;Sphinx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Markdown 发明之后的 &lt;a href="https://www.mkdocs.org/getting-started/"&gt;GettMkDocs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;相比其它 &lt;a href="https://www.cloudflare.com/zh-cn/learning/performance/static-site-generator/"&gt;SSG/静态站点生成器&lt;/a&gt;
-这类生成器, 最大的好处就在:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不像 Jekyll 之类, 要求在所有 Markdown 文章的顶部, 必须提供一组 meta 信息&lt;ul&gt;
-&lt;li&gt;以便 SSG 解析使用&lt;/li&gt;
-&lt;li&gt;而这些文本和内容无关, 完全是面向编译器工具的&lt;/li&gt;
-&lt;li&gt;非常分散注意力, 也破坏了 Markdown 文本的纯粹性&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;而是, 约定将 .md 文件放在哪个指定目录中就好&lt;ul&gt;
-&lt;li&gt;SSG 引擎将自动扫描并根据内置规则, 完成良好的编译和发布&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;而 mdBook 是由 Rust 开发的,
-其网页生成速度是所有 SSG 中最快的;&lt;/p&gt;
-&lt;p&gt;当初就是为了学习 Rust 而专门安装使用过 mdBook 来发布相关学习笔记:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://weekly.rs.101.so/"&gt;锈&amp;lt;周刊::2024&amp;gt; - 锈周刊 -&amp;gt; Weekly :: China&lt;Rustaceans&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://rs.101.so/"&gt;成为 Rustacean - be Rustaceans&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;当然也发现没有 RSS 生成的问题, 也顺手用 Rust 来编写工具解决:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://crates.io/crates/rss4mdbook"&gt;rss4mdbook - crates.io: Rust Package Registry&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;在本地也组织有 &lt;code&gt;pub.sh&lt;/code&gt; 来自动完成网站编译,扫描生成RSS,注入,并提交发布&lt;/li&gt;
-&lt;li&gt;问题在:&lt;ul&gt;
-&lt;li&gt;用 Rust 完成, 本地安装编译, 有点儿复杂, 其它人难以使用&lt;/li&gt;
-&lt;li&gt;用 Rust 编写, 如果有什么功能变化, 修改也比较困难&lt;/li&gt;
-&lt;li&gt;而且, 使用这个工具, 暂时只能完全在本地配置好执行环境, 然后使用发布脚本来完成, 如果本地环境因为各种环境失效, 自己也无法简单的立即恢复 RSS 生成.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;gh-actions&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;GitHub 这么良心的提供了免费微服务渠道, 必须得大力薅&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;和 GPT 们合作, 快速撸了个脚本: &lt;a href="https://github.com/zoom-quiet/io/blob/main/tasks.py"&gt;tasks.py&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;使用 Invoke 作为 CLI 指令框架&lt;/li&gt;
-&lt;li&gt;调用 &lt;code&gt;inv gen&lt;/code&gt; 指令自动完成:&lt;ul&gt;
-&lt;li&gt;读取 &lt;code&gt;SUMMARY.md&lt;/code&gt; 网站总索引文件&lt;/li&gt;
-&lt;li&gt;逐一拼装文件路径, 读取所有应该发布的 .md 文件内容&lt;/li&gt;
-&lt;li&gt;使用 markdown 模块编译为 html , 作为文章内容编组为 RSS 的条目信息&lt;/li&gt;
-&lt;li&gt;再根据所有文件的系统属性, 以更新时间排序, 只发布最新 14 个文章&lt;/li&gt;
-&lt;li&gt;最终将所有合理的内容, 输出为 &lt;code&gt;rss.xml&lt;/code&gt; 文档&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;接下来, 重构 GitHub 仓库中的 &lt;code&gt;.github/workflow&lt;/code&gt; 目录里的 Actions 脚本,
-才发现又一坑:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;原先是分为 &lt;code&gt;build.yaml&lt;/code&gt; 以及 &lt;code&gt;pages.yaml&lt;/code&gt; 两个构建脚本的&lt;/li&gt;
-&lt;li&gt;通过 &lt;code&gt;dawidd6/action-download-artifact@v3&lt;/code&gt; 这种中间行为进行成果交互&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;yaml
-...
-      - name: Download artifact
-        id: download-artifact
-        uses: dawidd6/action-download-artifact@v3
-        with:
-          name: book-and-rss
-          path: book/
-          workflow: build.yml&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;想在 &lt;code&gt;mdbook&lt;/code&gt; 指令之后, 追加 &lt;code&gt;inv&lt;/code&gt; 指令还好说,
-但是, 如何将生成的 &lt;code&gt;rss.xml&lt;/code&gt; 文件也合理的传递到 &lt;code&gt;pages.yaml&lt;/code&gt; 的行为流中,
-完全出乎意料;&lt;/p&gt;
-&lt;p&gt;质问了 GPT 们很久, 也无法在 gh-actions 中看到流畅的交接过程;&lt;/p&gt;
-&lt;h3&gt;CF-Pages&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;是的, 互联网菩萨 Cloudflare 也有 Pages 服务, 而且简洁无比, 值得上&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;结合之前的折腾 &lt;strong&gt;"&lt;a href="241014-cf-pages.html"&gt;迁移 gh-pages 到 Cloudflare&lt;/a&gt;"&lt;/strong&gt; 经验,
-也使用 &lt;code&gt;gh-pages&lt;/code&gt; 分支, 作为工作成果的中间缓存区,
-再配置 &lt;code&gt;CF-Pages&lt;/code&gt; 服务, 对应复制发布就好, 不用在 Cloudflare 端在进行任何编译工作;&lt;/p&gt;
-&lt;p&gt;进一步的经验:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;gh-actions 的 workflow 机制还远没成熟&lt;/li&gt;
-&lt;li&gt;不同的文件, 代表要拉起不同的虚拟机, 不同 Docker 之间的文件传递, 涉及太多安全问题, 远没那么简洁可以配置明白&lt;/li&gt;
-&lt;li&gt;所以, 能不拆分, 就别折腾&lt;/li&gt;
-&lt;li&gt;将编译和发布(其实就是推送到指定仓库分支中)行为,在一个 &lt;code&gt;.yaml&lt;/code&gt; 文件中完成即可&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;参考: &lt;a href="https://github.com/zoom-quiet/io/blob/main/.github/workflows/build-and-deploy.yml"&gt;build-and-deploy.yml&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;实用技巧只有:&lt;/p&gt;
-&lt;p&gt;```yaml
-...
-      # Step 6: Check and prepare files for deployment
-      - name: Prepare deployment files
-        run: |
-          echo "Listing generated files in book/"
-          ls -al book/
-          echo "Copy RSS and other files to book directory"
-          cp -v rss.xml book/
-          cp -v CNAME book/
-          cp -v .nojekyll book/
-          mv -v book ../&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  # Step 7: Checkout the gh-pages branch
-  - name: Checkout gh-pages branch
-    uses: actions/checkout@v4
-    with:
-      ref: gh-pages
-
-  # Step 8: Deploy to gh-pages branch
-  - name: Deploy to gh-pages
-    run: |
-      rm -rfv *
-      cp -rv ../book/* .
-      ls -al ./
-      git config --local user.name "github-actions[bot]"
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;...
-          git push origin gh-pages
-```&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;通过 &lt;code&gt;ls -al book/&lt;/code&gt; 这种列显指令, 可以在 Actions 日志中, 看到阶段成果, 以便确认调试进展&lt;/li&gt;
-&lt;li&gt;通过 &lt;code&gt;cp -v rss.xml book/&lt;/code&gt; 之类的指令, 将需要注入到目标静态网站目录中的额外文件都事先复制进去&lt;/li&gt;
-&lt;li&gt;然后, 将 &lt;code&gt;book&lt;/code&gt; 这种经济计划成果目录, 直接移动到工作目录, 也就是微服务中的仓库复本目录&lt;ul&gt;
-&lt;li&gt;再切换分支, 这样不会引发冲突&lt;/li&gt;
-&lt;li&gt;现在, 清除所有文件&lt;/li&gt;
-&lt;li&gt;最后, 从移到外层目录的成果目录中, 复制所有文件进来&lt;/li&gt;
-&lt;li&gt;完成完备的更新&lt;/li&gt;
-&lt;li&gt;现在进行标准的 git 提交+推送 行为就完成了自动编译&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;这时, &lt;code&gt;CF-Pages&lt;/code&gt; 就会被触发, 自动同步 &lt;code&gt;gh-pages&lt;/code&gt; 分支中的所有文件,并发布到约定域名中;&lt;ul&gt;
-&lt;li&gt;是的 Cloudflare 本身也有 DNS 服务功能&lt;/li&gt;
-&lt;li&gt;就不用像 GitHub 那样用 &lt;code&gt;CNAME&lt;/code&gt; 之类的交接文案来驱动后端其它服务进行域名绑定&lt;/li&gt;
-&lt;li&gt;而是直接在控制界面中简单的说明, Cloudflare 就将自动生成配置, 完成检验, 并上线最新域名解析&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;发布 RSS&lt;/h3&gt;
-&lt;p&gt;最后的最后, 别忘记发布 &lt;code&gt;rss.xml&lt;/code&gt; 到网站界面中;
-俺是修改 &lt;code&gt;index.hbs&lt;/code&gt; 模板文件,追加个标准 HTML 链接:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; &amp;lt;a href="/rss.xml"&amp;gt;&amp;lt;b&amp;gt;RSS&amp;lt;/b&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以便让自己以及各种工具知道网站拥有 RSS 源;&lt;/p&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://follow.is/#features"&gt;Follow&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://sspai.com/post/91283"&gt;使用 follow 重塑我的信息输入系统 - 少数派&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/rust-lang/mdBook"&gt;rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://crates.io/crates/rss4mdbook"&gt;rss4mdbook - crates.io: Rust Package Registry&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sphinx-doc.org/en/master/examples.html"&gt;Sphinx — Sphinx documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mkdocs.org/getting-started/"&gt;Getting Started - MkDocs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;tracing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;241025 DAMA 观察了各种 SSG 引擎,以及自己积累的各种文件形式,&lt;ul&gt;
-&lt;li&gt;增补代码, 以 .md 文件前缀约定为发布日期:&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;YYYYmmdd-&lt;/code&gt; 为统一前缀&lt;/li&gt;
-&lt;li&gt;如果没有这种前缀, 就不收录入 RSS&lt;/li&gt;
-&lt;li&gt;进行的, 也根据这一字串转换为时间对象, 并进行倒排, 只发布最新的几篇...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;241018 DAMA .init&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241016-rss4mdbook.md</guid><pubDate>Wed, 16 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.18 dvd_subtitle</title><link>https://zoomquiet.io/Pythonic/24/20241016-dvd_subtitle.md</link><description>Page 10.18 dvd_subtitle - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;古老的 dvd_subtitle&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 04 Nov 2024 13:23:46 +0000</lastBuildDate><item><title>10.18 dvd_subtitle</title><link>https://zoomquiet.io/Pythonic/24/20241016-dvd_subtitle.md</link><description>Page 10.18 dvd_subtitle - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;古老的 dvd_subtitle&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如何将 dvd_subtitle 转换为 .srt&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1255,7 +1071,376 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-43.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.28 自持图床</title><link>https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.md</link><description>Page 10.28 自持图床 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;自持图床&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-43.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-44</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-44.md</link><description>Page 蟒周刊:24-44 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/44&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/44
+Slug: pyrw-2444
+Date: 2024-10-28 11:42
+Tags: Weekly,Python,recap,discu_eu,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;reflex 叕一个 Streamlit&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: [Python recap for week 2024/43 - discu.eu](https://discu.eu/weekly/python/2024/43/3&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://astral.sh/"&gt;Astral: 下一代 Python 工具&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://astral.sh/"&gt;354 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ruff + uv&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://lmstudio.ai/blog/venvstacks"&gt;Venvstacks: Python 虚拟环境堆栈&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://lmstudio.ai/blog/venvstacks"&gt;40 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...用于创建“……可独立下载的 Python 应用程序环境的集成集”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然, 仅仅支持在 LM Studio 中使用.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://reflex.dev/"&gt;寻求有关多租户 Web 应用程序中 UI 最佳堆栈的建议&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/http://reflex.dev"&gt;34 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;reflex&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;叕一个 Streamlit 式应用框架...
+只是, 这个是付费的&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://pep-previews--4062.org.readthedocs.build/pep-0750/"&gt;PEP 750 – 模板字符串：惰性字符串格式评估&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://pep-previews--4062.org.readthedocs.build/pep-0750/"&gt;20 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.com/questions/36517829/what-does-multiplexing-mean-in-http-2"&gt;HTTP 的 async/await 替代方案，无需 async/await&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://stackoverflow.com/questions/36517829/what-does-multiplexing-mean-in-http-2"&gt;19 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://django.wtf/trending/?trending=30"&gt;2024 年 10 月热门 Django 软件包&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://django.wtf/trending/?trending=30"&gt;18 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250?page=2"&gt;Tim Peters 回归 Python Discourse 论坛&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250?page=2"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://serjhenrique.com/create-dependent-dropdown-with-django-and-htmx/"&gt;用 Django 和 HTMX 创建依赖下拉列表&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://serjhenrique.com/create-dependent-dropdown-with-django-and-htmx/"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;HTMX 新时代的 HTML6?
+反正看其它框架怎么兼容了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://snarky.ca/dont-use-named-tuples-in-new-apis/"&gt;不要在新 API 中返回命名元组&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://snarky.ca/dont-use-named-tuples-in-new-apis/"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://flask-india.hashnode.dev/"&gt;让我们来学 flask，最喜欢的微框架&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://flask-india.hashnode.dev/"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://clickpy.clickhouse.com/"&gt;ClickPy – Python 包分析&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://clickpy.clickhouse.com/"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/psf/requests/forks"&gt;Python Requests 有了一个有趣的替代方案&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/psf/requests/forks"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Niquests ?&lt;/p&gt;
+&lt;p&gt;很多如果不能兼容所有接口, 也很难立即用起来...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2024/Nov/3/docling/"&gt;Docling: 来自 IBM Deep Search 团队的文档提取 Python 库&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;能从任意pdf文件中提取内容为 md&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://benrutter.github.io/wimsey/"&gt;Wimsey: 快速、轻量级且简单的数据合约库（通过 narwhals 支持 Pandas、Polars、Arrow 等）&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ranger/ranger"&gt;终端的文件系统导航器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/ranger/ranger"&gt;70 评注 in 6 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;使用全套 VIM 快捷键的 TUI 工具...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/atiriko/Music"&gt;Algorithmic 用 Python 进行音乐生成算法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/atiriko/Music"&gt;30 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;算法是在默默弥缝, 主要还是得人工演奏点儿什么...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/kyleloomis/finstruments"&gt;Show HN: Finstruments - 用 Python 构建的金融工具库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/kyleloomis/finstruments"&gt;21 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;普通人家日常, 用得上卟?&lt;/p&gt;
+&lt;p&gt;目测用不上哈, 那么 你不是财快专业毕业的, 能理解其中的核心功能嘛?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/benrutter/wimsey"&gt;Wimsey- 适用于 Polars、Pandas、Dask 和 Modin 的轻量级、灵活的数据合约&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/benrutter/wimsey"&gt;21 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...数据合约...是某些数据应该真实的表达式&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;为了进行测试, 已经开始不断创造新的概念和工具了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cpunion/go-python"&gt;Write Python in Go - Golang 最直观的 Python 包装器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/cpunion/go-python"&gt;16 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼?
+不如直接写 golang 呢...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/aronmilenait/medusa"&gt;用 Python 开发一个 GNU/Linux 系统实用程序，提醒您定期短暂休息以休息眼睛。&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/aronmilenait/medusa"&gt;15 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/SeidSmatti/iziSajra"&gt;用于聊天机器人提交的简单 GUI 目录内容提取&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=""&gt;13 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;iziSajra&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;问题是, 这个项目名怎么念?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/hwkoene/soap"&gt;Simple Object Archive for Python - 提供单个装饰器来保存对象数据和关系&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/hwkoene/soap"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Simple Object Archive for Python (SOAP)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;叕一个 SOAP&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/codeupify/upify"&gt;Upify - 免费快速将 Flask 应用部署到云端&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/codeupify/upify"&gt;8 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/brainlid/langchain"&gt;我从Python版本的Langchain切换到了这个，差异是巨大的（积极的）！&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/brainlid/langchain"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Elixir LangChain&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;嗯哼? 从 Python 到 Elixir ,
+这转变当然大了...
+不过, Erlang 生态这么狂野的?
+已经完全支持了 LLM 系列?&lt;/p&gt;
+&lt;p&gt;参考: &lt;a href="https://github.com/brainlid/langchain/blob/main/notebooks/custom_functions.livemd"&gt;Livebook 笔记本“LangChain：执行自定义 Elixir 函数”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/-md_6nmogNc"&gt;将 Django 部署到 DigitalOcean Kubernetes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=EnC9ciDkXqA"&gt;如何使用 ipdb 交互式 Python 调试器&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;ipdb 这工具已经停止维护8年之久了?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=QOsVTCQZq_s"&gt;强大的LLM管道（Mathematica、Python、Raku）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Raku" src="https://github.com/antononcube/RakuForPrediction-book/raw/main/org/Raku-for-Prediction-book-mind-map.png" /&gt;&lt;/p&gt;
+&lt;p&gt;新书, 现在都必须是作者展开宣传了...&lt;/p&gt;
+&lt;p&gt;一听就是俄国程序猿...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/ruGRHYpq448"&gt;London Clojurians 演讲：Basilisp：Python VM 上的 Clojure（作者：Chris Rink）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/pyrecap/pyrw-2343.html"&gt;快讯 43/2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-549.html"&gt;PyCoder 549&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-497.html"&gt;Issue 497&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-524.html"&gt;pythonista-weekly : Pyw 524&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-445.html"&gt;Issue 445&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-473.html"&gt;pythonista-weekly : Pyw 473&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-352.html"&gt;Issue 352&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-195.html"&gt;蠎加载 195&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-149.html"&gt;蠎加载 149&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-97.html"&gt;蠎加载 97&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-190.html"&gt;Issue 190&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-139.html"&gt;Issue 139&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: &lt;a href="https://weekly.pychina.org/issue/issue-90.html"&gt;Issue 90&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-38.html"&gt;Issue 38&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zoomquiet.substack.com/"&gt;Zoom.Quiet’s Chaos42 \| Substack&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;古早:新闻组式写作&lt;/li&gt;
+&lt;li&gt;欢迎订阅, 包含当前周刊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+     &lt;em&gt;~-~∽~&lt;/em&gt;
+ ) /  O ◶  \ (/
+   '&lt;em&gt;   ∧   &lt;/em&gt;'&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;'-----' \&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2444.html"&gt;2024/44 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2444.md"&gt;pyrw-2444.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-44.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.28 自持图床</title><link>https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.md</link><description>Page 10.28 自持图床 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;自持图床&lt;/h1&gt;
 &lt;p&gt;突然收到 UPYUN 的付费警告短信,
 才发现, 叕一年要去交涉了: 说明在使用 CDN 服务来支持公益技术社区;
 否则,代金券每年到期就失效... &lt;/p&gt;
