@@ -3,14 +3,7 @@
 ---
 
 - [大妈](zoomquiet.md)
-    - [你好](hello-world.md)
     - [链接](linking.md)
-- [公告](ANN/README.md)
-    + [叕..重新开始](ANN/20200223-ZoomQuiet42-ANN-0-aaaagin.md)
-    + [呢喃](ANN/20200302-ZQ42-ANN-NINAN.md)
-    + [钩陈](ANN/20200222-ZQ42-ANN-historic.md)
-    + [拙见](ANN/20200222-ZQ42-ANN-IMHO.md)
-        + [PRESSone](ANN/pressone.md)
 
 # 随想🌚🌘🌗🌖🌝
 
@@ -63,6 +56,13 @@
     + [2024](OldTouch/2024/README.md)
         + [10.11 友好的法院?](OldTouch/24/20241011-funny-court.md)
     + [Jekyll 转进 Pelican](OldTouch/20131219-jekyll2pelican.md)
+- [公告](ANN/README.md)
+    - [你好](hello-world.md)
+    + [叕..重新开始](ANN/20200223-ZoomQuiet42-ANN-0-aaaagin.md)
+    + [呢喃](ANN/20200302-ZQ42-ANN-NINAN.md)
+    + [钩陈](ANN/20200222-ZQ42-ANN-historic.md)
+    + [拙见](ANN/20200222-ZQ42-ANN-IMHO.md)
+        + [PRESSone](ANN/pressone.md)
 
 # 折腾🌚🌘🌗🌖🌝
 
@@ -138,12 +138,3 @@
 ---
 
 
-
-```
-           _~^&~~_
-       () /  ◴ #  \ \/
-         '_   ⏡   _'
-         ( '--.--' )
-
-...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```

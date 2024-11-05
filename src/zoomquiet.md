@@ -145,3 +145,17 @@ askdama@googlegroups.com
     GET http://blog.zoomquiet.io/theme/css/dppfsfkxrtxvae2bkdzp5lo3ldcazywl9si6vvxl-qu.woff 404 (Not Found) 
 
 - 140107 init. the base info of zoomquiet.io
+
+
+
+
+```
+            _~~&^~_
+        () /  ◴ ^  \ \/
+          '_   ⎵   _'
+          > '-----' /
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```
+
+
