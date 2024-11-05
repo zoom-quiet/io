@@ -23,14 +23,17 @@
 - 当初的关系图谱首页迁移到 ==> [mm.zoomquiet.io](https://mm.zoomquiet.io)
 
 
-## trac
+## updating...
+> 最新发布的文章..毕竟,这是个图书网站,想按 blog 的时间顺序看,得额外整理..
 
-- 240722 追加默认首页
-- 240704 发布
-- 240701 mdBook init.
-- 240601 评估 SSG
-- 240401 动念
-
-## refer.
-...TBD
-
+> :::..
++ [咩是写作?](https://zoomquiet.io/IMHO/IAS/20241028-iff-write.html)
++ [10.28 自持图床](https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.html)
++ [蟒周刊:24-44](https://zoomquiet.io/Pythonic/weekly/24/20241028-44.html)
++ [蟒周刊:24-43](https://zoomquiet.io/Pythonic/weekly/24/20241028-43.html)
++ [开源保险社区?](https://zoomquiet.io/IMHO/IAS/20241026-jy-framwork.html)
++ [蟒周刊:24-42](https://zoomquiet.io/Pythonic/weekly/24/20241020-42.html)
++ [10.18 dvd_subtitle](https://zoomquiet.io/Pythonic/24/20241016-dvd_subtitle.html)
++ [10.16 RSS4mdBook](https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.html)
++ [10.15 RSS4X](https://zoomquiet.io/Pythonic/24/20241015-rss-app-x.html)
+> ..:::

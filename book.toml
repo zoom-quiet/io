@@ -22,7 +22,7 @@ no-section-label = true
 
 [output.html.fold]
 enable = true
-level = 1
+level = 2
 
 [output.html.playground]
 editable = true

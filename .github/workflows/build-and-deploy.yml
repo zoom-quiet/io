@@ -56,17 +56,17 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Step 4: Build the mdbook
+      # Step 4: Generate RSS feed
+      - name: Generate RSS feed + inject updating into README.md
+        run: |
+          inv gen || exit 1
+          echo "RSS feed generation finished."
+
+      # Step 5: Build the mdbook
       - name: Build mdBook
         run: |
           mdbook build || exit 1
           echo "Mdbook build finished."
-
-      # Step 5: Generate RSS feed
-      - name: Generate RSS feed
-        run: |
-          inv gen || exit 1
-          echo "RSS feed generation finished."
 
       # Step 6: Check and prepare files for deployment
       - name: Prepare deployment files

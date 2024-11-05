@@ -78,7 +78,7 @@ def ver(c):
 
 
 @task
-def gen(c,limitmes=7):
+def gen(c,limitmes=14):
     """echo crt. verions"""
 
     # 1. 定义网站 URL 和 SUMMARY.md 文件位置
@@ -166,7 +166,7 @@ def gen(c,limitmes=7):
         entry = fg.add_entry()
         entry.id(entry_data['id'])
         entry.title(entry_data['title'])
-        entry.link(href=entry_data['link'])
+        entry.link(href=f"{entry_data['link'][:-3]}.html")
         entry.published(entry_data['published'].isoformat())
         entry.description(entry_data['description'])  # 添加条目的 description
         entry.content(entry_data['content'], type='html')  # 添加 markdown 文件的内容
@@ -175,5 +175,58 @@ def gen(c,limitmes=7):
     fg.rss_file('rss.xml')
 
     print('RSS feed 生成ed: rss.xml')
+    appd_md = []
+    for entry_data in sorted_entries:
+        #LOG.debug(f"{entry_data['id']}:{entry_data['title']}:{entry_data['link'][:-3]}.html")
+        appd_md.append(f"+ [{entry_data['title']}]({entry_data['link'][:-3]}.html)")
+    LOG.debug(f"appd_md:\n{appd_md}")
+    _replace_md(c, "\n".join(appd_md))
 
+def _replace_md(c, 
+        new_content, 
+        mdfile="src/README.md",
+        mkstart="> :::..",
+        mkend="> ..:::",
+        ):
+    """假设我们有一个Markdown文件md_template.md，内容如下：
+    我们约定在以下两行之间的内容将被替换
+    > ::..
+    这是要被替换的内容
+    > ..::
+    """
 
+    # 读取Markdown文件
+    with open(mdfile, "r", encoding="utf-8") as file:
+        lines = file.readlines()
+
+    # 初始化一个空列表来存储更新后的内容
+    updated_lines = []
+
+    # 标志位，用于判断是否在替换区域内
+    in_replacement_area = False
+
+    # 遍历每一行，进行替换
+    for line in lines:
+        if line.strip() == mkstart:
+            # 如果遇到开始标志行，设置标志位为True，并添加新内容
+            in_replacement_area = True
+            updated_lines.append(line)
+            updated_lines.append(new_content + "\n")
+            continue
+        elif line.strip() == mkend:
+            # 如果遇到结束标志行，设置标志位为False，并跳出循环
+            in_replacement_area = False
+            updated_lines.append(line)
+            break
+
+        if not in_replacement_area:
+            # 如果不在替换区域内，直接添加原始内容
+            updated_lines.append(line)
+        else:
+            # 如果在替换区域内，跳过添加
+            continue
+
+    # 将更新后的内容写入文件
+    with open(mdfile, "w", encoding="utf-8") as file:
+        file.writelines(updated_lines)
+    LOG.info(f"update {mdfile} within:\n{mkstart}\n...\n{mkend}\n\tdone!")
