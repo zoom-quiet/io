@@ -1,5 +1,1061 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 04 Nov 2024 13:23:46 +0000</lastBuildDate><item><title>10.18 dvd_subtitle</title><link>https://zoomquiet.io/Pythonic/24/20241016-dvd_subtitle.md</link><description>Page 10.18 dvd_subtitle - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;古老的 dvd_subtitle&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 05 Nov 2024 15:01:53 +0000</lastBuildDate><item><title>别了Lark</title><link>https://zoomquiet.io/IMHO/DevOps/20241009-deLark.html</link><description>Page 别了Lark - Last updated at 2024-10-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何删除 Lark 资源?&lt;/h1&gt;
+&lt;p&gt;疫情期间各种云会议都开放使用,
+Lark 拥有全线产品支持, 所以, 那段时间组织的各种线上社区/会议/课程,
+都尽可能使用 Lark;&lt;/p&gt;
+&lt;p&gt;(其实是飞书, 当然, 为了区别国内/国际社区, 分别安装了 飞书以及Lark 
+两种功能/界面/...都一样, 但是, 注册/检验/域名/...又都不同的两个 app.)&lt;/p&gt;
+&lt;h2&gt;问题来了&lt;/h2&gt;
+&lt;p&gt;进入24年, 一直在报警, 云空间不足, 引导我重新认证, 没理会;&lt;/p&gt;
+&lt;p&gt;今天: 直接禁止发送图片了,
+提醒:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可升级版本或购买扩容包以获取更多存储空间&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;问题是有两年没用 Lark 的会议了哪, 为什么空间一直占用的?&lt;/p&gt;
+&lt;p&gt;槽点开始密集向俺冲来:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;进入后台, 存储空间-&amp;gt;存储清理&lt;/li&gt;
+&lt;li&gt;发现:&lt;/li&gt;
+&lt;li&gt;聊天文件 只能建立清理任务, 而无法进行人工大文件选择&lt;/li&gt;
+&lt;li&gt;云文档, 能看到哪些成员占用过多空间, 但是, 无法进入管理, 除非你升级&lt;/li&gt;
+&lt;li&gt;视频会议, 无法立即选择历史录制, 必须先搜索, 再删除, 然后彻底销毁, 才能释放空间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;最终发现&lt;/h2&gt;
+&lt;p&gt;以上还都是在自行探查无果后, 找了客服, 才知道的;&lt;/p&gt;
+&lt;p&gt;好在客服是真人, 而且立即详细回复, 服务态度没说的;&lt;/p&gt;
+&lt;p&gt;可 Lark 后台管理系统作的是真狗:&lt;/p&gt;
+&lt;p&gt;聊天文件清理, 那个搜索框, 反复尝试才发现, 每次只能搜索半年的,
+而且, 必须从开始日期, 再结束日期, 否则, 根本记录不到你想设定的日期:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不允许手工输入&lt;/li&gt;
+&lt;li&gt;不允许先选择结束日期&lt;/li&gt;
+&lt;li&gt;不允许在日期表格中划选&lt;/li&gt;
+&lt;li&gt;不允许...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你得用心领会, 理解, 并认真尝试, 才能发现这个日期选择组件:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;只能选择180天跨度以内的&lt;/li&gt;
+&lt;li&gt;只能依次选择&lt;/li&gt;
+&lt;li&gt;无法记忆上次选择&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;真的是个特殊的日期选择弹出对象哪, 而且这东西在后台所有日期选择处都使用了...&lt;/p&gt;
+&lt;p&gt;成员空间, 当初设定了每位最多使用500Mb, 但是, 
+看统计, 有很多用超了, 但是, Lark 并没有任何限制,
+可现在我又无法进入成员空间来删除;&lt;/p&gt;
+&lt;p&gt;只能:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要不先对成员进行离职操作, 并同时将对应资源转移到管理员, 也就是我的名下, 再去删除;&lt;/li&gt;
+&lt;li&gt;要不, 可以直接对成员文档进行转移操作, 再去删除&lt;/li&gt;
+&lt;li&gt;而删除, 又得切换到云文档管理, 这东西不在管理后台的 web 界面,只能在 Lark 的桌面 app 界面;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为什么呢? 没想通...反正, 你只能 N 个界面来回跳;&lt;/p&gt;
+&lt;p&gt;视频会议-&amp;gt;录制管理, 终于理解了搜索的正确操作,半年一次, 向前搜索到各个录制时, 终于可以删除了;&lt;/p&gt;
+&lt;p&gt;可是, 又发现将在90天以后真正销毁, 在此期间依然占用资源空间;
+你得额外再进行选中, 并 &lt;code&gt;彻底销毁&lt;/code&gt;, 也就是立即释放空间;
+但是, 这个操作又特别危险, 所以, 你必须输入短信验证码, 来确认你是管理员;
+神奇的是, 每天验证码发送又有次数限定, 以防恶意删除...&lt;/p&gt;
+&lt;h2&gt;结论&lt;/h2&gt;
+&lt;p&gt;被各种神奇的阻止折腾吐了, 决定升级认证一下吧,
+然后, 被告之, 企业专业版本, 按人头收年费, 俺这不到100人的小社区, 
+要交 &lt;code&gt;58,000+RMB/年&lt;/code&gt;, 
+嗯哼? 这么壕的?&lt;/p&gt;
+&lt;p&gt;所以, 之前免费的所有功能, 以及自动记录的所有文档/录像,
+其实就变成要胁了? 不付费就什么都用不了?&lt;/p&gt;
+&lt;p&gt;可见 Lark 以及其产品线在和 Tiktok 们 PK 时, 赢利能力被 diss 的猛了,
+所以, 开始想办法收费了...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;|&amp;gt; 241008 日糟:
+1/4(每天吐糟不应超过4次)
+&lt;/code&gt;&lt;/pre&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241009-deLark.md</guid><pubDate>Wed, 09 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.11 电影字幕</title><link>https://zoomquiet.io/Pythonic/24/20241011-mov-sub.html</link><description>Page 10.11 电影字幕 - Last updated at 2024-10-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;电影中文字幕?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何快速获得...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;最新电影, 可能很小众, 字幕组还没跟进,
+怎么办?&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;p&gt;用 Pythonic 精神, 先解决有没有, 再解决好不好&lt;/p&gt;
+&lt;p&gt;所以:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如何综合利用已知工具&lt;/li&gt;
+&lt;li&gt;简要的获得一部电影的中文字幕?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;trac&lt;/h2&gt;
+&lt;p&gt;之前用过 jianying 从视频音频内部直接识别出字幕,而且还能自动翻译成中文;&lt;/p&gt;
+&lt;p&gt;可一尝试, 发现, jianying 默认音源是中文, 所以, 一部日文电影识别出来的中文是乱的;&lt;/p&gt;
+&lt;p&gt;又尝试了一下国际版: CapCut, 人家能自动识别语言, 并生成日文字幕;&lt;/p&gt;
+&lt;p&gt;可惜要付费升级为 Pro 帐号才能导出,&lt;/p&gt;
+&lt;p&gt;有个印象, 好象有工具可以从本地工程缓存中摄取已经识别出来, 但是, 不准你导出的字幕?&lt;/p&gt;
+&lt;p&gt;有了关键词, 一搜索, 果然找到了,
+所以, 得绕了一下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;发现 剪眏无法识别日文语音,&lt;/li&gt;
+&lt;li&gt;capcut 可以, 但是, 要付费导出,&lt;/li&gt;
+&lt;li&gt;使用了: 剪映字幕在线工具提取,为 .srt&lt;/li&gt;
+&lt;li&gt;再用 https://app.immersivetranslate.com/ 完成翻译...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="sub" src="https://ipic.zoomquiet.top/2024-10-11-zshot%202024-10-11%2011.38.26.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;效果还行, 基本可看了...&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=mCwMt-5K47c"&gt;【剪映教学】剪映专业版字幕功能开始收费了，老胡教你继续完全免费生成内嵌和外挂字幕的方法。 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://jy.mzh.ren/"&gt;剪映字幕在线工具 ｜支持剪映字幕文件导入/导出 by 码中人&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://app.immersivetranslate.com/?utm_source=extension&amp;amp;utm_medium=extension&amp;amp;utm_campaign=popup_btn_document"&gt;沉浸式翻译 - 文档双语翻译 ： 一键翻译 PDF， ePub 电子书，字幕文件，txt文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241011-mov-sub.md</guid><pubDate>Fri, 11 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.11 友好的法院?</title><link>https://zoomquiet.io/OldTouch/24/20241011-funny-court.html</link><description>Page 10.11 友好的法院? - Last updated at 2024-10-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;友好的法院?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;真实经历...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;原先小区, 住2楼, 有个大阳台, 15年来无事发生;
+去年, 楼下新业主入驻, 立即开始了投诉:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物业&lt;/li&gt;
+&lt;li&gt;居委&lt;/li&gt;
+&lt;li&gt;街道&lt;/li&gt;
+&lt;li&gt;城管&lt;/li&gt;
+&lt;li&gt;警察&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不和我们沟通, 就投诉要求我们:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;因为,怀疑平台漏水, 导致外墙渗水, 会滴到家人头顶&lt;/li&gt;
+&lt;li&gt;所以,要求我们拆除雨棚,花池, 并铲开整个阳台到砂浆层重新作整个防水工程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;p&gt;楼下虽然屋内从一开始就没漏过水,
+但是, 拿着外墙在暴雨后, 几处渗水点的照片一直要求:&lt;/p&gt;
+&lt;p&gt;一定要按照他们的方案施工, 才可能完全杜绝外墙渗漏.&lt;/p&gt;
+&lt;h2&gt;trace&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可是, 这是25年前的建筑哪...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;虽然质疑其怀疑以及方案,
+我们还是友善的进行了一系列合理防治:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;拆了花池, 将对应部分重作防水&lt;/li&gt;
+&lt;li&gt;根据装修师傅建议, 自行采购了金刚防水漆, 刷了整个阳台&lt;/li&gt;
+&lt;li&gt;找专门渗漏检测机构, 用专用仪器探查,并对全屋水管进行充气压力测试, 明确可能渗漏点, 进行一系列防治&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但是, 珠海从4月开始一直到9月, 就没有连续5天以上不下雨的时日,
+而防水材料, 至少要连续4天的干燥时间, 否则, 水溶性的专用材料将可能失效;&lt;/p&gt;
+&lt;p&gt;楼下直接在6月将我们告上区人民法院;&lt;/p&gt;
+&lt;p&gt;人生首次成为正式被告, 接到应述通知(民诉前调 XXX 号)才知道已经立案;
+诉求有四:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;判令停止对原告房产侵害&lt;/li&gt;
+&lt;li&gt;判令赔偿原告维修费用2万多&lt;/li&gt;
+&lt;li&gt;判令拆除所有违建&lt;/li&gt;
+&lt;li&gt;判令被告承担所有诉讼相关费用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;p&gt;好在有律师朋友, 指点思路:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;嫑请律师, 自主应诉, 法官能识别小事大作和真诚应对的&lt;/li&gt;
+&lt;li&gt;嘦积极配合调解, 作好防水, 其它的交给法官&lt;/li&gt;
+&lt;li&gt;老建筑渗漏是常见纠纷, 鉴权最复杂, 没有法官愿意折腾&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, 淡定下来, 下单给专业机构负责, 紧盯天气, 挤时间一处一处作足防水,
+又在法院对接的退休老专家现场勘察后, 增补可能的点, 
+进行全方位防渗:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将二层以上总空调水明管,接上相同直径的引到阳台东南最低角的下水口, 以免冲刷平台&lt;/li&gt;
+&lt;li&gt;并对东南最低角的下水口穿过围墙的内部壁重新作防水, 以免渗入墙体&lt;/li&gt;
+&lt;li&gt;对整个平台,围墙,以及和隔壁的立墙, 全部刷上4层工业级防水材料&lt;/li&gt;
+&lt;li&gt;对雨棚打入阳台围墙的三个中空立柱, 发现其中有积水, 就其底部开孔, 以免淤积, 并对顶部破损的塑封, 重新作密封;&lt;/li&gt;
+&lt;li&gt;对平台西侧和隔壁共有的立墙底部挖开, 检验二层以上总雨水明管完好, 无破损;&lt;ul&gt;
+&lt;li&gt;但是, 隔墙底部, 砂浆层上方有渗漏现象, 是从隔壁洗衣机排水口漏下串过来的&lt;/li&gt;
+&lt;li&gt;于是, 截断水管, 对隔墙底部刷上4层工业级防水材料, 再接好排水管, &lt;/li&gt;
+&lt;li&gt;并埋入一段开了槽的排水管&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;确保:&lt;ul&gt;
+&lt;li&gt;我们平台整体无论哪个面和角落, 都不可能有渗漏&lt;/li&gt;
+&lt;li&gt;即便从隔壁有串水, 也将合理导出, 从排水管旁边导走&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后, 针对&lt;code&gt;民事起诉状&lt;/code&gt; 中列举的各种证据, 进行质证, 组织好文档, 向法院提交资料;&lt;/p&gt;
+&lt;p&gt;收到原告追加证据, 追加老婆为被告, 继续质证, 组织好文档, 向法院提交资料;&lt;/p&gt;
+&lt;p&gt;今天, 终于开庭审判, 我们组织好所有证据:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理好事件时间线&lt;/li&gt;
+&lt;li&gt;设计答辩逻辑图&lt;/li&gt;
+&lt;li&gt;打印好所有文件&lt;/li&gt;
+&lt;li&gt;准备好视频/音频证据光盘(因为法院不收U盘, 还专门找了还有刻录仪的服务社来刻)&lt;/li&gt;
+&lt;li&gt;事先进行演练, 分配好角色&lt;/li&gt;
+&lt;li&gt;是否要当庭痛哭, 以便加强说服力...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;结果, 在规定的时间到达规定的法庭, 法官一到场, 刚听书记员完成了资料陈述,
+直接开始了法院调解;&lt;/p&gt;
+&lt;p&gt;三下五除二, 第5分钟就完成了法理分析, 给出方案, 要求原告代理律师沟通确认;
+接着用了一个小时说服了原告,
+我们当场转帐&lt;code&gt;最终调解费&lt;/code&gt;, 从此, 楼下不可能以相同/相似理由再次起诉我们了;&lt;/p&gt;
+&lt;p&gt;法官也说:"不好意思, 今天没让你们体验到完整的法院议程;"&lt;/p&gt;
+&lt;p&gt;因为, 对方辩友..不是, 代理律师, 完全一问三不知:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;现在还漏不?&lt;/li&gt;
+&lt;li&gt;渗漏原因,你们有鉴定报告嘛?&lt;/li&gt;
+&lt;li&gt;到底损失费用有多少?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;法官拿着我们提供的专业渗漏检测机构报告直接分析:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;平台是公有面积, 你们的所有后建都是违建, 但这是侵权, 无法证明和渗漏有关联&lt;/li&gt;
+&lt;li&gt;原因涉及隔壁以及隔墙, 隔墙是全楼共有, 原告必须将所有关联方都告才行&lt;/li&gt;
+&lt;li&gt;涉及渗漏的外墙面积,顶多20坪, 重刷的费用没多少, 鉴定费用绝对比真实损失还要高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, 原告提出2万多的损失不合理, &lt;/p&gt;
+&lt;p&gt;最终, 律师交代1.5万, 法官拍板, 涉及责任方有三方, 被告最多承担 1/3 ,
+而且被告一直在积极配合维修根本没有责任的建筑部分, 已经算好心了, 得打折;
+3500元结束案件就可以了;&lt;/p&gt;
+&lt;p&gt;可电话沟通原告, 就是不愿意, 律师劝了半小时;
+法官受不了, 拿了电话就分析, 结果原告还委屈, 说再也不相信法律了, 要投述;&lt;/p&gt;
+&lt;p&gt;法官也有结案 KPI 的, 套话才知道, 律师费就得5000, 如果我们只赔3500,律师可能拿不到尾款, 当场所有人都感觉小律师太不容易了;
+就将&lt;code&gt;最终调解费&lt;/code&gt;提到5000元;&lt;/p&gt;
+&lt;h2&gt;summary&lt;/h2&gt;
+&lt;p&gt;法官的思路很直接:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你们这些证据以及过程都不重要&lt;/li&gt;
+&lt;li&gt;法院只关心:&lt;ul&gt;
+&lt;li&gt;权益损失&lt;/li&gt;
+&lt;li&gt;责任归属&lt;/li&gt;
+&lt;li&gt;承担比例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其它的都是情绪和法律精神没关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;否则, 真要按照法院议程一步步来, 像外国剧集中那样辩论几轮,
+每个案件时间成本就不可控了;&lt;/p&gt;
+&lt;p&gt;还分享几个案例:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法官自己也被楼下投诉, 拆了卧室/洗手间, 重作防水都不行, &lt;ul&gt;
+&lt;li&gt;最后拆了阳台, 才发现是外墙渗漏;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;有一还在审理的案子,是一到六楼一起告七楼漏水, 要先付费作鉴定时, &lt;ul&gt;
+&lt;li&gt;六楼表示太贵不想作, &lt;/li&gt;
+&lt;li&gt;但是, 3,4,5楼很积极, 宁可集资也要作技术鉴定; &lt;/li&gt;
+&lt;li&gt;法官很奇怪这是根据什么逻辑来支撑信心的? &lt;/li&gt;
+&lt;li&gt;一问才知道, 原来4层业主是作装修工程的, 所以上下楼都相信, 所以跟, &lt;ul&gt;
+&lt;li&gt;而6楼就在7楼下, 知道这事儿没谱...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;另外有件跟踪20年还没结的案子:&lt;ul&gt;
+&lt;li&gt;是座独幢别墅, 业主告房产商, 各种指标不合格,要修补&lt;/li&gt;
+&lt;li&gt;双方都笃定自己是对的, 就一直鉴定, 维修, 再鉴定...怼了20年&lt;/li&gt;
+&lt;li&gt;业主买下来, 从来没住过一天, 这20年, 就这么怼过来了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, 感叹:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;以往都是楼下发现楼上渗水后, 万分焦虑想办法解决;
+现在, 完全反过来了...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;不过, 法院这种不管过程, 邻里关系情绪,
+只根据法律精神以及相关案例, 高速定损定论, 竭力结案, 不扩大案件蔓延的技巧;&lt;/p&gt;
+&lt;p&gt;到底是友好呢, 还是不友好呢?&lt;/p&gt;</content:encoded><guid isPermaLink="false">OldTouch/24/20241011-funny-court.md</guid><pubDate>Fri, 11 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241014-41.html</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/41&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/41
+Slug: pyrw-2441
+Date: 2024-10-14 11:42
+Tags: Weekly,Python,recap,discu_eu,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Python 3.13 中禁用 GIL&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/41/"&gt;Python recap for week 2024/41 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.linuxjournal.com/article/3882"&gt;为什么选择 Python (2000)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.linuxjournal.com/article/3882"&gt;161 评注 in 6 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;24年前, Eric Raymond 的雄文:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...编码工作量的一个重要衡量标准是您编写的内容与您对问题的心理表征实际上不符的频率&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;论广告文学的正确打开方式...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...在编写 fetchmailconf 几周甚至几个月后，我仍然可以阅读 fetchmailconf 代码并理解它在做什么，而无需认真思考.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;论黑一门语言的最高境界;&lt;/p&gt;
+&lt;p&gt;其实, 可以同时应用在文案创作之上,
+自己为了一个不知所谓的品牌写的一段不知所谓的赞美文,
+几周后自己自然也无法理解到底在说什么...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html"&gt;用 Python 3.12 进行静态类型函数编程&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html"&gt;77 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://gwolf.org/2024/10/started-a-guide-to-writing-fuse-filesystems-in-python.html"&gt;开始使用 Python 编写 FUSE 文件系统的指南&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://gwolf.org/2024/10/started-a-guide-to-writing-fuse-filesystems-in-python.html"&gt;63 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;原本和 Linux 一样, 只是个教学任务,
+没想到几届学生里,只有一位硬着头皮尝试写过,
+现在老师开始撸了&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.python.org/3/whatsnew/3.13.html"&gt;Python 3.13 的新增功能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://docs.python.org/3/whatsnew/3.13.html"&gt;43 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;官方中文: &lt;a href="https://docs.python.org/zh-cn/3/whatsnew/3.13.html"&gt;Python 3.13 有什么新变化 — Python 3.13.0 文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://geekpython.in/how-to-disable-gil-in-python"&gt;在 Python 3.13 中禁用 GIL&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://geekpython.in/how-to-disable-gil-in-python"&gt;43 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;真无上法器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;python3.13t&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;通过同时安装两种不同的执行文件来选择性获取&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pym.dev/python-313-whats-new/?watch="&gt;Python 3.13 的最佳新特性&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://pym.dev/python-313-whats-new/?watch="&gt;34 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;REPL 大力得到改进, 不过...有多少人在 REPL 中编程呢?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://luteorg.github.io/lute-manual/"&gt;考虑从 Flask-Sqlalchemy 迁移到 Flask 和普通 Sqlalchemy：不确定如何开始，或者是否有用&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://luteorg.github.io/lute-manual/"&gt;28 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://blog.miguelgrinberg.com/post/the-ultimate-guide-to-error-handling-in-python"&gt;Python 错误处理终极指南&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://blog.miguelgrinberg.com/post/the-ultimate-guide-to-error-handling-in-python"&gt;27 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://youtubetranscriptoptimizer.com/blog/02_what_i_learned_making_the_python_backend_for_yto"&gt;从为新 Web 应用程序制作 Python 后端中学到了什么&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://youtubetranscriptoptimizer.com/blog/02_what_i_learned_making_the_python_backend_for_yto"&gt;21 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;真切的经验:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...长期以来我坚持用 Python 做所有事情，一直在使用错误的工具，是时候硬着头皮真正学习 Typescript、React、Zustand 以及所有其他我一直拒绝学习的技术了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对美的钝感, 可能是 Python 社区的通病&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://testdriven.io/blog/django-digitalocean-spaces/"&gt;数字海洋应用平台+空间&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://testdriven.io/blog/django-digitalocean-spaces/"&gt;18 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://freefrancisco.hashnode.dev/function-composition-and-currying-in-python"&gt;Python 中的函数组合和柯里化&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://freefrancisco.hashnode.dev/function-composition-and-currying-in-python"&gt;16 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.itprotoday.com/python/python-3-13-boosts-performance-and-developer-experience"&gt;Python 3.13 提升性能和开发人员体验&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.itprotoday.com/python/python-3-13-boosts-performance-and-developer-experience"&gt;14 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.coryzue.com/writing/kamal-django/"&gt;用 Kamal 2 将（多个）Django 应用程序部署到单个服务器&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.coryzue.com/writing/kamal-django/"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;kamal是 Ruby 构建的一个通用 web 应用部署器&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true"&gt;三胞胎问题的python代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可以对比到看其它各种语言的版本&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://docs.python.org/3.13/whatsnew/3.13.html"&gt;Python 3.13 released Python 3.13 发布&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://docs.python.org/3.13/whatsnew/3.13.html"&gt;195 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://blog.python.org/2024/10/python-3130-final-released.html"&gt;Python 3.13.0 (final) released Python 3.13.0（最终版）发布&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.djangoproject.com/weblog/2024/oct/08/bugfix-releases/"&gt;Django 错误修复版本已发布：5.1.2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/astral-sh/uv"&gt;PSA: 如果您正在开始一个新项目，请尝试 astral/uv！&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/astral-sh/uv"&gt;163 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;锈化成功的  pip ...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/aneeb02/SpotiFlopy"&gt;将 Spotify 设为付费版，但这是免费的&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/aneeb02/SpotiFlopy"&gt;89 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;yt-dlp 的配套拓展工具&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/Vortex1134/folder-organization.git"&gt;folder-organization 文件夹组织脚本&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/Vortex1134/folder-organization.git"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/ninoseki/arakawa"&gt;Arakawa:用 100% Python（Datapane 的一个分支）构建数据报告&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/ninoseki/arakawa"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Vue+Ts 混合前端代码;
+&lt;a href="https://github.com/datapane/datapane"&gt;datapane/datapane: Build and share data reports in 100% Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;的再制&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/ifokeev/telegram-ai-agent"&gt;强大的 Python 库，用于创建人工智能驱动的 Telegram 机器人&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/ifokeev/telegram-ai-agent"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/epogrebnyak/abacus-minimal/"&gt;用 Python 实现的会计科目表和分类帐的会计（簿记）规则&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/epogrebnyak/abacus-minimal/"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;神奇了, 最终最易用的,还是得模拟人工在纸上记帐的过程...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/sadaqatullah/python-env-cleaner"&gt;为自己创建了一个脚本，其他人可能也需要它。 Python 环境清理器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/sadaqatullah/python-env-cleaner"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;看起来不像支持 windows 的样子&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/rescrv/napkin"&gt;Napkin: Python 中的粗略计算&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/rescrv/napkin"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/angx1/automation-clipper"&gt;开源 Mac 菜单栏应用程序，允许您剪辑 Python 脚本&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/angx1/automation-clipper"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/FL33TW00D/coremlprofiler"&gt;直接从 Python 分析 CoreML 模型&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/EB4pqThgats?si=Z-lXOjuNKEP5Yehn"&gt;自从开始专注于基础知识以来，我对 Numpy 和 PyTorch 的机器学习有了更好的理解&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://youtu.be/EB4pqThgats?si=Z-lXOjuNKEP5Yehn"&gt;30 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后? 依然写不出受市场欢迎的 app ?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?index=10&amp;amp;list=PLTsu3dft3CWiow7L7WrCd27ohlra_5PGH&amp;amp;v=Y6VdvNdNHqo"&gt;在 YouTube 上分享了 1 个多小时的 Streamlit 课程 - 学习轻松创建 Python 数据/Web 应用程序&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.youtube.com/watch?index=10&amp;amp;list=PLTsu3dft3CWiow7L7WrCd27ohlra_5PGH&amp;amp;v=Y6VdvNdNHqo"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Streamlit 真的非常漂亮,
+但是, 你想作稍微复杂点儿有流程的交互应用就麻烦了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=bHn4dLJYIqE"&gt;40 分钟内构建 AI 代理&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.youtube.com/watch?v=bHn4dLJYIqE"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=yd169cQ-Msg"&gt;numpy 教程 - Spyder 6 IDE&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/issue/issue-598.html"&gt;PyCoder 598&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-546.html"&gt;PyCoder 546&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-494.html"&gt;Issue 494&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-521.html"&gt;pythonista-weekly : Pyw 521&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-442.html"&gt;Issue 442&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-470.html"&gt;pythonista-weekly : Pyw 470&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-349.html"&gt;Issue 349&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-192.html"&gt;蠎加载 192&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-146.html"&gt;蠎加载 146&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-94.html"&gt;蠎加载 94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-187.html"&gt;Issue 187&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-136.html"&gt;Issue 136&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: 空缺&lt;/li&gt;
+&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-35.html"&gt;Issue 35&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zoomquiet.substack.com/"&gt;Zoom.Quiet’s Chaos42 \| Substack&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;古早:新闻组式写作&lt;/li&gt;
+&lt;li&gt;欢迎订阅, 包含当前周刊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+      &lt;em&gt;~~|-~&lt;/em&gt;
+  \/ /  ? ◴  \ \/
+    '&lt;em&gt;   𝟂   &lt;/em&gt;'
+    \ '--⌄--' )&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2441.html"&gt;2024/41 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2441.md"&gt;pyrw-2441.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241014-41.md</guid><pubDate>Mon, 14 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.14 迁移 gh-pages 到 Cloudflare</title><link>https://zoomquiet.io/Pythonic/24/20241014-cf-pages.html</link><description>Page 10.14 迁移 gh-pages 到 Cloudflare - Last updated at 2024-10-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;迁移 gh-pages 到 Cloudflare&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何将 github 和 Cloudflare 的 Pages 服务串联起来?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;原有社区官网, 使用 Hugo 作为 SSG ,
+通过 GitHub Actions 作为部署工具,
+发布到 GitHub Pages 中, 并绑定域名;&lt;/p&gt;
+&lt;p&gt;对应 actions 脚本:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/duonb/duonb.org/blob/683549a6a1745686ee744c8fae2168852ae3e100/.github/workflows/hugo.yml"&gt;duonb.org/.github/workflows/hugo.yml at 683549a6a1745686ee744c8fae2168852ae3e100 · duonb/duonb.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;随着运营的深入, 发觉 相比 GitHub(后续缩写为GH) 各种别扭而且多变的配置,
+Cloudflare(后续缩写为 CF) 各种良心免费资源配套齐全, 而且免费额度不小,
+值得迁移;&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;原有内容运营流程不变:&lt;ul&gt;
+&lt;li&gt;编辑随时进入 GH&lt;/li&gt;
+&lt;li&gt;在仓库中使用 &lt;code&gt;.dev&lt;/code&gt; 在线 IDE 完成文章编撰&lt;/li&gt;
+&lt;li&gt;提交后, 由 Actions 自动触发执行完成发布&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;最终静态网站通过 CF-Pages 服务发布&lt;ul&gt;
+&lt;li&gt;相比 GH 以及东家, CF 是更加专业的网络服务商&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;p&gt;通读相关文档以及网友们的经验后明确:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CF-Pages 和 GH-Pages 本质上一样, 都是微服务平台&lt;/li&gt;
+&lt;li&gt;通过对应 workflow 脚本触发 Docker 拉起虚拟机, 部署对应环境中, 执行约定指令完成静态网站的编译生成&lt;/li&gt;
+&lt;li&gt;最后复制到对应发布空间, 并安全消解掉所有虚拟资源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...而免费的东西, 果断都有坑&lt;/p&gt;
+&lt;h3&gt;直接上 CF&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;按照官方文档来&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;基本流程就是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建 Pages 实例&lt;/li&gt;
+&lt;li&gt;对接仓库&lt;/li&gt;
+&lt;li&gt;选择编译框架&lt;/li&gt;
+&lt;li&gt;配置发布域名&lt;/li&gt;
+&lt;li&gt;触发事件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;第一个坑:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根本无法识别自己 GH 帐号不是 owner 的仓库&lt;/li&gt;
+&lt;li&gt;只好将对应仓库 fork 到一个即有公开组织中&lt;/li&gt;
+&lt;li&gt;虽然 fork 过来的仓库是私有的, 但是, CF 良好识别了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;第二个坑:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CF Pages 中, 并没有类似 GH Actrions 的约定, 比如从 &lt;code&gt;.github/workflow&lt;/code&gt; 中自动识别 .yaml 作为 Dockerfiles 来执行&lt;/li&gt;
+&lt;li&gt;界面上只有简洁的框架选择, 以及构建成果发布目录之类几个选择&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;果然, 反复尝试, 都在类似错误中崩溃了:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;...
+Error: Exit with error code: 1
+        at ChildProcess.&amp;lt;anonymous&amp;gt; (/snapshot/dist/run-build.js)
+        at Object.onceWrapper (node:events:652:26)
+        at ChildProcess.emit (node:events:537:28)
+        at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+    Failed: build command exited with code: 1
+    Failed: error occurred while running build command&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;看起来对应 NodeJS CF 还没什么好办法自动征服&lt;/p&gt;
+&lt;h3&gt;对接到 CF&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;进一步挖掘文档&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;既然 CF 本身的 Pages 构建环境不如 GH 的,
+那么, 是否能在 GH Actions 中完成构建,
+只是将成果输出到 CF Pages 空间中, 而不是原有的 GH Pages ?&lt;/p&gt;
+&lt;p&gt;答案是肯定的, 虽然配置比较复杂:&lt;/p&gt;
+&lt;p&gt;根据相关文档: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 CF 中创建应用 token&lt;/li&gt;
+&lt;li&gt;从 CF 中拿到对应关键 ID&lt;/li&gt;
+&lt;li&gt;去 GH 配置环境变量, 来使用授权 token&lt;/li&gt;
+&lt;li&gt;再增补 Actions 脚本, 改变最后的 &lt;code&gt;pages-action&lt;/code&gt; 目标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;参考: &lt;a href="https://github.com/duonb/duonb.org/commit/47ef95d0255111606b975860850d9798b21f941f"&gt;upd4cloudflare · duonb/duonb.org@47ef95d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可惜, 依然有相似的错误,
+而且 CF Pages 文档也不少,
+继续挖掘进入更多细节来解决问题是否值得?&lt;/p&gt;
+&lt;h3&gt;通过 gh-pages 分支&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;洗了个冷水澡, 重新捋一下...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;之所以, 对 CF Pages 服务有信心, 因为之前有项目,
+在本地用 Python 完成静态网站编译后, 通过 GH 仓库, 
+对接到 CF Pages 一下子就发布出来了,非常流畅;&lt;/p&gt;
+&lt;p&gt;所以, 嘦不涉及具体的微服务器构建过程, 只是对静态网站进行发布 CF Pages 是完全没有问题的.&lt;/p&gt;
+&lt;p&gt;而 Hugo 工程, 为了商业化界面, 还安装了各种复杂的 NodeJS 拓展,
+所以, Actions 过程比较长, 在本地都不一定部署的对;
+大家也是从 Theme 原型仓库抄来的 workflow 而已;&lt;/p&gt;
+&lt;p&gt;那么, 问题就变成了, 如何将原先 GH Pages 发布成功的 Actions 脚本,
+改造为可以将编译出来的 HTML 成果, 不是直接发布到 GH Pages 中,
+而是放到一个可以再由 CF Pages 不进行任何其它处置, 直接复制使用的空间中呢?&lt;/p&gt;
+&lt;p&gt;这种空间在哪儿?&lt;/p&gt;
+&lt;p&gt;这时, 就想起来 GH Pages 当初没有 Actions 机制时,
+是约定 &lt;code&gt;gh-pages&lt;/code&gt; 分支的, 
+也就是将编译的静态网站一定要放到特殊分支中,
+GH 后端其它服务才知道如何复制并发布;&lt;/p&gt;
+&lt;p&gt;那么, 问题就变成, 如何将 Actions 脚本运行成果,直接推送到 &lt;code&gt;gh-pages&lt;/code&gt; 分支中?&lt;/p&gt;
+&lt;p&gt;追问了 GPT 获得以下类似步骤:&lt;/p&gt;
+&lt;p&gt;```yaml
+      - name: Save generated site files
+        run: mv public ../public&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  - name: Checkout gh-pages branch
+    uses: actions/checkout@v4
+    with:
+      ref: gh-pages
+
+  - name: Copy built site to gh-pages branch
+    run: |
+      rm -rf *
+      mv ../public/* .
+
+  - name: Commit and push changes
+    run: |
+      git config --local user.name "github-actions[bot]"
+      git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      git add .
+      git commit -m "Deploy static site to gh-pages branch" || echo "No changes to commit"
+      git push origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;哈,就是标准的 git 指令, 看来 &lt;code&gt;runs-on: ubuntu-22.04&lt;/code&gt; 是内置 git 工具的;
+唯一的技巧不过是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为了合理每次都提交所有编译成果&lt;/li&gt;
+&lt;li&gt;先将编译成果目录移动到当前工作目录以外&lt;/li&gt;
+&lt;li&gt;然后,切换分支&lt;/li&gt;
+&lt;li&gt;再将分支中当前所有内容删除&lt;/li&gt;
+&lt;li&gt;最后将成果目录中所有内容复制回工作目录(已经是 gh-pages 分支)&lt;/li&gt;
+&lt;li&gt;再用 git 提交推送回仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;先在 GH 仓库中观察新 Actions 是否能完成;&lt;/p&gt;
+&lt;p&gt;然后, 回到 CF, 修订 Pages 配置, 不使用任何编译框架, 直接发布指定分支的所有内容;&lt;/p&gt;
+&lt;p&gt;获得对应成果:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CF 渠道发布的:&lt;a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/"&gt;DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;对比原版: &lt;a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/"&gt;DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;PS:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小结&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;前后三次尝试, 合算5+小时, 完成了迁移,
+虽然最后配置变更的不多,
+但是, 调试过程比较囧, 因为 Actions 不是编程环境,
+而是类似 Dockerfiles 的执行环境,
+每次修改, 无论是格式还是行为错误, 都只能通过
+&lt;a href="https://github.com/duonb/duonb.org/actions"&gt;Workflow runs · duonb/duonb.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;workflow 运行日志来观察, 根本无法实时观察运行期的各种输出;&lt;/p&gt;
+&lt;p&gt;但是, Actions 毕竟是免费的, 内置的各种行为也非常稳健,
+在 GH 海量项目的持续使用过程中, 相比其它 PaaS 平台的类似服务要靠谱的多;&lt;/p&gt;
+&lt;p&gt;值得深入理解和利用;&lt;/p&gt;
+&lt;p&gt;当然,最靠谱的还是清晰的目标定义, 以及各种资源间关系的理解,
+这样, 才可能随时针对性提出方案, 并设计关键观察行为来检验;&lt;/p&gt;
+&lt;p&gt;总之, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GH Actions 值得薅&lt;/li&gt;
+&lt;li&gt;CF Pages 值得薅&lt;/li&gt;
+&lt;li&gt;两种资源免费对接, 嘦通过一个普通的约定分支即可 ;-)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://developers.cloudflare.com/pages/"&gt;Cloudflare Pages documentation&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/"&gt;Hugo | Cloudflare Pages docs&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.cloudflare.com/pages/configuration/build-configuration/"&gt;Build configuration | Cloudflare Pages docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hackernoon.com/deploy-your-personal-web-page-with-hugo-cloudflare-and-github-100percent-for-free"&gt;Deploy Your Personal Web-Page With Hugo, Cloudflare and GitHub 100% For Free \| HackerNoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@kyodo-tech/simple-guide-to-deploying-hugo-sites-with-github-actions-and-cloudflare-pages-2a53ddfb7533"&gt;Simple Guide to Deploying Hugo Sites with GitHub Actions and Cloudflare Pages \| by Kyodo Tech \| Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241014-cf-pages.md</guid><pubDate>Mon, 14 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.15 RSS4X</title><link>https://zoomquiet.io/Pythonic/24/20241015-rss-app-x.html</link><description>Page 10.15 RSS4X - Last updated at 2024-10-15T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给X生成RSS&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以供 Follow 订阅&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;终于获得一个 Follow.is 邀请码,
+立即尝试...&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;将自己所有发布渠道综合起来&lt;/li&gt;
+&lt;li&gt;也将自己最关注的渠道汇总起来&lt;/li&gt;
+&lt;li&gt;看看在 web3 视野中是否有价值?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;p&gt;要将自己发布的内容用 follow 订阅, 多数很容易,
+随便一个 URl 搜索一下, 可能就能找到;&lt;/p&gt;
+&lt;p&gt;但是, X/Twitter 比较特殊,
+尝试了几个方式, 最后追加了 2024 关键词才获得一个可用服务:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RSS.app&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;简单的跟着界面创建一个 RSS 即可,
+然后, 将生成的 RSS 地址, 复制到 follow 界面中 RSS 源部分,
+订阅即好;&lt;/p&gt;
+&lt;h3&gt;注意&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;订阅源认证&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;只有认证后, 产生的各种收益才能归你所有;
+所以, 将自己的 X/推 变成 RSS 源后,
+首先要从 follow 中获得认证标识字串:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="认证" src="https://ipic.zoomquiet.top/2024-10-15-zshot%202024-10-15%2015.12.19.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;然后, 根据提示, 在 RSS.app 对应 RSS 源的描述中追加提供的字串:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="fid" src="https://ipic.zoomquiet.top/2024-10-15-WechatIMG5607.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;稍微等几分钟, 看看对应 RSS 的 XML 内容是否已经更新,
+然后, 回到 follow 中点击认证就可以看到认证完成的标记了.&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.wprssaggregator.com/twitter-rss/"&gt;The Easiest Method to Create Twitter RSS Feeds in 2024&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PS:&lt;/p&gt;
+&lt;p&gt;刚刚发现 RSS.app 是付费服务,
+虽然好用, 但是, 不免费使用, 所以, 还得继续探索...&lt;/p&gt;
+&lt;p&gt;PPS:&lt;/p&gt;
+&lt;p&gt;参考 &lt;a href="/Pythonic/24/20241016-rss4mdbook.html"&gt;10.16 RSS4mdBook&lt;/a&gt;
+还是自己上手来折腾出来吧...&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241015-rss-app-x.md</guid><pubDate>Tue, 15 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.16 RSS4mdBook</title><link>https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.html</link><description>Page 10.16 RSS4mdBook - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给 mdBook 挂上 RSS?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Rust 开发的 SSG 引擎...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;经网友支持, 开通了 &lt;a href="https://follow.is/#features"&gt;Follow&lt;/a&gt;,
+然后, 就遇到第一个问题:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://zoomquiet.io/"&gt;ZoomQuiet.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第 N 次重构的私人网站,
+由 &lt;a href="https://rust-lang.github.io/mdBook/index.html"&gt;mdBook&lt;/a&gt;
+生成, 并没有 RSS 源提供给 Follow 哪...&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;简洁, 快速的追加 RSS.xml 给 mdBook 生成的网站&lt;/li&gt;
+&lt;li&gt;可以追加到 gh-actions 中, 以便其它人协作时, 不用折腾本地环境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;h3&gt;rss4mdbook.rs&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其实原先解决过这个问题的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;mdBook 是 Rust 社区进行文档组织发布的标准选择,
+其地位等于 Python 社区中:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown 发明之前的 &lt;a href="https://www.sphinx-doc.org/en/master/examples.html"&gt;Sphinx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Markdown 发明之后的 &lt;a href="https://www.mkdocs.org/getting-started/"&gt;GettMkDocs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相比其它 &lt;a href="https://www.cloudflare.com/zh-cn/learning/performance/static-site-generator/"&gt;SSG/静态站点生成器&lt;/a&gt;
+这类生成器, 最大的好处就在:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不像 Jekyll 之类, 要求在所有 Markdown 文章的顶部, 必须提供一组 meta 信息&lt;ul&gt;
+&lt;li&gt;以便 SSG 解析使用&lt;/li&gt;
+&lt;li&gt;而这些文本和内容无关, 完全是面向编译器工具的&lt;/li&gt;
+&lt;li&gt;非常分散注意力, 也破坏了 Markdown 文本的纯粹性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;而是, 约定将 .md 文件放在哪个指定目录中就好&lt;ul&gt;
+&lt;li&gt;SSG 引擎将自动扫描并根据内置规则, 完成良好的编译和发布&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而 mdBook 是由 Rust 开发的,
+其网页生成速度是所有 SSG 中最快的;&lt;/p&gt;
+&lt;p&gt;当初就是为了学习 Rust 而专门安装使用过 mdBook 来发布相关学习笔记:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.rs.101.so/"&gt;锈&amp;lt;周刊::2024&amp;gt; - 锈周刊 -&amp;gt; Weekly :: China&lt;Rustaceans&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rs.101.so/"&gt;成为 Rustacean - be Rustaceans&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然也发现没有 RSS 生成的问题, 也顺手用 Rust 来编写工具解决:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://crates.io/crates/rss4mdbook"&gt;rss4mdbook - crates.io: Rust Package Registry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在本地也组织有 &lt;code&gt;pub.sh&lt;/code&gt; 来自动完成网站编译,扫描生成RSS,注入,并提交发布&lt;/li&gt;
+&lt;li&gt;问题在:&lt;ul&gt;
+&lt;li&gt;用 Rust 完成, 本地安装编译, 有点儿复杂, 其它人难以使用&lt;/li&gt;
+&lt;li&gt;用 Rust 编写, 如果有什么功能变化, 修改也比较困难&lt;/li&gt;
+&lt;li&gt;而且, 使用这个工具, 暂时只能完全在本地配置好执行环境, 然后使用发布脚本来完成, 如果本地环境因为各种环境失效, 自己也无法简单的立即恢复 RSS 生成.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;gh-actions&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub 这么良心的提供了免费微服务渠道, 必须得大力薅&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;和 GPT 们合作, 快速撸了个脚本: &lt;a href="https://github.com/zoom-quiet/io/blob/main/tasks.py"&gt;tasks.py&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 Invoke 作为 CLI 指令框架&lt;/li&gt;
+&lt;li&gt;调用 &lt;code&gt;inv gen&lt;/code&gt; 指令自动完成:&lt;ul&gt;
+&lt;li&gt;读取 &lt;code&gt;SUMMARY.md&lt;/code&gt; 网站总索引文件&lt;/li&gt;
+&lt;li&gt;逐一拼装文件路径, 读取所有应该发布的 .md 文件内容&lt;/li&gt;
+&lt;li&gt;使用 markdown 模块编译为 html , 作为文章内容编组为 RSS 的条目信息&lt;/li&gt;
+&lt;li&gt;再根据所有文件的系统属性, 以更新时间排序, 只发布最新 14 个文章&lt;/li&gt;
+&lt;li&gt;最终将所有合理的内容, 输出为 &lt;code&gt;rss.xml&lt;/code&gt; 文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来, 重构 GitHub 仓库中的 &lt;code&gt;.github/workflow&lt;/code&gt; 目录里的 Actions 脚本,
+才发现又一坑:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原先是分为 &lt;code&gt;build.yaml&lt;/code&gt; 以及 &lt;code&gt;pages.yaml&lt;/code&gt; 两个构建脚本的&lt;/li&gt;
+&lt;li&gt;通过 &lt;code&gt;dawidd6/action-download-artifact@v3&lt;/code&gt; 这种中间行为进行成果交互&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;yaml
+...
+      - name: Download artifact
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          name: book-and-rss
+          path: book/
+          workflow: build.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;想在 &lt;code&gt;mdbook&lt;/code&gt; 指令之后, 追加 &lt;code&gt;inv&lt;/code&gt; 指令还好说,
+但是, 如何将生成的 &lt;code&gt;rss.xml&lt;/code&gt; 文件也合理的传递到 &lt;code&gt;pages.yaml&lt;/code&gt; 的行为流中,
+完全出乎意料;&lt;/p&gt;
+&lt;p&gt;质问了 GPT 们很久, 也无法在 gh-actions 中看到流畅的交接过程;&lt;/p&gt;
+&lt;h3&gt;CF-Pages&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;是的, 互联网菩萨 Cloudflare 也有 Pages 服务, 而且简洁无比, 值得上&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;结合之前的折腾 &lt;strong&gt;"&lt;a href="241014-cf-pages.html"&gt;迁移 gh-pages 到 Cloudflare&lt;/a&gt;"&lt;/strong&gt; 经验,
+也使用 &lt;code&gt;gh-pages&lt;/code&gt; 分支, 作为工作成果的中间缓存区,
+再配置 &lt;code&gt;CF-Pages&lt;/code&gt; 服务, 对应复制发布就好, 不用在 Cloudflare 端在进行任何编译工作;&lt;/p&gt;
+&lt;p&gt;进一步的经验:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;gh-actions 的 workflow 机制还远没成熟&lt;/li&gt;
+&lt;li&gt;不同的文件, 代表要拉起不同的虚拟机, 不同 Docker 之间的文件传递, 涉及太多安全问题, 远没那么简洁可以配置明白&lt;/li&gt;
+&lt;li&gt;所以, 能不拆分, 就别折腾&lt;/li&gt;
+&lt;li&gt;将编译和发布(其实就是推送到指定仓库分支中)行为,在一个 &lt;code&gt;.yaml&lt;/code&gt; 文件中完成即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;参考: &lt;a href="https://github.com/zoom-quiet/io/blob/main/.github/workflows/build-and-deploy.yml"&gt;build-and-deploy.yml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;实用技巧只有:&lt;/p&gt;
+&lt;p&gt;```yaml
+...
+      # Step 6: Check and prepare files for deployment
+      - name: Prepare deployment files
+        run: |
+          echo "Listing generated files in book/"
+          ls -al book/
+          echo "Copy RSS and other files to book directory"
+          cp -v rss.xml book/
+          cp -v CNAME book/
+          cp -v .nojekyll book/
+          mv -v book ../&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  # Step 7: Checkout the gh-pages branch
+  - name: Checkout gh-pages branch
+    uses: actions/checkout@v4
+    with:
+      ref: gh-pages
+
+  # Step 8: Deploy to gh-pages branch
+  - name: Deploy to gh-pages
+    run: |
+      rm -rfv *
+      cp -rv ../book/* .
+      ls -al ./
+      git config --local user.name "github-actions[bot]"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;...
+          git push origin gh-pages
+```&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过 &lt;code&gt;ls -al book/&lt;/code&gt; 这种列显指令, 可以在 Actions 日志中, 看到阶段成果, 以便确认调试进展&lt;/li&gt;
+&lt;li&gt;通过 &lt;code&gt;cp -v rss.xml book/&lt;/code&gt; 之类的指令, 将需要注入到目标静态网站目录中的额外文件都事先复制进去&lt;/li&gt;
+&lt;li&gt;然后, 将 &lt;code&gt;book&lt;/code&gt; 这种经济计划成果目录, 直接移动到工作目录, 也就是微服务中的仓库复本目录&lt;ul&gt;
+&lt;li&gt;再切换分支, 这样不会引发冲突&lt;/li&gt;
+&lt;li&gt;现在, 清除所有文件&lt;/li&gt;
+&lt;li&gt;最后, 从移到外层目录的成果目录中, 复制所有文件进来&lt;/li&gt;
+&lt;li&gt;完成完备的更新&lt;/li&gt;
+&lt;li&gt;现在进行标准的 git 提交+推送 行为就完成了自动编译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;这时, &lt;code&gt;CF-Pages&lt;/code&gt; 就会被触发, 自动同步 &lt;code&gt;gh-pages&lt;/code&gt; 分支中的所有文件,并发布到约定域名中;&lt;ul&gt;
+&lt;li&gt;是的 Cloudflare 本身也有 DNS 服务功能&lt;/li&gt;
+&lt;li&gt;就不用像 GitHub 那样用 &lt;code&gt;CNAME&lt;/code&gt; 之类的交接文案来驱动后端其它服务进行域名绑定&lt;/li&gt;
+&lt;li&gt;而是直接在控制界面中简单的说明, Cloudflare 就将自动生成配置, 完成检验, 并上线最新域名解析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;发布 RSS&lt;/h3&gt;
+&lt;p&gt;最后的最后, 别忘记发布 &lt;code&gt;rss.xml&lt;/code&gt; 到网站界面中;
+俺是修改 &lt;code&gt;index.hbs&lt;/code&gt; 模板文件,追加个标准 HTML 链接:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; &amp;lt;a href="/rss.xml"&amp;gt;&amp;lt;b&amp;gt;RSS&amp;lt;/b&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以便让自己以及各种工具知道网站拥有 RSS 源;&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://follow.is/#features"&gt;Follow&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sspai.com/post/91283"&gt;使用 follow 重塑我的信息输入系统 - 少数派&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rust-lang/mdBook"&gt;rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://crates.io/crates/rss4mdbook"&gt;rss4mdbook - crates.io: Rust Package Registry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sphinx-doc.org/en/master/examples.html"&gt;Sphinx — Sphinx documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mkdocs.org/getting-started/"&gt;Getting Started - MkDocs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;241025 DAMA 观察了各种 SSG 引擎,以及自己积累的各种文件形式,&lt;ul&gt;
+&lt;li&gt;增补代码, 以 .md 文件前缀约定为发布日期:&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;YYYYmmdd-&lt;/code&gt; 为统一前缀&lt;/li&gt;
+&lt;li&gt;如果没有这种前缀, 就不收录入 RSS&lt;/li&gt;
+&lt;li&gt;进行的, 也根据这一字串转换为时间对象, 并进行倒排, 只发布最新的几篇...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;241018 DAMA .init&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241016-rss4mdbook.md</guid><pubDate>Wed, 16 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.18 dvd_subtitle</title><link>https://zoomquiet.io/Pythonic/24/20241016-dvd_subtitle.html</link><description>Page 10.18 dvd_subtitle - Last updated at 2024-10-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;古老的 dvd_subtitle&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如何将 dvd_subtitle 转换为 .srt&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -202,7 +1258,7 @@ for row in reader:
 &lt;h2&gt;tracing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;241018 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241016-dvd_subtitle.md</guid><pubDate>Wed, 16 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-42</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241020-42.md</link><description>Page 蟒周刊:24-42 - Last updated at 2024-10-20T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/42&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241016-dvd_subtitle.md</guid><pubDate>Wed, 16 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-42</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241020-42.html</link><description>Page 蟒周刊:24-42 - Last updated at 2024-10-20T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/42&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/42
 Slug: pyrw-2442
 Date: 2024-10-21 11:42
@@ -592,7 +1648,7 @@ from paragraphs import par&lt;/p&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241020-42.md</guid><pubDate>Sun, 20 Oct 2024 00:00:00 +0800</pubDate></item><item><title>开源保险社区?</title><link>https://zoomquiet.io/IMHO/IAS/20241026-jy-framwork.md</link><description>Page 开源保险社区? - Last updated at 2024-10-26T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源保险社区...&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241020-42.md</guid><pubDate>Sun, 20 Oct 2024 00:00:00 +0800</pubDate></item><item><title>开源保险社区?</title><link>https://zoomquiet.io/IMHO/IAS/20241026-jy-framwork.html</link><description>Page 开源保险社区? - Last updated at 2024-10-26T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源保险社区...&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如何将开源社区的商业模式引入到保险行业?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -703,7 +1759,7 @@ from paragraphs import par&lt;/p&gt;
 &lt;h2&gt;tracing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;241026 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241026-jy-framwork.md</guid><pubDate>Sat, 26 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-43</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-43.md</link><description>Page 蟒周刊:24-43 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/43&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241026-jy-framwork.md</guid><pubDate>Sat, 26 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-43</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-43.html</link><description>Page 蟒周刊:24-43 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/43&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/43
 Slug: pyrw-2443
 Date: 2024-10-28 11:42
@@ -1071,7 +2127,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-43.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-44</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-44.md</link><description>Page 蟒周刊:24-44 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/44&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-43.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-44</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-44.html</link><description>Page 蟒周刊:24-44 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/44&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/44
 Slug: pyrw-2444
 Date: 2024-10-28 11:42
@@ -1440,7 +2496,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-44.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.28 自持图床</title><link>https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.md</link><description>Page 10.28 自持图床 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;自持图床&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-44.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.28 自持图床</title><link>https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.html</link><description>Page 10.28 自持图床 - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;自持图床&lt;/h1&gt;
 &lt;p&gt;突然收到 UPYUN 的付费警告短信,
 才发现, 叕一年要去交涉了: 说明在使用 CDN 服务来支持公益技术社区;
 否则,代金券每年到期就失效... &lt;/p&gt;
@@ -1468,7 +2524,7 @@ https://gao.bo/asahi/it/11627&lt;/p&gt;
 节省不必要的开支呢...&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;|&amp;gt; 241029 日糟:
 ¼(每天吐糟不应超过4次)
-&lt;/code&gt;&lt;/pre&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241028-loc-host-s3.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>咩是写作?</title><link>https://zoomquiet.io/IMHO/IAS/20241028-iff-write.md</link><description>Page 咩是写作? - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;什么是写作?&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241028-loc-host-s3.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>咩是写作?</title><link>https://zoomquiet.io/IMHO/IAS/20241028-iff-write.html</link><description>Page 咩是写作? - Last updated at 2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;什么是写作?&lt;/h1&gt;
 &lt;p&gt;今天 YC 大佬 Paul Graham 新文章又爆了:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://paulgraham.com/writes.html"&gt;写和不写 --- Writes and Write-Nots&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;引用了先人的金句,  莱斯利·兰波特 (Leslie Lamport) :&lt;/p&gt;
