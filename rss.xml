@@ -1,111 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Thu, 07 Nov 2024 07:11:41 +0000</lastBuildDate><item><title>别了Lark</title><link>https://zoomquiet.io/IMHO/DevOps/20241009-deLark.html</link><description>Page 别了Lark - Last updated at 2024-10-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何删除 Lark 资源?&lt;/h1&gt;
-&lt;p&gt;疫情期间各种云会议都开放使用,
-Lark 拥有全线产品支持, 所以, 那段时间组织的各种线上社区/会议/课程,
-都尽可能使用 Lark;&lt;/p&gt;
-&lt;p&gt;(其实是飞书, 当然, 为了区别国内/国际社区, 分别安装了 飞书以及Lark 
-两种功能/界面/...都一样, 但是, 注册/检验/域名/...又都不同的两个 app.)&lt;/p&gt;
-&lt;h2&gt;问题来了&lt;/h2&gt;
-&lt;p&gt;进入24年, 一直在报警, 云空间不足, 引导我重新认证, 没理会;&lt;/p&gt;
-&lt;p&gt;今天: 直接禁止发送图片了,
-提醒:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;可升级版本或购买扩容包以获取更多存储空间&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;问题是有两年没用 Lark 的会议了哪, 为什么空间一直占用的?&lt;/p&gt;
-&lt;p&gt;槽点开始密集向俺冲来:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;进入后台, 存储空间-&amp;gt;存储清理&lt;/li&gt;
-&lt;li&gt;发现:&lt;/li&gt;
-&lt;li&gt;聊天文件 只能建立清理任务, 而无法进行人工大文件选择&lt;/li&gt;
-&lt;li&gt;云文档, 能看到哪些成员占用过多空间, 但是, 无法进入管理, 除非你升级&lt;/li&gt;
-&lt;li&gt;视频会议, 无法立即选择历史录制, 必须先搜索, 再删除, 然后彻底销毁, 才能释放空间&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;最终发现&lt;/h2&gt;
-&lt;p&gt;以上还都是在自行探查无果后, 找了客服, 才知道的;&lt;/p&gt;
-&lt;p&gt;好在客服是真人, 而且立即详细回复, 服务态度没说的;&lt;/p&gt;
-&lt;p&gt;可 Lark 后台管理系统作的是真狗:&lt;/p&gt;
-&lt;p&gt;聊天文件清理, 那个搜索框, 反复尝试才发现, 每次只能搜索半年的,
-而且, 必须从开始日期, 再结束日期, 否则, 根本记录不到你想设定的日期:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不允许手工输入&lt;/li&gt;
-&lt;li&gt;不允许先选择结束日期&lt;/li&gt;
-&lt;li&gt;不允许在日期表格中划选&lt;/li&gt;
-&lt;li&gt;不允许...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;你得用心领会, 理解, 并认真尝试, 才能发现这个日期选择组件:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;只能选择180天跨度以内的&lt;/li&gt;
-&lt;li&gt;只能依次选择&lt;/li&gt;
-&lt;li&gt;无法记忆上次选择&lt;/li&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;真的是个特殊的日期选择弹出对象哪, 而且这东西在后台所有日期选择处都使用了...&lt;/p&gt;
-&lt;p&gt;成员空间, 当初设定了每位最多使用500Mb, 但是, 
-看统计, 有很多用超了, 但是, Lark 并没有任何限制,
-可现在我又无法进入成员空间来删除;&lt;/p&gt;
-&lt;p&gt;只能:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;要不先对成员进行离职操作, 并同时将对应资源转移到管理员, 也就是我的名下, 再去删除;&lt;/li&gt;
-&lt;li&gt;要不, 可以直接对成员文档进行转移操作, 再去删除&lt;/li&gt;
-&lt;li&gt;而删除, 又得切换到云文档管理, 这东西不在管理后台的 web 界面,只能在 Lark 的桌面 app 界面;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;为什么呢? 没想通...反正, 你只能 N 个界面来回跳;&lt;/p&gt;
-&lt;p&gt;视频会议-&amp;gt;录制管理, 终于理解了搜索的正确操作,半年一次, 向前搜索到各个录制时, 终于可以删除了;&lt;/p&gt;
-&lt;p&gt;可是, 又发现将在90天以后真正销毁, 在此期间依然占用资源空间;
-你得额外再进行选中, 并 &lt;code&gt;彻底销毁&lt;/code&gt;, 也就是立即释放空间;
-但是, 这个操作又特别危险, 所以, 你必须输入短信验证码, 来确认你是管理员;
-神奇的是, 每天验证码发送又有次数限定, 以防恶意删除...&lt;/p&gt;
-&lt;h2&gt;结论&lt;/h2&gt;
-&lt;p&gt;被各种神奇的阻止折腾吐了, 决定升级认证一下吧,
-然后, 被告之, 企业专业版本, 按人头收年费, 俺这不到100人的小社区, 
-要交 &lt;code&gt;58,000+RMB/年&lt;/code&gt;, 
-嗯哼? 这么壕的?&lt;/p&gt;
-&lt;p&gt;所以, 之前免费的所有功能, 以及自动记录的所有文档/录像,
-其实就变成要胁了? 不付费就什么都用不了?&lt;/p&gt;
-&lt;p&gt;可见 Lark 以及其产品线在和 Tiktok 们 PK 时, 赢利能力被 diss 的猛了,
-所以, 开始想办法收费了...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;|&amp;gt; 241008 日糟:
-1/4(每天吐糟不应超过4次)
-&lt;/code&gt;&lt;/pre&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241009-deLark.md</guid><pubDate>Wed, 09 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.11 电影字幕</title><link>https://zoomquiet.io/Pythonic/24/20241011-mov-sub.html</link><description>Page 10.11 电影字幕 - Last updated at 2024-10-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;电影中文字幕?&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如何快速获得...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;p&gt;最新电影, 可能很小众, 字幕组还没跟进,
-怎么办?&lt;/p&gt;
-&lt;h2&gt;goal&lt;/h2&gt;
-&lt;p&gt;用 Pythonic 精神, 先解决有没有, 再解决好不好&lt;/p&gt;
-&lt;p&gt;所以:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如何综合利用已知工具&lt;/li&gt;
-&lt;li&gt;简要的获得一部电影的中文字幕?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;trac&lt;/h2&gt;
-&lt;p&gt;之前用过 jianying 从视频音频内部直接识别出字幕,而且还能自动翻译成中文;&lt;/p&gt;
-&lt;p&gt;可一尝试, 发现, jianying 默认音源是中文, 所以, 一部日文电影识别出来的中文是乱的;&lt;/p&gt;
-&lt;p&gt;又尝试了一下国际版: CapCut, 人家能自动识别语言, 并生成日文字幕;&lt;/p&gt;
-&lt;p&gt;可惜要付费升级为 Pro 帐号才能导出,&lt;/p&gt;
-&lt;p&gt;有个印象, 好象有工具可以从本地工程缓存中摄取已经识别出来, 但是, 不准你导出的字幕?&lt;/p&gt;
-&lt;p&gt;有了关键词, 一搜索, 果然找到了,
-所以, 得绕了一下&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;发现 剪眏无法识别日文语音,&lt;/li&gt;
-&lt;li&gt;capcut 可以, 但是, 要付费导出,&lt;/li&gt;
-&lt;li&gt;使用了: 剪映字幕在线工具提取,为 .srt&lt;/li&gt;
-&lt;li&gt;再用 https://app.immersivetranslate.com/ 完成翻译...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="sub" src="https://ipic.zoomquiet.top/2024-10-11-zshot%202024-10-11%2011.38.26.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;效果还行, 基本可看了...&lt;/p&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=mCwMt-5K47c"&gt;【剪映教学】剪映专业版字幕功能开始收费了，老胡教你继续完全免费生成内嵌和外挂字幕的方法。 - YouTube&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://jy.mzh.ren/"&gt;剪映字幕在线工具 ｜支持剪映字幕文件导入/导出 by 码中人&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://app.immersivetranslate.com/?utm_source=extension&amp;amp;utm_medium=extension&amp;amp;utm_campaign=popup_btn_document"&gt;沉浸式翻译 - 文档双语翻译 ： 一键翻译 PDF， ePub 电子书，字幕文件，txt文件&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241011-mov-sub.md</guid><pubDate>Fri, 11 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.11 友好的法院?</title><link>https://zoomquiet.io/OldTouch/24/20241011-funny-court.html</link><description>Page 10.11 友好的法院? - Last updated at 2024-10-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;友好的法院?&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Thu, 07 Nov 2024 13:37:41 +0000</lastBuildDate><item><title>10.11 友好的法院?</title><link>https://zoomquiet.io/OldTouch/24/20241011-funny-court.html</link><description>Page 10.11 友好的法院? - Last updated at 2024-10-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;友好的法院?&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;真实经历...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1768,7 +1662,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;blockquote&gt;
 &lt;p&gt;Python 3.8 已达 EOL&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文: [Python recap for week 2024/43 - discu.eu](https://discu.eu/weekly/python/2024/43/3&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/43"&gt;Python recap for week 2024/43 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
@@ -2136,7 +2030,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;blockquote&gt;
 &lt;p&gt;reflex 叕一个 Streamlit&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文: [Python recap for week 2024/43 - discu.eu](https://discu.eu/weekly/python/2024/43/3&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/44"&gt;Python recap for week 2024/44 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
@@ -2628,4 +2522,182 @@ Writing is its own best reward
 &lt;p&gt;具体是个什么机制? 俺当前说不清楚哈, 只是知道,
 这种体验, 只有开始写作才体验的到,
 不去写, 而是问 GPT 们什么是写作, 以及写作的本质和感觉...
-那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
+那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>11.7 截屏冲突解决</title><link>https://zoomquiet.io/Pythonic/24/20241107-mac-snap-lunar.html</link><description>Page 11.7 截屏冲突解决 - Last updated at 2024-11-07T00:00:00+08:00</description><content:encoded>&lt;h1&gt;截屏冲突解决&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;macOS 升级到 15.1 之后...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;自从 macOS 自动升级到 15.1 之后, 除了系统内置的截屏,
+其它各种软件的截屏, 包含 微信/lark 什么的, 都好象无法直接抓到屏幕的显示,
+就好象故意加了个灰色的滤镜一样....&lt;/p&gt;
+&lt;p&gt;&lt;img alt="241106-LUNAR-softe" src="http://ipic.101.so/241106-LUNAR-softe.webp" /&gt;&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;p&gt;搜索几次也没什么结果,
+但是, 得解决哪,&lt;/p&gt;
+&lt;p&gt;否则, 只能使用 macOS 自己的,
+先截屏保存到桌面, 然后, 再回到对应软件中, 选择使用...&lt;/p&gt;
+&lt;p&gt;这一下, 多出不少操作来;&lt;/p&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;p&gt;今天突然想到, 一直以来为了快速配置几个显示屏的亮度是通过 应用来的...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开始是 F.lux, 可以自动根据当地时间,调整兰光&lt;ul&gt;
+&lt;li&gt;可问题是, 多数情况是多屏工作&lt;/li&gt;
+&lt;li&gt;而且, 作图时, 不能为了视力将颜色调乱了...只能放弃&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;后来对比采购了 LUNAR&lt;ul&gt;
+&lt;li&gt;提供了更多模式&lt;/li&gt;
+&lt;li&gt;而且有桌面控制栏驻留小应用&lt;/li&gt;
+&lt;li&gt;可以一键快速调整指定显示屏的亮度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;进一步探索, 才发现, LUNAR
+有软控制和硬控制之别:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;软控制就是在指定显示屏蒙一层透明度受软件控制的灰色图层...&lt;ul&gt;
+&lt;li&gt;这就导致使用非系统截屏时, LUNAR 不知道当前焦点在哪个屏&lt;/li&gt;
+&lt;li&gt;自动恢复默认灰度?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;得将之切换回硬参数调整,才可以 看到什么截到什么...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种技巧...&lt;/p&gt;
+&lt;p&gt;&lt;img alt="241106-LUNAR-hard" src="http://ipic.101.so/241106-LUNAR-hard.webp" /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;真.没事儿找事儿...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;分享到 Tg 群: &lt;a href="https://t.me/chaos42dama"&gt;t.me/chaos42dama&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进一步反馈:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最近用微信、QQ截屏，直接是白班截不了屏&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;俺直觉支招:&lt;/p&gt;
+&lt;p&gt;应该是和其它类似应用的屏幕控制冲突了...&lt;/p&gt;
+&lt;p&gt;如果你关闭所有驻留内存的控制栏应用, 应该就可以发现 qq 们的截屏是正常的了...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;然后, 用排除法, 就知道哪个冲突了...&lt;/li&gt;
+&lt;li&gt;当然, 首先, 要给有截屏功能的软件对应权限,&lt;/li&gt;
+&lt;li&gt;macOS 升级后, 所有涉及系统资源的权限, 都要人工明确授予了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PS:&lt;/p&gt;
+&lt;p&gt;是的, macOS 新的用户协议, 以及安全机制,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将更多底层控制暴露给了用户,&lt;/li&gt;
+&lt;li&gt;也限制了应用可以自动获得,&lt;/li&gt;
+&lt;li&gt;必须用户授权,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可问题是, 这样虽然减少了系统判定的复杂性,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;但是, 对于多数用户而言, 并不清楚上千种权限, 哪种应该给, 哪种不应该给,&lt;/li&gt;
+&lt;li&gt;一般都是应用要求给, 就先给了, 否则用不了哪...&lt;/li&gt;
+&lt;li&gt;等于, 一个严格的安全管制功能, 给了用户,&lt;/li&gt;
+&lt;li&gt;实质上却是减少了系统安全级别...&lt;ul&gt;
+&lt;li&gt;完全是责任转嫁行为了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种安全逻辑, 感觉就非常的 M$,
+但是从微软跳到 Apple 的产品经理的成果.&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://lunar.fyi/"&gt;Lunar - The defacto app for controlling monitor brightness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://justgetflux.com/news/pages/macquickstart/"&gt;Welcome to f.lux for macOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;241107 DAMA init.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+     &lt;em&gt;~~+-~&lt;/em&gt;
+ ) /  ◴ ◷  \ (/
+   '&lt;em&gt;   ⌄   &lt;/em&gt;'&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;'--+--' )&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241107-mac-snap-lunar.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item><item><title>食堂监察?</title><link>https://zoomquiet.io/IMHO/DevOps/20241107-watchdogfood.html</link><description>Page 食堂监察? - Last updated at 2024-11-07T00:00:00+08:00</description><content:encoded>&lt;h1&gt;食堂监察?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;忽然, 不知道为什么就讨论...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;某个时刻, 某一微信群, 某位群友问:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有个学校需求：学校食堂想实现每个班级学生用餐余菜量，垃圾桶希望装有芯片识别哪个班，识别那个班剩余多少量？作一个评比排行公示功能。[偷笑]哪位大神可支招&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;简单粗暴可用..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当即有群友点评:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从伦理来说好扭曲的功能，做个类似轻mes+联网的电子秤即可&lt;/li&gt;
+&lt;li&gt;视觉太贵...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;p&gt;俺的直觉推理:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;配套规定~每个班有固定泔水桶就好~&lt;ul&gt;
+&lt;li&gt;不过~的确看起来像是一个问题的解决方案~&lt;/li&gt;
+&lt;li&gt;而不是想处理的问题本身&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;在回收窗口安装摄像头~&lt;ul&gt;
+&lt;li&gt;识别学生脸部~并监察倒菜行为~配合电子称&lt;/li&gt;
+&lt;li&gt;统计估算~&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;无感增强式:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;不用专门过秤,泔水桶底放一个智能平秤即可,&lt;ul&gt;
+&lt;li&gt;连续进行人脸识别时, 也同时连续获得重量值,&lt;/li&gt;
+&lt;li&gt;形成事件绑定的时序数据,&lt;/li&gt;
+&lt;li&gt;对应分段计算, 就可以获得每个人丢弃的食物重量了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;这样, 就完成了整体无感统计,&lt;ul&gt;
+&lt;li&gt;不用变更所有人员的所有行为,&lt;ul&gt;
+&lt;li&gt;将最自然状态下的浪费行为给监察起来了...&lt;/li&gt;
+&lt;li&gt;唯一可能误差的, 就是多人同时丢弃时,取平均数即可...&lt;/li&gt;
+&lt;li&gt;类似的, 有些固定策略处理就好...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;进一步的, 长期跟踪后, 就可以针对每个学生建立行为模型,&lt;ul&gt;
+&lt;li&gt;进行预测和追踪, 来奖励习惯改善的学生了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;以及, 相同策略, 也可以给打饭窗口安装相同设备,&lt;ul&gt;
+&lt;li&gt;这样还可以和学生付费事件关联,&lt;ul&gt;
+&lt;li&gt;追踪每次花多少銭, 采购了多重的食物,&lt;/li&gt;
+&lt;li&gt;减去最终丢弃的,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;甚至于可以追踪每个学生的 恩格尔指数,&lt;/li&gt;
+&lt;li&gt;也可以用来校准丢弃的重量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;已经有智能食堂环境的话, 将相关数据收集就可以完成统计的,
+如果本身没有食堂事先进行智能改造,
+就可以用我们的无接触, 无改造, 视觉+智能电子秤的方案&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其它现实方案&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有群友分析:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个要看垃圾回收的方式。如果是餐盘放传送带，无需自己倒垃圾，那就有方案。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有些工厂，是吃完直接餐盘放回收线，无需自己倒垃圾。
+那么每个餐盘的rfid+一个皮带秤，就搞定了。
+可以去..看看他们的智慧食堂，餐盘都有RFID，打餐时就有称重，餐盘回收时用输送线+称重，通过RFID追溯就可以了，在输送线尾有自动倾倒垃圾的装置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;241107 DAMA init.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241107-watchdogfood.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
