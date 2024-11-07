@@ -11,6 +11,7 @@
 
 - [恕直](IMHO/README.md)
     + [DevOps](IMHO/DevOps/README.md)
+        + [食堂监察?](IMHO/DevOps/20241107-watchdogfood.md)
         + [别了Lark](IMHO/DevOps/20241009-deLark.md)
     + [FLOSS](IMHO/FLOSS/README.md)
         + [中国技术社区研究/](IMHO/FLOSS/20140317-ac1024-tech-community4chinese.md)
@@ -71,6 +72,7 @@
 
 - [蟒样](Pythonic/README.md)
     + [2024](Pythonic/24/README.md)
+      + [11.7 截屏冲突解决](Pythonic/24/20241107-mac-snap-lunar.md)
       + [10.28 自持图床](Pythonic/24/20241028-loc-host-s3.md)
       + [10.18 dvd_subtitle](Pythonic/24/20241016-dvd_subtitle.md)
       + [10.16 RSS4mdBook](Pythonic/24/20241016-rss4mdbook.md)
