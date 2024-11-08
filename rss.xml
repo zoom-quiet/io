@@ -1,5 +1,726 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 05 Nov 2024 14:58:44 +0000</lastBuildDate><item><title>10.15 RSS4X</title><link>https://zoomquiet.io/Pythonic/24/20241015-rss-app-x.html</link><description>Page 10.15 RSS4X - Last updated at 2024-10-15T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给X生成RSS&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 14 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Fri, 08 Nov 2024 08:16:34 +0000</lastBuildDate><item><title>10.11 友好的法院?</title><link>https://zoomquiet.io/OldTouch/24/20241011-funny-court.html</link><description>Page 10.11 友好的法院? - Last updated at 2024-10-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;友好的法院?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;真实经历...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;原先小区, 住2楼, 有个大阳台, 15年来无事发生;
+去年, 楼下新业主入驻, 立即开始了投诉:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物业&lt;/li&gt;
+&lt;li&gt;居委&lt;/li&gt;
+&lt;li&gt;街道&lt;/li&gt;
+&lt;li&gt;城管&lt;/li&gt;
+&lt;li&gt;警察&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不和我们沟通, 就投诉要求我们:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;因为,怀疑平台漏水, 导致外墙渗水, 会滴到家人头顶&lt;/li&gt;
+&lt;li&gt;所以,要求我们拆除雨棚,花池, 并铲开整个阳台到砂浆层重新作整个防水工程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;p&gt;楼下虽然屋内从一开始就没漏过水,
+但是, 拿着外墙在暴雨后, 几处渗水点的照片一直要求:&lt;/p&gt;
+&lt;p&gt;一定要按照他们的方案施工, 才可能完全杜绝外墙渗漏.&lt;/p&gt;
+&lt;h2&gt;trace&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可是, 这是25年前的建筑哪...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;虽然质疑其怀疑以及方案,
+我们还是友善的进行了一系列合理防治:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;拆了花池, 将对应部分重作防水&lt;/li&gt;
+&lt;li&gt;根据装修师傅建议, 自行采购了金刚防水漆, 刷了整个阳台&lt;/li&gt;
+&lt;li&gt;找专门渗漏检测机构, 用专用仪器探查,并对全屋水管进行充气压力测试, 明确可能渗漏点, 进行一系列防治&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但是, 珠海从4月开始一直到9月, 就没有连续5天以上不下雨的时日,
+而防水材料, 至少要连续4天的干燥时间, 否则, 水溶性的专用材料将可能失效;&lt;/p&gt;
+&lt;p&gt;楼下直接在6月将我们告上区人民法院;&lt;/p&gt;
+&lt;p&gt;人生首次成为正式被告, 接到应述通知(民诉前调 XXX 号)才知道已经立案;
+诉求有四:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;判令停止对原告房产侵害&lt;/li&gt;
+&lt;li&gt;判令赔偿原告维修费用2万多&lt;/li&gt;
+&lt;li&gt;判令拆除所有违建&lt;/li&gt;
+&lt;li&gt;判令被告承担所有诉讼相关费用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;p&gt;好在有律师朋友, 指点思路:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;嫑请律师, 自主应诉, 法官能识别小事大作和真诚应对的&lt;/li&gt;
+&lt;li&gt;嘦积极配合调解, 作好防水, 其它的交给法官&lt;/li&gt;
+&lt;li&gt;老建筑渗漏是常见纠纷, 鉴权最复杂, 没有法官愿意折腾&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, 淡定下来, 下单给专业机构负责, 紧盯天气, 挤时间一处一处作足防水,
+又在法院对接的退休老专家现场勘察后, 增补可能的点, 
+进行全方位防渗:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将二层以上总空调水明管,接上相同直径的引到阳台东南最低角的下水口, 以免冲刷平台&lt;/li&gt;
+&lt;li&gt;并对东南最低角的下水口穿过围墙的内部壁重新作防水, 以免渗入墙体&lt;/li&gt;
+&lt;li&gt;对整个平台,围墙,以及和隔壁的立墙, 全部刷上4层工业级防水材料&lt;/li&gt;
+&lt;li&gt;对雨棚打入阳台围墙的三个中空立柱, 发现其中有积水, 就其底部开孔, 以免淤积, 并对顶部破损的塑封, 重新作密封;&lt;/li&gt;
+&lt;li&gt;对平台西侧和隔壁共有的立墙底部挖开, 检验二层以上总雨水明管完好, 无破损;&lt;ul&gt;
+&lt;li&gt;但是, 隔墙底部, 砂浆层上方有渗漏现象, 是从隔壁洗衣机排水口漏下串过来的&lt;/li&gt;
+&lt;li&gt;于是, 截断水管, 对隔墙底部刷上4层工业级防水材料, 再接好排水管, &lt;/li&gt;
+&lt;li&gt;并埋入一段开了槽的排水管&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;确保:&lt;ul&gt;
+&lt;li&gt;我们平台整体无论哪个面和角落, 都不可能有渗漏&lt;/li&gt;
+&lt;li&gt;即便从隔壁有串水, 也将合理导出, 从排水管旁边导走&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后, 针对&lt;code&gt;民事起诉状&lt;/code&gt; 中列举的各种证据, 进行质证, 组织好文档, 向法院提交资料;&lt;/p&gt;
+&lt;p&gt;收到原告追加证据, 追加老婆为被告, 继续质证, 组织好文档, 向法院提交资料;&lt;/p&gt;
+&lt;p&gt;今天, 终于开庭审判, 我们组织好所有证据:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理好事件时间线&lt;/li&gt;
+&lt;li&gt;设计答辩逻辑图&lt;/li&gt;
+&lt;li&gt;打印好所有文件&lt;/li&gt;
+&lt;li&gt;准备好视频/音频证据光盘(因为法院不收U盘, 还专门找了还有刻录仪的服务社来刻)&lt;/li&gt;
+&lt;li&gt;事先进行演练, 分配好角色&lt;/li&gt;
+&lt;li&gt;是否要当庭痛哭, 以便加强说服力...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;结果, 在规定的时间到达规定的法庭, 法官一到场, 刚听书记员完成了资料陈述,
+直接开始了法院调解;&lt;/p&gt;
+&lt;p&gt;三下五除二, 第5分钟就完成了法理分析, 给出方案, 要求原告代理律师沟通确认;
+接着用了一个小时说服了原告,
+我们当场转帐&lt;code&gt;最终调解费&lt;/code&gt;, 从此, 楼下不可能以相同/相似理由再次起诉我们了;&lt;/p&gt;
+&lt;p&gt;法官也说:"不好意思, 今天没让你们体验到完整的法院议程;"&lt;/p&gt;
+&lt;p&gt;因为, 对方辩友..不是, 代理律师, 完全一问三不知:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;现在还漏不?&lt;/li&gt;
+&lt;li&gt;渗漏原因,你们有鉴定报告嘛?&lt;/li&gt;
+&lt;li&gt;到底损失费用有多少?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;法官拿着我们提供的专业渗漏检测机构报告直接分析:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;平台是公有面积, 你们的所有后建都是违建, 但这是侵权, 无法证明和渗漏有关联&lt;/li&gt;
+&lt;li&gt;原因涉及隔壁以及隔墙, 隔墙是全楼共有, 原告必须将所有关联方都告才行&lt;/li&gt;
+&lt;li&gt;涉及渗漏的外墙面积,顶多20坪, 重刷的费用没多少, 鉴定费用绝对比真实损失还要高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, 原告提出2万多的损失不合理, &lt;/p&gt;
+&lt;p&gt;最终, 律师交代1.5万, 法官拍板, 涉及责任方有三方, 被告最多承担 1/3 ,
+而且被告一直在积极配合维修根本没有责任的建筑部分, 已经算好心了, 得打折;
+3500元结束案件就可以了;&lt;/p&gt;
+&lt;p&gt;可电话沟通原告, 就是不愿意, 律师劝了半小时;
+法官受不了, 拿了电话就分析, 结果原告还委屈, 说再也不相信法律了, 要投述;&lt;/p&gt;
+&lt;p&gt;法官也有结案 KPI 的, 套话才知道, 律师费就得5000, 如果我们只赔3500,律师可能拿不到尾款, 当场所有人都感觉小律师太不容易了;
+就将&lt;code&gt;最终调解费&lt;/code&gt;提到5000元;&lt;/p&gt;
+&lt;h2&gt;summary&lt;/h2&gt;
+&lt;p&gt;法官的思路很直接:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你们这些证据以及过程都不重要&lt;/li&gt;
+&lt;li&gt;法院只关心:&lt;ul&gt;
+&lt;li&gt;权益损失&lt;/li&gt;
+&lt;li&gt;责任归属&lt;/li&gt;
+&lt;li&gt;承担比例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其它的都是情绪和法律精神没关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;否则, 真要按照法院议程一步步来, 像外国剧集中那样辩论几轮,
+每个案件时间成本就不可控了;&lt;/p&gt;
+&lt;p&gt;还分享几个案例:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法官自己也被楼下投诉, 拆了卧室/洗手间, 重作防水都不行, &lt;ul&gt;
+&lt;li&gt;最后拆了阳台, 才发现是外墙渗漏;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;有一还在审理的案子,是一到六楼一起告七楼漏水, 要先付费作鉴定时, &lt;ul&gt;
+&lt;li&gt;六楼表示太贵不想作, &lt;/li&gt;
+&lt;li&gt;但是, 3,4,5楼很积极, 宁可集资也要作技术鉴定; &lt;/li&gt;
+&lt;li&gt;法官很奇怪这是根据什么逻辑来支撑信心的? &lt;/li&gt;
+&lt;li&gt;一问才知道, 原来4层业主是作装修工程的, 所以上下楼都相信, 所以跟, &lt;ul&gt;
+&lt;li&gt;而6楼就在7楼下, 知道这事儿没谱...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;另外有件跟踪20年还没结的案子:&lt;ul&gt;
+&lt;li&gt;是座独幢别墅, 业主告房产商, 各种指标不合格,要修补&lt;/li&gt;
+&lt;li&gt;双方都笃定自己是对的, 就一直鉴定, 维修, 再鉴定...怼了20年&lt;/li&gt;
+&lt;li&gt;业主买下来, 从来没住过一天, 这20年, 就这么怼过来了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, 感叹:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;以往都是楼下发现楼上渗水后, 万分焦虑想办法解决;
+现在, 完全反过来了...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;不过, 法院这种不管过程, 邻里关系情绪,
+只根据法律精神以及相关案例, 高速定损定论, 竭力结案, 不扩大案件蔓延的技巧;&lt;/p&gt;
+&lt;p&gt;到底是友好呢, 还是不友好呢?&lt;/p&gt;</content:encoded><guid isPermaLink="false">OldTouch/24/20241011-funny-court.md</guid><pubDate>Fri, 11 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-41</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241014-41.html</link><description>Page 蟒周刊:24-41 - Last updated at 2024-10-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/41&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/41
+Slug: pyrw-2441
+Date: 2024-10-14 11:42
+Tags: Weekly,Python,recap,discu_eu,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Python 3.13 中禁用 GIL&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/41/"&gt;Python recap for week 2024/41 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.linuxjournal.com/article/3882"&gt;为什么选择 Python (2000)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.linuxjournal.com/article/3882"&gt;161 评注 in 6 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;24年前, Eric Raymond 的雄文:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...编码工作量的一个重要衡量标准是您编写的内容与您对问题的心理表征实际上不符的频率&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;论广告文学的正确打开方式...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...在编写 fetchmailconf 几周甚至几个月后，我仍然可以阅读 fetchmailconf 代码并理解它在做什么，而无需认真思考.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;论黑一门语言的最高境界;&lt;/p&gt;
+&lt;p&gt;其实, 可以同时应用在文案创作之上,
+自己为了一个不知所谓的品牌写的一段不知所谓的赞美文,
+几周后自己自然也无法理解到底在说什么...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html"&gt;用 Python 3.12 进行静态类型函数编程&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html"&gt;77 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://gwolf.org/2024/10/started-a-guide-to-writing-fuse-filesystems-in-python.html"&gt;开始使用 Python 编写 FUSE 文件系统的指南&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://gwolf.org/2024/10/started-a-guide-to-writing-fuse-filesystems-in-python.html"&gt;63 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;原本和 Linux 一样, 只是个教学任务,
+没想到几届学生里,只有一位硬着头皮尝试写过,
+现在老师开始撸了&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.python.org/3/whatsnew/3.13.html"&gt;Python 3.13 的新增功能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://docs.python.org/3/whatsnew/3.13.html"&gt;43 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;官方中文: &lt;a href="https://docs.python.org/zh-cn/3/whatsnew/3.13.html"&gt;Python 3.13 有什么新变化 — Python 3.13.0 文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://geekpython.in/how-to-disable-gil-in-python"&gt;在 Python 3.13 中禁用 GIL&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://geekpython.in/how-to-disable-gil-in-python"&gt;43 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;真无上法器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;python3.13t&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;通过同时安装两种不同的执行文件来选择性获取&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pym.dev/python-313-whats-new/?watch="&gt;Python 3.13 的最佳新特性&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://pym.dev/python-313-whats-new/?watch="&gt;34 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;REPL 大力得到改进, 不过...有多少人在 REPL 中编程呢?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://luteorg.github.io/lute-manual/"&gt;考虑从 Flask-Sqlalchemy 迁移到 Flask 和普通 Sqlalchemy：不确定如何开始，或者是否有用&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://luteorg.github.io/lute-manual/"&gt;28 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://blog.miguelgrinberg.com/post/the-ultimate-guide-to-error-handling-in-python"&gt;Python 错误处理终极指南&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://blog.miguelgrinberg.com/post/the-ultimate-guide-to-error-handling-in-python"&gt;27 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://youtubetranscriptoptimizer.com/blog/02_what_i_learned_making_the_python_backend_for_yto"&gt;从为新 Web 应用程序制作 Python 后端中学到了什么&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://youtubetranscriptoptimizer.com/blog/02_what_i_learned_making_the_python_backend_for_yto"&gt;21 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;真切的经验:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...长期以来我坚持用 Python 做所有事情，一直在使用错误的工具，是时候硬着头皮真正学习 Typescript、React、Zustand 以及所有其他我一直拒绝学习的技术了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对美的钝感, 可能是 Python 社区的通病&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://testdriven.io/blog/django-digitalocean-spaces/"&gt;数字海洋应用平台+空间&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://testdriven.io/blog/django-digitalocean-spaces/"&gt;18 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://freefrancisco.hashnode.dev/function-composition-and-currying-in-python"&gt;Python 中的函数组合和柯里化&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://freefrancisco.hashnode.dev/function-composition-and-currying-in-python"&gt;16 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.itprotoday.com/python/python-3-13-boosts-performance-and-developer-experience"&gt;Python 3.13 提升性能和开发人员体验&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.itprotoday.com/python/python-3-13-boosts-performance-and-developer-experience"&gt;14 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.coryzue.com/writing/kamal-django/"&gt;用 Kamal 2 将（多个）Django 应用程序部署到单个服务器&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.coryzue.com/writing/kamal-django/"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;kamal是 Ruby 构建的一个通用 web 应用部署器&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true"&gt;三胞胎问题的python代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可以对比到看其它各种语言的版本&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://docs.python.org/3.13/whatsnew/3.13.html"&gt;Python 3.13 released Python 3.13 发布&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://docs.python.org/3.13/whatsnew/3.13.html"&gt;195 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://blog.python.org/2024/10/python-3130-final-released.html"&gt;Python 3.13.0 (final) released Python 3.13.0（最终版）发布&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.djangoproject.com/weblog/2024/oct/08/bugfix-releases/"&gt;Django 错误修复版本已发布：5.1.2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/astral-sh/uv"&gt;PSA: 如果您正在开始一个新项目，请尝试 astral/uv！&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/astral-sh/uv"&gt;163 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;锈化成功的  pip ...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/aneeb02/SpotiFlopy"&gt;将 Spotify 设为付费版，但这是免费的&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/aneeb02/SpotiFlopy"&gt;89 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;yt-dlp 的配套拓展工具&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/Vortex1134/folder-organization.git"&gt;folder-organization 文件夹组织脚本&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/Vortex1134/folder-organization.git"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/ninoseki/arakawa"&gt;Arakawa:用 100% Python（Datapane 的一个分支）构建数据报告&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/ninoseki/arakawa"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Vue+Ts 混合前端代码;
+&lt;a href="https://github.com/datapane/datapane"&gt;datapane/datapane: Build and share data reports in 100% Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;的再制&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/ifokeev/telegram-ai-agent"&gt;强大的 Python 库，用于创建人工智能驱动的 Telegram 机器人&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/ifokeev/telegram-ai-agent"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/epogrebnyak/abacus-minimal/"&gt;用 Python 实现的会计科目表和分类帐的会计（簿记）规则&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/epogrebnyak/abacus-minimal/"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;神奇了, 最终最易用的,还是得模拟人工在纸上记帐的过程...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/sadaqatullah/python-env-cleaner"&gt;为自己创建了一个脚本，其他人可能也需要它。 Python 环境清理器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/sadaqatullah/python-env-cleaner"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;看起来不像支持 windows 的样子&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/rescrv/napkin"&gt;Napkin: Python 中的粗略计算&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/rescrv/napkin"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/angx1/automation-clipper"&gt;开源 Mac 菜单栏应用程序，允许您剪辑 Python 脚本&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/angx1/automation-clipper"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/FL33TW00D/coremlprofiler"&gt;直接从 Python 分析 CoreML 模型&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/EB4pqThgats?si=Z-lXOjuNKEP5Yehn"&gt;自从开始专注于基础知识以来，我对 Numpy 和 PyTorch 的机器学习有了更好的理解&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://youtu.be/EB4pqThgats?si=Z-lXOjuNKEP5Yehn"&gt;30 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后? 依然写不出受市场欢迎的 app ?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?index=10&amp;amp;list=PLTsu3dft3CWiow7L7WrCd27ohlra_5PGH&amp;amp;v=Y6VdvNdNHqo"&gt;在 YouTube 上分享了 1 个多小时的 Streamlit 课程 - 学习轻松创建 Python 数据/Web 应用程序&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.youtube.com/watch?index=10&amp;amp;list=PLTsu3dft3CWiow7L7WrCd27ohlra_5PGH&amp;amp;v=Y6VdvNdNHqo"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Streamlit 真的非常漂亮,
+但是, 你想作稍微复杂点儿有流程的交互应用就麻烦了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=bHn4dLJYIqE"&gt;40 分钟内构建 AI 代理&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.youtube.com/watch?v=bHn4dLJYIqE"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=yd169cQ-Msg"&gt;numpy 教程 - Spyder 6 IDE&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/issue/issue-598.html"&gt;PyCoder 598&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-546.html"&gt;PyCoder 546&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-494.html"&gt;Issue 494&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-521.html"&gt;pythonista-weekly : Pyw 521&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-442.html"&gt;Issue 442&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-470.html"&gt;pythonista-weekly : Pyw 470&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-349.html"&gt;Issue 349&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-192.html"&gt;蠎加载 192&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-146.html"&gt;蠎加载 146&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-94.html"&gt;蠎加载 94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-187.html"&gt;Issue 187&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-136.html"&gt;Issue 136&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: 空缺&lt;/li&gt;
+&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-35.html"&gt;Issue 35&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zoomquiet.substack.com/"&gt;Zoom.Quiet’s Chaos42 \| Substack&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;古早:新闻组式写作&lt;/li&gt;
+&lt;li&gt;欢迎订阅, 包含当前周刊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+      &lt;em&gt;~~|-~&lt;/em&gt;
+  \/ /  ? ◴  \ \/
+    '&lt;em&gt;   𝟂   &lt;/em&gt;'
+    \ '--⌄--' )&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2441.html"&gt;2024/41 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2441.md"&gt;pyrw-2441.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241014-41.md</guid><pubDate>Mon, 14 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.14 迁移 gh-pages 到 Cloudflare</title><link>https://zoomquiet.io/Pythonic/24/20241014-cf-pages.html</link><description>Page 10.14 迁移 gh-pages 到 Cloudflare - Last updated at 2024-10-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;迁移 gh-pages 到 Cloudflare&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如何将 github 和 Cloudflare 的 Pages 服务串联起来?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;原有社区官网, 使用 Hugo 作为 SSG ,
+通过 GitHub Actions 作为部署工具,
+发布到 GitHub Pages 中, 并绑定域名;&lt;/p&gt;
+&lt;p&gt;对应 actions 脚本:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/duonb/duonb.org/blob/683549a6a1745686ee744c8fae2168852ae3e100/.github/workflows/hugo.yml"&gt;duonb.org/.github/workflows/hugo.yml at 683549a6a1745686ee744c8fae2168852ae3e100 · duonb/duonb.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;随着运营的深入, 发觉 相比 GitHub(后续缩写为GH) 各种别扭而且多变的配置,
+Cloudflare(后续缩写为 CF) 各种良心免费资源配套齐全, 而且免费额度不小,
+值得迁移;&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;原有内容运营流程不变:&lt;ul&gt;
+&lt;li&gt;编辑随时进入 GH&lt;/li&gt;
+&lt;li&gt;在仓库中使用 &lt;code&gt;.dev&lt;/code&gt; 在线 IDE 完成文章编撰&lt;/li&gt;
+&lt;li&gt;提交后, 由 Actions 自动触发执行完成发布&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;最终静态网站通过 CF-Pages 服务发布&lt;ul&gt;
+&lt;li&gt;相比 GH 以及东家, CF 是更加专业的网络服务商&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;p&gt;通读相关文档以及网友们的经验后明确:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CF-Pages 和 GH-Pages 本质上一样, 都是微服务平台&lt;/li&gt;
+&lt;li&gt;通过对应 workflow 脚本触发 Docker 拉起虚拟机, 部署对应环境中, 执行约定指令完成静态网站的编译生成&lt;/li&gt;
+&lt;li&gt;最后复制到对应发布空间, 并安全消解掉所有虚拟资源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...而免费的东西, 果断都有坑&lt;/p&gt;
+&lt;h3&gt;直接上 CF&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;按照官方文档来&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;基本流程就是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建 Pages 实例&lt;/li&gt;
+&lt;li&gt;对接仓库&lt;/li&gt;
+&lt;li&gt;选择编译框架&lt;/li&gt;
+&lt;li&gt;配置发布域名&lt;/li&gt;
+&lt;li&gt;触发事件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;第一个坑:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根本无法识别自己 GH 帐号不是 owner 的仓库&lt;/li&gt;
+&lt;li&gt;只好将对应仓库 fork 到一个即有公开组织中&lt;/li&gt;
+&lt;li&gt;虽然 fork 过来的仓库是私有的, 但是, CF 良好识别了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;第二个坑:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CF Pages 中, 并没有类似 GH Actrions 的约定, 比如从 &lt;code&gt;.github/workflow&lt;/code&gt; 中自动识别 .yaml 作为 Dockerfiles 来执行&lt;/li&gt;
+&lt;li&gt;界面上只有简洁的框架选择, 以及构建成果发布目录之类几个选择&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;果然, 反复尝试, 都在类似错误中崩溃了:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;...
+Error: Exit with error code: 1
+        at ChildProcess.&amp;lt;anonymous&amp;gt; (/snapshot/dist/run-build.js)
+        at Object.onceWrapper (node:events:652:26)
+        at ChildProcess.emit (node:events:537:28)
+        at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+    Failed: build command exited with code: 1
+    Failed: error occurred while running build command&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;看起来对应 NodeJS CF 还没什么好办法自动征服&lt;/p&gt;
+&lt;h3&gt;对接到 CF&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;进一步挖掘文档&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;既然 CF 本身的 Pages 构建环境不如 GH 的,
+那么, 是否能在 GH Actions 中完成构建,
+只是将成果输出到 CF Pages 空间中, 而不是原有的 GH Pages ?&lt;/p&gt;
+&lt;p&gt;答案是肯定的, 虽然配置比较复杂:&lt;/p&gt;
+&lt;p&gt;根据相关文档: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 CF 中创建应用 token&lt;/li&gt;
+&lt;li&gt;从 CF 中拿到对应关键 ID&lt;/li&gt;
+&lt;li&gt;去 GH 配置环境变量, 来使用授权 token&lt;/li&gt;
+&lt;li&gt;再增补 Actions 脚本, 改变最后的 &lt;code&gt;pages-action&lt;/code&gt; 目标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;参考: &lt;a href="https://github.com/duonb/duonb.org/commit/47ef95d0255111606b975860850d9798b21f941f"&gt;upd4cloudflare · duonb/duonb.org@47ef95d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;可惜, 依然有相似的错误,
+而且 CF Pages 文档也不少,
+继续挖掘进入更多细节来解决问题是否值得?&lt;/p&gt;
+&lt;h3&gt;通过 gh-pages 分支&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;洗了个冷水澡, 重新捋一下...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;之所以, 对 CF Pages 服务有信心, 因为之前有项目,
+在本地用 Python 完成静态网站编译后, 通过 GH 仓库, 
+对接到 CF Pages 一下子就发布出来了,非常流畅;&lt;/p&gt;
+&lt;p&gt;所以, 嘦不涉及具体的微服务器构建过程, 只是对静态网站进行发布 CF Pages 是完全没有问题的.&lt;/p&gt;
+&lt;p&gt;而 Hugo 工程, 为了商业化界面, 还安装了各种复杂的 NodeJS 拓展,
+所以, Actions 过程比较长, 在本地都不一定部署的对;
+大家也是从 Theme 原型仓库抄来的 workflow 而已;&lt;/p&gt;
+&lt;p&gt;那么, 问题就变成了, 如何将原先 GH Pages 发布成功的 Actions 脚本,
+改造为可以将编译出来的 HTML 成果, 不是直接发布到 GH Pages 中,
+而是放到一个可以再由 CF Pages 不进行任何其它处置, 直接复制使用的空间中呢?&lt;/p&gt;
+&lt;p&gt;这种空间在哪儿?&lt;/p&gt;
+&lt;p&gt;这时, 就想起来 GH Pages 当初没有 Actions 机制时,
+是约定 &lt;code&gt;gh-pages&lt;/code&gt; 分支的, 
+也就是将编译的静态网站一定要放到特殊分支中,
+GH 后端其它服务才知道如何复制并发布;&lt;/p&gt;
+&lt;p&gt;那么, 问题就变成, 如何将 Actions 脚本运行成果,直接推送到 &lt;code&gt;gh-pages&lt;/code&gt; 分支中?&lt;/p&gt;
+&lt;p&gt;追问了 GPT 获得以下类似步骤:&lt;/p&gt;
+&lt;p&gt;```yaml
+      - name: Save generated site files
+        run: mv public ../public&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  - name: Checkout gh-pages branch
+    uses: actions/checkout@v4
+    with:
+      ref: gh-pages
+
+  - name: Copy built site to gh-pages branch
+    run: |
+      rm -rf *
+      mv ../public/* .
+
+  - name: Commit and push changes
+    run: |
+      git config --local user.name "github-actions[bot]"
+      git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      git add .
+      git commit -m "Deploy static site to gh-pages branch" || echo "No changes to commit"
+      git push origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;哈,就是标准的 git 指令, 看来 &lt;code&gt;runs-on: ubuntu-22.04&lt;/code&gt; 是内置 git 工具的;
+唯一的技巧不过是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为了合理每次都提交所有编译成果&lt;/li&gt;
+&lt;li&gt;先将编译成果目录移动到当前工作目录以外&lt;/li&gt;
+&lt;li&gt;然后,切换分支&lt;/li&gt;
+&lt;li&gt;再将分支中当前所有内容删除&lt;/li&gt;
+&lt;li&gt;最后将成果目录中所有内容复制回工作目录(已经是 gh-pages 分支)&lt;/li&gt;
+&lt;li&gt;再用 git 提交推送回仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;先在 GH 仓库中观察新 Actions 是否能完成;&lt;/p&gt;
+&lt;p&gt;然后, 回到 CF, 修订 Pages 配置, 不使用任何编译框架, 直接发布指定分支的所有内容;&lt;/p&gt;
+&lt;p&gt;获得对应成果:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CF 渠道发布的:&lt;a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/"&gt;DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;对比原版: &lt;a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/"&gt;DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;PS:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小结&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;前后三次尝试, 合算5+小时, 完成了迁移,
+虽然最后配置变更的不多,
+但是, 调试过程比较囧, 因为 Actions 不是编程环境,
+而是类似 Dockerfiles 的执行环境,
+每次修改, 无论是格式还是行为错误, 都只能通过
+&lt;a href="https://github.com/duonb/duonb.org/actions"&gt;Workflow runs · duonb/duonb.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;workflow 运行日志来观察, 根本无法实时观察运行期的各种输出;&lt;/p&gt;
+&lt;p&gt;但是, Actions 毕竟是免费的, 内置的各种行为也非常稳健,
+在 GH 海量项目的持续使用过程中, 相比其它 PaaS 平台的类似服务要靠谱的多;&lt;/p&gt;
+&lt;p&gt;值得深入理解和利用;&lt;/p&gt;
+&lt;p&gt;当然,最靠谱的还是清晰的目标定义, 以及各种资源间关系的理解,
+这样, 才可能随时针对性提出方案, 并设计关键观察行为来检验;&lt;/p&gt;
+&lt;p&gt;总之, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GH Actions 值得薅&lt;/li&gt;
+&lt;li&gt;CF Pages 值得薅&lt;/li&gt;
+&lt;li&gt;两种资源免费对接, 嘦通过一个普通的约定分支即可 ;-)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://developers.cloudflare.com/pages/"&gt;Cloudflare Pages documentation&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/"&gt;Hugo | Cloudflare Pages docs&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://developers.cloudflare.com/pages/configuration/build-configuration/"&gt;Build configuration | Cloudflare Pages docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hackernoon.com/deploy-your-personal-web-page-with-hugo-cloudflare-and-github-100percent-for-free"&gt;Deploy Your Personal Web-Page With Hugo, Cloudflare and GitHub 100% For Free \| HackerNoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@kyodo-tech/simple-guide-to-deploying-hugo-sites-with-github-actions-and-cloudflare-pages-2a53ddfb7533"&gt;Simple Guide to Deploying Hugo Sites with GitHub Actions and Cloudflare Pages \| by Kyodo Tech \| Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241014-cf-pages.md</guid><pubDate>Mon, 14 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.15 RSS4X</title><link>https://zoomquiet.io/Pythonic/24/20241015-rss-app-x.html</link><description>Page 10.15 RSS4X - Last updated at 2024-10-15T00:00:00+08:00</description><content:encoded>&lt;h1&gt;如何给X生成RSS&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;以供 Follow 订阅&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -941,7 +1662,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;blockquote&gt;
 &lt;p&gt;Python 3.8 已达 EOL&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文: [Python recap for week 2024/43 - discu.eu](https://discu.eu/weekly/python/2024/43/3&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/43"&gt;Python recap for week 2024/43 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
@@ -1309,7 +2030,7 @@ Tags: Weekly,Python,recap,discu_eu,ZH
 &lt;blockquote&gt;
 &lt;p&gt;reflex 叕一个 Streamlit&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文: [Python recap for week 2024/43 - discu.eu](https://discu.eu/weekly/python/2024/43/3&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/44"&gt;Python recap for week 2024/44 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
@@ -1801,4 +2522,182 @@ Writing is its own best reward
 &lt;p&gt;具体是个什么机制? 俺当前说不清楚哈, 只是知道,
 这种体验, 只有开始写作才体验的到,
 不去写, 而是问 GPT 们什么是写作, 以及写作的本质和感觉...
-那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
+那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>11.7 截屏冲突解决</title><link>https://zoomquiet.io/Pythonic/24/20241107-mac-snap-lunar.html</link><description>Page 11.7 截屏冲突解决 - Last updated at 2024-11-07T00:00:00+08:00</description><content:encoded>&lt;h1&gt;截屏冲突解决&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;macOS 升级到 15.1 之后...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;自从 macOS 自动升级到 15.1 之后, 除了系统内置的截屏,
+其它各种软件的截屏, 包含 微信/lark 什么的, 都好象无法直接抓到屏幕的显示,
+就好象故意加了个灰色的滤镜一样....&lt;/p&gt;
+&lt;p&gt;&lt;img alt="241106-LUNAR-softe" src="http://ipic.101.so/241106-LUNAR-softe.webp" /&gt;&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;p&gt;搜索几次也没什么结果,
+但是, 得解决哪,&lt;/p&gt;
+&lt;p&gt;否则, 只能使用 macOS 自己的,
+先截屏保存到桌面, 然后, 再回到对应软件中, 选择使用...&lt;/p&gt;
+&lt;p&gt;这一下, 多出不少操作来;&lt;/p&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;p&gt;今天突然想到, 一直以来为了快速配置几个显示屏的亮度是通过 应用来的...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开始是 F.lux, 可以自动根据当地时间,调整兰光&lt;ul&gt;
+&lt;li&gt;可问题是, 多数情况是多屏工作&lt;/li&gt;
+&lt;li&gt;而且, 作图时, 不能为了视力将颜色调乱了...只能放弃&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;后来对比采购了 LUNAR&lt;ul&gt;
+&lt;li&gt;提供了更多模式&lt;/li&gt;
+&lt;li&gt;而且有桌面控制栏驻留小应用&lt;/li&gt;
+&lt;li&gt;可以一键快速调整指定显示屏的亮度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;进一步探索, 才发现, LUNAR
+有软控制和硬控制之别:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;软控制就是在指定显示屏蒙一层透明度受软件控制的灰色图层...&lt;ul&gt;
+&lt;li&gt;这就导致使用非系统截屏时, LUNAR 不知道当前焦点在哪个屏&lt;/li&gt;
+&lt;li&gt;自动恢复默认灰度?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;得将之切换回硬参数调整,才可以 看到什么截到什么...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种技巧...&lt;/p&gt;
+&lt;p&gt;&lt;img alt="241106-LUNAR-hard" src="http://ipic.101.so/241106-LUNAR-hard.webp" /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;真.没事儿找事儿...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;分享到 Tg 群: &lt;a href="https://t.me/chaos42dama"&gt;t.me/chaos42dama&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进一步反馈:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最近用微信、QQ截屏，直接是白班截不了屏&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;俺直觉支招:&lt;/p&gt;
+&lt;p&gt;应该是和其它类似应用的屏幕控制冲突了...&lt;/p&gt;
+&lt;p&gt;如果你关闭所有驻留内存的控制栏应用, 应该就可以发现 qq 们的截屏是正常的了...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;然后, 用排除法, 就知道哪个冲突了...&lt;/li&gt;
+&lt;li&gt;当然, 首先, 要给有截屏功能的软件对应权限,&lt;/li&gt;
+&lt;li&gt;macOS 升级后, 所有涉及系统资源的权限, 都要人工明确授予了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PS:&lt;/p&gt;
+&lt;p&gt;是的, macOS 新的用户协议, 以及安全机制,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将更多底层控制暴露给了用户,&lt;/li&gt;
+&lt;li&gt;也限制了应用可以自动获得,&lt;/li&gt;
+&lt;li&gt;必须用户授权,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可问题是, 这样虽然减少了系统判定的复杂性,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;但是, 对于多数用户而言, 并不清楚上千种权限, 哪种应该给, 哪种不应该给,&lt;/li&gt;
+&lt;li&gt;一般都是应用要求给, 就先给了, 否则用不了哪...&lt;/li&gt;
+&lt;li&gt;等于, 一个严格的安全管制功能, 给了用户,&lt;/li&gt;
+&lt;li&gt;实质上却是减少了系统安全级别...&lt;ul&gt;
+&lt;li&gt;完全是责任转嫁行为了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种安全逻辑, 感觉就非常的 M$,
+但是从微软跳到 Apple 的产品经理的成果.&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://lunar.fyi/"&gt;Lunar - The defacto app for controlling monitor brightness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://justgetflux.com/news/pages/macquickstart/"&gt;Welcome to f.lux for macOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;241107 DAMA init.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+     &lt;em&gt;~~+-~&lt;/em&gt;
+ ) /  ◴ ◷  \ (/
+   '&lt;em&gt;   ⌄   &lt;/em&gt;'&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;'--+--' )&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241107-mac-snap-lunar.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item><item><title>食堂监察?</title><link>https://zoomquiet.io/IMHO/DevOps/20241107-watchdogfood.html</link><description>Page 食堂监察? - Last updated at 2024-11-07T00:00:00+08:00</description><content:encoded>&lt;h1&gt;食堂监察?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;忽然, 不知道为什么就讨论...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;某个时刻, 某一微信群, 某位群友问:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有个学校需求：学校食堂想实现每个班级学生用餐余菜量，垃圾桶希望装有芯片识别哪个班，识别那个班剩余多少量？作一个评比排行公示功能。[偷笑]哪位大神可支招&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;简单粗暴可用..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当即有群友点评:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从伦理来说好扭曲的功能，做个类似轻mes+联网的电子秤即可&lt;/li&gt;
+&lt;li&gt;视觉太贵...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;p&gt;俺的直觉推理:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;配套规定~每个班有固定泔水桶就好~&lt;ul&gt;
+&lt;li&gt;不过~的确看起来像是一个问题的解决方案~&lt;/li&gt;
+&lt;li&gt;而不是想处理的问题本身&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;在回收窗口安装摄像头~&lt;ul&gt;
+&lt;li&gt;识别学生脸部~并监察倒菜行为~配合电子称&lt;/li&gt;
+&lt;li&gt;统计估算~&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;无感增强式:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;不用专门过秤,泔水桶底放一个智能平秤即可,&lt;ul&gt;
+&lt;li&gt;连续进行人脸识别时, 也同时连续获得重量值,&lt;/li&gt;
+&lt;li&gt;形成事件绑定的时序数据,&lt;/li&gt;
+&lt;li&gt;对应分段计算, 就可以获得每个人丢弃的食物重量了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;这样, 就完成了整体无感统计,&lt;ul&gt;
+&lt;li&gt;不用变更所有人员的所有行为,&lt;ul&gt;
+&lt;li&gt;将最自然状态下的浪费行为给监察起来了...&lt;/li&gt;
+&lt;li&gt;唯一可能误差的, 就是多人同时丢弃时,取平均数即可...&lt;/li&gt;
+&lt;li&gt;类似的, 有些固定策略处理就好...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;进一步的, 长期跟踪后, 就可以针对每个学生建立行为模型,&lt;ul&gt;
+&lt;li&gt;进行预测和追踪, 来奖励习惯改善的学生了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;以及, 相同策略, 也可以给打饭窗口安装相同设备,&lt;ul&gt;
+&lt;li&gt;这样还可以和学生付费事件关联,&lt;ul&gt;
+&lt;li&gt;追踪每次花多少銭, 采购了多重的食物,&lt;/li&gt;
+&lt;li&gt;减去最终丢弃的,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;甚至于可以追踪每个学生的 恩格尔指数,&lt;/li&gt;
+&lt;li&gt;也可以用来校准丢弃的重量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;已经有智能食堂环境的话, 将相关数据收集就可以完成统计的,
+如果本身没有食堂事先进行智能改造,
+就可以用我们的无接触, 无改造, 视觉+智能电子秤的方案&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其它现实方案&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有群友分析:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个要看垃圾回收的方式。如果是餐盘放传送带，无需自己倒垃圾，那就有方案。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有些工厂，是吃完直接餐盘放回收线，无需自己倒垃圾。
+那么每个餐盘的rfid+一个皮带秤，就搞定了。
+可以去..看看他们的智慧食堂，餐盘都有RFID，打餐时就有称重，餐盘回收时用输送线+称重，通过RFID追溯就可以了，在输送线尾有自动倾倒垃圾的装置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;241107 DAMA init.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241107-watchdogfood.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>

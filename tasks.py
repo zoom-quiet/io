@@ -211,13 +211,17 @@ def _replace_md(c,
             # 如果遇到开始标志行，设置标志位为True，并添加新内容
             in_replacement_area = True
             updated_lines.append(line)
-            updated_lines.append(new_content + "\n")
+            updated_lines.append("\n")
+            updated_lines.append("\n")
+            updated_lines.append(new_content)
+            updated_lines.append("\n")
+            updated_lines.append("\n")
             continue
         elif line.strip() == mkend:
             # 如果遇到结束标志行，设置标志位为False，并跳出循环
             in_replacement_area = False
             updated_lines.append(line)
-            break
+            continue
 
         if not in_replacement_area:
             # 如果不在替换区域内，直接添加原始内容

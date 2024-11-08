@@ -7,6 +7,10 @@
 > 最新发布的文章..毕竟,这是个图书网站,想按 blog 的时间顺序看,得额外整理..
 
 > :::..
+
+
++ [食堂监察?](https://zoomquiet.io/IMHO/DevOps/20241107-watchdogfood.html)
++ [11.7 截屏冲突解决](https://zoomquiet.io/Pythonic/24/20241107-mac-snap-lunar.html)
 + [咩是写作?](https://zoomquiet.io/IMHO/IAS/20241028-iff-write.html)
 + [10.28 自持图床](https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.html)
 + [蟒周刊:24-44](https://zoomquiet.io/Pythonic/weekly/24/20241028-44.html)
@@ -16,6 +20,10 @@
 + [10.18 dvd_subtitle](https://zoomquiet.io/Pythonic/24/20241016-dvd_subtitle.html)
 + [10.16 RSS4mdBook](https://zoomquiet.io/Pythonic/24/20241016-rss4mdbook.html)
 + [10.15 RSS4X](https://zoomquiet.io/Pythonic/24/20241015-rss-app-x.html)
++ [10.14 迁移 gh-pages 到 Cloudflare](https://zoomquiet.io/Pythonic/24/20241014-cf-pages.html)
++ [蟒周刊:24-41](https://zoomquiet.io/Pythonic/weekly/24/20241014-41.html)
++ [10.11 友好的法院?](https://zoomquiet.io/OldTouch/24/20241011-funny-court.html)
+
 > ..:::
 
 
