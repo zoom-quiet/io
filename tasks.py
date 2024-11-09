@@ -28,7 +28,7 @@ CONF = {
     #   self info,
     "project": "RSS4mdBOOK",
     "desc": "base SUMMARY.md gen RSS feed->RSS.xml",
-    "version": "24.10.15.2142",
+    "version": "24.11.9.2142",
     "author": "Zoom.Quiet",
     "feedback": "askDAMA@googlegroups.com",
     "license": "MIT@2024..",
@@ -117,10 +117,10 @@ def gen(c,limitmes=14):
             LOG.info(f"IGNORE README.md")
             continue
         elif len(_mdfile) <= 11:
-            LOG.info(f"IGNORE file name too short")
+            #LOG.info(f"IGNORE file name too short")
             continue
         elif _mdfile[:8].isdigit():
-            LOG.info(f"continue to parse:{_mdfile}")
+            #LOG.info(f"continue to parse:{_mdfile}")
             published_time = datetime.strptime(_mdfile[:8], "%Y%m%d")
             # 设置时区为北京时间 (UTC+8)
             beijing_timezone = timezone(timedelta(hours=8))
@@ -145,7 +145,7 @@ def gen(c,limitmes=14):
             entries.append(entry_data)
 
         else:
-            LOG.info(f"IGNORE all OTHERS files")
+            LOG.info(f"IGNORE all OTHERS files:\n{_mdfile}")
             continue
     
         ## 获取文件的最后修改时间并转换为 UTC 时间
@@ -175,6 +175,7 @@ def gen(c,limitmes=14):
     fg.rss_file('rss.xml')
 
     print('RSS feed 生成ed: rss.xml')
+    
     appd_md = []
     for entry_data in sorted_entries:
         #LOG.debug(f"{entry_data['id']}:{entry_data['title']}:{entry_data['link'][:-3]}.html")
@@ -233,4 +234,4 @@ def _replace_md(c,
     # 将更新后的内容写入文件
     with open(mdfile, "w", encoding="utf-8") as file:
         file.writelines(updated_lines)
-    LOG.info(f"update {mdfile} within:\n{mkstart}\n...\n{mkend}\n\tdone!")
+    #LOG.info(f"update {mdfile} within:\n{mkstart}\n...\n{mkend}\n\tdone!")
