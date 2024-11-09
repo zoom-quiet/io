@@ -113,18 +113,21 @@ def gen(c,limitmes=14):
         #LOG.info(f"page_url:{page_url}")
         #LOG.info(f".md:{page_url.split('/')[-1]}")
         _mdfile = page_url.split('/')[-1]
+        #LOG.debug(f"parse:{file_path}")
         if _mdfile == "README.md":
-            LOG.info(f"IGNORE README.md")
+            #LOG.info(f"IGNORE README.md in \n{file_path}")
             continue
-        elif len(_mdfile) <= 11:
-            #LOG.info(f"IGNORE file name too short")
+        elif len(_mdfile) <= 10:
+            #20241109.md
+            LOG.info(f"IGNORE file name too short")
             continue
         elif _mdfile[:8].isdigit():
-            #LOG.info(f"continue to parse:{_mdfile}")
+            #LOG.info(f"parse {title} date:{_mdfile[:8]}")
             published_time = datetime.strptime(_mdfile[:8], "%Y%m%d")
             # 设置时区为北京时间 (UTC+8)
             beijing_timezone = timezone(timedelta(hours=8))
             published_time = published_time.replace(tzinfo=beijing_timezone)
+            #LOG.info(f"parsed:{published_time}")
 
             with open(file_path, 'r', encoding='utf-8') as md_file:
                 markdown_content = md_file.read()
@@ -137,7 +140,7 @@ def gen(c,limitmes=14):
                 'title': title,
                 'link': page_url,
                 'published': published_time,
-                'description': f'Page {title} - Last updated at {published_time.isoformat()}',
+                'description': f'ESSAY: {title} - Last updated(at){published_time.isoformat()}',
                 'content': html_content,
             }
             
@@ -148,21 +151,15 @@ def gen(c,limitmes=14):
             LOG.info(f"IGNORE all OTHERS files:\n{_mdfile}")
             continue
     
-        ## 获取文件的最后修改时间并转换为 UTC 时间
-        #if os.path.exists(file_path):
-        #    modified_time = os.path.getmtime(file_path)
-        #    published_time = datetime.fromtimestamp(modified_time, timezone.utc)
-        #else:
-        #    # 如果文件不存在，使用当前时间作为默认时间
-        #    #published_time = datetime.now(timezone.utc)        
-        #    continue
 
     #return None
     # 6. 对条目按发布时间排序，获取最近的 20 个条目
     sorted_entries = sorted(entries, key=lambda e: e['published'], reverse=True)[:limitmes]
 
+    
     # 7. 将排序后的条目添加到 RSS feed 中
     for entry_data in sorted_entries:
+        #LOG.debug(f"entry_data:\n{entry_data['id']}:{entry_data['published']}")
         entry = fg.add_entry()
         entry.id(entry_data['id'])
         entry.title(entry_data['title'])
@@ -174,7 +171,8 @@ def gen(c,limitmes=14):
     # 8. 生成 RSS 文件
     fg.rss_file('rss.xml')
 
-    print('RSS feed 生成ed: rss.xml')
+    LOG.info('RSS feed 生成ed: rss.xml')
+    LOG.info(f"total {len(sorted_entries)} entries in RSS feed")
     
     appd_md = []
     for entry_data in sorted_entries:

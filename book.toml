@@ -11,6 +11,8 @@ sidebar-width = "250px"
 
 
 [preprocessor.pagetoc]
+command = "mdbook-pagetoc"
+optional = true
 
 [output.html]
 default-theme = "light"
