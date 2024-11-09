@@ -26,6 +26,21 @@ jobs:
           mdbook-version: 'latest'
           #mdbook-version: '0.4.10'
 
+      # Install mdbook-pagetoc preprocessor
+      - name: Install mdbook-pagetoc
+        run: |
+          cargo install mdbook-pagetoc
+
+      # Install mdbook-theme preprocessor
+      - name: Install mdbook-theme
+        run: |
+          cargo install mdbook-theme
+
+      # Install mdbook-theme-ace backend theme
+      - name: Install mdbook-theme-ace
+        run: |
+          cargo install mdbook-theme-ace
+
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
@@ -41,6 +56,7 @@ jobs:
         run: |
           inv gen || exit 1
           echo "RSS feed ..etc. generation finished."
+          head -42 rss.xml
 
       # Step 5: Build the mdbook
       - name: Build mdBook
