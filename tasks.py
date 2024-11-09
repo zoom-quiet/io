@@ -89,7 +89,9 @@ def gen(c,limitmes=14):
     fg = FeedGenerator()
     fg.id(base_url)
     fg.title('ZoomQuiet.io RSS')
+    fg.subtitle('lasted 14 updates from ZoomQuiet.io')
     fg.link(href=base_url, rel='self')
+    fg.author( {'name':'Chaos42DAMA','email':'askDAMA@googlegroups.com'} )
     fg.language('zh-CN')
     fg.description(f'RSS feed contains the latest {CFG.last} updates items from ZoomQuiet.io gen. by mdBook|{CFG.follow}')  # 添加全局描述
 
@@ -155,11 +157,11 @@ def gen(c,limitmes=14):
     #return None
     # 6. 对条目按发布时间排序，获取最近的 20 个条目
     sorted_entries = sorted(entries, key=lambda e: e['published'], reverse=True)[:limitmes]
-
+    sorted_entries = sorted(sorted_entries, key=lambda x: x['published'], reverse=True)
     
     # 7. 将排序后的条目添加到 RSS feed 中
     for entry_data in sorted_entries:
-        LOG.debug(f"entry_data:\n{entry_data['id']}:{entry_data['published']}")
+        LOG.debug(f"add_entry:\n{entry_data['id']}:{entry_data['published']}")
         entry = fg.add_entry()
         entry.id(entry_data['id'])
         entry.title(entry_data['title'])
