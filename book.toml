@@ -5,14 +5,20 @@ multilingual = false
 src = "src"
 title = "ZoomQuiet.io"
 
-[preprocessor.theme]
-pagetoc = true
-sidebar-width = "250px"
-
-
 [preprocessor.pagetoc]
 command = "mdbook-pagetoc"
 optional = true
+
+[preprocessor.theme]
+command = "mdbook-theme"
+optional = true
+pagetoc = true
+sidebar-width = "250px"
+
+[output.theme-ace]
+optional = true
+theme-white = "xcode"
+theme-dark = "monokai"
 
 [output.html]
 default-theme = "light"
@@ -32,6 +38,3 @@ editable = true
 [output.html.print]
 enable = false
 
-[output.theme-ace]
-theme-white = "xcode"
-theme-dark = "monokai"

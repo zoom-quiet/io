@@ -159,7 +159,7 @@ def gen(c,limitmes=14):
     
     # 7. 将排序后的条目添加到 RSS feed 中
     for entry_data in sorted_entries:
-        #LOG.debug(f"entry_data:\n{entry_data['id']}:{entry_data['published']}")
+        LOG.debug(f"entry_data:\n{entry_data['id']}:{entry_data['published']}")
         entry = fg.add_entry()
         entry.id(entry_data['id'])
         entry.title(entry_data['title'])
