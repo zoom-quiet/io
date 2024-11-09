@@ -9,43 +9,23 @@ permissions:
   pages: write     # 允许 GitHub Pages 进行写操作
   id-token: write  # 允许身份验证
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true  # 避免并发冲突
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
-    env:
-      MDBOOK_VERSION: '0.4.12'
-      MDBOOK_LINKCHECK_VERSION: '0.7.4'
-      MDBOOK_MERMAID_VERSION: '0.8.3'
-      
+
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
     steps:
-      # Step 1: Checkout the code
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v2
         with:
-          submodules: true
+          mdbook-version: 'latest'
+          #mdbook-version: '0.4.10'
 
-      # Step 2: Install mdbook and other dependencies
-      - name: Install mdbook and plugins
-        run: |
-          mkdir ~/tools
-          curl -L https://github.com/rust-lang/mdBook/releases/download/v$MDBOOK_VERSION/mdbook-v$MDBOOK_VERSION-x86_64-unknown-linux-gnu.tar.gz | tar xz -C ~/tools
-          curl -L https://github.com/badboy/mdbook-mermaid/releases/download/v$MDBOOK_MERMAID_VERSION/mdbook-mermaid-v$MDBOOK_MERMAID_VERSION-x86_64-unknown-linux-gnu.tar.gz | tar xz -C ~/tools
-          curl -L https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v$MDBOOK_LINKCHECK_VERSION/mdbook-linkcheck.v$MDBOOK_LINKCHECK_VERSION.x86_64-unknown-linux-gnu.zip -O
-          unzip mdbook-linkcheck.v$MDBOOK_LINKCHECK_VERSION.x86_64-unknown-linux-gnu.zip -d ~/tools
-          chmod +x ~/tools/mdbook-linkcheck
-          curl -s https://api.github.com/repos/zjp-CN/mdbook-theme/releases/latest \
-               | grep browser_download_url \
-               | grep mdbook-theme_linux \
-               | cut -d '"' -f 4 \
-               | wget -qi -
-          tar -xzf mdbook-theme_linux.tar.gz -C ~/tools
-          echo ~/tools >> $GITHUB_PATH
-
-      # Step 3: Set up Python for RSS generation
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
@@ -60,7 +40,7 @@ jobs:
       - name: Generate RSS feed + inject updating into README.md
         run: |
           inv gen || exit 1
-          echo "RSS feed generation finished."
+          echo "RSS feed ..etc. generation finished."
 
       # Step 5: Build the mdbook
       - name: Build mdBook
