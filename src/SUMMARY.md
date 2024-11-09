@@ -26,6 +26,7 @@
     + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/19980101-chinese4internet.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/24/README.md)
+        + [11.9 DUKU2405](MurMur/24/20241109.md)
         + [11.7 家庭绘本](MurMur/24/20241107.md)
         + [10.28 为咩阅后即焚](MurMur/24/20241028.md)
         + [10.24 深挖开源...](MurMur/24/20241024.md)
