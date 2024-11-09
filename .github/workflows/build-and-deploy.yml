@@ -31,15 +31,14 @@ jobs:
         run: |
           cargo install mdbook-pagetoc
 
-      # Install mdbook-theme preprocessor
-      - name: Install mdbook-theme
-        run: |
-          cargo install mdbook-theme
-
-      # Install mdbook-theme-ace backend theme
-      - name: Install mdbook-theme-ace
-        run: |
-          cargo install mdbook-theme-ace
+      ## Install mdbook-theme preprocessor
+      #- name: Install mdbook-theme
+      #  run: |
+      #    cargo install mdbook-theme
+      ## Install mdbook-theme-ace backend theme
+      #- name: Install mdbook-theme-ace
+      #  run: |
+      #    cargo install mdbook-theme-ace
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
@@ -54,14 +53,14 @@ jobs:
       # Step 4: Generate RSS feed
       - name: Generate RSS feed + inject updating into README.md
         run: |
-          inv gen || exit 1
+          inv gen 
           echo "RSS feed ..etc. generation finished."
           head -42 rss.xml
 
       # Step 5: Build the mdbook
       - name: Build mdBook
         run: |
-          mdbook build || exit 1
+          mdbook build 
           echo "Mdbook build finished."
 
       # Step 6: Check and prepare files for deployment
