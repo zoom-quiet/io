@@ -36,7 +36,7 @@ CONF = {
     "summ": "SUMMARY.md",
     "buri": "https://zoomquiet.io",
     "follow":"feedId:69052357719365632+userId:68573755406424064",
-    "last": 14,
+    "last": 7,
 }
 
 Config = namedtuple("Config", CONF.keys())
@@ -89,7 +89,7 @@ def gen(c,limitmes=14):
     fg = FeedGenerator()
     fg.id(base_url)
     fg.title('ZoomQuiet.io RSS')
-    fg.subtitle('lasted 14 updates from ZoomQuiet.io')
+    fg.subtitle('lasted updates from ZoomQuiet.io')
     fg.link(href=base_url, rel='self')
     fg.author( {'name':'Chaos42DAMA','email':'askDAMA@googlegroups.com'} )
     fg.language('zh-CN')
