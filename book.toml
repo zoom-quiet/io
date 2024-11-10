@@ -6,21 +6,10 @@ src = "src"
 title = "ZoomQuiet.io"
 
 [preprocessor.pagetoc]
-command = "mdbook-pagetoc"
-optional = true
-
-[preprocessor.theme]
-command = "mdbook-theme"
-optional = true
-pagetoc = true
-sidebar-width = "250px"
-
-[output.theme-ace]
-optional = true
-theme-white = "xcode"
-theme-dark = "monokai"
 
 [output.html]
+pagetoc = true
+sidebar-width = "250px"
 default-theme = "light"
 git-repository-url = "https://github.com/zoom-quiet/io"
 additional-css = ["theme/pagetoc.css"]

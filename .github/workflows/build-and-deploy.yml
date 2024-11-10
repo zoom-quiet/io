@@ -67,6 +67,7 @@ jobs:
           chmod -Rvf 777 book
           ls -al ./
           export RUST_LOG=debug
+          export RUST_BACKTRACE=1
           mdbook build 
           echo "Mdbook build finished."
 
