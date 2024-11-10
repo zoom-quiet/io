@@ -111,8 +111,12 @@ def gen(c,limitmes=14):
         
         # 处理相对路径，生成完整的页面 URL
         page_url = os.path.join(base_url, relative_path).replace('\\', '/')
-        file_path = os.path.join('./src', relative_path).replace('\\', '/')
+        #file_path = os.path.join('./src', relative_path).replace('\\', '/')
+        file_path = f'./src{relative_path}'
+        #LOG.info(f"base_url:{base_url}")
+        #LOG.info(f"relative_path:{relative_path}")
         #LOG.info(f"page_url:{page_url}")
+        #LOG.debug(f"parse:{file_path}")
         #LOG.info(f".md:{page_url.split('/')[-1]}")
         _mdfile = page_url.split('/')[-1]
         #LOG.debug(f"parse:{file_path}")
@@ -130,7 +134,6 @@ def gen(c,limitmes=14):
             beijing_timezone = timezone(timedelta(hours=8))
             published_time = published_time.replace(tzinfo=beijing_timezone)
             #LOG.info(f"parsed:{published_time}")
-
             with open(file_path, 'r', encoding='utf-8') as md_file:
                 markdown_content = md_file.read()
             # 使用 markdown 库将 Markdown 转换为 HTML
