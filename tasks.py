@@ -112,7 +112,7 @@ def gen(c,limitmes=14):
         # 处理相对路径，生成完整的页面 URL
         page_url = os.path.join(base_url, relative_path).replace('\\', '/')
         #file_path = os.path.join('./src', relative_path).replace('\\', '/')
-        file_path = f'./src{relative_path}'
+        file_path = f'./src/{relative_path}'
         #LOG.info(f"base_url:{base_url}")
         #LOG.info(f"relative_path:{relative_path}")
         #LOG.info(f"page_url:{page_url}")
@@ -159,8 +159,8 @@ def gen(c,limitmes=14):
 
     #return None
     # 6. 对条目按发布时间排序，获取最近的 20 个条目
-    sorted_entries = sorted(entries, key=lambda e: e['published'], reverse=True)[:limitmes]
-    sorted_entries = sorted(sorted_entries, key=lambda x: x['published'], reverse=False)
+    reverse_entries = sorted(entries, key=lambda e: e['published'], reverse=True)[:limitmes]
+    sorted_entries = sorted(reverse_entries, key=lambda x: x['published'], reverse=False)
     
     # 7. 将排序后的条目添加到 RSS feed 中
     for entry_data in sorted_entries:
@@ -180,7 +180,7 @@ def gen(c,limitmes=14):
     LOG.info(f"total {len(sorted_entries)} entries in RSS feed")
     
     appd_md = []
-    for entry_data in sorted_entries:
+    for entry_data in reverse_entries:
         #LOG.debug(f"{entry_data['id']}:{entry_data['title']}:{entry_data['link'][:-3]}.html")
         appd_md.append(f"+ [{entry_data['title']}]({entry_data['link'][:-3]}.html)")
     LOG.debug(f"appd_md:\n{appd_md}")

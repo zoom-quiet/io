@@ -63,7 +63,9 @@ jobs:
       # Step 5: Build the mdbook
       - name: Build mdBook
         run: |
-          mdbook build 
+          mkdir -p book
+          chmod -Rvf 777 book
+          mdbook build --verbose
           echo "Mdbook build finished."
 
       # Step 6: Check and prepare files for deployment
