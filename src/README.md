@@ -9,20 +9,20 @@
 > :::..
 
 
-+ [11.9 DUKU2405](https://zoomquiet.io/MurMur/24/20241109.html)
-+ [食堂监察?](https://zoomquiet.io/IMHO/DevOps/20241107-watchdogfood.html)
-+ [11.7 家庭绘本](https://zoomquiet.io/MurMur/24/20241107.html)
-+ [11.7 截屏冲突解决](https://zoomquiet.io/Pythonic/24/20241107-mac-snap-lunar.html)
++ [10.20 memecoin?](https://zoomquiet.io/MurMur/24/20241020.html)
++ [蟒周刊:24-42](https://zoomquiet.io/Pythonic/weekly/24/20241020-42.html)
++ [10.23 BTC电热炉](https://zoomquiet.io/MurMur/24/20241023.html)
++ [10.24 深挖开源...](https://zoomquiet.io/MurMur/24/20241024.html)
++ [开源保险社区?](https://zoomquiet.io/IMHO/IAS/20241026-jy-framwork.html)
 + [咩是写作?](https://zoomquiet.io/IMHO/IAS/20241028-iff-write.html)
 + [10.28 为咩阅后即焚](https://zoomquiet.io/MurMur/24/20241028.html)
 + [10.28 自持图床](https://zoomquiet.io/Pythonic/24/20241028-loc-host-s3.html)
 + [蟒周刊:24-44](https://zoomquiet.io/Pythonic/weekly/24/20241028-44.html)
 + [蟒周刊:24-43](https://zoomquiet.io/Pythonic/weekly/24/20241028-43.html)
-+ [开源保险社区?](https://zoomquiet.io/IMHO/IAS/20241026-jy-framwork.html)
-+ [10.24 深挖开源...](https://zoomquiet.io/MurMur/24/20241024.html)
-+ [10.23 BTC电热炉](https://zoomquiet.io/MurMur/24/20241023.html)
-+ [10.20 memecoin?](https://zoomquiet.io/MurMur/24/20241020.html)
-+ [蟒周刊:24-42](https://zoomquiet.io/Pythonic/weekly/24/20241020-42.html)
++ [食堂监察?](https://zoomquiet.io/IMHO/DevOps/20241107-watchdogfood.html)
++ [11.7 家庭绘本](https://zoomquiet.io/MurMur/24/20241107.html)
++ [11.7 截屏冲突解决](https://zoomquiet.io/Pythonic/24/20241107-mac-snap-lunar.html)
++ [11.9 DUKU2405](https://zoomquiet.io/MurMur/24/20241109.html)
 
 > ..:::
 

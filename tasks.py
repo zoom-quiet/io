@@ -157,7 +157,7 @@ def gen(c,limitmes=14):
     #return None
     # 6. 对条目按发布时间排序，获取最近的 20 个条目
     sorted_entries = sorted(entries, key=lambda e: e['published'], reverse=True)[:limitmes]
-    sorted_entries = sorted(sorted_entries, key=lambda x: x['published'], reverse=True)
+    sorted_entries = sorted(sorted_entries, key=lambda x: x['published'], reverse=False)
     
     # 7. 将排序后的条目添加到 RSS feed 中
     for entry_data in sorted_entries:
