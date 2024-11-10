@@ -65,7 +65,9 @@ jobs:
         run: |
           mkdir -p book
           chmod -Rvf 777 book
-          mdbook build --verbose
+          ls -al ./
+          export RUST_LOG=debug
+          mdbook build 
           echo "Mdbook build finished."
 
       # Step 6: Check and prepare files for deployment
