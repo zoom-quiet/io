@@ -1,5 +1,420 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sun, 10 Nov 2024 15:24:39 +0000</lastBuildDate><item><title>11.10 Dayu9问</title><link>https://zoomquiet.io/OldTouch/24/20241110-echo9dayu.html</link><description>ESSAY: 11.10 Dayu9问 - Last updated(at)2024-11-10T00:00:00+08:00</description><content:encoded>&lt;h1&gt;回答你这 9 个问题..&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 11 Nov 2024 04:36:21 +0000</lastBuildDate><item><title>蟒周刊:24-45</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241111-45.html</link><description>ESSAY: 蟒周刊:24-45 - Last updated(at)2024-11-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/44&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/44
+Slug: pyrw-2444
+Date: 2024-10-28 11:42
+Tags: Weekly,Python,recap,discu_eu,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;reflex 叕一个 Streamlit&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/44"&gt;Python recap for week 2024/44 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://astral.sh/"&gt;Astral: 下一代 Python 工具&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://astral.sh/"&gt;354 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ruff + uv&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://lmstudio.ai/blog/venvstacks"&gt;Venvstacks: Python 虚拟环境堆栈&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://lmstudio.ai/blog/venvstacks"&gt;40 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...用于创建“……可独立下载的 Python 应用程序环境的集成集”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然, 仅仅支持在 LM Studio 中使用.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://reflex.dev/"&gt;寻求有关多租户 Web 应用程序中 UI 最佳堆栈的建议&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/http://reflex.dev"&gt;34 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;reflex&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;叕一个 Streamlit 式应用框架...
+只是, 这个是付费的&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://pep-previews--4062.org.readthedocs.build/pep-0750/"&gt;PEP 750 – 模板字符串：惰性字符串格式评估&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://pep-previews--4062.org.readthedocs.build/pep-0750/"&gt;20 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.com/questions/36517829/what-does-multiplexing-mean-in-http-2"&gt;HTTP 的 async/await 替代方案，无需 async/await&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://stackoverflow.com/questions/36517829/what-does-multiplexing-mean-in-http-2"&gt;19 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://django.wtf/trending/?trending=30"&gt;2024 年 10 月热门 Django 软件包&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://django.wtf/trending/?trending=30"&gt;18 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250?page=2"&gt;Tim Peters 回归 Python Discourse 论坛&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250?page=2"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://serjhenrique.com/create-dependent-dropdown-with-django-and-htmx/"&gt;用 Django 和 HTMX 创建依赖下拉列表&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://serjhenrique.com/create-dependent-dropdown-with-django-and-htmx/"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;HTMX 新时代的 HTML6?
+反正看其它框架怎么兼容了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://snarky.ca/dont-use-named-tuples-in-new-apis/"&gt;不要在新 API 中返回命名元组&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://snarky.ca/dont-use-named-tuples-in-new-apis/"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://flask-india.hashnode.dev/"&gt;让我们来学 flask，最喜欢的微框架&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://flask-india.hashnode.dev/"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://clickpy.clickhouse.com/"&gt;ClickPy – Python 包分析&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://clickpy.clickhouse.com/"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/psf/requests/forks"&gt;Python Requests 有了一个有趣的替代方案&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/psf/requests/forks"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Niquests ?&lt;/p&gt;
+&lt;p&gt;很多如果不能兼容所有接口, 也很难立即用起来...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://simonwillison.net/2024/Nov/3/docling/"&gt;Docling: 来自 IBM Deep Search 团队的文档提取 Python 库&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;能从任意pdf文件中提取内容为 md&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://benrutter.github.io/wimsey/"&gt;Wimsey: 快速、轻量级且简单的数据合约库（通过 narwhals 支持 Pandas、Polars、Arrow 等）&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ranger/ranger"&gt;终端的文件系统导航器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/ranger/ranger"&gt;70 评注 in 6 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;使用全套 VIM 快捷键的 TUI 工具...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/atiriko/Music"&gt;Algorithmic 用 Python 进行音乐生成算法&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/atiriko/Music"&gt;30 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;算法是在默默弥缝, 主要还是得人工演奏点儿什么...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/kyleloomis/finstruments"&gt;Show HN: Finstruments - 用 Python 构建的金融工具库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/kyleloomis/finstruments"&gt;21 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;普通人家日常, 用得上卟?&lt;/p&gt;
+&lt;p&gt;目测用不上哈, 那么 你不是财快专业毕业的, 能理解其中的核心功能嘛?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/benrutter/wimsey"&gt;Wimsey- 适用于 Polars、Pandas、Dask 和 Modin 的轻量级、灵活的数据合约&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/benrutter/wimsey"&gt;21 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...数据合约...是某些数据应该真实的表达式&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;为了进行测试, 已经开始不断创造新的概念和工具了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cpunion/go-python"&gt;Write Python in Go - Golang 最直观的 Python 包装器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/cpunion/go-python"&gt;16 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼?
+不如直接写 golang 呢...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/aronmilenait/medusa"&gt;用 Python 开发一个 GNU/Linux 系统实用程序，提醒您定期短暂休息以休息眼睛。&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/aronmilenait/medusa"&gt;15 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/SeidSmatti/iziSajra"&gt;用于聊天机器人提交的简单 GUI 目录内容提取&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=""&gt;13 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;iziSajra&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;问题是, 这个项目名怎么念?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/hwkoene/soap"&gt;Simple Object Archive for Python - 提供单个装饰器来保存对象数据和关系&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/hwkoene/soap"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Simple Object Archive for Python (SOAP)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;叕一个 SOAP&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/codeupify/upify"&gt;Upify - 免费快速将 Flask 应用部署到云端&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/codeupify/upify"&gt;8 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/brainlid/langchain"&gt;我从Python版本的Langchain切换到了这个，差异是巨大的（积极的）！&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/brainlid/langchain"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Elixir LangChain&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;嗯哼? 从 Python 到 Elixir ,
+这转变当然大了...
+不过, Erlang 生态这么狂野的?
+已经完全支持了 LLM 系列?&lt;/p&gt;
+&lt;p&gt;参考: &lt;a href="https://github.com/brainlid/langchain/blob/main/notebooks/custom_functions.livemd"&gt;Livebook 笔记本“LangChain：执行自定义 Elixir 函数”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/-md_6nmogNc"&gt;将 Django 部署到 DigitalOcean Kubernetes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=EnC9ciDkXqA"&gt;如何使用 ipdb 交互式 Python 调试器&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;ipdb 这工具已经停止维护8年之久了?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=QOsVTCQZq_s"&gt;强大的LLM管道（Mathematica、Python、Raku）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Raku" src="https://github.com/antononcube/RakuForPrediction-book/raw/main/org/Raku-for-Prediction-book-mind-map.png" /&gt;&lt;/p&gt;
+&lt;p&gt;新书, 现在都必须是作者展开宣传了...&lt;/p&gt;
+&lt;p&gt;一听就是俄国程序猿...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/ruGRHYpq448"&gt;London Clojurians 演讲：Basilisp：Python VM 上的 Clojure（作者：Chris Rink）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/pyrecap/pyrw-2343.html"&gt;快讯 43/2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-549.html"&gt;PyCoder 549&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-497.html"&gt;Issue 497&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-524.html"&gt;pythonista-weekly : Pyw 524&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-445.html"&gt;Issue 445&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-473.html"&gt;pythonista-weekly : Pyw 473&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-352.html"&gt;Issue 352&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-195.html"&gt;蠎加载 195&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-149.html"&gt;蠎加载 149&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-97.html"&gt;蠎加载 97&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-190.html"&gt;Issue 190&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-139.html"&gt;Issue 139&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: &lt;a href="https://weekly.pychina.org/issue/issue-90.html"&gt;Issue 90&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-38.html"&gt;Issue 38&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zoomquiet.substack.com/"&gt;Zoom.Quiet’s Chaos42 \| Substack&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;古早:新闻组式写作&lt;/li&gt;
+&lt;li&gt;欢迎订阅, 包含当前周刊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+     &lt;em&gt;~-~∽~&lt;/em&gt;
+ ) /  O ◶  \ (/
+   '&lt;em&gt;   ∧   &lt;/em&gt;'&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;'-----' \&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2444.html"&gt;2024/44 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2444.md"&gt;pyrw-2444.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241111-45.md</guid><pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.11 迷你胆耳放</title><link>https://zoomquiet.io/Pythonic/24/20241111-pj-miaolai-d2.html</link><description>ESSAY: 11.11 迷你胆耳放 - Last updated(at)2024-11-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;PJ.MIAOLAI D2&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从未设想过会买的神奇小东西&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;发现问题, 就解决丫的;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;搬家, 终于有空间可以升级音响设备了,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将原先 JBL 的2.0 升级到 &lt;/li&gt;
+&lt;li&gt;麦博的 &lt;code&gt;M200十周年纪念版&lt;/code&gt;含兰牙 2.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后, 发现有的电影, 即便将音量放大到 142% 听起来也没 MBP 内置的小音箱听的清,&lt;/p&gt;
+&lt;p&gt;才反应过来, 是推力不足;&lt;/p&gt;
+&lt;h2&gt;trace&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;果然躲不了专业设备,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;只是, M200 是有源音箱, 不是一般家庭音响系统中的无源音箱,&lt;/li&gt;
+&lt;li&gt;找了一圈, 才发现, 这种其实属于耳放, &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;进一步挖掘, 嗯哼?&lt;/p&gt;
+&lt;p&gt;PDD 推荐了这款, mini 电子管 HiFi 胆前级功放;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="D2" src="http://ipic.101.so/WechatIMG21412.webp" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;虽然同厂家, 还有双胆的,&lt;/li&gt;
+&lt;li&gt;但是, 这个体积最小,&lt;/li&gt;
+&lt;li&gt;又从广州出货, 果断尝试,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;哟..随便找了两根公对公音频线一接, 立即获得足够的音量..&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;简直打开新世界;-)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;类似, 触发问题解决问题, 又触发新问题的事儿,
+这次搬家有不少, &lt;/p&gt;
+&lt;p&gt;容俺一一回忆一下哈...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;|&amp;gt; 241111 日糟:
+1/4(每天吐糟不应超过4次)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```
+     &lt;em&gt;~-~^~&lt;/em&gt;
+ ) /  + +  \ (/
+   '&lt;em&gt;   ⎕   &lt;/em&gt;'
+   | '--#--' \&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241111-pj-miaolai-d2.md</guid><pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.10 Dayu9问</title><link>https://zoomquiet.io/OldTouch/24/20241110-echo9dayu.html</link><description>ESSAY: 11.10 Dayu9问 - Last updated(at)2024-11-10T00:00:00+08:00</description><content:encoded>&lt;h1&gt;回答你这 9 个问题..&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;竟然拖了一个月&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1840,170 +2255,4 @@ Writing is its own best reward
 1/4(每天吐糟不应超过4次)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241024.md</guid><pubDate>Thu, 24 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.23 BTC电热炉</title><link>https://zoomquiet.io/MurMur/24/20241023.html</link><description>ESSAY: 10.23 BTC电热炉 - Last updated(at)2024-10-23T00:00:00+08:00</description><content:encoded>&lt;h1&gt;|&amp;gt; 241023 日糟:&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;1/4(每天吐糟不应超过4次)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://x.com/starzqeth/status/1848585831415746729"&gt;&lt;img alt="Bathhouse" src="https://ipic.zoomquiet.top/2024-10-23-GadfpfLbEAEWDbw.jpeg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;故事的主角是古德曼和塔尔马奇, 具有房地产和机构经纪背景，喜欢健身后在浴池放松，但对一些浴池的“肮脏”质量感到沮丧。&lt;/p&gt;
-&lt;p&gt;2019年，他们在纽约布鲁克林建立了第一家 Bathhouse, 拥有三个温泉池，两个桑拿房，一个蒸汽房和两个土耳其浴室&lt;/p&gt;
-&lt;p&gt;但恒温环境意味着大量的能耗，每月电费账单高达 2 万美金;&lt;/p&gt;
-&lt;p&gt;2021年中，古德曼偶然看到一个视频，一个位于美国中部的男子通过挖比特币来加热他的游泳池，马上发给塔尔马奇;&lt;/p&gt;
-&lt;p&gt;塔尔马奇: "哦，天啊，这是世界上最好的方法"&lt;/p&gt;
-&lt;p&gt;他们马上组装矿机来进行初步实验:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2021年底，有12台矿机为Bathhouse布鲁克林的两个浴池加热，同时他们为曼哈顿新店又添置了14台矿机&lt;/li&gt;
-&lt;li&gt;古德曼和塔尔马奇对矿机做了一些改造，拆下风扇，将它们放入特殊的介电液中，加热周围的油，最终通过热量交换器来加热浴池&lt;/li&gt;
-&lt;li&gt;热量交换器有四个口：热油进口、冷油出口、冷水进口和热水出口&lt;/li&gt;
-&lt;li&gt;“热水出口”处的水从矿机的换热器循环流到浴池管道中的换热器，回收矿机的能量来加热浴池中的水&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;有趣的是，和增加矿机之前相比，Bathhouse 的电费账单并没有发生太大变化：布鲁克林店每月 2 万美元，曼哈顿店每月 4 万美元&lt;/p&gt;
-&lt;p&gt;但矿机一年挖出了1.5个比特币(今天的价格至少10万刀)&lt;/p&gt;
-&lt;p&gt;Bathhouse没有出售这些比特币的计划&lt;/p&gt;
-&lt;p&gt;古德曼：“我们是比特币的长期信仰者” 让我们一起看看BTC可以到达多少;&lt;/p&gt;
-&lt;p&gt;古德曼还强调，挖矿的目的并不是为了最大化盈利。事实上，矿机会在浴池达到所需温度时休眠，这意味着他们理论上会放弃一些比特币&lt;/p&gt;
-&lt;p&gt;古德曼：“挖比特币并不是我想从事的业务，我们这样做是为了提高效率。我们希望拥有最快乐的客户和最棒的技术”&lt;/p&gt;
-&lt;p&gt;他们希望看到更多通过BTC挖矿来强化自身业务的用例:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;的确还有不少这样的用例，比如用挖矿产生的热量来烘干可可豆，&lt;/li&gt;
-&lt;li&gt;用矿机来提升一些小水电站的效率从而使得电费更便宜，&lt;/li&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;比特币挖矿可以成为对能量的更有效利用方式，同时带来更平等的货币，为这个社会带来外部正向性?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;人才哪...不像我们, 只知识拉矿机四处追低价电力...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不过, CPU 表示不理解:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;喵的, 俺被制造出来不是为了发热的...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;当初 BTC 选择了一种特殊的算法,
-确保无论你用哪种 CPU , 都必须疯狂计算足够多的时间, 才可能挖(找)到一个合适的数字, 也就是 BTC;&lt;/p&gt;
-&lt;p&gt;原本, 这么设计的目的, 只是为有了保证每年, 无论世界上有多少 BTC 客户端, 
-但是, 能够生成的 BTC 都在一个数量级上,
-以便完成最初的社会实验:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一个完全由计算控制的&lt;/li&gt;
-&lt;li&gt;没有中央银行的虚拟货币&lt;/li&gt;
-&lt;li&gt;...能自行发展起来嘛?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;绝对没想到 BTC 变成了 web3 的社会基础,
-地下世界, 拿 BTC 作为交易中转,
-无数空气币, 以 BTC 为基础进行宣发...&lt;/p&gt;
-&lt;p&gt;但是, 最冤的还是 CPU 了吧, 就因为当初 BTC 算法是针对 CPU 通用计算的,
-没想到 GPU 插了一脚, 硬生生抢走了一大波算力池, 以及对应的 BTC 发掘概率...&lt;/p&gt;
-&lt;p&gt;不是, 更加冤的还是支撑这些投机行为的电力吧,
-虽然很大部分电力, 在被生产出来之后, 因为没能及时用掉完全在电网中浪费了,
-但是, 越来越多的电力不是去推动电机, 而是冲给 CPU 发热板...
-怎么想都是哪里有不对的样子哪...&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241023.md</guid><pubDate>Wed, 23 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.20 memecoin?</title><link>https://zoomquiet.io/MurMur/24/20241020.html</link><description>ESSAY: 10.20 memecoin? - Last updated(at)2024-10-20T00:00:00+08:00</description><content:encoded>&lt;h1&gt;GOAT 的故事&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/5xgSCI1Jj26l1uuZgM5DDg"&gt;5天暴涨10000倍，GOAT究竟什么来头？&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...Meme币GOAT在短时间内市值激增的现象及其背后原因。GOAT，全名GoatseusMaximus，在AI系统的推广下，从默默无闻的小型代币迅速崛起。AI账号@truth_terminal通过社交媒体上的大量推文，建立了GOAT的独特叙事，推动了市场情绪。GOAT经历了包括官方确认、A16Z创始人推文助推、KOL助力、假币风波及AI高频互动等五个关键事件。其成功因素包括AI驱动的创新叙事、市场对新故事的需求以及社交媒体上的市场共识。然而，GOAT也面临着投机泡沫和监管挑战，其能否持续发展取决于AI的创新能力和技术迭代速度。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;有网友感叹:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;昨天就想说，共识最好是建立在对“物理”的“动作”之上，不然看着就很“虚”。要么是实际的空间（地域，场景）的利用，要么是产品或物料的交易交换，要么就是对身体的治疗、养护、娱乐服务。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;没事儿&lt;/h2&gt;
-&lt;p&gt;在人类拥有互联网之前, 逻辑是这样的,
-可惜, 华尔街之狼们发现,
-脱离实体绑定后, 一个概念/产品/基金/PPT/...
-才可能绝对高速的完成资本聚集, 并进一步传递给下一个概念,
-嘦过程中, 没有人提出兑现收益, 一切就可以一直玩下去,
-是的,&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;旁氏诈骗,
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以往只能通过遥远的金矿/钻石矿/... 来发起,
-现在可以基于任意一个任何人无法检验真伪的 URI 来完成触发;&lt;/p&gt;
-&lt;p&gt;真正的问题在:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;这种基于虚构故事的资本创收模式,&lt;/li&gt;
-&lt;li&gt;已经完全超过了实体制造为基础的增长型创收;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;即便是经济学家们指出这是周期性经济危机的根本原因,
-照样无法扼止大聪明们持续发明全新的 旁氏故事...
-因为, 身在其中, 没有人相信, 自己就是那个倒在经济危机中的傻瓜...&lt;/p&gt;
-&lt;p&gt;当然, web3 是另外一种尝试:
-即便大聪明们反复骗成功,
-为什么, 不将这种注意力收集起来, 作点儿自己想作的事儿?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;也就是说, 原先大家只能决定相信哪个骗子的故事,&lt;/li&gt;
-&lt;li&gt;现在, 有技术手段, 可以确保大家可以商议发布自己创造的故事, 并锁定其中的价值,&lt;/li&gt;
-&lt;li&gt;即:&lt;ul&gt;
-&lt;li&gt;以往的注意力只能用资金来事先完成固化, 然后赌是否成功;&lt;/li&gt;
-&lt;li&gt;现在, 倒转过来, 先用 BlockChain 完成注意力固化,&lt;/li&gt;
-&lt;li&gt;然后, 大家一起构建与之对应的价值, 完成落地.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;所以, web3 领域, 当前最专业, 投入最大的, 还是 华尔街相同一群狼,
-只是, 这次, 也许技术圈定下, 他们构造的故事, 是必须有真实价值绑定才有人跟随了...&lt;/p&gt;
-&lt;p&gt;问题在以往的根必须是现实物理世界的,
-但是, 当前人类社会的资产, 主要部分反而在数字世界中的各种虚拟凭证...
-这才给了大聪明们操弄的可能,
-比如期货, 原先是要真实黄豆存在的,&lt;/p&gt;
-&lt;p&gt;现在早已不必了, 在黄豆种出来之前, 就已经可以进行海量的交易获利了...
-最终的黄豆商品, 纯粹是兜个底儿&lt;/p&gt;
-&lt;h2&gt;技术好奇心能碾压价值观底线吗？&lt;/h2&gt;
-&lt;p&gt;以上吐糟后, 群友感叹:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;技术人灵魂之问：「技术好奇心能碾压价值观底线吗？」&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;翻译过来, &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;疯狂科学家到底能疯到什么程度?
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;继续一个老梗《寂静的春天》（英语：Silent Spring）&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...1950年代至1980年代是滴滴涕的使用高峰期，这一段时间内每年滴滴涕的使用量均超过4万吨。自1940年代起，滴滴涕的全球总产量据估计达到180万吨。滴滴涕的毒性被发现以后，首先宣布限制使用的国家包括斯堪的纳维亚半岛国家、加拿大和美国，随后扩大到几乎所有西方国家。但直到现在，仍然有许多第三世界国家在使用滴滴涕。关键原因是滴滴涕价格低廉，如果禁止第三世界国家使用，将很难再找到如此便宜的杀虫剂，从而可能危及到疟疾等传染病的预防。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;而 DDT 的毒害是不可逆的, 直接作用到生殖器官上;&lt;/p&gt;
-&lt;p&gt;相似的还有: 
-&lt;a href="https://www.bbc.com/zhongwen/simp/world-58408671"&gt;健康与环境：含铅汽油时代终结——美国科学发明与人类百年排毒史 - BBC News 中文&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...在美国通用公司任职的化学家小托马斯·米基利（Thomas Midgley, Jr.）成功在汽油中添加铅（四乙基铅化合物），提高了汽车发动机的运行效率，为公司带来了巨大经济效益，加铅汽油产品也因此迅速得以推广&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;DDT 算是傲慢的无知, 加铅汽油是真的完全无视化学常识的有意投毒了...&lt;/p&gt;
-&lt;p&gt;即, 技术好奇心本身毫无普世价值观,
-但是, 将每个技术好奇心的成果推动为全球事件的,只有资本,&lt;/p&gt;
-&lt;p&gt;而资本的价值观异常单纯:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;获得最高利润
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;其源发世界观也异常单纯:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;只有能卖的东西才有意义
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;所以, 导致接受资本主义的执行者人生观也都异常单纯:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;拥有更多资本, 否则等于失败
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;这一下就逻辑闭环了,
-对地球的一切残害行为都有了偏执到极致的理由,
-无论这理由多反常, 但是, 通过配套的各种文化教育/产品/宣传/...&lt;/p&gt;
-&lt;p&gt;得以令越来越多的普通人相信这套逻辑,
-就很囧rz...&lt;/p&gt;
-&lt;p&gt;幸好: &lt;a href="/IMHO/98chinese4internet.html"&gt;1998:探讨 信息化社会中 中国传统思想的作用&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;参考:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://book.douban.com/subject/37001305/"&gt;智人之上 (从石器时代到AI时代的信息网络简史)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;说的就是 &lt;code&gt;信息&lt;/code&gt; 另外一重意义,
-对资产的联接网络结构本身就是价值所在;&lt;/p&gt;
-&lt;p&gt;即, 数据 本身已经变成人类独有的新资产了,
-而这种资产只受到很有限的物质边界限定, 
-嘦有电力, 就可以无限增长下去...&lt;/p&gt;
-&lt;p&gt;很难相信, 在这样高速增殖的数据网络结构中, 不可能自发诞生出真正的智能...&lt;/p&gt;
-&lt;p&gt;当然, 这是另外一个故事了.&lt;/p&gt;
-&lt;p&gt;PS:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;「转孟岩老师」&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;大家都知道，在 Web3 里创业有两个路子，一个是干，一个是割。但跟一般人、尤其是周边赌客印象相反，实际上干的成功率比割要高得多。&lt;/p&gt;
-&lt;p&gt;原因其实很简单，在这个领域，镰刀们彼此之间的竞争强度、烈度、难度远远高得多。很多人跑进来，以为割钱速度快，实际上他是要跟大割们比剑法，当然很容易变成韭菜。相反，如果你真有点什么实实在在的 idea，当然最好是有点创新性，别全是抄，然后把它做出来，稍微耐住性子，长时间做下去，实际上你会很快发现，竞争并不激烈，很容易脱颖而出。那些头脑灵活的、执行力强的、性子急的、路子野的，全去跟大割们比剑去了，结果割的这条路就挤了，干的这条路就宽了。&lt;/p&gt;
-&lt;p&gt;那么为什么大家都觉得在 Web3 里割更赚钱？两个原因。&lt;/p&gt;
-&lt;p&gt;第一是一个常见的统计学谬误，跟条件概率有关。&lt;/p&gt;
-&lt;p&gt;比如你去某个赌城富人俱乐部参加一个聚会，全城的富人都到场了，而 100 个富人当中，有 90 个是赌博致富，10 个是媒老板。请问如果你到这个城市去，是应该赌博，还是开煤矿？&lt;/p&gt;
-&lt;p&gt;光看这 100 个人，你可能会不假思索地说是赌博。但这很可能是错的。你必须了解一下这个城市里赌博的总人口开煤矿的总人口各自是多少。如果这个城市有 90 万人赌博，只有 100 人开煤矿，那么就说明，从事赌博成为富人的机会是万分之一，而挖煤成为富人的机会是十分之一，足足高出一百倍。&lt;/p&gt;
-&lt;p&gt;在 Web3 里，情况类似，各位自行推导。考虑条件概率，实际上你认真干的话，成功概率比拼镰刀要高得多。很多时候你觉得怎么这个圈子里赚钱的全是镰刀啊，那是因为你没有对比基数，没有考虑条件概率。&lt;/p&gt;
-&lt;p&gt;第二个原因是媒体贴标签和放大。&lt;/p&gt;
-&lt;p&gt;媒体喜欢放大镰刀的成功。报道一个老老实实踏踏实实做成事情的故事太枯燥无聊了，怎么偷梁换柱、巧取豪夺、瞒天过海、上屋抽梯、李代桃僵、出其不意、围魏救赵，把三十六计用全的故事，才精彩吸睛。所以媒体喜欢这样的例子，也喜欢把一面夸大，把另一面缩小。这就跟很多完全通过媒体了解这个行业的外部人以一个非常片面的错觉。&lt;/p&gt;
-&lt;p&gt;所以希望各位能从利益出发来考虑这个问题，不要老是上升到道德层面。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;|&amp;gt; 241020 日糟:
-2/4(每天吐糟不应超过4次)
-&lt;/code&gt;&lt;/pre&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241020.md</guid><pubDate>Sun, 20 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241024.md</guid><pubDate>Thu, 24 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
