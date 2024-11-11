@@ -31,10 +31,10 @@ jobs:
         run: |
           cargo install mdbook-pagetoc
 
-      # Install mdbook-theme preprocessor
-      - name: Install mdbook-theme
-        run: |
-          cargo install mdbook-theme
+      ## Install mdbook-theme preprocessor
+      #- name: Install mdbook-theme
+      #  run: |
+      #    cargo install mdbook-theme
       ## Install mdbook-theme-ace backend theme
       #- name: Install mdbook-theme-ace
       #  run: |
@@ -66,11 +66,11 @@ jobs:
           mkdir -p book
           chmod -Rvf 777 book
           ls -al ./
-          export RUST_LOG=debug
-          export RUST_BACKTRACE=1
           mdbook build 
           echo "Mdbook build finished."
-
+      # iff mdBook error, usage below to debug
+      #   export RUST_LOG=debug
+      #   export RUST_BACKTRACE=1
       # Step 6: Check and prepare files for deployment
       - name: Prepare deployment files
         run: |

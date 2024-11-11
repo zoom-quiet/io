@@ -74,6 +74,7 @@
 
 - [蟒样](Pythonic/README.md)
     + [2024](Pythonic/24/README.md)
+      + [11.11 迷你胆耳放](Pythonic/24/20241111-pj-miaolai-d2.md)
       + [11.7 截屏冲突解决](Pythonic/24/20241107-mac-snap-lunar.md)
       + [10.28 自持图床](Pythonic/24/20241028-loc-host-s3.md)
       + [10.18 dvd_subtitle](Pythonic/24/20241016-dvd_subtitle.md)
@@ -83,6 +84,7 @@
       + [10.11 电影字幕](Pythonic/24/20241011-mov-sub.md)
     + [周刊](Pythonic/weekly/README.md)
       + [2024](Pythonic/weekly/24/README.md)
+        + [蟒周刊:24-45](Pythonic/weekly/24/20241111-45.md)
         + [蟒周刊:24-44](Pythonic/weekly/24/20241028-44.md)
         + [蟒周刊:24-43](Pythonic/weekly/24/20241028-43.md)
         + [蟒周刊:24-42](Pythonic/weekly/24/20241020-42.md)
