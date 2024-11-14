@@ -1,5 +1,303 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 11 Nov 2024 08:44:30 +0000</lastBuildDate><item><title>蟒周刊:24-45</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241111-45.html</link><description>ESSAY: 蟒周刊:24-45 - Last updated(at)2024-11-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/45&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Thu, 14 Nov 2024 03:25:20 +0000</lastBuildDate><item><title>EKM小解</title><link>https://zoomquiet.io/IMHO/FLOSS/20241114-ekm-problem.html</link><description>ESSAY: EKM小解 - Last updated(at)2024-11-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;企业知识管理?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;忽然的讨论&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;【集智】注意力与知识管理群&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有群友感叹&lt;/p&gt;
+&lt;p&gt;引导和帮助组织适应知识快速变化的形势，快速学习，打胜仗，超越自我，越超对手，是当今知识管理的光荣使命和价值所在。 &lt;/p&gt;
+&lt;p&gt;&lt;img alt="241113-km-follow" src="http://ipic.101.so/241113-km-follow.webp" /&gt;&lt;/p&gt;
+&lt;p&gt;知识不能像家具、财物一样被控制和管理，而是象水一样被引导有序流动，象田野的植物一样被施肥、浇灌去茁壮成长，从而让业务有更多的收获。KMer 不是象仓库管理员一样在管理知识，而更像园丁一样在建设和维护知识生长、变化、流动的生态。&lt;/p&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这题俺会哪..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;立即接茬:俺之前的断言叫~&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;知识管理乃是构建可促发成员成长的环境~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;-- 也就是说现代EKM 已经从知识的载体管理,到形成过程管理,再到循环迭代管理 &lt;/li&gt;
+&lt;li&gt;--&amp;gt; 已开始关注学习本身了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个话题一触发, 就有群友问:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..有什么工具可以把这个流程自动化么&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;俺自然吐糟:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EKM 不像其它工件~&lt;/li&gt;
+&lt;li&gt;一但自动化~&lt;/li&gt;
+&lt;li&gt;就等于没有人的事儿了~&lt;/li&gt;
+&lt;li&gt;知识的发现传播内化再创新过程中无人?哈&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;果断有同感群友:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;赞同，如果因为管理和经营出现问题，组织内环境变化导致学习和知识传播不能获得正回馈，那么之前积累下来的PKM相关实践（至少也会在当前的困境中）失去意义和效果。&lt;/p&gt;
+&lt;p&gt;但是话说回来，站在Goodhart's law的角度上，组织内也几乎无法形成“正确”的激励制度。被纳入考核结果的统计指标，一定会导致原本目标的偏离，和被考核人员动作的变形。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那就可以大力补刀了:&lt;/p&gt;
+&lt;p&gt;是的, 所以, 俺之这定义为:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;知识管理乃是构建可促发成员成长的环境~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果这个环境是反成长的,
+纯消耗式的, 那么你配套任何 EKM 系统都无法改变知识消失的现状&lt;/p&gt;
+&lt;p&gt;进一步有群有增补直觉:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;实际知识生态环境里，5～10%的人在主力输出，其他的围观&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;也吻合2/8 原则,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不过, 大家想过没有, 为什么是这样?&lt;/li&gt;
+&lt;li&gt;这个比例和社会哪种比例正好吻合?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;俺的偏见哈:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;正好吻合 社会习得性无助症患者和不折腾会死星 人的比例,&lt;ul&gt;
+&lt;li&gt;当然, 所有自然人, 没经过系统教育前, 都是不折腾会死星人,&lt;/li&gt;
+&lt;li&gt;看看周围的熊孩子就知道了, 如果没有训练, 小孩绝对能将地球点爆了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;落回 EKM 中,&lt;/li&gt;
+&lt;li&gt;那些主力输出的, 无非两种人:&lt;ul&gt;
+&lt;li&gt;拥有输出乐趣的, 他们对于输出这种事儿, 已经视为生活本能了, 所谓社交NB人士&lt;/li&gt;
+&lt;li&gt;拥有授权输出算绩效的, 这是明白人, 就像大学里训练出来的论文机械&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;不过, 组织里80%隐藏知识, 是这两种人不可能自然接触到的,&lt;ul&gt;
+&lt;li&gt;必须通过机制, 引导这两种人先接触到对应知识源,&lt;/li&gt;
+&lt;li&gt;然后, 先形成初稿, 更多的隐藏知识源就愿意吐糟修改,&lt;/li&gt;
+&lt;li&gt;进一步的, 才慢慢形成内部输出的习惯,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;只是, 一切的前提是:&lt;ul&gt;
+&lt;li&gt;有思考/输出/相互修订 的空间,时间,&lt;/li&gt;
+&lt;li&gt;组织将每个人的工作时间堆满了无尽的混乱任务,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;那么, 这种主力输出也不可能永久输出的,&lt;/li&gt;
+&lt;li&gt;到了一定程度, 发现, 无论怎么认真输出, 只有自己在回看,&lt;/li&gt;
+&lt;li&gt;那么, 面壁最终也是破壁而出, 不可能真的和墙壁结婚的...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目测是同行群友吐槽:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...雀食，这样看来知识管理其实是非常个人的一件事，组织内能做到的就是营造良好的学习和知识传播环境，让成员能够在这样的环境中更好的收获个人成长，进而增加他们为组织服务的功效（这中间也需要不间断的进行alignment工作），间接的汲取个人学习和知识传播带来的成果。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那么, 俺就可以完成断言了:&lt;/p&gt;
+&lt;h2&gt;没办法&lt;/h2&gt;
+&lt;p&gt;道理大家都懂,只是资本思维慢慢渗透后,
+企业就想不通, 俺为什么值得付费支持成员如此缓慢的成长?&lt;/p&gt;
+&lt;p&gt;遇事儿, 开除底层员工, 采购对应咨询服务, 外包解决, 或是邀请专家来搞定不就好了?&lt;/p&gt;
+&lt;p&gt;这其实, 也正好是美国高速科技发展之后, 自宫形成的思路,
+究其原因, 就是 AT&amp;amp;T 被肢解, 贝尔实验室解散, 没有经费无限的自由研究空间后,
+学习行为必须配套指定期限指定指标指定成果,
+然后, 就没有然后了...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创新, 并不是领导们每天一觉起来从god 那儿获得的灵感,&lt;/li&gt;
+&lt;li&gt;而是一线工程师, 在越来越复杂的任务场景中, 长期折腾, 积累起来的直觉;&lt;/li&gt;
+&lt;li&gt;可这直觉没有空间, 也就类似睡眠这种自动思维碎片整理时间,&lt;/li&gt;
+&lt;li&gt;那永远只能是模糊的感觉, 不可能形成一个具体的概念来进行检验;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而且一个企业的潜力, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;其实就是自身能随时针对自身的领域问题,直接给出多种方案来进行尝试,&lt;/li&gt;
+&lt;li&gt;SONY 黑科技, 就是几代终身年功制培养出来的工程师团队支持的,&lt;/li&gt;
+&lt;li&gt;如果没有一个创新能力和思考的连续过程,&lt;/li&gt;
+&lt;li&gt;碎片化的微创新,&lt;/li&gt;
+&lt;li&gt;不可能有 Apple / SONY/YAMAHA 那种石破天惊式的产品爆发...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然, 企业职业经理人制度是另外一个根源,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;反正, 俺就这几年, 嘦股票增长, 俺就有几亿奖金拿, 管你创新潜力是否破坏呢?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从基于知识面向创新, 到基于股票面向赢利,
+EKM 已经完成了自我消解...&lt;/p&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;p&gt;...TBD&lt;/p&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;241114 DAMA init.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;``
+            _~&lt;/code&gt;*`~&lt;em&gt;
+        ) /  ♡ ☉  \ ()
+          '&lt;/em&gt;   ⩌   _'
+          | '--⌄--' &amp;lt;&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/FLOSS/20241114-ekm-problem.md</guid><pubDate>Thu, 14 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.12 DK 2405 抛砖</title><link>https://zoomquiet.io/MurMur/24/20241112-1.html</link><description>ESSAY: 11.12 DK 2405 抛砖 - Last updated(at)2024-11-12T00:00:00+08:00</description><content:encoded>&lt;h1&gt;|&amp;gt; 241112 日糟:&lt;/h1&gt;
+&lt;p&gt;3/4(每天吐糟不应超过4次)&lt;/p&gt;
+&lt;h2&gt;背景&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;读库2405共读群3&lt;/p&gt;
+&lt;p&gt;今天群友先抛砖：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;为啥非要强调“二本学生”呢，大概是为了定义个群体以便做个噱头吧；就业问题并不局限在二本学生身上，重点院校、大专院校的学生也并不更特别；&lt;/li&gt;
+&lt;li&gt;这就像今日头条或短视频平台那些编造故事、编造套路博眼球骗流量的注水文一样，不同的是那些是骗阅读者，这样的注水文是逢“老六”只好，专心研究老六喜好做出来的文章；&lt;/li&gt;
+&lt;li&gt;同题材的文章以前读库选登了艾玲的《学生们》，讲的是绥化学院的学生，比“二本学生”更有样本意义。那时我觉得已经是读库的底线，没想到本期刷新了；&lt;/li&gt;
+&lt;li&gt;好像读库也进入了“不敢批评”的氛围，就像短视频平台上不能说某郎唱的不好、不能说某朵唱的还好一样；越提类似意见建议，读库就报复性的批量选登此类注水文；&lt;/li&gt;
+&lt;li&gt;不知编辑（老六）是不是沉浸在自己的世界里？比如访谈节目(年会？)上，看着嘉宾非常困难、尴尬的迎合、捧哏、编包袱的努力，我想，咱长处在编书，出镜不一定是擅长的事，还能回归到编辑这个事上来吗？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;接茬&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有关 二本学生 ,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是将消失的一个大群体, 从数量级上来说, 比 绥化学院 要大几个级别,
+当然, 有更多的触发点;&lt;/p&gt;
+&lt;p&gt;其实, 中国高校, 可以认为是 &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;清北
+211们
+以及其它
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;而其它却占了每年新增1000万大学生中的99.942%以上,
+对于他们的关注, 分析, 阐述, 记录...
+其实, 一直以来只归纳为两个字:&lt;code&gt;维稳&lt;/code&gt;
+完全没有我们从外国剧集中看到的丰富的可能性,&lt;/p&gt;
+&lt;p&gt;比如, 2022.[福原遥]飞舞吧 舞いあがれ, 也就是晨间剧第107作中,&lt;/p&gt;
+&lt;p&gt;展现的普通大学连续20多年, 冲击全日本人力航空器竞赛...&lt;/p&gt;
+&lt;p&gt;其它大学的在校生, 只有老老实实交学费, 安安静静拿到毕业证, 然后心情稳定的失业...
+这种难以改变的状态, 其实很渗人的...&lt;/p&gt;
+&lt;p&gt;虽然有一部分决然的去考研, 出国, 又或是回家继承工厂/农田/...
+这种只是一小部分, 多数都是普通城市子弟,
+回城, 拿着普通毕业证, 真的没什么机会,
+他们怎么想怎么作, 有哪些出路...
+平凡的世界 其实, 阐述的世界并不平凡, 那时, 全国上下都是机会,
+现在...没有了...&lt;/p&gt;
+&lt;p&gt;所以, &lt;/p&gt;
+&lt;p&gt;问题在, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;普通院校学生本身, 并没有观察/记录/阐述自己的习惯动力以及技巧,&lt;/li&gt;
+&lt;li&gt;小于这个年龄的, 更加没有相关能力,&lt;/li&gt;
+&lt;li&gt;大于这个年龄段的, 35岁以内, 在拼命奋斗, 不想被毕业,&lt;/li&gt;
+&lt;li&gt;超过35岁小于65岁的, 也在扔掉, 想着提高一点儿退休金级别;&lt;/li&gt;
+&lt;li&gt;真正有能力有心怀又有时间的, 可能是65岁退休老记者们,&lt;ul&gt;
+&lt;li&gt;他们又没有体力以及好奇来关注这些注定被城市抛弃的普通大学生了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;怎么办?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;俺猜哈,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;其实, 那些在短视频平台上各种记录, 表达的, 本质上就已经是普通大学人生的表达了,
+只是, 缺少一个主题线索式的再阐述,&lt;/p&gt;
+&lt;p&gt;如何从海量的真实vlog 中提取出有具体人物背景事件过程的文字?
+这可能应该是共青团应该开展的研究和尝试了...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...沉浸在自己的世界里&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;俺感觉哈, 其实老6到今天, 每天还能坚持投入2小时左右固定时间到编辑这个任务上,
+已经是良心了,
+毕竟, 对于一位国际公司掌门人,
+进行外联, 发现更多项目..可能更加有价值;&lt;/p&gt;
+&lt;p&gt;而且, 一家出版商, 想在当前流量世界中持续增长, 最要命的是有持续爆发的流量关注,
+也就是互联网事件营造, 这才是 老6 无可替代的价值点,
+也是 DUKU 的增长支撑点;
+毕竟, 老六可是演过电影主角的, 镜头感比一般 CCTV 主持人都要自然的...
+泛文娱发展路线, 看起来也是 DUKU 的战略方向,
+挖掘出来的这么多中篇宝藏作者, 涉及的 IP , 有很多都可以改编为影视剧,
+开辟新增长点的...&lt;/p&gt;
+&lt;p&gt;所以, DUKU 尽力吃透老6味儿, 就像没有 陈晓卿 的舌尖上的中国系列,
+也足以值得大家订阅下去了..&lt;/p&gt;
+&lt;p&gt;```
+      &lt;em&gt;~~*∽~&lt;/em&gt;
+  \/ /  → ◶  \ \/
+    '&lt;em&gt;   ⎕   &lt;/em&gt;'
+    / '-----' )&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241112-1.md</guid><pubDate>Tue, 12 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.12 36笺</title><link>https://zoomquiet.io/MurMur/24/20241112.html</link><description>ESSAY: 11.12 36笺 - Last updated(at)2024-11-12T00:00:00+08:00</description><content:encoded>&lt;h1&gt;|&amp;gt; 241112 日糟:&lt;/h1&gt;
+&lt;p&gt;1/4(每天吐糟不应超过4次)&lt;/p&gt;
+&lt;h2&gt;背景&lt;/h2&gt;
+&lt;p&gt;如果订阅了 DK2025 S 以上套餐, 应该已经收到了一包:
+26笺, 小6 示范使用方法:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="du240536jian" src="http://ipic.101.so/du240536jian.webp" /&gt;&lt;/p&gt;
+&lt;h2&gt;现象&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;东西, 当然好东西..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一包张大32开的定制牛皮纸的信封, 很厚实;
+打开来是米黄色双面印刷的桑皮纸?&lt;/p&gt;
+&lt;p&gt;三折包起来的 &lt;code&gt;36笺&lt;/code&gt; 正品;&lt;/p&gt;
+&lt;p&gt;也就是36张亮度一致, 宽度不同, 使用特殊工艺印刷的图案纸,单面;&lt;/p&gt;
+&lt;p&gt;怕读者不知道这是什么东西,
+专门在全尺寸封腰(也就是三折包起来所有读笺的说明书)开篇介绍了一下:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;读笺/&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;笺纸艺术是中国传统套色版画的独特分支，用花笺写信言事、题诗遣怀，则是雅致生活的侧面体现。中国人的生活与艺术从来不是割裂或对立的，而是相互映衬、相互促进，正如明镜照花、弱柳扶风。&lt;/p&gt;
+&lt;p&gt;清末民国是距今最近，也是现在仍可以触碰得到的制笺盛世。...&lt;/p&gt;
+&lt;p&gt;以及各种名家对花笺的各种雅事, 并说明这36枚是吴专家从私人收集的近800帧中精选出, 由于原先印工不胊, 这次只能力求呈现原有色彩..云云&lt;/p&gt;
+&lt;p&gt;专门列出每一帧的来由, 都是有出处的, 纯正版的;&lt;/p&gt;
+&lt;h2&gt;问题&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;翻译过来:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这笺纸就是中国原创的手帐专用印花纸;
+和现在日本谷子店里卖的各种品牌联营的印花手帐本没什么不同.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="奏折式" src="http://ipic.101.so/240806jp-bookshop-jian.webp" /&gt;&lt;/p&gt;
+&lt;p&gt;哈, 今年在日本还看到 奏折式 花笺本;&lt;/p&gt;
+&lt;p&gt;可问题是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;尺寸太古怪了, 不在现代标准纸张规格任何一种里...&lt;ul&gt;
+&lt;li&gt;直接用, 放不到任何一种信封中,除非折叠&lt;/li&gt;
+&lt;li&gt;折叠用, 一折也夹不到任何一种常见图书中当书签用, 太长&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;纸质太软了, 将近A4 的 80%左右大小, 可比复印纸还要轻薄&lt;ul&gt;
+&lt;li&gt;虽然摸起来很舒服哈&lt;/li&gt;
+&lt;li&gt;可, 这么软上圆珠笔一定笔痕迹压透&lt;/li&gt;
+&lt;li&gt;用中性笔, 得小心透墨&lt;/li&gt;
+&lt;li&gt;只能用科学毛笔, 或是 马克笔, 又或是直接上毛笔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;印刷太糊了, 特别是其中一些题字印章&lt;ul&gt;
+&lt;li&gt;理解了一下, 应该不是复刻了当前套色印刷的雕版&lt;/li&gt;
+&lt;li&gt;只是尽可能用 Photoshop 提高分辨率, 并原始色彩后&lt;/li&gt;
+&lt;li&gt;使用高标准激光照排彩色印刷的..&lt;/li&gt;
+&lt;li&gt;那么, 这种数字式转印对于感受原先的工艺有什么帮助?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;完全没有使用场景..&lt;ul&gt;
+&lt;li&gt;正如, 共读群中小6展示的, 得用软笔, 大字, 覆写在花笺之上&lt;/li&gt;
+&lt;li&gt;先不说有些本身就是大红大绿, 一般黑字根本压不住&lt;/li&gt;
+&lt;li&gt;就说这么大的纸, 这么风雅的图案, 如果就写一个便笺, 有些浪费吧?&lt;/li&gt;
+&lt;li&gt;那应该写什么?&lt;/li&gt;
+&lt;li&gt;就算是写好了, 应该通过什么形式送达?&lt;/li&gt;
+&lt;li&gt;一般事务, 微信群瞬间传达&lt;/li&gt;
+&lt;li&gt;重大事务, 都有专用格式的卡片, 比如请笺,喜帖...这方面可以参考: 民间应用帖牍笺注（上下）作者: 张焕瑞, 也是 新星出版社 ,出品方: 读库&lt;/li&gt;
+&lt;li&gt;这其中并无花笺使用的案例..?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以, 对于纸笺爱好者, 这是一个惊喜级别的致敬;
+可是, 以 DUKU 普通订户, 拓展阅读空间来说, 就完全走偏了;&lt;/p&gt;
+&lt;p&gt;假设, 这次 36笺 收集者, 吴专家, 出一篇14万字的: &lt;code&gt;36笺&lt;/code&gt; ,
+文章详细阐述他收集收藏这些花笺的经历, 每张读笺当年绘制/印刷/出版/流传/..的故事, 相信, 多数DUKU 读者是很认同这其中三有含量的;&lt;/p&gt;
+&lt;p&gt;可就这么将花笺当成作品直接印刷给出?
+那就和以往发售的 全尺寸梁思成:"图像中国建筑史"手绘图集, 
+丰子恺"护生画集"..等等类似的原尺寸原工艺复刻作品相比,
+就..太偷懒了?&lt;/p&gt;
+&lt;p&gt;俺私人体验哈:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有趣..一点儿, 这类图案很少见, 一般都是博物馆中可以看到..而已&lt;/li&gt;
+&lt;li&gt;有用? 亳无用途&lt;/li&gt;
+&lt;li&gt;有种? 俺猜, 如果单卖,36笺怎么都得超过70元去, 一般还没人买, 只能说现在敢出愿出能出这种单品的, 也只有 DUKU , 这算是一种范儿吧.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;之前 DUKU Notebook 就因为拉满的各种笔记本装潢工艺, 
+又联合了各种大家罕见作品高精度彩印, 就算不舍得用,
+收藏起来也很爽, 关键这种硬皮无格线手帐本, 拿来使用亳无问题,
+可这款 36笺, 真的硬给, 也觉着亏哪...&lt;/p&gt;
+&lt;p&gt;```
+     &lt;em&gt;~^~∽~&lt;/em&gt;
+ () /  - →  \ \/
+   '&lt;em&gt;   𝟂   &lt;/em&gt;'
+   ( '--.--' \&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241112.md</guid><pubDate>Tue, 12 Nov 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-45</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241111-45.html</link><description>ESSAY: 蟒周刊:24-45 - Last updated(at)2024-11-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/45&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/45
 Slug: pyrw-2445
 Date: 2024-11-11 11:42
@@ -681,7 +979,7 @@ Writing is its own best reward
 &lt;h2&gt;tracing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;241110 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">OldTouch/24/20241110-echo9dayu.md</guid><pubDate>Sun, 10 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.9 DUKU2405</title><link>https://zoomquiet.io/MurMur/24/20241109.html</link><description>ESSAY: 11.9 DUKU2405 - Last updated(at)2024-11-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;|&amp;gt; 241109 日糟:&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">OldTouch/24/20241110-echo9dayu.md</guid><pubDate>Sun, 10 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.9 DK 2405</title><link>https://zoomquiet.io/MurMur/24/20241109.html</link><description>ESSAY: 11.9 DK 2405 - Last updated(at)2024-11-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;|&amp;gt; 241109 日糟:&lt;/h1&gt;
 &lt;p&gt;1/4(每天吐糟不应超过4次)&lt;/p&gt;
 &lt;h2&gt;背景&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -1155,375 +1453,7 @@ DUKU 是否打破所有人的茧房我们自己就没办法判定了,&lt;/p&gt;
 &lt;h2&gt;tracing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;241107 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241107-watchdogfood.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-43</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-43.html</link><description>ESSAY: 蟒周刊:24-43 - Last updated(at)2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/43&lt;/h1&gt;
-&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/43
-Slug: pyrw-2443
-Date: 2024-10-28 11:42
-Tags: Weekly,Python,recap,discu_eu,ZH
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Python 3.8 已达 EOL&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/43"&gt;Python recap for week 2024/43 - discu.eu&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;hr /&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.bitecode.dev/p/python-313-what-didnt-make-the-headlines"&gt;现在，这是 Python 3.13 中的有效语法！&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.bitecode.dev/p/python-313-what-didnt-make-the-headlines"&gt;260 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://realpython.com/python-walrus-operator/"&gt;每个 unicode 字符都可以是全局变量和局部变量中的变量名&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://realpython.com/python-walrus-operator/"&gt;74 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;是的, 但是, 嘦是键盘上刻的字符之外的, 尽可能嫑用,
-否则, 哈...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Python 3.13 中的新Typing功能](https://medium.com/techtofreedom/7-new-typing-features-in-python-3-13-58caae5f2f10?sk=6ee66766ba372ea1f62b44a0ef08012d)&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://medium.com/techtofreedom/7-new-typing-features-in-python-3-13-58caae5f2f10?sk=6ee66766ba372ea1f62b44a0ef08012d"&gt;68 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;只读类型, 以及其它...&lt;/p&gt;
-&lt;p&gt;反正, 认真起来, Python 完全可以非常非常像 C++ 了&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://dev.arie.bovenberg.net/blog/still-use-init-py/"&gt;__init__.py 文件是可选的。这就是为什么你仍然应该使用它们&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://dev.arie.bovenberg.net/blog/still-use-init-py/"&gt;39 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;任何规约, 一但成立, 将永远使用...
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.manim.community/"&gt;社区维护的用于创建数学动画的 Python 库&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.manim.community"&gt;25 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://store.steampowered.com/app/3122220/Mr_Figs"&gt;在 gamedev 中 itertools 的有趣使用&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://store.steampowered.com/app/3122220/Mr_Figs"&gt;15 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://pypy.org/posts/2024/10/jit-peephole-dsl.html"&gt;PyPy JIT 中整数运算窥孔转换规则的 DSL&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://pypy.org/posts/2024/10/jit-peephole-dsl.html"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/abhaskumarsinha/Nirvana/tree/main"&gt;基于 Python 的图形引擎：Nirvana-3D&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/abhaskumarsinha/Nirvana/tree/main"&gt;9 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;没事儿: 没有游戏团队愿意用的吧...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://nyxspace.com/hifitime/#time-scales"&gt;理解闰秒和时间尺度&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://nyxspace.com/hifitime/%23time-scales"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://peps.python.org/pep-0569/"&gt;Python 3.8 已达 EOL&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://peps.python.org/pep-0569/"&gt;4 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;End-of-life branches&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;生命周期结束阶段&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://programming-23.mooc.fi/"&gt;Python 编程 MOOC 2023&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://programming-23.mooc.fi/"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://silverboi.me/"&gt;Personal portfolio 个人作品集&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://silverboi.me"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/modularml/mojo/commit/cb307d0f57bb07b37528e8f6e2c859a1e07db941"&gt;Mojo 阐明了“Python 超集”的含义&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/modularml/mojo/commit/cb307d0f57bb07b37528e8f6e2c859a1e07db941"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://substack.com/home/post/p-150579248"&gt;从 Python 到 CPU 指令：第 2 部分&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://substack.com/home/post/p-150579248"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;发布...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Release...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;None&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/neonwatty/meme_search"&gt;所有模因的搜索引擎 - 用 Python 编写。&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/neonwatty/meme_search"&gt;83 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;这技术桟的品味绝了:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;faiss ：快速高效的矢量数据库&lt;/p&gt;
-&lt;p&gt;sqlite ：有史以来最伟大的数据库，用于数据索引&lt;/p&gt;
-&lt;p&gt;Streamlit ：用于提供应用程序&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/konstin/sudoku-in-python-packaging"&gt;用 Python 包解析器求解数独&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/konstin/sudoku-in-python-packaging"&gt;53 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/CZ-NIC/mininterface"&gt;Cool 库只需一行即可将 Python 数据类转换为 GUI 应用程序&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/CZ-NIC/mininterface"&gt;47 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;实用哪, 可以说是 TUI/CLI/GUI 通用版 streamlit,&lt;/p&gt;
-&lt;p&gt;不过, 没说怎么对应将真实的计算行为响应, 绑定到对应交互元素上...?
-嗯哼?
-明白了, 人家就负责生成一次性配置收集界面, 后续的,
-你继续折腾...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/plasma-umass/scalene"&gt;Scalene: Python 的高性能、高精度 CPU、GPU、内存分析器&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/plasma-umass/scalene"&gt;29 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/epogrebnyak/abacus-minimal"&gt;Python 中的最小会计库&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/epogrebnyak/abacus-minimal"&gt;22 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/TuturGabao/BankApplication"&gt;使用pyqt5的银行项目&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/TuturGabao/BankApplication"&gt;15 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/neonwatty/yt-gif-maker"&gt;轻松制作和分享您最喜欢的 YouTube 时刻的 GIF（使用 Python + Whisper Turbo）&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/neonwatty/yt-gif-maker"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;嗯哼? gif 至今还是互联网最兼容的短视频格式?
-所以, 要从 Youtube 批量转换?&lt;/p&gt;
-&lt;p&gt;等等: 用的是 &lt;code&gt;streamlit&lt;/code&gt; ... 有品味哪&lt;/p&gt;
-&lt;p&gt;PS:&lt;/p&gt;
-&lt;p&gt;神奇的是 &lt;a href="https://github.com/neonwatty/python_template"&gt;neonwatty/python_template&lt;/a&gt; 这是作者自己的极简项目创建模板&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Valer100/winaccent"&gt;winaccent - Python 模块，用于轻松检索 Windows 的强调色，包括阴影、特定窗口颜色（例如活动/非活动标题栏、窗口边框和系统主题）&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/Valer100/winaccent"&gt;9 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;神奇哪, windows only 作品,
-这是个什么真实需求呢?&lt;/p&gt;
-&lt;p&gt;目测哈: 有公司要求所有成员桌面的配色, 必须和公司 VI 一致,
-于是...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/djchou/functionmonitor"&gt;用 functionmonitor 轻松监控和管理 Python 中的并发函数&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/djchou/functionmonitor"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/wired32/Dynamic-Input"&gt;Dynamic Inputs/动态输入：一种打破标准输入限制的方法。&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/wired32/Dynamic-Input"&gt;4 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;基于 rich 构建,
-在终端中, 进行各种持续交互式响应...&lt;/p&gt;
-&lt;p&gt;就像一位过于热心的幼儿园语文老师&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;🐍 视频&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Videos...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/QciJxVjF4M4?si=Bk_gU4Tj5f6gPpiq"&gt;Manim : 用于数学动画的 python 包&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;也是个老模块了, 为什么突然出圈呢?&lt;/p&gt;
-&lt;p&gt;应该是著名大 UP 频道, 公开了制作技术桟?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=1mxTvmpDV-I"&gt;用 Flask 和 Gemini API 构建“与维基百科聊天”应用程序（演示 + 代码）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;为什么选择 Flask?
-当然, 在国内值得使用 Kimi 替代...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=0drZiTqy58Y"&gt;几乎从头开始用 Python 编写的垃圾邮件识别 ANN（无 Tensorflow）以及解释其背后数学原理的视频&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;关键在这个从头, 从哪里的头...&lt;/p&gt;
-&lt;p&gt;其实, FLOSS 运动就是为了节省这种反复浪费智能的现象,
-可惜...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;历史这周&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/pyrecap/pyrw-2342.html"&gt;快讯 42/2023&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-548.html"&gt;PyCoder 548&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-496.html"&gt;Issue 496&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-523.html"&gt;pythonista-weekly : Pyw 523&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-444.html"&gt;Issue 444&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-472.html"&gt;pythonista-weekly : Pyw 472&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-351.html"&gt;Issue 351&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-194.html"&gt;蠎加载 194&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-148.html"&gt;蠎加载 148&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-96.html"&gt;蠎加载 96&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-189.html"&gt;Issue 189&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-138.html"&gt;Issue 138&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2013: &lt;a href="https://weekly.pychina.org/issue/issue-89.html"&gt;Issue 89&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-37.html"&gt;Issue 37&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
-&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://zoomquiet.substack.com/"&gt;Zoom.Quiet’s Chaos42 \| Substack&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;古早:新闻组式写作&lt;/li&gt;
-&lt;li&gt;欢迎订阅, 包含当前周刊&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;```
-     &lt;em&gt;~-~∽~&lt;/em&gt;
- ) /  O ◶  \ (/
-   '&lt;em&gt;   ∧   &lt;/em&gt;'&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;'-----' \&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2443.html"&gt;2024/43 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2443.md"&gt;pyrw-2443.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Happy Pythonic&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;PPS:&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
-从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
-&lt;p&gt;问为什么:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
-看看有什么新东西 
-当有新的发现时：
-    what f**k 还能这样玩？ 还有这东西？
-    每周开彩蛋[吃瓜]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
-很多社区贡献看起来辛苦,
-其实受益最多的,
-就是主动承担者也.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;```python
-全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
-私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)&lt;/p&gt;
-&lt;p&gt;as 创始组织者:
-    CPyUG (mailling-list: python-cn@googlegroups.com)
-    PyChina (订阅号: PyChinaOrg)
-    本地社区: 
-        GDG珠海 (订阅号: GDG-ZhuHai)
-        AIGC珠海 &lt;/p&gt;
-&lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241028-43.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-44</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-44.html</link><description>ESSAY: 蟒周刊:24-44 - Last updated(at)2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/44&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241107-watchdogfood.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-44</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241028-44.html</link><description>ESSAY: 蟒周刊:24-44 - Last updated(at)2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/44&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/44
 Slug: pyrw-2444
 Date: 2024-10-28 11:42
@@ -2073,181 +2003,4 @@ Writing is its own best reward
 &lt;p&gt;具体是个什么机制? 俺当前说不清楚哈, 只是知道,
 这种体验, 只有开始写作才体验的到,
 不去写, 而是问 GPT 们什么是写作, 以及写作的本质和感觉...
-那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item><item><title>开源保险社区?</title><link>https://zoomquiet.io/IMHO/IAS/20241026-jy-framwork.html</link><description>ESSAY: 开源保险社区? - Last updated(at)2024-10-26T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源保险社区...&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如何将开源社区的商业模式引入到保险行业?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;p&gt;蟒营®早年学员, 有一位跨圈变成保险经纪销冠,
-有天忽然来问:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;emmmm，大妈，有没有对开源社区的商业模式，或者如何有效的商业化或者持续运营方面的材料？我其实想把开源社区的商业模式引入到保险行业上来,知识应该被开源,收费的是服务和经验...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;直觉回复:&lt;/p&gt;
-&lt;p&gt;当然, 有专门的中国开源商业化追踪:
-- &lt;a href="https://kaiyuanshe.github.io/2023-China-Open-Source-Report/open-source-milestones.html"&gt;商业化篇 | 2023 中国开源年度报告&lt;/a&gt;
-- &lt;a href="https://cn.pingcap.com/article/post/16499.html"&gt;PingCAP七年开源商业化探索之路-PingCAP | 平凯星辰&lt;/a&gt;
-- ...&lt;/p&gt;
-&lt;p&gt;...
-但是, 技术社区的开源商业化和你的保险领域知识商业化,
-并没多少可比性吧...&lt;/p&gt;
-&lt;p&gt;技术社区可以解决的具体技术问题太多了, 
-每一个都可以发展为具体的事业线...&lt;/p&gt;
-&lt;p&gt;但是, 保险永远只有一个问题: &lt;code&gt;获客&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;针对这个刚需的一切解决方案, 都值得收费了&lt;/p&gt;
-&lt;h2&gt;goal&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;果然, 之前只是问题的方案, 而不是问题本身...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;进一步阐述问题:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;你说的没错，卖保险最核心的话题就是获客;&lt;/li&gt;
-&lt;li&gt;但是获客的方式大家各不相同,我是想把它和开源社区结合,呃，开源到什么程度，其实保险产品是不值得去开源的，因为每个阶段的产品更新换代太快了，然后这件事情要费大量的人力物力其实靠个人的力量很难完成...&lt;/li&gt;
-&lt;li&gt;我其实想借用开源社区的理念，更核心的是在于配置的思路,就是说关于保险搭配的一些风险规划的策略和思路，已经落实到中国大陆的情况，能够有什么样的一些案例,我觉得这个东西是相对来讲比较稳定的，一些知识框架, 这个东西是值得把它写出来和分享出来了,&lt;/li&gt;
-&lt;li&gt;我的思路是，这一些知识框架的内容呢分享出来以后，如果他是一个喜欢自己研究的人，基于这样的思路，他可以自己不需要去找专业的业务员也可以去形成自己的购买逻辑..但是研究完了之后他就会发现，对基于这样的框架他还是没有办法买，因为对于产品不够了解..但是呢，这也没关系，至少它增加了一个自己判断的纬度...&lt;ul&gt;
-&lt;li&gt;换句话说，他如果自己就想DIY的话，比如说自己去支付宝，去各家保险公司的，呃，官网的产品它也可以去找到自己想要的东西，只是花的时间精力会比较多...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;那我们能做什么呢？比如我通过这种方式能够吸引到很多人觉得，唉，我的专业度还不错，那他也意识到这件事情需要有专业的人来做，因为专业的人有大量的时间精力在于产品的了解和案例的积累上;&lt;ul&gt;
-&lt;li&gt;所以他可以来找我去搭配，那我其实开源的免费的是支持，那我收费的就是我所提供的这个咨询方案以及产品搭配的服务&lt;/li&gt;
-&lt;li&gt;大概是这样一个思路，所以我想参考的就是太原社区商业化的这个逻辑，看看这两者之间有没有一些可以互相参考借鉴的地方...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;logging&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;其实就是个私人保险经纪, 新事业线的设计问题了...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这个切入角度哪,
-逻辑上没问题, 只是和软件领域的开源社区相比,
-有一个没办法解决的客户动力问题:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;技术上, 主要客户基本上都是懂行的, 也就是说, 本身是在行业以内的, 所以, 对于自身的需求非常清晰, 所以, 才能针对性的定位具体问题的具体开源方案, 进一步, 和对应团队接触付费快速解决问题;&lt;ul&gt;
-&lt;li&gt;即, 技术上的开源, 本质上基于双方在同一认知水平上;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;而保险行业不同;&lt;/li&gt;
-&lt;li&gt;本质上就是一个概率杠杆,而且对于普通人根本就不是必须的,&lt;/li&gt;
-&lt;li&gt;如果一个社会要求普通人必须对保险有独立认知,那就等于将社会稳定的维护直接丢给商业保险了,&lt;/li&gt;
-&lt;li&gt;就连日本, 这种发达资本主义国家, 对于国民保险也是统一一个基础的, 自由采购需要的...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这里的需要, 俺的偏见哈,
-无非:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;真的对于高危资产需要短期保险&lt;/li&gt;
-&lt;li&gt;专业基金, 需要对应保险产品进行合理对冲&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;也就是说, 只有将保险视为金融工具的, 才需要有你说的那个框架来进行判定;&lt;/p&gt;
-&lt;p&gt;也就是说, 你开源出来的这个框架, 对普通人没有必要动力去事先理解,
-对于绝对必要的, 又是人家的本门知识, 根本不用你来科普...&lt;/p&gt;
-&lt;p&gt;所以, 卖课来体现你的专业度,
-不用针对有普通人,
-像你当前的成功体验:
-针对有心从事保险经纪的人群吧;&lt;/p&gt;
-&lt;p&gt;用开源的姿势, 展示自己资料掌握的权威性,
-但是, 超过4200页的资料, 又是任何一个普遍人, 
-没有经过计算机工程训练的普通人, 感觉无法自学获得的,
-那么, 你就可以对应提价两种课程/服务:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;保险配置框架, 或是说, JY框架训练班&lt;/li&gt;
-&lt;li&gt;拿到以上毕业证书后, 才可以进入髙阶班: 1v1 咨询, 具体案例分析以及产品介绍...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;而这个 &lt;code&gt;JY框架&lt;/code&gt; 如果有配套图书出版,
-那就像 &lt;code&gt;华和华&lt;/code&gt;, 可以对应建立起来保险行业的从业标准框架,
-直接在你公司里负责新员工培训的保险学院了...
-慢慢的, 就可以脱离出来,
-每个学生变成你的下线...&lt;/p&gt;
-&lt;p&gt;立即, 学员反应过来了:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...或者说如果通过框架的分享，在互联网上留下痕迹，并且树立专家形象&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;俺提醒:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;现在, 不叫痕迹了,叫对 GPT 注毒/污染/训练...&lt;/li&gt;
-&lt;li&gt;你通过自动化发布海量格式干净的资料,包含所有关键词, 以后人家搜索什么, 都指向你的网站,自然带来潜在用户的流量了&lt;/li&gt;
-&lt;li&gt;以及, 你也得使用相关自动化脚本, 每天, 在各种 GPT 中提问,并引导使用你发布的网站资料, 进行加强注入..&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;有了这些之后, 
-就可以多参与行业以及相关大会,
-分享你的各种故事:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;开发者大会, 说软件工程的跨行业效率经验&lt;/li&gt;
-&lt;li&gt;保险行业大会, 说软件工程中配置管理思想的保险分析经验&lt;/li&gt;
-&lt;li&gt;世界妇女大会, 说面向项目学习方法帮助家庭配置资产的经验&lt;/li&gt;
-&lt;li&gt;世界教育大会, 说....&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;总之:  可以用开源知识社区的形式/组织/系统/流程/名义....
-毕竟是热点词, 而且有着完备的文化背景, 以及成功故事,
-容易将自己的课程, 追加一个有别其它同行的前缀 ;-)&lt;/p&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;
-&lt;h2&gt;tracing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;241026 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241026-jy-framwork.md</guid><pubDate>Sat, 26 Oct 2024 00:00:00 +0800</pubDate></item><item><title>10.24 深挖开源...</title><link>https://zoomquiet.io/MurMur/24/20241024.html</link><description>ESSAY: 10.24 深挖开源... - Last updated(at)2024-10-24T00:00:00+08:00</description><content:encoded>&lt;h1&gt;深挖开源的社会价值与经济规律&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...支撑数字经济建设&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;刚刚从相关群看到的消息:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mp.weixin.qq.com/s/t6vRGEsjU12OcWr2EG0B2g"&gt;深挖开源的社会价值与经济规律，支撑数字经济建设&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;感觉是个历史拐点, 全文敬录下来:&lt;/p&gt;
-&lt;h2&gt;发言人：孙文龙&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;｜正高级工程师&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;尊敬的各位嘉宾、专家学者、行业同仁：&lt;/p&gt;
-&lt;p&gt;大家好！今天，我非常荣幸能与各位相聚一堂，共同探讨开源软件的未来发展及其在社会经济中的重要作用。作为一个在软件行业长期耕耘年的从业者，我见证了技术浪潮的风起云涌，也深刻体会到开源生态对于数字经济建设的深远影响。&lt;/p&gt;
-&lt;p&gt;回顾过去的二三十年，中国的软件产业取得了翻天覆地的变化。从最初的起步阶段，到如今规模庞大、体系完备，软件已经成为数字中国建设不可或缺的重要支撑。然而，尽管我们取得了显著的成绩，但仍有许多方面有待提升。例如，我们的软件企业在资本市场上的估值还相对较低，开源特征明显的企业更是凤毛麟角。在全球开源社区中，我们的贡献和领导力也还有待加强。&lt;/p&gt;
-&lt;p&gt;在我看来，开源不仅仅是一种技术现象，更是一种社会文化现象。它打破了传统软件开发中的壁垒，让全球范围内的开发者能够共同参与到项目中来。这种集体智慧和协作精神，正是开源成功的基础。同时，开源也深刻地影响着我们的信息产业乃至整个数字经济的发展。因此，我们需要深入理解开源崛起的背景、发展的关键因素和规律，探索其社会价值，尤其是在社会创新层面的价值，以及在数字经济中的作用。&lt;/p&gt;
-&lt;p&gt;开源的成功并非偶然。它有着一套独特的原理和机制。首先，开源项目通常遵循透明化的开发流程。源代码的公开使得任何人都可以审查和改进代码，这种透明性促进了信任。正如哈佛商学院的一份报告所指出的，开源是打破公地悲剧的最成功的案例之一。其次，开源项目的灵活性是其成功的关键。由于任何人都可以根据自身需求定制和扩展功能，开源软件能够迅速适应不同的环境和需求。在数字经济中，这种灵活性尤为重要。再者，开源项目的低成本入门和传播机制也是其成功的重要因素。低成本的门槛使得更多人和组织能够参与和使用，从而形成了强大的用户基础和生态系统。最后，开源项目的成功还在于其强大的网络效应。随着用户和贡献者的增加，项目的价值呈指数级增长。&lt;/p&gt;
-&lt;p&gt;开源的社会价值体现在多个方面。首先，它促进了知识的共享与裂变。开源模式打破了知识传播的壁垒，使得教育资源更加平等。任何人都可以自由获取和使用这些资源，从而提高公众的技术素养。其次，开源促进了科技普及和公平。它鼓励不同背景的人共同解决问题，这种跨领域的合作催生了新的想法和创新成果。再次，开源在社会创新层面也做出了巨大贡献。它加强了社会的创新氛围，推动了科技进步和社会发展。此外，开源项目通过共享知识产权，有效地打破了传统软件行业可能形成的垄断，促进了市场竞争。最后，开源还加强了社会信任和透明度。开源项目的开放性要求决策过程公开，这有助于建立社会信任，提高社会管理的透明度。&lt;/p&gt;
-&lt;p&gt;在数字经济时代，开源模式以其快速迭代、开放合作、公开透明的特性，成为推动生产、管理、激励创新的重要力量。在生产领域，开源模式打破了传统的封闭式研发，实现了资源的快速汇聚与优化配置。这使得创新不再局限于少数企业的内部，而是转变为广泛参与的集体智慧结晶。在管理层面，开源模式推动了组织结构的扁平化和管理流程的透明化。这种管理模式降低了沟通成本，提高了决策效率。在激励方面，开源模式倡导公开之上的合作，为参与者提供了新的动力机制。开发者们在开源项目中实现自我价值，激发了更高的创新热情。&lt;/p&gt;
-&lt;p&gt;近年来，在国家开源政策的引导下，中国的开源生态发展如火如荼。然后，开源之路并非一帆风顺，在推动开源发展的过程中，我们还面临着诸多挑战。例如，&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如何构建适应我国法律体系的开源组织？&lt;/li&gt;
-&lt;li&gt;如何充分发挥动态共识形成机制，帮助开源项目成长壮大？&lt;/li&gt;
-&lt;li&gt;如何平衡公共知识产权与私有产权制度之间的关系？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这些问题都需要我们理论与实践相结合，驶入思考和积极探索。&lt;/p&gt;
-&lt;p&gt;目前，全球在开源不同领域的研究已经取得了显著的成果，尤其是在欧美国家。这些国家不仅拥有众多的开源项目，还涌现出了一批具有影响力的开源理论研究者。他们的研究成果不仅为开源生态的发展提供了重要的理论支撑，还推动了开源软件在商业领域的广泛应用和创新。相比之下，中国在开源研究领域虽然起步较晚，但近年来也取得了长足的进步。然而，与全球领先水平相比，我们仍存在一些差距。例如，在开源理论的研究深度和广度上，我们还有待加强；在开源项目的创新力和影响力上，我们还需要提升；在开源生态的构建和完善上，我们也有更多的工作要做。&lt;/p&gt;
-&lt;p&gt;在此，我想分享一些个人的思考和建议。在和全球一流基金会的交流和合作过程中，我们发现，开源的合作与竞争表面上是商业整体力量的纵横捭阖，但是更体现为理论高度，体现为文化的理解，体现为开源价值的创造和独特中立平台价值参与到商业利益链条。这需要我们深刻理解开源文化，提出高层次的开源理论，并提前布局数字经济领域的相关贸易规则。&lt;/p&gt;
-&lt;p&gt;因此，我建议:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;首先，我们的高校和科研机构，应该加强开源理论研究。通过深入研究开源的原理、机制和价值，我们可以更好地指导开源实践的发展。&lt;/li&gt;
-&lt;li&gt;其次，我们应该加强开源人才的培养，不仅仅是技术人才，还要加大对适应开源开放特征的经管人才要融入开源理念和全球视野，培养具备国际沟通能力的技术精英的培养。&lt;/li&gt;
-&lt;li&gt;还有，应该充分引导政府公共资金和社会资本对早期开源项目进行支持，支持和支撑开源项目在创新中所发挥的重要作用。&lt;/li&gt;
-&lt;li&gt;同时，我们还应该搭建国际化的实践平台，通过与全球开源社区的互动，锻炼人才的跨文化协作能力。&lt;/li&gt;
-&lt;li&gt;最后，我们应该加强开源生态的建设。通过构建多元化、开放式的开源生态，我们可以激发更多的创新活力，推动开源事业的蓬勃发展。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;总之，开源模式以其独特的魅力正成为数字经济时代生产、管理、激励创新的重要推手。我相信在大家的共同努力下，我们一定能够深挖开源的社会价值与经济规律，支撑数字经济的高质量发展。让我们携手共进，共创开源事业的美好未来！谢谢大家！&lt;/p&gt;
-&lt;p&gt;——于2024年10月16日第一届数字经济开源创新学术会议暨经管法高校开源创新教育论坛&lt;/p&gt;
-&lt;h3&gt;上海开源信息技术协会&lt;/h3&gt;
-&lt;p&gt;上海开源信息技术协会成立于2020年3月24日，是市科协一星级协会、市民政3A级社团组织。协会由致力于开源信息技术创新的企业、高校、科研院所、社会组织及专业人员等自愿组成。由致力于开源信息技术创新的企业、高校、科研院所、社会组织及专业人员等自愿组成。协会自成立以来，始终坚持基于自组织创新创业共同体模式，以专业、公开、公正、透明的精神，服务国家及上海市数字经济发展战略。对接各种开源创新要素，积极促进上海开源人才高地、开源产业聚集地、开源服务业高度发达、开源创新营商环境最优城市建设。具体工作重心：一是开源理论构建，并积极推动社会实践；二是中国开源创新社会工程，推动大中小学开源教育；三是数字”一带一路“；四是上海开源产业发展。&lt;/p&gt;
-&lt;h2&gt;翻译一下:&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;开源是靠谱的,政府准备开始下场管理了&lt;/p&gt;
-&lt;h1&gt;没事儿&lt;/h1&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这正好也是开源生命力的展示机会,
-就像 RedHat 曾经体验到的:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;一开始他们无视你，接着嘲笑你，进而打击你，但最终你胜利了
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;政府入场, 并不能改变境外开源实践的进程,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;但是, 可以立即改变国内开源社区生态环境,&lt;/li&gt;
-&lt;li&gt;那些政府公关技巧娴熟的社区, 将脱颖而出,&lt;/li&gt;
-&lt;li&gt;其它蒙头作事儿的, 将和现在一样无闻,&lt;/li&gt;
-&lt;li&gt;好在, 市场总是忠诚的作出反应;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;只是可怜的在校学生, 可能叕多出一重迷雾要去冲破,
-张雪峰 们是否能对应消解新专业的虚无...就看上天的兴趣了.&lt;/p&gt;
-&lt;p&gt;```
-            &lt;em&gt;~∽~~~&lt;/em&gt;
-        ) /  ◶ -  \ (/
-          '&lt;em&gt;   v   &lt;/em&gt;'
-          &amp;gt; '--#--' |&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;|&amp;gt; 241024 日糟:
-1/4(每天吐糟不应超过4次)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241024.md</guid><pubDate>Thu, 24 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
+那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
