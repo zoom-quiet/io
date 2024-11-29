@@ -21,6 +21,7 @@
         + [什么是技术社区?](IMHO/FLOSS/20140227-ac2-tech-community.md)
         + [社区需要什么?](IMHO/FLOSS/20141215-ac20-need-what.md)
     + [睡后收入](IMHO/IAS/README.md)
+        + [未来必需](IMHO/IAS/20241129-future-need.md)
         + [DAO memeCOIN?](IMHO/IAS/20241125-memecoin-dao.md)
         + [咩是写作?](IMHO/IAS/20241028-iff-write.md)
         + [开源保险社区?](IMHO/IAS/20241026-jy-framwork.md)
