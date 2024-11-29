@@ -1,5 +1,94 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Thu, 28 Nov 2024 13:06:15 +0000</lastBuildDate><item><title>蟒周刊:24-47</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241125-47.html</link><description>ESSAY: 蟒周刊:24-47 - Last updated(at)2024-11-25T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/47&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Fri, 29 Nov 2024 02:13:41 +0000</lastBuildDate><item><title>食堂监察?</title><link>https://zoomquiet.io/IMHO/DevOps/20241129-devrel.html</link><description>ESSAY: 食堂监察? - Last updated(at)2024-11-29T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源&amp;amp;开发者关系&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[OPEN强] 的群&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;p&gt;忽然有群友反思:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本群可以聊非技术问题？我这个非技术人看本群讨论深度，着实插不上话，已经准备默默退群了，群主@Richard林 ..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..你这样说，我着实不知道该要怎么回答23333&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以, 值得在群主回复基础上补刀&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其实本群一开始是讨论开源和开发者关系，后来也会不可避免而聊到的AI大模型，都不只是技术问题。但是，我觉得如果完全不了解技术，确实对开源、开发者关系和AI的理解，也会有所片面，所以还是边看边学就很好了哈。
+我知道你也是coding多年了，但如果还没理解新技术（例如大模型），确实也会是有这种「用户抱怨」的感受。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我鼓励所有人尽量多了解一些技术（我技术底子肯定比大部分群友弱很多，但我也试图努力了解哈），因为我自己切身体会过，认知提升、眼界打开，确实就又不一样了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;logging&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;俺的吐糟&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;DevRel 这个语本身就解释了我们关注的话题 技术:非技术 ~2:8
+关注的核心是技术人形成的社会结构本身,
+而不是技术本身..&lt;/p&gt;
+&lt;p&gt;讲真, 在 DevRel 场景中,
+- 开发者反而更加应该关注各种对技术的误解/偏见/断言/...
+- 这样才能真正理解那些无知又有权力的人群,
+- 然后, 才能重新训练自己可以良好进入这种人群中合理沟通,
+    - 将技术世界从聪明的坏人手中抢回来&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我非常同意“开发者反而更加应该关注各种对技术的误解/偏见/断言”，但往往误解就来自于对于该技术的了解不够。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;并且我也曾经跟部分了解不够的人交流时发现，卡点就在于对技术理解的相左，最后就是鸡同鸭讲，所以也很困扰... 确实我不知道该怎么办[掩面]
+坦白说，我一年前也完全不懂大模型，过了一年其实也就是比没接触过的人稍懂了一点点。我也能理解不懂的人的感受（因为就是一年前的我），但后来发现，如果不从技术来理解，对产品、应用发展的理解很可能会误判。
+此外，DevRel 的第一步就是跟开发者建立关系，我的理解到什么程度，我也只能跟这个程度的开发者深化关系。比我强的开发者，我就更难建立关系了，因为我听不懂他们在讲啥，自然就会形成圈层。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;没事儿&lt;/h3&gt;
+&lt;p&gt;就像谈恋爱, 一开始总是相互充满了误解,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;怎么办?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;坚持沟通哪, 相互将一个个具体问题分解为更加细的低一层问题,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;直到双方找到一个共识层,&lt;ul&gt;
+&lt;li&gt;然后, 再逐层共同构建回去,&lt;/li&gt;
+&lt;li&gt;如同 Docker 的镜像构筑,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;否则, 只能获得一个明确的共识: 我们在哪一层上有认知分岐,&lt;/li&gt;
+&lt;li&gt;一般掌握更多知识的一方必须对此进行更多努力, 以便自己的工作可以有更多人理解,&lt;/li&gt;
+&lt;li&gt;如果这一方放弃了, 那么另外一方越努力, 误解可能越大..&lt;/li&gt;
+&lt;li&gt;这其实, 也吻合物理规则,&lt;ul&gt;
+&lt;li&gt;浓度大的一方才是浸透压力一方,&lt;/li&gt;
+&lt;li&gt;如果这一方用自己的 EVA 阻止了因子扩散,&lt;/li&gt;
+&lt;li&gt;那么, 浓度低的一方永远无法理解..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这时, DevRel 专家反而有更多选择,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;击穿圈层最简单的办法
+就是要求层圈自己破圈,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;比如, 虽然无法和开发者直接对话,&lt;/li&gt;
+&lt;li&gt;但是, 可以很容易说服开发者的领导们,&lt;ul&gt;
+&lt;li&gt;如果对应企业领导层认为有必要出圈给广大市场/用户信心,&lt;/li&gt;
+&lt;li&gt;那么, 调整企业 KPI , 加入对外宣传的要求,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;就像 Ali 集团的社会影响力因子,&lt;ul&gt;
+&lt;li&gt;然后, 高冷的工程师们, 立即发现, 演讲技术比系统调试技术要简单的多..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正如, 俺一向断言的, 解决问题最常用三种姿势:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;正怼: 解决问题本身&lt;/li&gt;
+&lt;li&gt;反掘: 解决问题产生的根源&lt;/li&gt;
+&lt;li&gt;它途: 解决等效问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;p&gt;...TBD&lt;/p&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;241129 DAMA init.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241129-devrel.md</guid><pubDate>Fri, 29 Nov 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-47</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241125-47.html</link><description>ESSAY: 蟒周刊:24-47 - Last updated(at)2024-11-25T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/47&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/47
 Slug: pyrw-2447
 Date: 2024-11-25 11:42
@@ -2339,108 +2428,4 @@ DUKU 是否打破所有人的茧房我们自己就没办法判定了,&lt;/p&gt;
 &lt;h2&gt;tracing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;241107 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241107-watchdogfood.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item><item><title>咩是写作?</title><link>https://zoomquiet.io/IMHO/IAS/20241028-iff-write.html</link><description>ESSAY: 咩是写作? - Last updated(at)2024-10-28T00:00:00+08:00</description><content:encoded>&lt;h1&gt;什么是写作?&lt;/h1&gt;
-&lt;p&gt;今天 YC 大佬 Paul Graham 新文章又爆了:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://paulgraham.com/writes.html"&gt;写和不写 --- Writes and Write-Nots&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;引用了先人的金句,  莱斯利·兰波特 (Leslie Lamport) :&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;If you're thinking without writing, you only think you're thinking.
-如果你思考而不写作，你只是认为你在思考。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;正如费曼也曰过:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;证明自己学会的最佳办法是:能教会别人;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;想证明自己会写作,
-当前唯一有效的办法也只能是:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;有人愿意付费来看你的文字...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;所以, FanOnly 支持文本作品付费嘛?&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;写作才是写作最大的回报
-Writing is its own best reward
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href="https://www.bilibili.com/video/BV1Bb4y1R7WQ/"&gt;一个百大UP主的创业故事_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;有你真好
-感谢一路上陪伴我们的所有人
-
-编导：Tim
-顾问：flypig 期末 王炯 8崽 小雪
-拍摄：陈铎 缪哲渊 吴英仕 李旭哲
-剪辑：王静文 Tim
-动效：王俊霄
-音效：毛怡帆
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;影视飓风 团队的年度总结视频, &lt;/p&gt;
-&lt;p&gt;推友评论:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这条视频本身就是HKRR方法论的一个完美的例子，三个超强的共鸣点，看完泪目。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;什么是 HKR方法论?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;H ~ happiness 快乐, 一个令人愉快的视频才是好的&lt;/li&gt;
-&lt;li&gt;K ~ knowledge 知识, 一个包含知识点的作品, 才是值得记忆的&lt;/li&gt;
-&lt;li&gt;R ~ resonance 共鸣, 打动人心&lt;ul&gt;
-&lt;li&gt;在后半段,又追加一个 Rhythm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;嗯哼? 
-这 HKR ...不就是09年老六提出的三有嘛?&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;有趣有用有种:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;有趣是一切内容被人打开的触发&lt;/li&gt;
-&lt;li&gt;有用是一切内容被人记住的原因&lt;/li&gt;
-&lt;li&gt;有种是一切内容被人传播的动力&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;而节奏是视频专有的特性嘛?&lt;/p&gt;
-&lt;p&gt;不一定, 语言类一样有自己的节奏,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;相声, 作为地球语言艺术最高级别, 核心感染力就是节奏, &lt;ul&gt;
-&lt;li&gt;特别是单口, 完全是靠节奏营造出一切,&lt;/li&gt;
-&lt;li&gt;当观众一起沉浸到故事背景中时, 才能相信一切荒谬的矛盾,&lt;/li&gt;
-&lt;li&gt;从而大笑&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;评书, 虽然有节节奏辅助乐器, 但是, 历史故事如何能深入人心&lt;ul&gt;
-&lt;li&gt;可不就是那一套套的铺垫?&lt;/li&gt;
-&lt;li&gt;作为节奏器, 将一个个枯燥的历史事件,变成眼前发生的动人爆裂&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;而一切影像类作品的根本, 都是文字,
-而文字又为什么自古就是最通用的传播载体?&lt;/p&gt;
-&lt;p&gt;因为, 文字一样有节奏, 只不过是被动的而已;&lt;/p&gt;
-&lt;p&gt;文字本身包含的节奏, 是超越文字, 在于情节之中的,
-但是, 只能通过读者一个一个字, 一行一行文字, 一段一段内容线性吸收转化为想象的图景...
-而这时, 每个人的阅读习惯, 速度, 都不相同,
-文字进入的节奏是由读者控制的,
-而不像视频, 有自己的节奏...&lt;/p&gt;
-&lt;p&gt;在本地播放器的支持下, 我们也可以根据自己的习惯, 随时快进/退/暂停,
-来打破影视固有的节奏, 完成个性化吸收,
-只是, 那样导演原本的意图就被击穿了...&lt;/p&gt;
-&lt;p&gt;而文字, 不是, 无论你怎么调整节奏, 当整个儿故事进入脑海时, 
-原有的节奏就恢复过来了...&lt;/p&gt;
-&lt;p&gt;当然, 以上一切都在你能写作, 并乐于写作的前提之下的;&lt;/p&gt;
-&lt;p&gt;俺从有了智能手机开始, 基本上每周都维持了 100万字左右的阅读量,
-无论什么内容...&lt;/p&gt;
-&lt;p&gt;所以, 才有这种感觉, 
-而现在00后们, 习惯的短视频, 之所以, 感觉没意思,
-就是因为, 丫们信息含量太低了,
-要是换成剧本, 每条3分钟以内的短视频, 文本都不超过420字,
-在手机上看, 也就是1分钟不到的事儿...&lt;/p&gt;
-&lt;p&gt;只是, 现在的问题在, 我们自然人, 无论是否会写作,
-平时语言交流时, 也是一种写作, 口头即兴写作而已;&lt;/p&gt;
-&lt;p&gt;而这种沟通, 真正的敌人, 是根据过往互联网上好癞不分的语料训练出来的大模型,
-它们生成文字的效率是我现在使用输入法一行行输出的不亿倍,
-如果, 一个普通人日常接触的文字, 99.999942% 都是这类模型生成的话,
-自然人, 自主意识输出的文字, 可能就不是普通人习惯的了,
-就像当前欣赏歌剧/话剧/...一样,
-阅读自然人写的文字, 就变成一种高端行为艺术了;&lt;/p&gt;
-&lt;p&gt;那时, 写作还有自身的价值嘛?&lt;/p&gt;
-&lt;p&gt;也许, 对于社会价值不大了,
-但是, 对于自身, 调节思想/情绪/身体/心灵/.,. 的同步协调,
-永远有价值的...&lt;/p&gt;
-&lt;p&gt;具体是个什么机制? 俺当前说不清楚哈, 只是知道,
-这种体验, 只有开始写作才体验的到,
-不去写, 而是问 GPT 们什么是写作, 以及写作的本质和感觉...
-那是永远不可能理解的.&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241028-iff-write.md</guid><pubDate>Mon, 28 Oct 2024 00:00:00 +0800</pubDate></item></channel></rss>
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/DevOps/20241107-watchdogfood.md</guid><pubDate>Thu, 07 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
