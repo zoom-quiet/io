@@ -1,5 +1,330 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Tue, 03 Dec 2024 12:10:08 +0000</lastBuildDate><item><title>大学自主论</title><link>https://zoomquiet.io/IMHO/IAS/20241203-how2freedom.html</link><description>ESSAY: 大学自主论 - Last updated(at)2024-12-03T00:00:00+08:00</description><content:encoded>&lt;h1&gt;何为自主以及何以自主&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 09 Dec 2024 03:21:54 +0000</lastBuildDate><item><title>蟒周刊:24-49</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241209-49.html</link><description>ESSAY: 蟒周刊:24-49 - Last updated(at)2024-12-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/49&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/49
+Slug: pyrw-2449
+Date: 2024-12-09 11:42
+Tags: Weekly,Python,recap,discu_eu,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PyGyat Ohio地方开发语言&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/49"&gt;Python recap for week 2024/49 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241209 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241209 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/ultralytics/ultralytics/issues/18027"&gt;Popular Python package ultralytics compromised in supply chain attack 流行的Python包ultralytics在供应链攻击中受到损害&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/ultralytics/ultralytics/issues/18027"&gt;95 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://snakemake.github.io/"&gt;自部署开源 Django 项目的最佳实践&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://snakemake.github.io/"&gt;50 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;snakemake 的广告,
+只是, 这东西基于 Yaml 立即感觉哪儿有点儿不好了..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://composecraft.com/"&gt;刚刚推出了 Docker compose GUI 制作工具&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://composecraft.com"&gt;46 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.pythonmorsels.com/pathlib-module/"&gt;Python 的 pathlib 模块 – Python Morsels&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.pythonmorsels.com/pathlib-module/"&gt;25 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://docs.djangoproject.com/en/5.1/ref/templates/api/#using-requestcontext"&gt;🚀 🚀 周五特色：上下文处理器！&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://docs.djangoproject.com/en/5.1/ref/templates/api/%23using-requestcontext"&gt;20 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Django 隐藏技能..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://aneeb02.pythonanywhere.com/"&gt;我的 Django 项目需要用户&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://aneeb02.pythonanywhere.com"&gt;10 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://witoldfracek.github.io/qlist/"&gt;在 Python 中模仿 Rust 迭代器：认识“qwlist”&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://witoldfracek.github.io/qlist/"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://gregoryszorc.com/blog/2024/12/03/transferring-python-build-standalone-stewardship-to-astral/"&gt;将 Python 构建独立管理权转移到 Astral&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://gregoryszorc.com/blog/2024/12/03/transferring-python-build-standalone-stewardship-to-astral/"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ericmjl.github.io/blog/2024/11/8/disposable-environments-for-ad-hoc-analyses/"&gt;用于临时分析的一次性 Python 环境&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://ericmjl.github.io/blog/2024/11/8/disposable-environments-for-ad-hoc-analyses/"&gt;4 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.saaspegasus.com/guides/uv-deep-dive/"&gt;更好、更快的 Python 项目：深入研究 Uv&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.saaspegasus.com/guides/uv-deep-dive/"&gt;4 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://robertheaton.com/pymyflyspy/"&gt;PyMyFlySpy: 用 headrest 数据跟踪您的航班&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://robertheaton.com/pymyflyspy/"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.javonet.com/how-to-use-pyjokes-in-other-programming-languages/"&gt;Using Pyjokes in Other Programming Languages 在其他编程语言中使用 Pyjokes&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=""&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://tomshlomo.github.io/rust-with-via/index.html"&gt;向 Python 开发人员教授 Rust&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://tomshlomo.github.io/rust-with-via/index.html"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这么作除了令 Python 工程师更加爱 Python 应该没其它什么后果,
+毕竟, 增强 Python , C 才是正道哪..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.djangoproject.com/weblog/2024/dec/04/help-us-make-it-happen/"&gt;❤️ 帮助我们实现它❤️&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.djangoproject.com/weblog/2024/dec/04/help-us-make-it-happen/"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的 Django 也开始募捐了,经济下行最大的证据..&lt;/p&gt;
+&lt;p&gt;&lt;img alt="241209-django-help-us-make-it-happen" src="http://ipic.101.so/241209-django-help-us-make-it-happen.webp" /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/shamith09/pygyat"&gt;Python 与 Rizz&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/shamith09/pygyat"&gt;100 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Ohio 专用语言..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/briangu/klongpy"&gt;KlongPy: High-Performance Array Programming in Python KlongPy：Python 中的高性能数组编程&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/briangu/klongpy"&gt;90 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/qutebrowser/qutebrowser"&gt;qutebrowser: 基于Python和Qt的键盘驱动、类似vim的浏览器&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/qutebrowser/qutebrowser"&gt;55 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="hints" src="https://github.com/qutebrowser/qutebrowser/raw/main/doc/img/hints.png" /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/actonlang/acton"&gt;Acton/阿克顿 编程语言&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/actonlang/acton"&gt;51 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;C+Haskell 构建的新语言,
+也包含一定 zig,
+所以, 这是一种不可能自举的语言?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/lusayo-nyondo/cookiecutter_djangoapp"&gt;我正在努力让 Django 成为现代全栈开发的可行选择&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/lusayo-nyondo/cookiecutter_djangoapp"&gt;43 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/py-pdf/benchmarks?tab=readme-ov-file"&gt;用于从结构化模板中提取文本的最佳 PDF 库&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/py-pdf/benchmarks?tab=readme-ov-file"&gt;34 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/levi2234/Progresspal"&gt;ProgressPal （tqdm 的替代/迭代）&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/levi2234/Progresspal"&gt;16 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..ProgressPal 被设计为一款协作工具，允许用户监控在不同设备和进程上运行的各种脚本的进度。通过这种方法，可以实时监控多个脚本的进度，使其成为协作项目和远程监控的理想选择。为此，日志服务器需要公开托管，以便本地网络之外的人员可以访问。这可以通过端口转发日志服务器或在云服务上托管日志服务器来完成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;系统管理员的新好朋友..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/AmrDeveloper/PyQL"&gt;PyQL 🐍: 类似 SQL 的查询语言，可在 Python 源代码文件而不是数据库文件上运行&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/AmrDeveloper/PyQL"&gt;13 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将 Python 项目源代码变成数据库进行 SQL 式的查询,
+主要是针对巨型项目吧,
+小项目, 这种工具, 没有场景使用的?&lt;/p&gt;
+&lt;p&gt;好玩的是, 主要开发语言是 rust..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/AmineDjeghri/generative-ai-project-template"&gt;制作了一个生成式人工智能项目模板（python、uv、pytest 等）&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/AmineDjeghri/generative-ai-project-template"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;前端选择了 Streamlit ,这样很难商用哪..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mrmn2/PdfDing"&gt;使用 Django 构建了 PdfDing&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/mrmn2/PdfDing"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;[在具有约 10'000 个条目的 ModelChoiceField &lt;/li&gt;
+&lt;li&gt;上自动完成的最佳实践](https://www.youtube.com/watch?v=Zzd4sL7drKQ)&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.youtube.com/watch?v=Zzd4sL7drKQ"&gt;18 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/pyrecap/pyrw-2349.html"&gt;快讯 49/2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-553.html"&gt;PyCoder 553&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-501.html"&gt;Issue 501&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-449.html"&gt;Issue 449&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-477.html"&gt;pythonista-weekly : Pyw 477&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-356.html"&gt;Issue 356&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-199.html"&gt;蠎加载 199&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-153.html"&gt;蠎加载 153&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-101.html"&gt;蠎加载 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-194.html"&gt;Issue 194&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-143.html"&gt;Issue 143&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: &lt;a href="https://weekly.pychina.org/issue/issue-94.html"&gt;Issue 94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-42.html"&gt;Issue 42&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+            &lt;em&gt;~~|~~&lt;/em&gt;
+        () /  ◶ ♡  \ \/
+          '&lt;em&gt;   ♢   &lt;/em&gt;'
+          ( '--.--' &amp;lt;&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2449.html"&gt;2024/49 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2449.md"&gt;pyrw-2449.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241209-49.md</guid><pubDate>Mon, 09 Dec 2024 00:00:00 +0800</pubDate></item><item><title>大学自主论</title><link>https://zoomquiet.io/IMHO/IAS/20241203-how2freedom.html</link><description>ESSAY: 大学自主论 - Last updated(at)2024-12-03T00:00:00+08:00</description><content:encoded>&lt;h1&gt;何为自主以及何以自主&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;倪考梦 用了 18年撰写的"自主论"出版了&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2645,250 +2970,4 @@ Writing is its own best reward
 &lt;h2&gt;tracing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;241110 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">OldTouch/24/20241110-echo9dayu.md</guid><pubDate>Sun, 10 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.9 DK 2405</title><link>https://zoomquiet.io/MurMur/24/20241109.html</link><description>ESSAY: 11.9 DK 2405 - Last updated(at)2024-11-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;|&amp;gt; 241109 日糟:&lt;/h1&gt;
-&lt;p&gt;1/4(每天吐糟不应超过4次)&lt;/p&gt;
-&lt;h2&gt;背景&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;去年开始, 应该是00后进入 DUKU 团队吧,
-开始进行订户微信群的经营, 所以, 有了更多吐糟机会&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;DUKU2405&lt;/h2&gt;
-&lt;p&gt;在 读库2405共读群3(446) 中有群友吐糟:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在车上无聊，看了半个小时吧，都是已知区域内的事情，没太多新意，语言也一般，看过黄灯写的二本学生，以为会是那种类型的（虽然不能那么比..嗯，类似的东西太多了，可能也审美疲劳了&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;然后:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..我常常想，是不是作者现在水平普遍降低了？ 即时在六哥说读库的稿件十分充足的前提下，也没法保证篇篇精品？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;于是:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..好作者好文章肯定很多,换个角度想，是我们水平提高了&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;接着:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;代驾，快递，之前还有一篇在上海开出租车见闻的..代驾和在上海跑出租是同一位作者写的，也出了书，但和胡安焉的作品有明显差距..&lt;/p&gt;
-&lt;p&gt;..普遍降低不至于，可能还是选稿出现了一些瑕疵，太注重对普通人的关注了，有时候反而适得其反，毕竟这一类文章现在随处可见..&lt;/p&gt;
-&lt;p&gt;..我觉得是因为我在北京送快递出书以后引起热烈反响，才导致这类描写普通人的文章有了更多被看见的机会..我订阅读库的一个重要原因就是它能拓宽阅读边界[呲牙]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;终于:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..第五期写得最好的是《梅林春早》[笑脸]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;偏见&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;俺上场吐糟&lt;/p&gt;
-&lt;p&gt;..代驾那篇，两次报菜名的段落，感觉真的啰嗦&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;没办法,这是作者当时最强烈的记忆了...只是, 人家真这么写没问题,可选入 DUKU 就有点儿问题了...&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..同意您这个说法。读库选的前几篇类似在北京送快递、开出租等文章还是不错的，但也不必年年都选此类选题，“标新立异”一两次就行了，次数多了就耗光了读者的容忍度。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;俺继续:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..标新立异
-对比 何伟 的江城 之类就明白,
-这和立异无关,
-主要是积累不够, 一个人一个家庭, 10年的经历,
-流水帐记录下来, 即便是完全真实的, 可对于中文读者而言毫无触动,
-只有 &lt;code&gt;无痕夹杂&lt;/code&gt; 进一步的思考, 
-才吻合 &lt;code&gt;DUKU&lt;/code&gt; 的三有价值取向&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;有趣: 自己从未经历过的生活, 难以想象, 得以想象&lt;/li&gt;
-&lt;li&gt;有用: 涉及知识盲区的现实社会常识, 可能用的上&lt;/li&gt;
-&lt;li&gt;有种: 开始思考根本轮不到普通人思考的问题, 为什么? 原本可以如何? 应该如何? 最好如何?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;比如 2405 中大家感觉有点儿东西的 &lt;code&gt;梅林早春&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;这类不知名外国传教士因缘际会 在中国开创/留下/积累/...奇迹般的业绩,
-其实, 都是各种 HollyWood 故事原型,
-以往 DUKU 也介绍了很多,&lt;/p&gt;
-&lt;p&gt;可问题是, 华人在全球留下的奇迹故事也不少哪,
-不说古代的, 解放后, 在非洲无数援建项目, 改变了多少普通人在以往几个世纪殖民统治下无法改变的生活习惯?&lt;/p&gt;
-&lt;p&gt;其中普通一名中国食堂工作人员,
-就改变了当地野菜和中草药的共识,
-可何伟们绝对不会将目光投注到这种反向输出的故事中去...
-而 CCTV 们又感觉这种事儿太小, 不值得报道;&lt;/p&gt;
-&lt;p&gt;可能再来42年, 这些在海外创造了奇迹的普通人后代,
-才能发现父辈们的神奇, 并斥诸文字了吧...&lt;/p&gt;
-&lt;p&gt;所以, 这次 老六来信中, 有一点非常认同:&lt;/p&gt;
-&lt;p&gt;DUKU 消亡的绝对先决条件只有一个:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;无人书写
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;阅读总是有人的&lt;/p&gt;
-&lt;p&gt;可写作记录 &lt;code&gt;三有&lt;/code&gt; 故事, 却不是一个普通的事儿...&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..我也觉得主题没问题，想体现当下年轻人的生存工作状态。就是写得不尽如人意，都是点到为止，没有太深入&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;为什么有这种感觉, 俺补刀:&lt;/p&gt;
-&lt;p&gt;然也, 对比日剧就知道了,
-都是抓住一个点, 深入下去, 直到爆发出无法直视的荒诞来...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;比如, 逃避虽然可耻但有用&lt;ul&gt;
-&lt;li&gt;讨论了家庭妇女真正价值应该如何计算...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;70岁生第一个孩子&lt;ul&gt;
-&lt;li&gt;讨论了高龄生育的社会应对..&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;{森川葵}2016.公主小屋 プリンセスメゾン&lt;ul&gt;
-&lt;li&gt;则深入观察了独自购房女性的社会状态...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;不过, 人家最后总是想办法将故事圆回来,&lt;/li&gt;
-&lt;li&gt;无论是小确幸, 还是神奇之爱, 总之, 这个社会总是有希望的,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我们的民间记录家们, 则相反,
-通过记录和观察特定领域的现实状态,&lt;/p&gt;
-&lt;p&gt;最后, 都导向一个无解的叹息,&lt;/p&gt;
-&lt;p&gt;就好象中国没办法了一样,
-这种完全&lt;code&gt;丧平&lt;/code&gt;的精神内核, 
-实在没办法长期阅读哈, 能传染读者放弃希望的吧...&lt;/p&gt;
-&lt;p&gt;PS:&lt;/p&gt;
-&lt;p&gt;俺 70 后, 对于世界, 还是执着无理由乐观希望的...&lt;/p&gt;
-&lt;h2&gt;拓展&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;@ZoomQuiet大妈 您提到了“读库的消亡”，我得给您点个赞，能考虑这个事的肯定是资深老粉，不避讳。我也一直有一个隐隐的感觉，读库在“自我意识”方面走的太远了。当然，如果读库也如读者知音之流或收获十月之类，我们也不一定十几年追随不掇。但从去年生鲜事件开始，我有种感觉是读库的编辑们已经形成了自己框架内的喜好，听不进去或者干脆就觉得“没必要听取读者”意见，“你不喜欢你可以退订啊”，等等。&lt;/p&gt;
-&lt;p&gt;我经常想提出此类意见建议，但真怕大猫小六联系我“您的意见我们收到了，但是我们不打算改，您可以退订”，那就尴尬了，至少目前我还没发现替代品。&lt;/p&gt;
-&lt;p&gt;所以，未来可能会在这里有些难处。&lt;/p&gt;
-&lt;p&gt;再就是，出书是主业，至于其他访谈、拍电影、音乐会啥的，是调料，调料可以有，但不能喧宾夺主，也不能一年到头宣传个不停。还是要回到读库这一年七本书上来。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;嗯哼? 这个方向上的思考俺熟哪:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;即便是 DUKU 正体一年7本,&lt;/li&gt;
-&lt;li&gt;其中的老六含量在下降也是必然,&lt;/li&gt;
-&lt;li&gt;对应的, 其实说明一个关键问题,&lt;ul&gt;
-&lt;li&gt;从1.5人开始创业的 DUKU,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;尽管用了20年, 老六依然没能成功的给 DUKU 建立一个坚固的企业 DNA,
-除去他私人的品味和社会积累之外,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;其它后续编辑团队, 无论多么努力伪装成老六,
-可是已经:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;无法独立发掘合格的宝藏作者, 以往几个大系列, 都是老六多年追踪触发的&lt;/li&gt;
-&lt;li&gt;无法独立核定对 DUKU 3有标准, 习惯性套用 抖音们的算法到脑里, 这些共读群以及其它数据渠道, 统计结果, 哪种体裁受欢迎, 就大量上...&lt;/li&gt;
-&lt;li&gt;无法独立自主持续提升营销姿势, 触发新订户, 只是习惯性想着根据老订户的家庭情况, 配套输出越来越多值得下单的好书...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;可其实, DUKU 早已变成了国际公司, 而不是国际出版商,
-通过长期积累的 DUKU 订户, 都是什么人?
-之前一城6人行活动, 老六全国溜了一圈,
-应该有个共识了,
-俺直觉哈, &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;应该是中国最坚强的中下层国民了,
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;光是通过连接这些好人,
-就可以激发出多少 DUKU 之外不可能接触到的资源?
-比如, 南通出版基地, 就是老 DUKU 牵的线...&lt;/p&gt;
-&lt;p&gt;所以, 感觉 DUKU 与其被迫和各种名家联名折腾越来越没必要的高利润图书,&lt;/p&gt;
-&lt;p&gt;不如, 基于这些订阅DUKU 14年以上的读者, 开拓互助产品呢;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;比如, 哪儿的自家山林出品, 只能通过 DUKU 渠道订购,&lt;/li&gt;
-&lt;li&gt;哪些退休 程序猿/财会/翻译/... 可以针对 DUKU 订户提供付费咨询/辅导服务,&lt;/li&gt;
-&lt;li&gt;所有这种内部资源激活服务/产品,&lt;/li&gt;
-&lt;li&gt;都是由 DUKU 认证, 现场勘察过的, 老6酒精考验通过的...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;那么, DUKU 很可能就变成一个隐性中粮集团,
-- 专心为这42万老订户以及关联的1420万普通人打造内部经济圈,
-- 当然, 这其中有很多移民海外的老订户,&lt;/p&gt;
-&lt;p&gt;这, 才是真.国际公司难以消亡的发展模式吧...&lt;/p&gt;
-&lt;h2&gt;补刀&lt;/h2&gt;
-&lt;p&gt;立即有群友往回找:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...另一个视角下，是不是读者考虑过的这些问题，六哥站在经营者的层面，早已经看到。从宏观层面而言，这些仅仅是微观的不适配，可以忽略不计。或者从读库作为一家公司的商业运营和可持续发展角度而言，六哥仍有一切在控制之中的信心。（公司是赚钱的，财务目标上达成甚至超预期） 蓝图上，有许多我们看不见的东西。（没有说读者反馈不重要的意思） &lt;/p&gt;
-&lt;p&gt;如果读库的选篇是老六一个人负责，那么我们读者是否陷入老六一个人的阅读信息茧房中呢？&lt;/p&gt;
-&lt;p&gt;但是选择读库就是相信老六的品味..不然各个地方都可以看到不同的信息呀&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;哈, 这些角度, 俺也熟哪:&lt;/p&gt;
-&lt;p&gt;作为一名合格的编辑,
-最早丢弃的就是这种东西了...&lt;/p&gt;
-&lt;p&gt;关键是我们长期看中文作品,
-本身已在一个足够大的茧房中了...&lt;/p&gt;
-&lt;p&gt;其实吧, 什么是 &lt;code&gt;信息茧房&lt;/code&gt;?&lt;/p&gt;
-&lt;p&gt;其实就是茧样的信息结构,
-我们看到的, 都是自己最喜欢的,
-没有突破口;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;而老6本身以往积累了足够多的人物关系,&lt;ul&gt;
-&lt;li&gt;而且, 多数都是他自己都无法选择, 就在桌上认识的...&lt;/li&gt;
-&lt;li&gt;这些核心人士又关联了更多突破老6想象力的人物,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;简单说, 老6本身的阅读空间, 当然也是一个茧房结构,&lt;ul&gt;
-&lt;li&gt;但是, 其内部空间比我们所有人的都大,&lt;/li&gt;
-&lt;li&gt;相对而言, 对于我们普通人, 都是一种茧房的突破;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;另外, 三有原则, 又从其中过滤出未来至少42年不会过期的文字,
-那么, 为什么不相信老六?&lt;/p&gt;
-&lt;p&gt;其它后来成员, 无论怎么理解三有, 而本身的阅历和经历以及品味都比不过老六时,
-过选的文字, 就出现了老订户的水感...&lt;/p&gt;
-&lt;p&gt;当然, 我们这种幻觉本身也可能就是一种茧内舒适感;&lt;/p&gt;
-&lt;p&gt;只是, 文字是否打动自己, 我们自己说了算,
-DUKU 是否打破所有人的茧房我们自己就没办法判定了,&lt;/p&gt;
-&lt;p&gt;这时, 老6 就有了其它判定指标;
-其实, DUKU 当初被迫选择了那些出版社以及杂志社因为容器问题, 不得不放弃的大短篇, 小中篇,
-本身就已经是突破了以往我们可以看到的各种渠道中文字的形式茧房了;&lt;/p&gt;
-&lt;p&gt;只是这其中一定有受限老6单人品味的问题,&lt;/p&gt;
-&lt;p&gt;比如, &lt;code&gt;DK2306&lt;/code&gt; 那篇悼老周,&lt;/p&gt;
-&lt;p&gt;刚刚看到, 感觉是很少见的夕阳恋故事,
-但是, 看完几天后回味儿就感觉总是哪儿有不对,&lt;/p&gt;
-&lt;p&gt;后来才反应过来,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;故事是一个老右和一位老左结合又分离的故事,&lt;ul&gt;
-&lt;li&gt;只是, 从老右的身份和角度记录的,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;问题, 无论左右,两位老人都是中国即得利益阶级,&lt;ul&gt;
-&lt;li&gt;儿女都出国了,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;这就很诡异了, 而进一步分析, &lt;ul&gt;
-&lt;li&gt;就发现, 以往普通人家老年人关注的问题,&lt;/li&gt;
-&lt;li&gt;在这儿都不存在, 生病随时有100%报销的床位等着,&lt;/li&gt;
-&lt;li&gt;退休也立即获得反聘, 继续掌握权力...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;合着, 普通老年人其实是没精力和情感以及写作实力来完成这种美丽心灵旅程记录的哪...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;真.现实版凡尔赛
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;恶心的不行, 问题来了, 为什么老6选择了这篇?&lt;/p&gt;
-&lt;h2&gt;再补&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;立即有群友不满意了:&lt;/p&gt;
-&lt;p&gt;您这解读挺无语的，难道说编辑在编辑文章前还得发给所有的读者，你们都觉得好才编辑？喜不喜欢是自己的事，每个人口味不一样，硬要编辑解释，只要你不满意，他怎么解释都是无用功。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;俺也只有往回收:&lt;/p&gt;
-&lt;p&gt;所以, 从13年开始, 俺就不期望每期 DK 所有文章都有所触动了,
-每期300多页,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;有一篇看到感觉赞, 就很赚,&lt;/li&gt;
-&lt;li&gt;两篇感觉想再读, 就是宝藏一期, &lt;/li&gt;
-&lt;li&gt;每年超过7篇有印象, 这年就没白订阅 ;-)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;PPS:&lt;/p&gt;
-&lt;p&gt;当前所有短视频渠道, 基本上你看到的东西, 都是这个逻辑处理后的,
-只有你刷光了你之前点赞形成的过滤算法对应视频后,
-才随机推送一些还没被分类的新品;&lt;/p&gt;
-&lt;p&gt;PPPS:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;其实, 每年的 DUKU 见面会, 一直在说的就是为什么编辑选择这些文字哈,&lt;/li&gt;
-&lt;li&gt;当然, 每年主题不同, 环境不同, 虽然困难相同, &lt;/li&gt;
-&lt;li&gt;但是, 解决困难的姿势一直在变,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;俺目测哈,
-以往说的 &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;时间无下限成本无上限
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;这种编辑作品的比例在整体 DUKU 体系中, 越来越少了...&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;``
-          _~∽~&lt;/code&gt;~&lt;em&gt;
-      \/ /  &amp;gt; ◕  \ ()
-        '&lt;/em&gt;   ⩌   _'
-        &amp;gt; '-----' /&lt;/p&gt;
-&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241109.md</guid><pubDate>Sat, 09 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">OldTouch/24/20241110-echo9dayu.md</guid><pubDate>Sun, 10 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
