@@ -1,5 +1,126 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sun, 15 Dec 2024 01:25:16 +0000</lastBuildDate><item><title>蟒周刊:24-49</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241209-49.html</link><description>ESSAY: 蟒周刊:24-49 - Last updated(at)2024-12-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/49&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sun, 15 Dec 2024 13:04:12 +0000</lastBuildDate><item><title>枪包~&gt;带</title><link>https://zoomquiet.io/MurMur/24/20241215.html</link><description>ESSAY: 枪包~&gt;带 - Last updated(at)2024-12-15T00:00:00+08:00</description><content:encoded>&lt;h1&gt;"枪包"以及背带的进化&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;日用品的日常琢磨 ...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;background&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中年, 外出慢慢固定下来随身物品...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;毕竟, 谁也不想出门忘带东西吧;
+只是, 具体的携行装备就..完全没想到变成一个漫长的探索..&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;快速装备, 舒适长时使用..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;便宜, 不搞品牌竞赛&lt;/li&gt;
+&lt;li&gt;耐用, 毕竟每天要用的..&lt;/li&gt;
+&lt;li&gt;够用, 能容纳所有必要的..&lt;/li&gt;
+&lt;li&gt;百搭, 不丑, 又或是足够隐秘..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;tracing&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;快速回顾一下不同阶段的选择..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;1990~ 64K 硬皮通讯录用护腕裹上零钱就好;&lt;/li&gt;
+&lt;li&gt;2000~ 双肩背包&lt;ul&gt;
+&lt;li&gt;开始工作了,身体也够力&lt;/li&gt;
+&lt;li&gt;所以,无论到哪儿都是扛着:&lt;ul&gt;
+&lt;li&gt;电脑&lt;/li&gt;
+&lt;li&gt;水瓶&lt;/li&gt;
+&lt;li&gt;折叠伞&lt;/li&gt;
+&lt;li&gt;备用外衣&lt;/li&gt;
+&lt;li&gt;钱包&lt;/li&gt;
+&lt;li&gt;钥匙&lt;/li&gt;
+&lt;li&gt;..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;大概5Kg 以上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2005~ 腰包&lt;ul&gt;
+&lt;li&gt;慢慢稳定下来, 有日常外出和工作外出的区分&lt;/li&gt;
+&lt;li&gt;日常, 基本上就是微单包为核心的携行&lt;ul&gt;
+&lt;li&gt;GRD 旁轴数字照相机&lt;/li&gt;
+&lt;li&gt;备用电池&lt;/li&gt;
+&lt;li&gt;钥匙&lt;/li&gt;
+&lt;li&gt;钱包(身份证,银行卡,门卡)&lt;/li&gt;
+&lt;li&gt;手机一部&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2010~ DUKU 单肩包&lt;ul&gt;
+&lt;li&gt;开始用 iPhone 替代 Android 手机后, 发现 DC 也用不上了&lt;/li&gt;
+&lt;li&gt;使用 DUKU 发售的单肩书包为核心的携行&lt;/li&gt;
+&lt;li&gt;主要是折叠伞和书&lt;/li&gt;
+&lt;li&gt;而随身以一种专门选购的城市警用工作裤为主, 有10个口袋:&lt;ul&gt;
+&lt;li&gt;左右相同, 每边有:&lt;ul&gt;
+&lt;li&gt;最靠近裤带的是一个小开口笔袋&lt;/li&gt;
+&lt;li&gt;然后, 标准插手袋&lt;/li&gt;
+&lt;li&gt;其正下方是个手机袋&lt;/li&gt;
+&lt;li&gt;大腿侧方有个大型拉链袋&lt;/li&gt;
+&lt;li&gt;以及臀袋&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;所以,足够将所有必要物品都收纳在裤袋中:&lt;ul&gt;
+&lt;li&gt;小开口笔袋,只用了一边是蜂油精&lt;/li&gt;
+&lt;li&gt;利用登山D型自锁环挂钥匙串在左侧,垂在插手袋中&lt;/li&gt;
+&lt;li&gt;插手袋, 一般空着,以便袋随手用的&lt;/li&gt;
+&lt;li&gt;手机袋, 左边是通话用 android 手机, 右侧是支付用 iPhone 手机&lt;/li&gt;
+&lt;li&gt;侧袋,左边是銭包, 右边是旅行本,含笔&lt;/li&gt;
+&lt;li&gt;臀袋, 一侧是纸巾, 另外一侧是口罩&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2015~ 枪包时代..&lt;ul&gt;
+&lt;li&gt;慢慢的发现裤子兜多,其实很沉的,开始习惯宽松的中式练功裤&lt;/li&gt;
+&lt;li&gt;外出必要物品也压缩为:&lt;ul&gt;
+&lt;li&gt;两台手机&lt;/li&gt;
+&lt;li&gt;车钥匙(家门用了智能锁, 口令+指纹, 不用实体钥匙了)&lt;/li&gt;
+&lt;li&gt;蜂油精(广东出门必备)&lt;/li&gt;
+&lt;li&gt;钱包(身份证,银行卡,零钱)&lt;/li&gt;
+&lt;li&gt;充电线(充电宝, 看需要可能带)&lt;/li&gt;
+&lt;li&gt;记事木+笔(B6大小,80页小软皮本)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;这些,正好可以收纳到一个"枪包"中, 也就是腋下歪肩包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;问题来了..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当聚焦到"枪包"后, 发现一个设计问题:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;肩带, 软的话,只有边缘吃得到力, 很难受而且吃汗很快就臭了&lt;/li&gt;
+&lt;li&gt;而要是硬的话, 也就是那种很厚的尼龙编织带, 很宽很得力, 可边缘就磨脖子&lt;ul&gt;
+&lt;li&gt;尝试过套个手巾, 可又太厚&lt;/li&gt;
+&lt;li&gt;用衣服领子挡是可以, 但是, 广东一年多数都是无领 Tee 裇衫&lt;/li&gt;
+&lt;li&gt;..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;纠缠几年换了各种设计的"枪包"&lt;ul&gt;
+&lt;li&gt;结果, 最后无意中发现一种几元钱的小配件解决问题&lt;/li&gt;
+&lt;li&gt;就是 &lt;a href="https://mobile.yangkeduo.com/goods1.html?ps=x9bw2rIKse"&gt;肩带垫,双肩包减压垫肩,相机负重背带防滑,单肩多功能垫肩,护肩..&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;虽然没什么正式名称, 其实就是那种所有旅行包都有附带的增加肩带宽度和厚度, 提高重压时舒适度的小东西&lt;/li&gt;
+&lt;li&gt;其实就是一个含海棉垫片的, 可以用一对魔术粘扣, 扣在任何带子上的的东西&lt;/li&gt;
+&lt;li&gt;只是, 用在枪包肩带上, 正好可以挡住坚硬粗糙的边缘,完美解决问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;refer.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;42+元 &lt;a href="https://mobile.yangkeduo.com/goods.html?ps=HhOYoMRN2T"&gt;高端枪包&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;10+元 &lt;a href="https://mobile.yangkeduo.com/goods2.html?ps=bL7OWgdJng"&gt;普通软枪包&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;15+元 &lt;a href="https://mobile.yangkeduo.com/goods.html?ps=XD3SRllLov"&gt;快拆枪包&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;6+元一对 &lt;a href="https://mobile.yangkeduo.com/goods1.html?ps=x9bw2rIKse"&gt;肩带垫,双肩包减压垫肩,相机负重背带防滑,单肩多功能垫肩,护肩..&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241215.md</guid><pubDate>Sun, 15 Dec 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-49</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241209-49.html</link><description>ESSAY: 蟒周刊:24-49 - Last updated(at)2024-12-09T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/49&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/49
 Slug: pyrw-2449
 Date: 2024-12-09 11:42
@@ -2698,276 +2819,4 @@ Tags: Weekly,Python,recap,discu_eu,ZH
    '&lt;em&gt;   ⎕   &lt;/em&gt;'
    | '--#--' \&lt;/p&gt;
 &lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241111-pj-miaolai-d2.md</guid><pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.10 Dayu9问</title><link>https://zoomquiet.io/OldTouch/24/20241110-echo9dayu.html</link><description>ESSAY: 11.10 Dayu9问 - Last updated(at)2024-11-10T00:00:00+08:00</description><content:encoded>&lt;h1&gt;回答你这 9 个问题..&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;竟然拖了一个月&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://anotherdayu.com/2024/5962/"&gt;博客作者呀，我想采访你这 9 个问题！ - Another Dayu&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这位在读博士在上海聊过, 没想到在医学防疫领域之外,
-有那么多可以聊的...&lt;/p&gt;
-&lt;h2&gt;logging&lt;/h2&gt;
-&lt;h3&gt;1. 简单介绍下自己或者你的博客？&lt;/h3&gt;
-&lt;p&gt;用了10多年的标准自述:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;AIGCx珠海创始人, 也是中国Python社区中最长情的贡献者, 
-从04年共同创建 CPyUG(中国Python用户组)以来,
-长年为 Pythonic 在中国的推广/实践进行各种尝试;
-连续四届主持PyCon中国大会筹办;
-发起 Open.Book.Project 主持原创/翻译多本 Python 技术图书;
-并原创 蟒营®开源网络课程框架, 希望大家都能开心构建自己的课程;
-是公认的 "大妈"
-当前转战自媒体, 分享有趣有料有种的事儿.
-https://www.youtube.com/@Chaos42DAMA
-
-个人网站: zoomquiet.io
-框架官网: https://doc.101.camp/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;当然, 每年增补, 根据不同场景也对应修订;&lt;/p&gt;
-&lt;p&gt;这个 blog (俺不用 博客, 这个翻译, 听从当年论战的结论..),
-有20多年历史了,
-只是, 文章还分散在各地, 收纳中;&lt;/p&gt;
-&lt;p&gt;主要想写的东西, 一直没变, 只是一直没能坚持只在自己的网站中写,
-而是投身到各种社区平台中, 针对社区成员输出..&lt;/p&gt;
-&lt;p&gt;想写的, 有过很多定义, 现在认同并实施 DUKU 的三有判定:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;有趣 ~ 自己感觉有点儿意思的&lt;/li&gt;
-&lt;li&gt;有用 ~ 自己认为有点儿东西的&lt;/li&gt;
-&lt;li&gt;有种 ~ 别人应该感觉有点儿东西的..&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;2. 什么契机让你开始写博客？&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Keso 们..&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;是的, 当初, 掌握一定 web 建立站技术时, 还是 web 1.0 前期,
-嘦你发布一个 BBS ,就有人天天来逛;&lt;/p&gt;
-&lt;p&gt;所以, 最早是用类似 phpBB 发布的论坛, 使用 zqstudio.org 的域名,
-后来沉迷网站技术, 总想着将发布系统折腾好了, 再开始长期写作输出,
-所以有了:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;NucleusCMS 构建的 zqstudio.org&lt;/li&gt;
-&lt;li&gt;迁移为 pyblosoxm 发布的 zoomquiet.org&lt;/li&gt;
-&lt;li&gt;以及各种免费 blog 平台上 Zoom.Quiet 的实例, 包含不仅仅:&lt;ul&gt;
-&lt;li&gt;blogger.com&lt;/li&gt;
-&lt;li&gt;SINA&lt;/li&gt;
-&lt;li&gt;开源中国&lt;/li&gt;
-&lt;li&gt;...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;后来开始参与和创建以及运维技术社区, 就开始在对应社区进行主题写作&lt;ul&gt;
-&lt;li&gt;比如:&lt;a href="https://wiki.woodpecker.org.cn/moin/ZoomQuiet"&gt;ZoomQuiet - Woodpecker Wiki for CPUG&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;啄木鸟技术社区维基中 18万+页面,有一半是俺建立的...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;blog.101.camp,blog.PyChina.org,blog.zoomquiet.io,du.101.camp..&lt;ul&gt;
-&lt;li&gt;不知不觉, 俺开始习惯以社区为线索的主题输出&lt;/li&gt;
-&lt;li&gt;可问题在, 这样很难立即找到一个链接回复任何场景中一个问题&lt;/li&gt;
-&lt;li&gt;而这种文章的使用, 正是独立 blog 最常见的使用姿势&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;以往长期订阅的老师们, 都是在一个域名下持续输出10年以上的...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;所以, 今年开始, 恢复 zoomquiet.io 为主力私人网站,
-开始收拢以往散落在各种社区中的所有文章;&lt;/p&gt;
-&lt;p&gt;不断发现以往自己说的, 现在还没过时, 就感觉很值得;&lt;/p&gt;
-&lt;p&gt;也反应过来, 开始写 blog 的触因,
-只不过是在回复好文章时, 发现回复框太小, 根本难以结构化完备阐述,&lt;/p&gt;
-&lt;p&gt;而 blog 原本有的 trackback 机制, 只要求你有一个私人网站而已;&lt;/p&gt;
-&lt;p&gt;所以, 就开始了...&lt;/p&gt;
-&lt;h3&gt;3. 你是如何完成创作的？&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;慢慢的形成了套路..&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;虽然输出是分散的, 但是, 慢慢也就发现, 自己的写作是有固定模式的:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;技术:&lt;ul&gt;
-&lt;li&gt;一般都是自己真实在折腾的事儿&lt;/li&gt;
-&lt;li&gt;只是, 习惯在学习/实践/开发过程中有随行笔记&lt;/li&gt;
-&lt;li&gt;不定期将笔记整理为半年前的自己也能看明白的, 类似手册的文字&lt;/li&gt;
-&lt;li&gt;就是一篇吻合自己口味的技术文章了&lt;/li&gt;
-&lt;li&gt;当然, 主要受到国外技术文章的影响, 尽可能罗嗦些, 也不好留下扣子给读者猜...这是 CSDN 同类文章最大的毛病&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;思考:&lt;ul&gt;
-&lt;li&gt;一般都是自己长期在思考的事儿&lt;/li&gt;
-&lt;li&gt;如果有了阶段性触发事件, 比如公开演讲,&lt;/li&gt;
-&lt;li&gt;就干脆将对应主题转换为文章&lt;/li&gt;
-&lt;li&gt;形成类似岩钉的东西,给自己一个自身思想发展的轨迹..&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;断言:&lt;ul&gt;
-&lt;li&gt;一般撞到各种事儿时, 自己的直觉吐糟&lt;/li&gt;
-&lt;li&gt;以往这种没有想明白的事儿, 不好写出来的&lt;/li&gt;
-&lt;li&gt;但是看到 &lt;a href="https://www.zhihu.com/column/laiyh"&gt;嘈嘈切切错杂谈 - 知乎&lt;/a&gt; 一位老朋友的 &lt;code&gt;呢喃&lt;/code&gt;系列&lt;/li&gt;
-&lt;li&gt;发现, 嗯哼? 这种几百字儿, 先将一件事儿自己的态度记录下来的感觉&lt;/li&gt;
-&lt;li&gt;不错哪...于是, 也学起来, &lt;/li&gt;
-&lt;li&gt;进一步发现, 这简直就是免费版 Twitter/X 的标准写作方式了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;其它, 可能有混合的写作姿势,
-但是, 基本上没超过这三种模式;&lt;/p&gt;
-&lt;p&gt;甚至于, 无论何时, 有个想法, 立即就开始用对应模型打腹稿了,
-所以, 输出时, 基本上不修改, 抱起键盘一路输出就好.&lt;/p&gt;
-&lt;h3&gt;4. 运营博客的过程中是否有失去过动力？&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;如果有，是为什么恢复的？如果没有，请问您又是如何保持创作的激情？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;当然, 人嘛, 总是起起落落落落落落落..的;&lt;/p&gt;
-&lt;p&gt;关键在运营, 每次看到认识的网友, 那么多 blog 文章,
-叕结集出版了,
-叕被人引用了...&lt;/p&gt;
-&lt;p&gt;可一看文章, 早就看过, 当时也没什么特别的感觉, 也就是感觉自己也可以写出来;&lt;/p&gt;
-&lt;p&gt;回来再看自己的文章, 一直就没人留言什么的,
-就对自己输出的东西是否有价值而怀疑了.&lt;/p&gt;
-&lt;p&gt;后来, 才发现, 这就是对自己的 blog 网站有了过多的目的设想,
-而带来的失败体验积累引发的;&lt;/p&gt;
-&lt;p&gt;可自己在对应社区输出的文章, 总是及时有成员反馈, 以及进一步拓展;&lt;/p&gt;
-&lt;p&gt;进一步也确认了自己的偏见: &lt;a href="/IMHO/IAS/20241028-iff-write.html"&gt;咩是写作?&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;写作才是写作最大的回报
-Writing is its own best reward
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;所有自己组织形成的文字,
-无论社会怎么评价,
-第一个受惠的读者永远是我自己;&lt;/p&gt;
-&lt;p&gt;既然, 嘦输出就有收获:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输出是最残酷的输入
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;因为自己只能接受自己认可的内容,
-那么, 为什么不继续写作?&lt;/p&gt;
-&lt;p&gt;不过, 创作倒不一定依赖激情, 激情总是难以持久的,
-而是将写作视为一种普通的生活风格,
-就象每天刷牙一样,
-自然的输出就好,
-这样,更加自在, 没有压力, 反而能令文字更加随和有亲合力,
-不是嘛?&lt;/p&gt;
-&lt;h3&gt;5. 如何搭建博客，以及运营博客每年需要投入的资金？&lt;/h3&gt;
-&lt;p&gt;以往需要复杂的建站知识和技巧,
-现在不需要了;&lt;/p&gt;
-&lt;p&gt;如果决心立即开始写,
-那么, 几乎可以零成本立即开始:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub 或是其它同类项目托管平台, 都提供了各种图文发布功能&lt;/li&gt;
-&lt;li&gt;如果不在意私人域名&lt;ul&gt;
-&lt;li&gt;那么, 就可以立即创建仓库&lt;/li&gt;
-&lt;li&gt;直接在仓库附带的 Issue 中开始日常写作了&lt;ul&gt;
-&lt;li&gt;和建立一个 blog 专用网站没什么差别&lt;/li&gt;
-&lt;li&gt;每个 Issue 就是一篇文章, 读者可以直接回复 Issue 来参与讨论&lt;/li&gt;
-&lt;li&gt;而对 Issue 可以追加标签, 也可以进行搜索, 甚至于可以归档, 但是, 永远可以随时访问,继续讨论&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;如果, 对 Issue 像 BBS 的界面有点儿反感, 那么, &lt;/li&gt;
-&lt;li&gt;也可以在最新的 Discussions 中开展相似的写作&lt;ul&gt;
-&lt;li&gt;只是, 这个界面中, 你可以进一步事先对所有体裁的文字, 进行分组&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;如果希望将所有文章聚集在自己的域名中&lt;ul&gt;
-&lt;li&gt;那么, 唯一成本也就是每年的域名注册费, &lt;ul&gt;
-&lt;li&gt;根据你抢到的域名, 每年费用不等&lt;/li&gt;
-&lt;li&gt;从几美元到几十美元都有&lt;/li&gt;
-&lt;li&gt;平均, 每天也就一元左右RMB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;其它, 照样可以基于 GitHub 们免费获得服务&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; 就是 称为 SSG(静态网站生成器)的服务, 但是, 从一开始就是免费的&lt;/li&gt;
-&lt;li&gt;根据官方文档, 配置好, 也就可以立即在仓库中创建 .md 文件来进行文章的撰写, 而编译发布, 都是自动免费的&lt;/li&gt;
-&lt;li&gt;唯一要学习的, 只有 Markdown 语法而已&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;如果进一步的希望网站所有数据/资料/评注/.. 都自己管理&lt;ul&gt;
-&lt;li&gt;那么, 就得上类似 Wordpress 的 CMS(内容管理系统)&lt;/li&gt;
-&lt;li&gt;每年的成本可就没那么友好了, 涉及主机/系统/数据库/流量/...费用&lt;/li&gt;
-&lt;li&gt;如果没有特殊理由, 俺一般不推荐这么折腾.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;6. 推荐 1 篇你博客中的文章，并推荐一个你喜欢读的博客，聊聊原因。&lt;/h3&gt;
-&lt;p&gt;推荐, 俺当前网站中的: &lt;a href="https://zoomquiet.io/IMHO/19980101-chinese4internet.html"&gt;1998:探讨 信息化社会中 中国传统思想的作用 - ZoomQuiet.io&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;原因可能就在, 这是能找到的, 最早的文章了;
-虽然当年是 Word 版本的,
-但是, 从软盘/光盘/u盘/硬盘/...
-一路维护下来, 一直在目录中有个固定位置保存,
-最终可以 Markdown 格式化发布出来,
-可以说, 记录了自己最早最完整的一个领域思考成果,
-很有纪念意义.&lt;/p&gt;
-&lt;p&gt;稍微意外的是, 26年后再看, 并没有感觉特别过时,就有点儿神奇了;&lt;/p&gt;
-&lt;p&gt;推荐俺经常读的: &lt;a href="https://zhuangbiaowei.github.io/"&gt;读书、思考、生活&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;是 庄表伟 的 Blog, 虽然也不是他第一个 Blog,
-但是, 他在这个渠道上也坚持了10年, 
-而且每篇文章都作到了将当时自己的思考完备记录的目的;&lt;/p&gt;
-&lt;p&gt;最打动我的是整体网站的布局, 使用了一种特殊的, 已经停止维护的 theme,&lt;/p&gt;
-&lt;p&gt;这真的是程序猿-style 了&lt;/p&gt;
-&lt;h3&gt;7. 推荐 1 个近期喜欢的事物？&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;（例如书籍、电影、音乐、工具、软件。）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;乃木坂46,&lt;/p&gt;
-&lt;p&gt;是的日本女子偶像团队,
-从去年忽然关注到的, 今年4月吧, 正式入坑,
-刚好八月去日本旅游, 还专门买了写真集正式推一下下;&lt;/p&gt;
-&lt;p&gt;原因, 和 &lt;code&gt;AKB48的格子裙经济学 [专著]  粉丝效应中的新生与创意 ((日)田中秀臣著  江裕真译)&lt;/code&gt; 中揭露的类似,&lt;/p&gt;
-&lt;p&gt;经济下行时, 人们就更加愿意看漂亮的小姐姐唱跳,
-以便感觉这个世界还是有希望的;&lt;/p&gt;
-&lt;p&gt;当然, 作为正式半百的中国人, 饭上日本当代偶像团队, 也是很奇妙的,
-过程比较复杂, 准备用另外专门文章阐述;&lt;/p&gt;
-&lt;p&gt;不过, 中肯的说, 在全球几乎没有音乐人能将一张专辑卖过一百万张的当下,
-乃木坂46 平均销量接近100万张,
-很能证明很有点儿东西;&lt;/p&gt;
-&lt;p&gt;而且, 乃木坂46 的粉丝群体很积极向上, 中国饭甚至于自费翻译了绝大多数公开作品, 并组织专门的云盘免费公开分享,
-很是减少了关注成本;&lt;/p&gt;
-&lt;p&gt;无论哪种状态, 什么心情, 都可以从 乃木坂46 丰富的影视作品中得到陪伴,
-实在是宝藏团队, 而且不像其它 秋元康 组建的偶像,
-乃木坂46主要版权都在 SONY 公司, 嘦 SONY 不倒, 基本没可能解散,
-是一个可以安心长久关注的偶像团队.&lt;/p&gt;
-&lt;h3&gt;8. 想做还没有做的事，或想尝试还没有尝试的主题？&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;太多太多...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;单说一个吧:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/"&gt;大媽的多重宇宙 - YouTube&lt;/a&gt; 作为俺的主要私人事业;
-创立17个月, 发布了3000+节目, 但是, 并没拿到 YPP 资格,也就是没形成收入;&lt;/p&gt;
-&lt;p&gt;过程中, 尝试了各种体裁, 但是, 有一种内容, 其实积累的最多, 可反而一直没有大量输出:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;图书/影视 点评&lt;/li&gt;
-&lt;li&gt;家庭藏书过2000本, 影视资料超过50Tb ..&lt;/li&gt;
-&lt;li&gt;积年收集的宝藏作品100+&lt;/li&gt;
-&lt;li&gt;但是, 一直就没找到合适的输出方式&lt;/li&gt;
-&lt;li&gt;虽然, 在各种场景中, 和朋友们聊天时, 随便介绍任何一种作品, 都可以条理分明, 说服力不小&lt;/li&gt;
-&lt;li&gt;可变成面对镜头, 总是感觉没有将最关键的点说出来&lt;/li&gt;
-&lt;li&gt;现在唯一明确的:&lt;ul&gt;
-&lt;li&gt;事先组织个幻灯, 以技术演讲形式来分享&lt;/li&gt;
-&lt;li&gt;绝对, 没人有兴趣.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;所以, 还是得, 先跑起来,
-将想推荐的书/影, 先记录并发布, 根据观众反应持续调节吧...&lt;/p&gt;
-&lt;h3&gt;9. 写到这里，闭上你的眼睛，&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..深呼吸几分钟，或是出去溜达一圈，然后回来写任何你想写的东西。&lt;/p&gt;
-&lt;p&gt;说打南边儿来了个哑吧,打北边来了个喇嘛...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;其实, 俺一直认为, 语言艺术, 到了相声就到顶了, 没有其它可能性了,
-对话的套路, 在传统相声中已经摸索干净了, 
-否则, 找不到那些绝对有效的模式, 没有这些模式的反复应用,
-相声大家们早就饿死街头了;&lt;/p&gt;
-&lt;p&gt;虽然, 语言/文字的模式是有限的,
-故事也一样,
-但是, 听/看/聊/...故事的心情需求是没有尽头的,
-嘦人类存在, 就永远喜欢好故事,&lt;/p&gt;
-&lt;p&gt;所以, 写作, 值得继续哈,
-谁也不知道, 已经随手记录的文字,
-什么时候突然变成一个关键故事呢...&lt;/p&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://nas.101.so/scrapbooks/ZqSKM/data/20080418121836/index.html"&gt;三言二拍：分众的能量 - 对牛乱弹琴 \| Playin' with IT - DonewsBlog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nas.101.so/scrapbooks/ZqSKM/data/20050701215116/index.html"&gt;我不是博客&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pages.github.com/"&gt;GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;tracing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;241110 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">OldTouch/24/20241110-echo9dayu.md</guid><pubDate>Sun, 10 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241111-pj-miaolai-d2.md</guid><pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
