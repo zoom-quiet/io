@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>10.14 迁移 gh-pages 到 Cloudflare - ZoomQuiet.io</title>
+        <title>生命时间速率 - ZoomQuiet.io</title>
 
 
         <!-- Custom HTML head -->
@@ -145,198 +145,71 @@
                         <!-- Page table of contents -->
                         <div class="sidetoc"><nav class="pagetoc"></nav></div>
 
-                        <h1 id="迁移-gh-pages-到-cloudflare"><a class="header" href="#迁移-gh-pages-到-cloudflare">迁移 gh-pages 到 Cloudflare</a></h1>
+                        <h1 id="生命时间的速率"><a class="header" href="#生命时间的速率">生命时间的速率?</a></h1>
+<p>万能电影群有朋友推荐:</p>
+<p>.. <a href="https://www.bilibili.com/v/knowledge/">消费的形态越来越短，但是我们生命时间的速率未曾改变【戴锦华】_哔哩哔哩_bilibili</a></p>
+<h2 id="好象哪里有不对"><a class="header" href="#好象哪里有不对">好象哪里有不对?</a></h2>
+<p><a href="https://www.douban.com/personage/30076003/">戴锦华 Jinhua Dai(豆瓣)</a></p>
+<p>专门查了一下, 原来不是演员, 是: <code>现任北京大学比较文学与比较文化研究所教授</code></p>
+<p>类似 <code>红学家</code> 之于作家群体吧;</p>
+<p>最关键的断言:</p>
 <blockquote>
-<p>如何将 github 和 Cloudflare 的 Pages 服务串联起来?</p>
+<p>...消费的形态越来越短，但是我们生命时间的速率未曾改变</p>
 </blockquote>
-<h2 id="background"><a class="header" href="#background">background</a></h2>
-<p>原有社区官网, 使用 Hugo 作为 SSG ,
-通过 GitHub Actions 作为部署工具,
-发布到 GitHub Pages 中, 并绑定域名;</p>
-<p>对应 actions 脚本:</p>
-<p><a href="https://github.com/duonb/duonb.org/blob/683549a6a1745686ee744c8fae2168852ae3e100/.github/workflows/hugo.yml">duonb.org/.github/workflows/hugo.yml at 683549a6a1745686ee744c8fae2168852ae3e100 · duonb/duonb.org</a></p>
-<p>随着运营的深入, 发觉 相比 GitHub(后续缩写为GH) 各种别扭而且多变的配置,
-Cloudflare(后续缩写为 CF) 各种良心免费资源配套齐全, 而且免费额度不小,
-值得迁移;</p>
-<h2 id="goal"><a class="header" href="#goal">goal</a></h2>
+<p>这又凡尔赛了..</p>
 <ul>
-<li>原有内容运营流程不变:
+<li>虽然"生命时间的速率"没变,</li>
+<li>但是, 生命时间体感速率可控了,
 <ul>
-<li>编辑随时进入 GH</li>
-<li>在仓库中使用 <code>.dev</code> 在线 IDE 完成文章编撰</li>
-<li>提交后, 由 Actions 自动触发执行完成发布</li>
+<li>以往只能晒太阳望天苦熬,</li>
+<li>现在有无限短剧可以快乐的浪费时间,</li>
 </ul>
 </li>
-<li>最终静态网站通过 CF-Pages 服务发布
+<li>为什么不?
 <ul>
-<li>相比 GH 以及东家, CF 是更加专业的网络服务商</li>
+<li>在这个过程中, 如果良心一点儿的短剧也提供了一定知识滋养,</li>
+<li>可比准备好一切知识, 再去看电影良心的多了...</li>
 </ul>
 </li>
 </ul>
-<h2 id="tracing"><a class="header" href="#tracing">tracing</a></h2>
-<p>通读相关文档以及网友们的经验后明确:</p>
-<ul>
-<li>CF-Pages 和 GH-Pages 本质上一样, 都是微服务平台</li>
-<li>通过对应 workflow 脚本触发 Docker 拉起虚拟机, 部署对应环境中, 执行约定指令完成静态网站的编译生成</li>
-<li>最后复制到对应发布空间, 并安全消解掉所有虚拟资源</li>
-</ul>
-<p>...而免费的东西, 果断都有坑</p>
-<h3 id="直接上-cf"><a class="header" href="#直接上-cf">直接上 CF</a></h3>
-<blockquote>
-<p>按照官方文档来</p>
-</blockquote>
-<p>基本流程就是:</p>
-<ul>
-<li>创建 Pages 实例</li>
-<li>对接仓库</li>
-<li>选择编译框架</li>
-<li>配置发布域名</li>
-<li>触发事件</li>
-</ul>
-<p>第一个坑:</p>
-<ul>
-<li>根本无法识别自己 GH 帐号不是 owner 的仓库</li>
-<li>只好将对应仓库 fork 到一个即有公开组织中</li>
-<li>虽然 fork 过来的仓库是私有的, 但是, CF 良好识别了</li>
-</ul>
-<p>第二个坑:</p>
-<ul>
-<li>CF Pages 中, 并没有类似 GH Actrions 的约定, 比如从 <code>.github/workflow</code> 中自动识别 .yaml 作为 Dockerfiles 来执行</li>
-<li>界面上只有简洁的框架选择, 以及构建成果发布目录之类几个选择</li>
-</ul>
-<p>果然, 反复尝试, 都在类似错误中崩溃了:</p>
-<pre><code>...
-Error: Exit with error code: 1
-	    at ChildProcess.&lt;anonymous&gt; (/snapshot/dist/run-build.js)
-	    at Object.onceWrapper (node:events:652:26)
-	    at ChildProcess.emit (node:events:537:28)
-	    at ChildProcess._handle.onexit (node:internal/child_process:291:12)
-	Failed: build command exited with code: 1
-	Failed: error occurred while running build command
+<p>不过, 戴教授的阐述就非常完备以及优雅,谁都没得罪;</p>
+<p>特别是其中的断言:</p>
+<pre><code>故事之于人类,
+最重要的意义在:
+    赋予混乱的生活一个逻辑的解释
 </code></pre>
-<p>看起来对应 NodeJS CF 还没什么好办法自动征服</p>
-<h3 id="对接到-cf"><a class="header" href="#对接到-cf">对接到 CF</a></h3>
-<blockquote>
-<p>进一步挖掘文档</p>
-</blockquote>
-<p>既然 CF 本身的 Pages 构建环境不如 GH 的,
-那么, 是否能在 GH Actions 中完成构建,
-只是将成果输出到 CF Pages 空间中, 而不是原有的 GH Pages ?</p>
-<p>答案是肯定的, 虽然配置比较复杂:</p>
-<p>根据相关文档:</p>
-<ul>
-<li>在 CF 中创建应用 token</li>
-<li>从 CF 中拿到对应关键 ID</li>
-<li>去 GH 配置环境变量, 来使用授权 token</li>
-<li>再增补 Actions 脚本, 改变最后的 <code>pages-action</code> 目标</li>
-</ul>
-<p>参考: <a href="https://github.com/duonb/duonb.org/commit/47ef95d0255111606b975860850d9798b21f941f">upd4cloudflare · duonb/duonb.org@47ef95d</a></p>
-<p>可惜, 依然有相似的错误,
-而且 CF Pages 文档也不少,
-继续挖掘进入更多细节来解决问题是否值得?</p>
-<h3 id="通过-gh-pages-分支"><a class="header" href="#通过-gh-pages-分支">通过 gh-pages 分支</a></h3>
-<blockquote>
-<p>洗了个冷水澡, 重新捋一下...</p>
-</blockquote>
-<p>之所以, 对 CF Pages 服务有信心, 因为之前有项目,
-在本地用 Python 完成静态网站编译后, 通过 GH 仓库,
-对接到 CF Pages 一下子就发布出来了,非常流畅;</p>
-<p>所以, 嘦不涉及具体的微服务器构建过程, 只是对静态网站进行发布 CF Pages 是完全没有问题的.</p>
-<p>而 Hugo 工程, 为了商业化界面, 还安装了各种复杂的 NodeJS 拓展,
-所以, Actions 过程比较长, 在本地都不一定部署的对;
-大家也是从 Theme 原型仓库抄来的 workflow 而已;</p>
-<p>那么, 问题就变成了, 如何将原先 GH Pages 发布成功的 Actions 脚本,
-改造为可以将编译出来的 HTML 成果, 不是直接发布到 GH Pages 中,
-而是放到一个可以再由 CF Pages 不进行任何其它处置, 直接复制使用的空间中呢?</p>
-<p>这种空间在哪儿?</p>
-<p>这时, 就想起来 GH Pages 当初没有 Actions 机制时,
-是约定 <code>gh-pages</code> 分支的,
-也就是将编译的静态网站一定要放到特殊分支中,
-GH 后端其它服务才知道如何复制并发布;</p>
-<p>那么, 问题就变成, 如何将 Actions 脚本运行成果,直接推送到 <code>gh-pages</code> 分支中?</p>
-<p>追问了 GPT 获得以下类似步骤:</p>
-<pre><code class="language-yaml">      - name: Save generated site files
-        run: mv public ../public
-
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-
-      - name: Copy built site to gh-pages branch
-        run: |
-          rm -rf *
-          mv ../public/* .
-
-      - name: Commit and push changes
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Deploy static site to gh-pages branch" || echo "No changes to commit"
-          git push origin gh-pages
+<p>非常接近故事的本质了, 当然, 作为一个文学向的研究者,
+相比历史学家们, 少了一个故事对于整个社会影响力的积累过程;
+参考: "人类简史", 人家没用太多排比句, 就给出了更加深刻的洞见:</p>
+<pre><code>人类社会就是由各种故事构成的
+    人类的大合作就是基于各种
+        故事共识
 </code></pre>
-<p>哈,就是标准的 git 指令, 看来 <code>runs-on: ubuntu-22.04</code> 是内置 git 工具的;
-唯一的技巧不过是:</p>
-<ul>
-<li>为了合理每次都提交所有编译成果</li>
-<li>先将编译成果目录移动到当前工作目录以外</li>
-<li>然后,切换分支</li>
-<li>再将分支中当前所有内容删除</li>
-<li>最后将成果目录中所有内容复制回工作目录(已经是 gh-pages 分支)</li>
-<li>再用 git 提交推送回仓库</li>
-</ul>
-<p>先在 GH 仓库中观察新 Actions 是否能完成;</p>
-<p>然后, 回到 CF, 修订 Pages 配置, 不使用任何编译框架, 直接发布指定分支的所有内容;</p>
-<p>获得对应成果:</p>
-<ul>
-<li>CF 渠道发布的:<a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/">DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation</a></li>
-<li>对比原版: <a href="https://cf.duonb.org/blog/2022/02/15/duonb-status-update-2022-q2/">DuoNB Status Update: 2022 Q2 🚀 | DuoNB Foundation</a></li>
-</ul>
-<h3 id="ps"><a class="header" href="#ps">PS:</a></h3>
-<blockquote>
-<p>小结</p>
-</blockquote>
-<p>前后三次尝试, 合算5+小时, 完成了迁移,
-虽然最后配置变更的不多,
-但是, 调试过程比较囧, 因为 Actions 不是编程环境,
-而是类似 Dockerfiles 的执行环境,
-每次修改, 无论是格式还是行为错误, 都只能通过
-<a href="https://github.com/duonb/duonb.org/actions">Workflow runs · duonb/duonb.org</a></p>
-<p>workflow 运行日志来观察, 根本无法实时观察运行期的各种输出;</p>
-<p>但是, Actions 毕竟是免费的, 内置的各种行为也非常稳健,
-在 GH 海量项目的持续使用过程中, 相比其它 PaaS 平台的类似服务要靠谱的多;</p>
-<p>值得深入理解和利用;</p>
-<p>当然,最靠谱的还是清晰的目标定义, 以及各种资源间关系的理解,
-这样, 才可能随时针对性提出方案, 并设计关键观察行为来检验;</p>
-<p>总之,</p>
-<ul>
-<li>GH Actions 值得薅</li>
-<li>CF Pages 值得薅</li>
-<li>两种资源免费对接, 嘦通过一个普通的约定分支即可 ;-)</li>
-</ul>
-<h2 id="refer"><a class="header" href="#refer">refer.</a></h2>
-<p><a href="https://developers.cloudflare.com/pages/">Cloudflare Pages documentation</a></p>
-<ul>
-<li><a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/">Hugo | Cloudflare Pages docs</a>
-<ul>
-<li><a href="https://developers.cloudflare.com/pages/configuration/build-configuration/">Build configuration | Cloudflare Pages docs</a></li>
-</ul>
-</li>
-<li><a href="https://hackernoon.com/deploy-your-personal-web-page-with-hugo-cloudflare-and-github-100percent-for-free">Deploy Your Personal Web-Page With Hugo, Cloudflare and GitHub 100% For Free | HackerNoon</a></li>
-<li><a href="https://medium.com/@kyodo-tech/simple-guide-to-deploying-hugo-sites-with-github-actions-and-cloudflare-pages-2a53ddfb7533">Simple Guide to Deploying Hugo Sites with GitHub Actions and Cloudflare Pages | by Kyodo Tech | Medium</a></li>
-<li>...</li>
-</ul>
+<p>短剧和短视频, 应该也是两种艺术形式,
+嘦社会有需求就可以持续发展,
+大家最有感知的, 在抖音上,
+每年top10的元视频 ~ 也就是引发出圈爆发的关键作品,
+引导了主要数量的多数当年流行视频的仿制;</p>
+<p>而每年, 这种视频的形式和内容都在变化, 其变化/迭代比大电影要快的多;</p>
+<p>不过,可以期待, 电影用了200年进化到现在形成的 HollyWood 结构定律,
+短剧们, 可能用10年也将找到类似的关键结构定律, 不再变化;</p>
+<p>说穿了生命是否充盈, 并不是以看什么样的艺术作品决定的..</p>
+<p>如果一定要给<code>生命是否充盈</code> 一个标准,
+俺直觉应该是:</p>
+<pre><code>生活中, 后悔的感觉被触发频次
+    数量越多,越充盈
+</code></pre>
+<p>是否有道理呢?</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../../Pythonic/24/20241015-rss-app-x.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../MurMur/24/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="../../Pythonic/24/20241011-mov-sub.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../../MurMur/24/20241215.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -346,11 +219,11 @@ GH 后端其它服务才知道如何复制并发布;</p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../../Pythonic/24/20241015-rss-app-x.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../MurMur/24/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="../../Pythonic/24/20241011-mov-sub.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../../MurMur/24/20241215.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

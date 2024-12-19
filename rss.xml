@@ -1,5 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 16 Dec 2024 04:13:55 +0000</lastBuildDate><item><title>蟒周刊:24-50</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241216-50.html</link><description>ESSAY: 蟒周刊:24-50 - Last updated(at)2024-12-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/50&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Thu, 19 Dec 2024 03:20:06 +0000</lastBuildDate><item><title>生命时间速率</title><link>https://zoomquiet.io/MurMur/24/20241219.html</link><description>ESSAY: 生命时间速率 - Last updated(at)2024-12-19T00:00:00+08:00</description><content:encoded>&lt;h1&gt;生命时间的速率?&lt;/h1&gt;
+&lt;p&gt;万能电影群有朋友推荐:&lt;/p&gt;
+&lt;p&gt;.. &lt;a href="https://www.bilibili.com/v/knowledge/"&gt;消费的形态越来越短，但是我们生命时间的速率未曾改变【戴锦华】_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;好象哪里有不对?&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.douban.com/personage/30076003/"&gt;戴锦华 Jinhua Dai(豆瓣)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;专门查了一下, 原来不是演员, 是: &lt;code&gt;现任北京大学比较文学与比较文化研究所教授&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;类似 &lt;code&gt;红学家&lt;/code&gt; 之于作家群体吧;&lt;/p&gt;
+&lt;p&gt;最关键的断言:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...消费的形态越来越短，但是我们生命时间的速率未曾改变&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这又凡尔赛了..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;虽然"生命时间的速率"没变,&lt;/li&gt;
+&lt;li&gt;但是, 生命时间体感速率可控了,&lt;ul&gt;
+&lt;li&gt;以往只能晒太阳望天苦熬,&lt;/li&gt;
+&lt;li&gt;现在有无限短剧可以快乐的浪费时间,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;为什么不?&lt;ul&gt;
+&lt;li&gt;在这个过程中, 如果良心一点儿的短剧也提供了一定知识滋养,&lt;/li&gt;
+&lt;li&gt;可比准备好一切知识, 再去看电影良心的多了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不过, 戴教授的阐述就非常完备以及优雅,谁都没得罪;&lt;/p&gt;
+&lt;p&gt;特别是其中的断言:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;故事之于人类,
+最重要的意义在:
+    赋予混乱的生活一个逻辑的解释
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;非常接近故事的本质了, 当然, 作为一个文学向的研究者,
+相比历史学家们, 少了一个故事对于整个社会影响力的积累过程;
+参考: "人类简史", 人家没用太多排比句, 就给出了更加深刻的洞见:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;人类社会就是由各种故事构成的
+    人类的大合作就是基于各种
+        故事共识
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;短剧和短视频, 应该也是两种艺术形式,
+嘦社会有需求就可以持续发展,
+大家最有感知的, 在抖音上, 
+每年top10的元视频 ~ 也就是引发出圈爆发的关键作品,
+引导了主要数量的多数当年流行视频的仿制;&lt;/p&gt;
+&lt;p&gt;而每年, 这种视频的形式和内容都在变化, 其变化/迭代比大电影要快的多;&lt;/p&gt;
+&lt;p&gt;不过,可以期待, 电影用了200年进化到现在形成的 HollyWood 结构定律,
+短剧们, 可能用10年也将找到类似的关键结构定律, 不再变化;&lt;/p&gt;
+&lt;p&gt;说穿了生命是否充盈, 并不是以看什么样的艺术作品决定的..&lt;/p&gt;
+&lt;p&gt;如果一定要给&lt;code&gt;生命是否充盈&lt;/code&gt; 一个标准,
+俺直觉应该是:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;生活中, 后悔的感觉被触发频次
+    数量越多,越充盈
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;是否有道理呢?&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241219.md</guid><pubDate>Thu, 19 Dec 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-50</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241216-50.html</link><description>ESSAY: 蟒周刊:24-50 - Last updated(at)2024-12-16T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/50&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/50
 Slug: pyrw-2450
 Date: 2024-12-16 11:42
@@ -2744,50 +2796,4 @@ EKM 已经完成了自我消解...&lt;/p&gt;
    '&lt;em&gt;   𝟂   &lt;/em&gt;'
    ( '--.--' \&lt;/p&gt;
 &lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241112.md</guid><pubDate>Tue, 12 Nov 2024 00:00:00 +0800</pubDate></item><item><title>11.11 迷你胆耳放</title><link>https://zoomquiet.io/Pythonic/24/20241111-pj-miaolai-d2.html</link><description>ESSAY: 11.11 迷你胆耳放 - Last updated(at)2024-11-11T00:00:00+08:00</description><content:encoded>&lt;h1&gt;PJ.MIAOLAI D2&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;从未设想过会买的神奇小东西&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;发现问题, 就解决丫的;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;搬家, 终于有空间可以升级音响设备了,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;将原先 JBL 的2.0 升级到 &lt;/li&gt;
-&lt;li&gt;麦博的 &lt;code&gt;M200十周年纪念版&lt;/code&gt;含兰牙 2.1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;然后, 发现有的电影, 即便将音量放大到 142% 听起来也没 MBP 内置的小音箱听的清,&lt;/p&gt;
-&lt;p&gt;才反应过来, 是推力不足;&lt;/p&gt;
-&lt;h2&gt;trace&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;果然躲不了专业设备,&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;只是, M200 是有源音箱, 不是一般家庭音响系统中的无源音箱,&lt;/li&gt;
-&lt;li&gt;找了一圈, 才发现, 这种其实属于耳放, &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;进一步挖掘, 嗯哼?&lt;/p&gt;
-&lt;p&gt;PDD 推荐了这款, mini 电子管 HiFi 胆前级功放;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="D2" src="http://ipic.101.so/WechatIMG21412.webp" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;虽然同厂家, 还有双胆的,&lt;/li&gt;
-&lt;li&gt;但是, 这个体积最小,&lt;/li&gt;
-&lt;li&gt;又从广州出货, 果断尝试,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;哟..随便找了两根公对公音频线一接, 立即获得足够的音量..&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;简直打开新世界;-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;类似, 触发问题解决问题, 又触发新问题的事儿,
-这次搬家有不少, &lt;/p&gt;
-&lt;p&gt;容俺一一回忆一下哈...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;|&amp;gt; 241111 日糟:
-1/4(每天吐糟不应超过4次)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;```
-     &lt;em&gt;~-~^~&lt;/em&gt;
- ) /  + +  \ (/
-   '&lt;em&gt;   ⎕   &lt;/em&gt;'
-   | '--#--' \&lt;/p&gt;
-&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;</content:encoded><guid isPermaLink="false">Pythonic/24/20241111-pj-miaolai-d2.md</guid><pubDate>Mon, 11 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
+```&lt;/p&gt;</content:encoded><guid isPermaLink="false">MurMur/24/20241112.md</guid><pubDate>Tue, 12 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
