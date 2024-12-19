@@ -34,6 +34,7 @@
     + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/19980101-chinese4internet.md)
 - [呢喃](MurMur/README.md)
     + [2024](MurMur/24/README.md)
+        + [生命时间速率](MurMur/24/20241219.md)
         + [枪包~>带](MurMur/24/20241215.md)
         + [11.12 36笺](MurMur/24/20241112.md)
         + [11.12 DK 2405 抛砖](MurMur/24/20241112-1.md)
