@@ -11,6 +11,7 @@
 
 - [恕直](IMHO/README.md)
     + [DevOps](IMHO/DevOps/README.md)
+        + [开源运营可转?](IMHO/DevOps/20241220-devrel.md)
         + [开源&开发者关系](IMHO/DevOps/20241129-devrel.md)
         + [食堂监察?](IMHO/DevOps/20241107-watchdogfood.md)
         + [别了Lark](IMHO/DevOps/20241009-deLark.md)
