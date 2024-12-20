@@ -20,6 +20,7 @@
         + [什么是社区?](IMHO/FLOSS/20140220-ac1-zq.md)
         + [什么是技术社区?](IMHO/FLOSS/20140227-ac2-tech-community.md)
         + [社区需要什么?](IMHO/FLOSS/20141215-ac20-need-what.md)
+        + [WIKI 不是这么用的](IMHO/FLOSS/20101026-dont-use-wiki.md)
     + [睡后收入](IMHO/IAS/README.md)
         + [大学自主论](IMHO/IAS/20241203-how2freedom.md)
         + [未来必需](IMHO/IAS/20241129-future-need.md)
