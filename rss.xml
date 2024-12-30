@@ -1,5 +1,386 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 23 Dec 2024 04:16:18 +0000</lastBuildDate><item><title>蟒周刊:24-51</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241223-51.html</link><description>ESSAY: 蟒周刊:24-51 - Last updated(at)2024-12-23T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/51&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Dec 2024 08:22:43 +0000</lastBuildDate><item><title>蟒周刊:24-52</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241230-52.html</link><description>ESSAY: 蟒周刊:24-52 - Last updated(at)2024-12-30T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/52&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/52
+Slug: pyrw-2452
+Date: 2024-12-30 11:42
+Tags: Weekly,Python,recap,discu_eu,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;24年类型化 Python&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/52"&gt;Python recap for week 2024/52 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241230 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241230 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.bugsink.com/blog/using-raise-from-none-in-python/"&gt;何时在 Python 中使用“raise from None”&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.bugsink.com/blog/using-raise-from-none-in-python/"&gt;59 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://docs.python.org/3/whatsnew/3.13.html"&gt;Python 3.13 新弃用&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://docs.python.org/3/whatsnew/3.13.html"&gt;43 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ankush.dev/p/race-condition-strikes-back"&gt;如何调试一个已有 2 年历史的“假调试”多线程 bug&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://ankush.dev/p/race-condition-strikes-back"&gt;32 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.wedesoft.de/software/2024/12/26/clojure-ruby-python-performance/"&gt;Clojure、Ruby 和 Python 的性能比较&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.wedesoft.de/software/2024/12/26/clojure-ruby-python-performance/"&gt;26 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;为了证明 Clojure 的先进性, 作者努力了..
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://jacobpadilla.com/articles/python-dataclass-internals"&gt;Python 数据类的内部工作原理解释&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://jacobpadilla.com/articles/python-dataclass-internals"&gt;17 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://andersonportfolio.pythonanywhere.com/"&gt;寻找有关我作品集的反馈&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://andersonportfolio.pythonanywhere.com/"&gt;15 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;使用 React+RDF 的毕业工程师..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://engineering.fb.com/2024/12/09/developer-tools/typed-python-2024-survey-meta/"&gt;2024 年类型化 Python：广泛采用，但可用性挑战依然存在&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://engineering.fb.com/2024/12/09/developer-tools/typed-python-2024-survey-meta/"&gt;15 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在 Py2 时代就有了 Zope/Plone/Django/.. 一系列重型工程, 
+没理由一定上类型化;
+当然, 新项目配套新 CI/CD 能上最好上;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://zahlman.github.io/python-packaging/2024/12/24/python-packaging-1.html"&gt;Python 打包：为什么我们不能拥有好东西，第 1 部分 – 老话&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="[10 comments](https://discu.eu/q/https://zahlman.github.io/python-packaging/2024/12/24/python-packaging-1.html)"&gt;10 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.philipzucker.com/overload_bool/"&gt;通过重载 &lt;strong&gt;bool&lt;/strong&gt; 进行符号执行&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.philipzucker.com/overload_bool/"&gt;10 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;尽可能别用,一定要用, 也嫑和 Python 内置的有冲突..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://joshkaramuth.com/blog/django-messages-toast-htmx/"&gt;用 Htmx 将 Django Flash 消息显示为 Toast&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://joshkaramuth.com/blog/django-messages-toast-htmx/"&gt;9 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://thinkingbytes.co.uk/posts/favourite-django-tools/"&gt;下一个 Django 项目需要考虑的 10 个工具&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://thinkingbytes.co.uk/posts/favourite-django-tools/"&gt;5 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;每年都变的列表,不如给一个:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;下一个10年, 也不可能变的 Django 项目必用模块&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.screamingatmyscreen.com/django-in-2024/"&gt;Django 在 2024&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.screamingatmyscreen.com/django-in-2024/"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/mozilla/mozilla-django-oidc"&gt;mozilla/mozilla-django-oidc: A django OpenID Connect library&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;被点名表扬了..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/john-friedman/datamule-python/blob/main/examples/discord_bot.ipynb"&gt;Sec Bot: 可配置的 Discord Bot，通知您新的申请&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/john-friedman/datamule-python/blob/main/examples/discord_bot.ipynb"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.com/questions/79009542/python-3-13-with-free-thread-is-slow"&gt;有自由线程的 Python 3.13 速度很慢&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/markitdown"&gt;GitHub - microsoft/markitdown: 用于将文件和 Office 文档转换为 Markdown 的 Python 工具&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/microsoft/markitdown"&gt;177 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Office 娘家出品, 目测有老爹的支持&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/SudoOmbro/pilgram"&gt;Pilgram, 基于无限短信的闲置游戏/MMO RPG&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/SudoOmbro/pilgram"&gt;72 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;整体依赖:
+&lt;code&gt;anyio==4.3.0
+certifi==2024.2.2
+charset-normalizer==3.3.2
+h11==0.14.0
+httpcore==1.0.5
+httpx==0.27.0
+idna==3.7
+numpy==1.26.4
+peewee==3.17.6
+pysqlite3==0.5.2
+python-telegram-bot==21.2
+requests==2.32.2
+sniffio==1.3.1
+urllib3==2.2.1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可以想象一下, 无限短信是个什么资源..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gto76/python-cheatsheet"&gt;综合 Python 备忘单&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/gto76/python-cheatsheet"&gt;42 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="emo" src="https://github.com/gto76/python-cheatsheet/raw/main/web/image_888.jpeg" /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/siapy/siapy-lib"&gt;光谱成像变得简单：强大的 Python 库&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/siapy/siapy-lib"&gt;34 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/luchog01/minimalistic-fastapi-template"&gt;🐍 现代、简约且可扩展的 Python FastAPI 模板🚀&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/luchog01/minimalistic-fastapi-template"&gt;33 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;基于 Pg+uv ..
+依赖如下:
+&lt;code&gt;dependencies = [
+    "alembic&amp;gt;=1.14.0",
+    "asyncpg&amp;gt;=0.30.0",
+    "fastapi&amp;gt;=0.115.6",
+    "pydantic-settings&amp;gt;=2.6.1",
+    "python-dotenv&amp;gt;=1.0.1",
+    "sqlalchemy&amp;gt;=2.0.36",
+    "uvicorn&amp;gt;=0.32.1",
+    "python-jose[cryptography]&amp;gt;=3.3.0",
+    "bcrypt==4.0.1",
+    "passlib==1.7.4",
+    "pydantic[email]&amp;gt;=2.5.2",
+    "pytest&amp;gt;=8.0.0",
+    "pytest-asyncio&amp;gt;=0.23.5",
+    "httpx&amp;gt;=0.27.0",
+    "pytest-cov&amp;gt;=4.1.0",
+    "black&amp;gt;=24.1.0",
+    "isort&amp;gt;=5.13.0",
+    "pre-commit&amp;gt;=4.0.1",
+    "autoflake&amp;gt;=2.3.1",
+    "python-multipart&amp;gt;=0.0.20",
+]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Gabriel-Dalmolin/life_manager"&gt;Hi guys! 今天要发布我的第一个项目，并希望对其进行一些评论。&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/Gabriel-Dalmolin/life_manager"&gt;23 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一个生活效能管理 CLI 工具
+赢取自己的本地金币..?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/NathanGavenski/python-watcher"&gt;创建了一个观察者，这样我在编码时就不必手动运行我的脚本&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/NathanGavenski/python-watcher"&gt;22 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一个看门狗工具,不过是纯 Python 实现的&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/GiovanniGiacometti/Light-Strava-Client"&gt;Strava API 的轻量级 Python 包装器，使身份验证变得轻松&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/GiovanniGiacometti/Light-Strava-Client"&gt;16 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Strava 专注运动追踪智能硬件, 和很多运动品牌有植入..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/czl9707/pytest-asyncio-concurrent"&gt;“同时”运行异步测试的 pytest 插件&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/czl9707/pytest-asyncio-concurrent"&gt;10 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/manjurulhoque/doccure"&gt;[Show Project] DocCure - 用 Django 构建的开源医疗预约系统&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/manjurulhoque/doccure"&gt;10 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;医疗预约和其它预约有什么不同?
+看起来非常 Odoo&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=gSKTfG1GXYQ"&gt;Uv: 快速的 Python 包管理器&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这么长时间了, 还真没搞过私有包的工程复用...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/C4Lgz-VPQco"&gt;用 OpenAPI 自动生成 API 客户端&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;不是, 这不是彽代码平台们的基本功能?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/qOsnplgvU2k?feature=shared"&gt;Python 中 Gemini LLM API 完整指南&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/pyrecap/pyrw-2352.html"&gt;快讯 52/2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-556.html"&gt;PyCoder 556&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-504.html"&gt;Issue 504&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-452.html"&gt;Issue 452&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-480.html"&gt;pythonista-weekly : Pyw 480&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-359.html"&gt;Issue 359&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-202.html"&gt;蠎加载 202&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-156.html"&gt;蠎加载 156&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-104.html"&gt;蠎加载 104&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-197.html"&gt;Issue 197&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-146.html"&gt;Issue 146&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: &lt;a href="https://weekly.pychina.org/issue/issue-97.html"&gt;Issue 97&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2012: &lt;a href="https://weekly.pychina.org/issue/issue-45.html"&gt;Issue 45&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+      &lt;em&gt;~~*~~&lt;/em&gt;
+  \/ /  O O  \ ()
+    '&lt;em&gt;   V   &lt;/em&gt;'
+    / '--∽--' &amp;lt;&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2452.html"&gt;2024/52 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2452.md"&gt;pyrw-2452.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+3个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;0/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241230-52.md</guid><pubDate>Mon, 30 Dec 2024 00:00:00 +0800</pubDate></item><item><title>蟒周刊:24-51</title><link>https://zoomquiet.io/Pythonic/weekly/24/20241223-51.html</link><description>ESSAY: 蟒周刊:24-51 - Last updated(at)2024-12-23T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2024/51&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2024/51
 Slug: pyrw-2451
 Date: 2024-12-23 11:42
@@ -3172,135 +3553,4 @@ Tags: Weekly,Python,recap,discu_eu,ZH
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241118-46.md</guid><pubDate>Mon, 18 Nov 2024 00:00:00 +0800</pubDate></item><item><title>EKM小解</title><link>https://zoomquiet.io/IMHO/FLOSS/20241114-ekm-problem.html</link><description>ESSAY: EKM小解 - Last updated(at)2024-11-14T00:00:00+08:00</description><content:encoded>&lt;h1&gt;企业知识管理?&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;忽然的讨论&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;background&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;【集智】注意力与知识管理群&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;有群友感叹&lt;/p&gt;
-&lt;p&gt;引导和帮助组织适应知识快速变化的形势，快速学习，打胜仗，超越自我，越超对手，是当今知识管理的光荣使命和价值所在。 &lt;/p&gt;
-&lt;p&gt;&lt;img alt="241113-km-follow" src="http://ipic.101.so/241113-km-follow.webp" /&gt;&lt;/p&gt;
-&lt;p&gt;知识不能像家具、财物一样被控制和管理，而是象水一样被引导有序流动，象田野的植物一样被施肥、浇灌去茁壮成长，从而让业务有更多的收获。KMer 不是象仓库管理员一样在管理知识，而更像园丁一样在建设和维护知识生长、变化、流动的生态。&lt;/p&gt;
-&lt;h2&gt;logging&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这题俺会哪..&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;立即接茬:俺之前的断言叫~&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;知识管理乃是构建可促发成员成长的环境~
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;lt;-- 也就是说现代EKM 已经从知识的载体管理,到形成过程管理,再到循环迭代管理 &lt;/li&gt;
-&lt;li&gt;--&amp;gt; 已开始关注学习本身了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这个话题一触发, 就有群友问:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;..有什么工具可以把这个流程自动化么&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;俺自然吐糟:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;EKM 不像其它工件~&lt;/li&gt;
-&lt;li&gt;一但自动化~&lt;/li&gt;
-&lt;li&gt;就等于没有人的事儿了~&lt;/li&gt;
-&lt;li&gt;知识的发现传播内化再创新过程中无人?哈&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;果断有同感群友:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;赞同，如果因为管理和经营出现问题，组织内环境变化导致学习和知识传播不能获得正回馈，那么之前积累下来的PKM相关实践（至少也会在当前的困境中）失去意义和效果。&lt;/p&gt;
-&lt;p&gt;但是话说回来，站在Goodhart's law的角度上，组织内也几乎无法形成“正确”的激励制度。被纳入考核结果的统计指标，一定会导致原本目标的偏离，和被考核人员动作的变形。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;那就可以大力补刀了:&lt;/p&gt;
-&lt;p&gt;是的, 所以, 俺之这定义为:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;知识管理乃是构建可促发成员成长的环境~
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;如果这个环境是反成长的,
-纯消耗式的, 那么你配套任何 EKM 系统都无法改变知识消失的现状&lt;/p&gt;
-&lt;p&gt;进一步有群有增补直觉:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;实际知识生态环境里，5～10%的人在主力输出，其他的围观&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;也吻合2/8 原则,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不过, 大家想过没有, 为什么是这样?&lt;/li&gt;
-&lt;li&gt;这个比例和社会哪种比例正好吻合?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;俺的偏见哈:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;正好吻合 社会习得性无助症患者和不折腾会死星 人的比例,&lt;ul&gt;
-&lt;li&gt;当然, 所有自然人, 没经过系统教育前, 都是不折腾会死星人,&lt;/li&gt;
-&lt;li&gt;看看周围的熊孩子就知道了, 如果没有训练, 小孩绝对能将地球点爆了...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;落回 EKM 中,&lt;/li&gt;
-&lt;li&gt;那些主力输出的, 无非两种人:&lt;ul&gt;
-&lt;li&gt;拥有输出乐趣的, 他们对于输出这种事儿, 已经视为生活本能了, 所谓社交NB人士&lt;/li&gt;
-&lt;li&gt;拥有授权输出算绩效的, 这是明白人, 就像大学里训练出来的论文机械&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;不过, 组织里80%隐藏知识, 是这两种人不可能自然接触到的,&lt;ul&gt;
-&lt;li&gt;必须通过机制, 引导这两种人先接触到对应知识源,&lt;/li&gt;
-&lt;li&gt;然后, 先形成初稿, 更多的隐藏知识源就愿意吐糟修改,&lt;/li&gt;
-&lt;li&gt;进一步的, 才慢慢形成内部输出的习惯,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;只是, 一切的前提是:&lt;ul&gt;
-&lt;li&gt;有思考/输出/相互修订 的空间,时间,&lt;/li&gt;
-&lt;li&gt;组织将每个人的工作时间堆满了无尽的混乱任务,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;那么, 这种主力输出也不可能永久输出的,&lt;/li&gt;
-&lt;li&gt;到了一定程度, 发现, 无论怎么认真输出, 只有自己在回看,&lt;/li&gt;
-&lt;li&gt;那么, 面壁最终也是破壁而出, 不可能真的和墙壁结婚的...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;目测是同行群友吐槽:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...雀食，这样看来知识管理其实是非常个人的一件事，组织内能做到的就是营造良好的学习和知识传播环境，让成员能够在这样的环境中更好的收获个人成长，进而增加他们为组织服务的功效（这中间也需要不间断的进行alignment工作），间接的汲取个人学习和知识传播带来的成果。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;那么, 俺就可以完成断言了:&lt;/p&gt;
-&lt;h2&gt;没办法&lt;/h2&gt;
-&lt;p&gt;道理大家都懂,只是资本思维慢慢渗透后,
-企业就想不通, 俺为什么值得付费支持成员如此缓慢的成长?&lt;/p&gt;
-&lt;p&gt;遇事儿, 开除底层员工, 采购对应咨询服务, 外包解决, 或是邀请专家来搞定不就好了?&lt;/p&gt;
-&lt;p&gt;这其实, 也正好是美国高速科技发展之后, 自宫形成的思路,
-究其原因, 就是 AT&amp;amp;T 被肢解, 贝尔实验室解散, 没有经费无限的自由研究空间后,
-学习行为必须配套指定期限指定指标指定成果,
-然后, 就没有然后了...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;创新, 并不是领导们每天一觉起来从god 那儿获得的灵感,&lt;/li&gt;
-&lt;li&gt;而是一线工程师, 在越来越复杂的任务场景中, 长期折腾, 积累起来的直觉;&lt;/li&gt;
-&lt;li&gt;可这直觉没有空间, 也就类似睡眠这种自动思维碎片整理时间,&lt;/li&gt;
-&lt;li&gt;那永远只能是模糊的感觉, 不可能形成一个具体的概念来进行检验;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;而且一个企业的潜力, &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;其实就是自身能随时针对自身的领域问题,直接给出多种方案来进行尝试,&lt;/li&gt;
-&lt;li&gt;SONY 黑科技, 就是几代终身年功制培养出来的工程师团队支持的,&lt;/li&gt;
-&lt;li&gt;如果没有一个创新能力和思考的连续过程,&lt;/li&gt;
-&lt;li&gt;碎片化的微创新,&lt;/li&gt;
-&lt;li&gt;不可能有 Apple / SONY/YAMAHA 那种石破天惊式的产品爆发...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;当然, 企业职业经理人制度是另外一个根源,&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;反正, 俺就这几年, 嘦股票增长, 俺就有几亿奖金拿, 管你创新潜力是否破坏呢?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;从基于知识面向创新, 到基于股票面向赢利,
-EKM 已经完成了自我消解...&lt;/p&gt;
-&lt;p&gt;群友术语化补刀:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;是的，组织的治理是非常复杂的话题，现在看来个人（不论他/她在组织内有怎样的profile）和组织的发展之间是很难对齐的，这其间微妙的不平衡会影响人做事的动机和最终的动作。即便曾经辉煌的apple/sony，现在也是处在一个快速劣化（enshitification）的过程[Facepalm]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;refer.&lt;/h2&gt;
-&lt;p&gt;...TBD&lt;/p&gt;
-&lt;h2&gt;tracing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;241114 DAMA init.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;``
-            _~&lt;/code&gt;*`~&lt;em&gt;
-        ) /  ♡ ☉  \ ()
-          '&lt;/em&gt;   ⩌   _'
-          | '--⌄--' &amp;lt;&lt;/p&gt;
-&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-```&lt;/p&gt;</content:encoded><guid isPermaLink="false">IMHO/FLOSS/20241114-ekm-problem.md</guid><pubDate>Thu, 14 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241118-46.md</guid><pubDate>Mon, 18 Nov 2024 00:00:00 +0800</pubDate></item></channel></rss>
