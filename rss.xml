@@ -1,5 +1,400 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 20 Jan 2025 03:14:18 +0000</lastBuildDate><item><title>蟒周刊:25-03</title><link>https://zoomquiet.io/Pythonic/weekly/25/20250120-03.html</link><description>ESSAY: 蟒周刊:25-03 - Last updated(at)2025-01-20T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2025/03&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>ZoomQuiet.io RSS</title><link>https://zoomquiet.io</link><description>RSS feed contains the latest 7 updates items from ZoomQuiet.io gen. by mdBook|feedId:69052357719365632+userId:68573755406424064</description><atom:link href="https://zoomquiet.io" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Mon, 27 Jan 2025 02:58:26 +0000</lastBuildDate><item><title>蟒周刊:25-0４</title><link>https://zoomquiet.io/Pythonic/weekly/25/20250127-04.html</link><description>ESSAY: 蟒周刊:25-0４ - Last updated(at)2025-01-27T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2025/04&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2025/04
+Slug: pyrw-2504
+Date: 2025-01-27 11:42
+Tags: Weekly,Python,recap,ZH
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;什么? Google放弃Python..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: [Python recap for week 2025/04 - discu.eu](https://discu.eu/weekl01python/2025/04&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;250127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/"&gt;用 150 行 Python 代码构建全文搜索引擎（2021）&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/"&gt;120 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;真传统的倒排分析..&lt;/p&gt;
+&lt;p&gt;不过,现在有了 Pg 全家桶, 可以直接使用数据库进行全文搜索了..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/yungstarbeam1/GNGO-inhibition-paradigm-testing-/releases/tag/Full-Releases"&gt;我们构建了 Go - NGo 基于刺激的测试任务&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/yungstarbeam1/GNGO-inhibition-paradigm-testing-/releases/tag/Full-Releases"&gt;9 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;```
+   &lt;strong&gt;&lt;em&gt;_                     _   _        &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;      U  ___ u 
+U /"___|u                  | \ |"|    U /___"|u     \/"&lt;/em&gt; \/ 
+\| |  _ /      U  u       &amp;lt;|  \| |&amp;gt;   \| |  _ /     | | | | 
+ | |&lt;em&gt;| |       /___\      U| |\  |u    | |&lt;/em&gt;| |  .-,&lt;em&gt;| |&lt;/em&gt;| | 
+  _&lt;strong&gt;&lt;em&gt;|      |&lt;/em&gt;_"&lt;/strong&gt;|      |&lt;em&gt;| _|      ____|   _)-___/&lt;br /&gt;
+&lt;/em&gt;)(|&lt;em&gt;                    ||   \,-.   &lt;/em&gt;)(|&lt;em&gt;         \  &lt;br /&gt;
+ (&lt;strong&gt;)&lt;/strong&gt;)                   (&lt;/em&gt;")  (_/   (&lt;strong&gt;)&lt;/strong&gt;)       (__)   &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://domain.com/request/[UUID]"&gt;允许没有帐户的用户访问的最佳实践&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/http://domain.com/request/%5BUUID%5D"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://blog.structuredlabs.com/p/a-technical-intro-to-ibis-the-portable?r=4pzohi&amp;amp;showWelcomeOnShare=false"&gt;Ibis 的技术介绍：可移植的 Python DataFrame 库&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://blog.structuredlabs.com/p/a-technical-intro-to-ibis-the-portable?r=4pzohi&amp;amp;showWelcomeOnShare=false"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的, Pandas 的每个特性都有团队在努力进行替代..就像 Excel 的每个功能点&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://calbryant.uk/blog/3d-printing-giant-things-with-jigsaw-generator/"&gt;Show HN: 用 Python 拼图生成器 3D 打印巨型物体&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://calbryant.uk/blog/3d-printing-giant-things-with-jigsaw-generator/"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://patx.github.io/micropie/"&gt;MicroPie - an ultra-lightweight Python web framework MicroPie - 超轻量级 Python Web 框架&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://patx.github.io/micropie/"&gt;6 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;.. Inspired by CherryPy&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;幸好不是基于 CherryPy, 只是受触发..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bhave.sh/micropython-install-esp32/"&gt;如何在ESP32上安装Micropython&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://bhave.sh/micropython-install-esp32/"&gt;5 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的, 推荐&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..用 Thonny 安装 MicroPython&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.gauge.sh/blog/how-to-visualize-your-python-projects-dependency-graph"&gt;如何可视化Python项目的依赖图&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;[4 评注 in 1 讨论])(https://discu.eu/q/https://www.gauge.sh/blog/how-to-visualize-your-python-projects-dependency-graph)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..TACH将抓取Python AST，以找出哪些模块相互导入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;并最终使用 Graphviz 生成关系图谱&lt;/p&gt;
+&lt;p&gt;作者很有特点:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..Gauge 联合创始人兼首席执行官 - 解决微服务/整体困境&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;是的, 在微服务已被怯眛后...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gitlab.gnome.org/GNOME/nautilus-python"&gt;nautilus-python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://gitlab.gnome.org/GNOME/nautilus-python"&gt;4 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;GNOME 团队发布的自用工具集&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://testandcode.com/episodes/pytest-cov"&gt;测试和代码。为什么pytest-cov 是第一 pytest插件？这是我的看法。&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://testandcode.com/episodes/pytest-cov"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PYTEST-COV是一个Pytest插件，可帮助使用Coverage.py生成覆盖范围报告..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;明白了, 这毕竟是业绩报告刚需&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.yourquorum.com/question/why-is-google-moving-away-from-python"&gt;为什么Google离开Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.yourquorum.com/question/why-is-google-moving-away-from-python"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;只是为了节省成本, 所以, 清除了本土团队, 外包给印度了..&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..该小组由大约十名成员组成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;嗯哼? 可以想象这个团队的平均年薪有多少&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://hiandrewquinn.github.io/til-site/posts/python-m-http-server-as-ephemeral-dropbox/"&gt;`Python -m http.server` 作为临时服务器&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://hiandrewquinn.github.io/til-site/posts/python-m-http-server-as-ephemeral-dropbox/"&gt;3 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.techtalksweekly.io/i/155417658/djangocon"&gt;DjangoCon 2023 3现在有录音&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.techtalksweekly.io/i/155417658/djangocon"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://tableroq.substack.com/p/production-python-1-setting-up-fastapi"&gt;与FastAPI，SQLA2.X和Asyncpg正确连接到并使用RDS样式数据库&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://tableroq.substack.com/p/production-python-1-setting-up-fastapi"&gt;2 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的, 所有图书中都不曾老实交待过真实生产环境中数据库连接应该是什么样子的..
+就像你拆开油车发动机时, 可以看到的, 引擎并不是想象中那么简洁..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;发布...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/davidkowalk/fitting_toolkit/tree/Stable"&gt;[python] Fitting-工具包装版本1.1.0。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/astral-sh/ruff"&gt;Ruff: Python python linter和code格式用 Rust 写的&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/astral-sh/ruff"&gt;148 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;好东西, 很多拓展已经是基于这个来了..&lt;/p&gt;
+&lt;p&gt;是的, 就是 uv 那个团队创建的.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/pytoolz/toolz"&gt;Toolz: python的功能标准库，没有依赖关系&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/pytoolz/toolz"&gt;147 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/andrewruba/potato"&gt;Potato: 用于调试和测试 Python 代码的轻量级工具&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/andrewruba/potato"&gt;42 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/linux-cultist/venv-selector.nvim"&gt;如何自动检测和使用.venv for LSP（python的 astral-uv）&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/linux-cultist/venv-selector.nvim"&gt;39 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;..允许从 neovim 中选择 python 虚拟环境&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;neovim 努力多年, 也没从 VSCode 中抢走多少用户..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MarioSieg/magnetron"&gt;Magnetron 是一个完全从头开始构建的简约机器学习框架。&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/MarioSieg/magnetron"&gt;14 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一切刚刚开始, 而且第一个 TODO 就是&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Compute on GPU (Cuda)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;哈...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/florimondmanca/djangorestframework-api-key"&gt;保护 API 密钥&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/florimondmanca/djangorestframework-api-key"&gt;13 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Django REST Framework&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;only 的..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/pH-7/Download-Simply-Videos-From-YouTube"&gt;一个 Python 脚本，允许在几秒钟内下载任何视频（和播放列表）&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/pH-7/Download-Simply-Videos-From-YouTube"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Download Any Videos From YouTube&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;哈, Youtube only&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cipherodev/pymailer"&gt;创建了一个简单的邮件程序； pymailer&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/cipherodev/pymailer"&gt;9 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的, 使用 google app 授权, 也就是说使用自己的 gmail 来当成 MTA ..
+呵..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/taha2samy/node_red_-_django-quack_quack-"&gt;集成 Node-RED 和 Django 以轻松开发智能应用程序&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/taha2samy/node_red_-_django-quack_quack-"&gt;8 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/asdf-community/asdf-python"&gt;任何使用 ASDF 管理 Python 安装的人&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/asdf-community/asdf-python"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;上苍保佑.. ASDF 多年失修&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🐍 视频&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Videos...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/1v3lqIITRJA"&gt;Docker + Django: 用 Nginx、Postgresql 和 Gunicorn 进行容器化的正确方式&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://discu.eu/q/https://youtu.be/1v3lqIITRJA"&gt;23 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;越来越复杂了, PodMan 不知道是否有优化?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://youtu.be/r0RspiLG260"&gt;如何训练和部署Yolo检测模型：我制作了一个端到端的Yolo教程视频，其中包括Python示例 - 如果您想尝试Yolo，请看一下！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;历史这周&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2024: &lt;a href="https://weekly.pychina.org/pyrecap/pyrw-2404.html"&gt;快讯 2024/04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/issue/issue-561.html"&gt;PyCoder 561&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-509.html"&gt;PyCoder 509&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-457.html"&gt;Issue 457&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-484.html"&gt;pythonista-weekly : Pyw 484&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-413.html"&gt;Issue 413&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-433.html"&gt;pythonista-weekly : Pyw 433&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2019: &lt;a href="https://weekly.pychina.org/issue/issue-352.html"&gt;Issue 352&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-160.html"&gt;蠎加载 160&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-109.html"&gt;蠎加载 109&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-59.html"&gt;蠎加载 59&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/issue/issue-150.html"&gt;Issue 150&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://weekly.pychina.org/importpython/importpython-18.html"&gt;蠎加载 18&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-101.html"&gt;Issue 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2013: ..&lt;/li&gt;
+&lt;li&gt;2012: ..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;```
+        &lt;em&gt;~∽&amp;amp;-~&lt;/em&gt;
+    ) /  + -  \ ()
+      '&lt;em&gt;   V   &lt;/em&gt;'
+      ( '--#--' &amp;lt;&lt;/p&gt;
+&lt;p&gt;...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;PS:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.or01pyrecap/pyrw-2504.html"&gt;2025/04 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/tree/master1content/pyrecap/pyrw-2504.md"&gt;pyrw-2504.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copyright © 2025 Python weekly newsletter, All rights reserved.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+3个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;0/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;askdama@googlegroups.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;```python
+全力嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
+私自嗯哼: ZoomQuiet (https://zoomquiet.io)&lt;/p&gt;
+&lt;p&gt;as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
+    PyChina (订阅号: PyChinaOrg)
+    本地社区: 
+        GDG珠海 (订阅号: GDG-ZhuHai)
+        AIGC珠海 &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/25/20250127-04.md</guid><pubDate>Mon, 27 Jan 2025 00:00:00 +0800</pubDate></item><item><title>蟒周刊:25-03</title><link>https://zoomquiet.io/Pythonic/weekly/25/20250120-03.html</link><description>ESSAY: 蟒周刊:25-03 - Last updated(at)2025-01-20T00:00:00+08:00</description><content:encoded>&lt;h1&gt;上周蠎快讯 2025/03&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;Title: 上周蠎快讯 2025/03
 Slug: pyrw-2503
 Date: 2025-01-20 11:42
@@ -3580,81 +3975,7 @@ MariaDB .. 呃,大可不必..&lt;/p&gt;
         GDG珠海 (订阅号: GDG-ZhuHai)
         AIGC珠海 &lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241202-48.md</guid><pubDate>Mon, 02 Dec 2024 00:00:00 +0800</pubDate></item><item><title>未来必需</title><link>https://zoomquiet.io/IMHO/IAS/20241129-future-need.html</link><description>ESSAY: 未来必需 - Last updated(at)2024-11-29T00:00:00+08:00</description><content:encoded>&lt;h1&gt;未来绝对价值是什么?&lt;/h1&gt;
-&lt;h2&gt;问&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在一个 &lt;a href="https://baike.baidu.com/item/%E5%80%AA%E8%80%83%E6%A2%A6/23623164"&gt;青年自主论&lt;/a&gt; 微信群中, 突然有问:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我很好奇一个问题，就是在未来的时代，什么是有价值的呢？也就是被人所需要的呢？&lt;/p&gt;
-&lt;h2&gt;答&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;群友总是万能的:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;艺术/情绪价值、各类知识技能辅导价值、促进各类盈利交易的价值&lt;/li&gt;
-&lt;li&gt;..[让我看看]有讲类似的专家和文章吗，或者线索吗？我去了解一下@大妈的 AI-Double &lt;ul&gt;
-&lt;li&gt;Youtube 搜 thefutur,Chris Do 他的思维框架适合所有创作者&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;未来学&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;俺补了个小刀:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;去年开始关注 未来学 这个领域,&lt;/p&gt;
-&lt;p&gt;才发现小学之前开始看的 Sci-Fi 作品, 在文学之外, 也是有专门学科进行研究的,
-不过, 和数学类似, 也是在一系列工具建立起来之后, 才明确了研究对象/方法, 以及方向;&lt;/p&gt;
-&lt;p&gt;只是在于俺, 当前的直觉是:
-- 未来学, 本质上就是社会心理史学, 和 Isaac Asimov 小说中提及的类似,
-    - 只是并不以预测未来为重点,
-    - 而是关注, 当下的人群应该建立什么样的未来观,
-    - 以便合理增强世界观,进而改善价值观, 最终持续修正自己的人生观,
-    - 从而可以越来越高效的学习/生活/创造,
-    - 最终, 整体导向一个正义善良的未来世界;
-- 只是, 纵观人类历史, 就可以发现,
-    - 所有科学技术本质上还没有脱离一个核心线索:
-    - 如何高效煮开水
-    - 也就是能量的获得以及应用;
-- 但是, 发展方向已经很明显, 
-    - 最终人类无论是依赖自己, 还是在 AI 辅助, 又或是神奇的外星人帮助下,
-    - 总有一天能跨过奇点: 不必为能源担心, 拥有近乎无限的能量可以应用;
-- 在这个总方向上,
-- 就会自然得到这样一对结论:
-    - 凡是用来改造外部世界的所有科学技术, 终将趋向极端, 不必再发展, 毕竟无限能量加持下, 无论什么都可以建造或是改造, 人类的精力将从这个方向上解脱
-    - 凡是用来改造内部世界的科学技术将永远有需求, 以及不断发展, 毕竟生命的形式是无限的, 未来人类无论演化成多少种类, 对于自身心灵世界的探索以及改造总是必要的, 
-        - 至少, 得吻合所在的规律空间; 
-        - 比如, upload 到 cyber 元宇宙的新精神体人类, 如何自处, 重新找到替代生理乐趣的乐趣?&lt;/p&gt;
-&lt;p&gt;那么, 在这两大前提之下, 问题中提及的价值也就呼之欲出了:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;人总是需要的价值, 
-就是能令自身感觉自我有价值的
-    价值映射方法/机制/体系/系统/服务/产品/..
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;简单说, &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;嘦是个智慧生物,&lt;ul&gt;
-&lt;li&gt;无论进化到何种程度,&lt;/li&gt;
-&lt;li&gt;无论进入哪种场景中生活,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;都必然会对来自同等水平智慧生命的认同感到快乐,&lt;/li&gt;
-&lt;li&gt;而快乐,是所有生命能量场最需要的外部谐振刺激,&lt;ul&gt;
-&lt;li&gt;只有这种刺激能确保自身精神不崩溃..&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;当然, 各种 sci-fi 作品中也推导出其它各种可能,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;比如 Star Trek 中设计的 Vulcan 人, &lt;ul&gt;
-&lt;li&gt;可以通过 Kohlinahr 技术, 将自己变成绝对理性的智慧生命,&lt;/li&gt;
-&lt;li&gt;但是, DNA 本身依然包含情感, 虽然这是戏剧冲突的必要,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;不过, 这点直觉也揭示了, 智慧生物情绪的必要性,&lt;ul&gt;
-&lt;li&gt;也从侧面证明, 文艺类技艺, 无论社会发展到什么程度, 都是必须的,&lt;/li&gt;
-&lt;li&gt;这是人之所以为人的一个核心内置矛盾点.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><guid isPermaLink="false">IMHO/IAS/20241129-future-need.md</guid><pubDate>Fri, 29 Nov 2024 00:00:00 +0800</pubDate></item><item><title>开源&amp;开发者关系</title><link>https://zoomquiet.io/IMHO/DevOps/20241129-devrel.html</link><description>ESSAY: 开源&amp;开发者关系 - Last updated(at)2024-11-29T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源&amp;amp;开发者关系&lt;/h1&gt;
+&lt;hr /&gt;</content:encoded><guid isPermaLink="false">Pythonic/weekly/24/20241202-48.md</guid><pubDate>Mon, 02 Dec 2024 00:00:00 +0800</pubDate></item><item><title>开源&amp;开发者关系</title><link>https://zoomquiet.io/IMHO/DevOps/20241129-devrel.html</link><description>ESSAY: 开源&amp;开发者关系 - Last updated(at)2024-11-29T00:00:00+08:00</description><content:encoded>&lt;h1&gt;开源&amp;amp;开发者关系&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[OPEN强] 的群&lt;/p&gt;
 &lt;/blockquote&gt;
