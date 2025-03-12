@@ -35,6 +35,8 @@
         + [《我这样用GenAI》重构](IMHO/20240717-aigcxzh-genai102.md)
     + [1998:探讨 信息化社会中 中国传统思想的作用](IMHO/19980101-chinese4internet.md)
 - [呢喃](MurMur/README.md)
+    + [2025](MurMur/25/README.md)
+        + [LLM真效率了?](MurMur/25/20250312.md)
     + [2024](MurMur/24/README.md)
         + [生命时间速率](MurMur/24/20241219.md)
         + [枪包~>带](MurMur/24/20241215.md)
