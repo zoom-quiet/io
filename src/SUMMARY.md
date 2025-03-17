@@ -101,6 +101,7 @@
       + [10.11 电影字幕](Pythonic/24/20241011-mov-sub.md)
     + [周刊](Pythonic/weekly/README.md)
       + [2025](Pythonic/weekly/25/README.md)
+        + [蟒周刊:25-11](Pythonic/weekly/25/20250317-11.md)
         + [蟒周刊:25-10](Pythonic/weekly/25/20250310-10.md)
         + [蟒周刊:25-09](Pythonic/weekly/25/20250303-09.md)
         + [蟒周刊:25-08](Pythonic/weekly/25/20250224-08.md)
